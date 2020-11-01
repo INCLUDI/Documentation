@@ -1,5 +1,6 @@
 site_name: INCLUDI Documentation
 nav:
   - Home: index.md
-  - About: about.md
+  - Guida all'utente: userguide.md
+  - Getting started: gettingstarted.md
 theme: readthedocs
