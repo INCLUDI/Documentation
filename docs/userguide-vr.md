@@ -16,7 +16,7 @@ scorri la lista a destra e sinistra per vederle tutte.
 
 ## Schermata impostazioni
 
-Nella schermata impostazioni puoi configurare l'esperienza di INCLUDI.
+Nella schermata impostazioni puoi configurare l'esperienza delle attività di INCLUDI.
 
 - Puoi cambiare l'avatare dell'insegnante virtuale.
 - Puoi abilitare (o disabilitare) un fumetto per l'insegnante per leggere quello che sta dicendo.

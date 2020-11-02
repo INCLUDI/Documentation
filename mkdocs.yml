@@ -1,6 +1,17 @@
 site_name: INCLUDI Documentation
 nav:
   - Home: index.md
-  - Guida all'utente: userguide.md
-  - Getting started: gettingstarted.md
+  - Guida all'utente:
+      - Applicazioni VR: userguide-vr.md
+      - Piattaforma web: userguide-web.md
+  - Guida allo sviluppatore:
+      - INCLUDI Kit VR:
+          - Getting started: gettingstarted-kit.md
+          - Struttura dell'app: architecture.md
+          - Modello dei dati: data-model.md
+      - Piattaforma web:
+          - Getting started: gettingstarted-web.md
+  - Lista di attività:
+      - Mobile VR: activities-mobile.md
+      - Oculus: activities-oculus.md
 theme: readthedocs
