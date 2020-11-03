@@ -9,6 +9,7 @@ nav:
           - Getting started: gettingstarted-kit.md
           - Struttura dell'app: architecture.md
           - Modello dei dati: data-model.md
+          - Progettare un'attività: design-new-activities.md
       - Piattaforma web:
           - Getting started: gettingstarted-web.md
   - Lista di attività:
