@@ -26,10 +26,11 @@
 |       2 media,       |    Lessicale     |     Garden      |         Natural places          |            Ascolta e scegli l’immagine corretta!             |
 |       2 media,       |   Grammaticale   |    Classroom    |          Comparatives           |        Completa le frasi con il comparativo corretto!        |
 |       3 media,       |    Lessicale     |     Castle      |           King Arthur           |    Abbina la descrizione fisica al personaggio corretto.     |
-| 3 media, 2 superiore |   Grammaticale   |    Classroom    |       Esercizi al futuro        |  Completa le frasi al futuro con la forma corretta di will.  |
+|       3 media,       |    Lessicale     |     Castle      |            Who/which            |     Leggi le frasi su Re Artù e scegli tra who o which!      |
+| 3 media, 2 superiore |   Grammaticale   |    Classroom    |           The future            |  Completa le frasi al futuro con la forma corretta di will.  |
 | 3 media, 2 superiore |    Lessicale     |   Restaurant    |              Food               |              Ascolta e trova il cibo richiesto!              |
 | 3 media, 2 superiore |      Orale       |   Restaurant    | Have you ever been to the moon? |      Rispondi alle domande in base alla tua esperienza!      |
-| 3 media, 2 superiore |   Grammaticale   |    Classroom    |         Present perfect         | Completa le frasi con la forma corretta del Present perfect. |
+| 3 media, 2 superiore |   Grammaticale   |    Classroom    |         Present perfect         | Completa le frasi con la forma corretta del present perfect. |
 |       3 media,       |    Lessicale     | Doctor's office |         At the Doctor’s         |       Abbina la malattia all’immagine corrispondente!        |
 |       3 media,       |    Lessicale     | Doctor's office |   You should take an aspirin    | Ascolta i consiglil del medico e abbina l’immagine corretta! |
 
