@@ -1,0 +1,12 @@
+- name: User Guide
+  href: userguide/
+  homepage: userguide/userguide-vr.md
+- name: Developer Guide
+  href: developerguide/
+  homepage: developerguide/gettingstarted-kit.md
+- name: Documentazione VR
+  href: api/
+  homepage: api/index.md
+- name: Attività
+  href: activities/
+  homepage: activities/activities-mobile.md
