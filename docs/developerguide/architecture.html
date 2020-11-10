@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struttura del Kit </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struttura del Kit ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="struttura-del-kit">Struttura del Kit</h1>
+
+<h2 id="flusso-delle-attività">Flusso delle attività</h2>
+<p>Le attività sono tutte basate sull'algoritmo rappresentato nel seguente diagramma di flusso.</p>
+<p>![Flow diagram](draw.io/INCLUDI kit-Flow diagram.png)</p>
+<h2 id="platformmanager">PlatformManager</h2>
+<p>GameObject fondamentale per gestire tutte le funzioni specifiche della piattaforma su cui è installato il kit.
+Il PlatformManager deve essere equipaggiato con un MonoBehaviour che estende questa classe astratta
+ed esegue l'override dei metodi astratti e, se necessario, di quelli virtuali.
+Lo script <code>PlatformManager.cs</code> implementa i metodi virtuali <code>LoadActivity()</code> per caricare una scena nuova
+e per <code>LoadMenuScene()</code> per tornare alla scena del menu,
+oltre che la callback <code>SceneLoaded(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle&lt;SceneInstance&gt; scenes)</code>.
+Di questi metodi è possibile eseguire l'override se è necessario eseguire delle operazioni aggiuntive
+(per esempio, nelle applicazioni mobile, quando si cambia scena, è necessario abilitare/disabilitare la modalità XR).
+Inoltre fornisce i metodi astratti <code>ActivityReady()</code> e <code>ActivityCompleted()</code>,
+che devono essere implementati a seconda della piattaforma di destinazione.
+<code>PlatformManager.cs</code> fornisce anche i metodi astratti che servono ad identificare il <code>Type</code>
+degli oggetti da aggiungere ai GameObject con cui l'utente interagisce durante l'attività.
+In particolare, questi metodi sono:</p>
+<ul>
+<li><code>Type SelectableTriggerType()</code></li>
+<li><code>Type InteractableTriggerType()</code></li>
+<li><code>Type TargetTriggerType()</code></li>
+<li><code>Type VirtualAssistantTriggerType()</code></li>
+<li><code>Type ButtonTriggerType()</code></li>
+</ul>
+<p>All'interno della classe &quot;concreta&quot;, questi metodi devono eseguire l'override per ritornare un Type che è &quot;concreto&quot;.
+Per fare un esempio, <code>InteractableTriggerType()</code> nella soluzione per Cardboard viene implementato così:</p>
+<pre><code class="lang-csharp">public override Type InteractableTriggerType()
+{
+    return typeof(CardboardInteractableTrigger);
+}
+</code></pre>
+<p>mentre nella soluzione Oculus viene implementato così:</p>
+<pre><code class="lang-csharp">public override Type InteractableTriggerType()
+{
+    return typeof(OculusInteractableTrigger);
+}
+</code></pre>
+<p>Il PlatformManager implementa <code>DontDestroyOnLoad()</code>, perchè è necessario che sia persistente tra le scene.</p>
+<h2 id="activitymanager">ActivityManager</h2>
+<p>L'ActivityManager è il componente principale che regola il flusso delle attività,
+ed è costituito da un GameObject che contiene l'omonimo Monobehaviour.
+L'ActivityManager si occupa di scorrere i gruppi di step tenendo conto del gruppo corrente,
+e all'interno del gruppo corrente di scorrere gli step.
+I due metodi che eseguono tale scorrimento sono <code>NextEventGroup()</code> e <code>NextEvent()</code>.
+l'ActivityManager inoltre si occupa di parsare il JSON dell'attività e eseguire le istruzioni a seconda dei suoi parametri.
+L'ActivityManager si occupa di informare l'assistente virtuale di dare istruzioni all'utente,
+tramite i metodi asincroni <code>PlaySingleInstruction(string instruction, string animatorParam)</code>
+e <code>PlayInstructionSequence(List&lt;string&gt; instructions)</code>.</p>
+<h2 id="eventgroupmanager">EventGroupManager</h2>
+<p><code>EventGroupManager</code> è una classe astratta che estende la classe <code>ScriptableObject</code>
+che a sua volta è implementata in diverse classi &quot;concrete&quot;, e di cui l'ActivityManager ne mantiene un reference.
+L'istanza di EventGroupManager viene creata tutte le volte l'ActivityManager invoca il metodo NextEventGroup()
+(ovvero tutte le volte che si comincia un nuovo gruppo di step), a seconda del valore del parametro type dello step corrente.
+In altre parole, il parametro type indica che tipo di EventGroupManager viene creato dall'ActivityManager.
+L'EventGroupManager implementa i metodi che controllano l'azione dell'utente e che sono chiamati dall'ActivityManager tramite i metodi
+<code>CheckCorrectAction(GameObject selectable)</code>, <code>CheckCorrectAction(GameObject selectable, GameObject interactable = null)</code>
+e <code>CheckCorrectAnswer(string answer)</code>, verifica che l'azione sia corretta o sbagliata controllando l'oggetto <code>CorrectParameters</code>
+dell'evento corrente, e notifica l'assistente di fornire feedback a seconda che l'azione dell'utente sia corretta o sbagliata.
+Solitamente, se l'azione è giusta, viene chiamato il metodo <code>NextEvent()</code> dell'ActivityManager,
+altrimenti l'applicazione si rimette in attesa dell'azione dell'utente.
+Eventuali feedback visivi/audio (come tick, croce e barra di progresso)
+a seguito dell'azione dell'utente vengono gestiti dall'EventGroupManager stesso.
+Se l'azione è corretta, prima di chiamare il metodo <code>ActivityManager.NextEvent()</code>,
+l'EventGroupManager deve invocare il metodo SaveAction passando come parametri tutte le informazioni utili dell'azione dell'utente.</p>
+<h2 id="virtualassistantmanager">VirtualAssistantManager</h2>
+<p>MonoBehaviour che gestisce il comportamento dell'assistente virtuale e viene attaccato al suo relativo GameObject.
+Implementa il pattern singleton, così tutti gli oggetti possono avere il suo riferimento.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/INCLUDI/Documentation/blob/main/developerguide/architecture.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

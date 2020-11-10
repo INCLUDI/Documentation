@@ -1,0 +1,891 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class StepGroupManagerBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class StepGroupManagerBase
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Kit.StepGroupManagers.StepGroupManagerBase">
+  
+  
+  <h1 id="Kit_StepGroupManagers_StepGroupManagerBase" data-uid="Kit.StepGroupManagers.StepGroupManagerBase" class="text-break">Class StepGroupManagerBase
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">StepGroupManagerBase</span></div>
+      <div class="level4"><a class="xref" href="Kit.StepGroupManagers.DragHold.html">DragHold</a></div>
+      <div class="level4"><a class="xref" href="Kit.StepGroupManagers.DragMove.html">DragMove</a></div>
+      <div class="level4"><a class="xref" href="Kit.StepGroupManagers.DragRelease.html">DragRelease</a></div>
+      <div class="level4"><a class="xref" href="Kit.StepGroupManagers.ExpressionsAssociate.html">ExpressionsAssociate</a></div>
+      <div class="level4"><a class="xref" href="Kit.StepGroupManagers.ExpressionsComplete.html">ExpressionsComplete</a></div>
+      <div class="level4"><a class="xref" href="Kit.StepGroupManagers.ExpressionsReorder.html">ExpressionsReorder</a></div>
+      <div class="level4"><a class="xref" href="Kit.StepGroupManagers.Select.html">Select</a></div>
+      <div class="level4"><a class="xref" href="Kit.StepGroupManagers.SelectNear.html">SelectNear</a></div>
+      <div class="level4"><a class="xref" href="Kit.StepGroupManagers.Speech.html">Speech</a></div>
+      <div class="level4"><a class="xref" href="Kit.StepGroupManagers.SpeechTimer.html">SpeechTimer</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.SetDirty()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Kit.StepGroupManagers.html">Kit.StepGroupManagers</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Kit_StepGroupManagers_StepGroupManagerBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class StepGroupManagerBase : ScriptableObject</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase__initialScale.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase._initialScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L18">View Source</a>
+  </span>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase__initialScale" data-uid="Kit.StepGroupManagers.StepGroupManagerBase._initialScale">_initialScale</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3 _initialScale</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_Correct.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.Correct%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L20">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_Correct_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Correct*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_Correct" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Correct">Correct</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; Correct { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_Wrong.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.Wrong%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L21">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_Wrong_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Wrong*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_Wrong" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Wrong">Wrong</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; Wrong { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_System_String_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L47">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_System_String_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(System.String)">CheckCorrectAction(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void CheckCorrectAction(string answer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">answer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_UnityEngine_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L43">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_UnityEngine_GameObject_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject)">CheckCorrectAction(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void CheckCorrectAction(GameObject interactable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">interactable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject%2CUnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L45">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)">CheckCorrectAction(GameObject, GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void CheckCorrectAction(GameObject target, GameObject interactable = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">interactable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_ParameterObjects.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L97">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_ParameterObjects_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_ParameterObjects" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects">ParameterObjects()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ParameterObjects()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_RandomizeObjects_System_Collections_Generic_List_Kit_DataModel_Obj__System_Int32_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.RandomizeObjects(System.Collections.Generic.List%7BKit.DataModel.Obj%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L34">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_RandomizeObjects_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.RandomizeObjects*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_RandomizeObjects_System_Collections_Generic_List_Kit_DataModel_Obj__System_Int32_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.RandomizeObjects(System.Collections.Generic.List{Kit.DataModel.Obj},System.Int32)">RandomizeObjects(List&lt;DataModel.Obj&gt;, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual List&lt;DataModel.Obj&gt; RandomizeObjects(List&lt;DataModel.Obj&gt; objs, int objectsToSpawn)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Kit.DataModel.Obj.html">DataModel.Obj</a>&gt;</td>
+        <td><span class="parametername">objs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">objectsToSpawn</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Kit.DataModel.Obj.html">DataModel.Obj</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SaveAction_System_Collections_Generic_List_System_String__Kit_StatsManager_StepParameter_Kit_StatsManager_ActionParameters_System_Boolean_System_Int32_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SaveAction(System.Collections.Generic.List%7BSystem.String%7D%2CKit.StatsManager.StepParameter%2CKit.StatsManager.ActionParameters%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L134">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_SaveAction_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SaveAction*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SaveAction_System_Collections_Generic_List_System_String__Kit_StatsManager_StepParameter_Kit_StatsManager_ActionParameters_System_Boolean_System_Int32_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SaveAction(System.Collections.Generic.List{System.String},Kit.StatsManager.StepParameter,Kit.StatsManager.ActionParameters,System.Boolean,System.Int32)">SaveAction(List&lt;String&gt;, StatsManager.StepParameter, StatsManager.ActionParameters, Boolean, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SaveAction(List&lt;string&gt; request, StatsManager.StepParameter correctParameters = null, StatsManager.ActionParameters action = null, bool error = false, int hints = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Kit.StatsManager.StepParameter.html">StatsManager.StepParameter</a></td>
+        <td><span class="parametername">correctParameters</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Kit.StatsManager.ActionParameters.html">StatsManager.ActionParameters</a></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">error</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">hints</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SelectCorrect_System_Collections_Generic_List_System_String__System_String_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SelectCorrect(System.Collections.Generic.List%7BSystem.String%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L54">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_SelectCorrect_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectCorrect*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SelectCorrect_System_Collections_Generic_List_System_String__System_String_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectCorrect(System.Collections.Generic.List{System.String},System.String)">SelectCorrect(List&lt;String&gt;, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string SelectCorrect(List&lt;string&gt; instructions, string param = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">instructions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">param</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SelectRequest_System_Collections_Generic_List_System_String__.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SelectRequest(System.Collections.Generic.List%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L49">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_SelectRequest_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectRequest*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SelectRequest_System_Collections_Generic_List_System_String__" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectRequest(System.Collections.Generic.List{System.String})">SelectRequest(List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string SelectRequest(List&lt;string&gt; instructions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">instructions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SelectWrong_System_Collections_Generic_List_System_String__System_String_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SelectWrong(System.Collections.Generic.List%7BSystem.String%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L59">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_SelectWrong_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectWrong*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SelectWrong_System_Collections_Generic_List_System_String__System_String_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectWrong(System.Collections.Generic.List{System.String},System.String)">SelectWrong(List&lt;String&gt;, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string SelectWrong(List&lt;string&gt; instructions, string param = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">instructions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">param</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_UnityEngine_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(UnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L110">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_UnityEngine_GameObject_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(UnityEngine.GameObject)">SetFinalPosition(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SetFinalPosition(GameObject interactable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">interactable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_UnityEngine_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(UnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L122">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_UnityEngine_GameObject_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(UnityEngine.GameObject)">SetFinalRotation(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SetFinalRotation(GameObject interactable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">interactable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SetStepsInCurrentGroup_System_Collections_Generic_List_Kit_DataModel_Step__System_Boolean_System_Int32_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SetStepsInCurrentGroup(System.Collections.Generic.List%7BKit.DataModel.Step%7D%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L26">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_SetStepsInCurrentGroup_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetStepsInCurrentGroup*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SetStepsInCurrentGroup_System_Collections_Generic_List_Kit_DataModel_Step__System_Boolean_System_Int32_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetStepsInCurrentGroup(System.Collections.Generic.List{Kit.DataModel.Step},System.Boolean,System.Int32)">SetStepsInCurrentGroup(List&lt;DataModel.Step&gt;, Boolean, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual List&lt;DataModel.Step&gt; SetStepsInCurrentGroup(List&lt;DataModel.Step&gt; events, bool randomEvents, int stepsToReproduce)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Kit.DataModel.Step.html">DataModel.Step</a>&gt;</td>
+        <td><span class="parametername">events</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">randomEvents</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">stepsToReproduce</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Kit.DataModel.Step.html">DataModel.Step</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_UnityEngine_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(UnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L88">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_UnityEngine_GameObject_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(UnityEngine.GameObject)">StopVisualFeedback(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void StopVisualFeedback(GameObject feedback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">feedback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

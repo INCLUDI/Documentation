@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Modello dei dati </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Modello dei dati ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="modello-dei-dati">Modello dei dati</h1>
+
+<p>Le attività si basano su una serie di parametri che vengono parsati da un file JSON.
+Il file JSON (e dunque gli oggetti C# che ne derivano durante il parsing), segue il modello rappresentato in figura:</p>
+<p>![Flow diagram](draw.io/INCLUDI kit-Class diagram.png)</p>
+<p>Il modello è contenuto nello script DataModel.cs.</p>
+<p>In questa sezione verrà descritto il significato degli oggetti e dei parametri che compongono il modello.</p>
+<h2 id="activityconfiguration">ActivityConfiguration</h2>
+<p>è l'oggetto che costituisce la radice del JSON.</p>
+<ul>
+<li><code>id: string</code> -&gt; indica la label con cui è stato contrassegnato il gruppo di Addressable Assets da scaricare.</li>
+<li><code>name: string</code> -&gt; il nome dell'attività.</li>
+<li><code>description: string</code> -&gt; la descrizione dell'attività.</li>
+<li><code>image: string</code> -&gt; l'immagine associata all'attività.</li>
+<li><code>scene: string</code> -&gt; l'ambientazione (Scene) che viene caricata all'avvio dell'attività.</li>
+<li><code>virtualAssistant: VirtualAssistantInfo</code> -&gt; info relative a posizione e altre caratteristiche dell'assistente.</li>
+<li><code>player: PlayerInfo</code> -&gt; info relative alla posizione dell'utente nella scena.</li>
+<li><code>classes: UserClass</code> -&gt; indica l'insieme di classi per cui è stata progettata l'attività.</li>
+<li><code>objsToAdd: List&lt;SceneObj&gt;</code> -&gt; sono i prefab che vogliamo far comparire nella scena all'inizio dell'attività,
+e che sono presenti durante tutta l'esecuzione dell'attività</li>
+<li><code>objsToRemove: List&lt;string&gt;</code> -&gt; la lista dei nomi dei GameObject che vogliamo disattivare dalla scena all'inizio dell'attività.
+Solitamente si tratta di oggetti che bloccano la visuale o limitano l'azione dell'utente nella specifica attività.</li>
+<li><code>eventGroups: List&lt;EventGroup&gt;</code> -&gt; la lista di gruppi di step che compongono l'attività.</li>
+</ul>
+<h2 id="virtualassistantinfo">VirtualAssistantInfo</h2>
+<ul>
+<li><code>transform: CustomTransform</code> -&gt; posizione, rotazione e scale dell'assistente.</li>
+<li><code>flipBalloon: bool</code> -&gt; se il valore è settato a true, il fumetto dell'assistente virtuale viene ruotato di 180° lungo l'asse y.
+Di default il fumetto è alla sinistra dell'assistente,
+il parametro è utile nel caso l'assistente abbia degli ostacoli alla sua sinistra.</li>
+<li><code>maxBalloonWidth: int</code> -&gt; la larghezza massima che può avere il fumetto. La larghezza di default è 150,
+tuttavia può succedere che alcune scene siano ambientate in stanze con un soffitto basso o altri ostacoli,
+in tal caso è necessario aumentare la larghezza massima del fumetto per impedire al fumetto di crescere troppo in altezza.</li>
+<li><code>lockRotation: bool</code> -&gt; se settato a true, l'assistente virtuale rimane fisso nella sua rotazione iniziale,
+e non guarda verso la posizione dell'utente. Utile nel caso in cui l'assistente si trovi in degli angoli,
+in tal caso c'è il rischio che a causa della rotazione il fumetto incontri degli ostacoli.</li>
+</ul>
+<h2 id="playerinfo">PlayerInfo</h2>
+<ul>
+<li><code>transform: CustomTransform</code> -&gt; posizione, rotazione e scale dell'utente.
+Il valore y della transform deve coincidere con quello del pavimento.</li>
+<li><code>groundOffset: float</code> -&gt; per i devices che non hanno il room scale (come Cardboard),
+è necessario settare questo parametro (solitamente varia tra 1.6 e 1.8)
+per fare in modo che la trasform del giocatore sia ad altezza uomo.</li>
+</ul>
+<h2 id="userclass">UserClass</h2>
+<ul>
+<li><code>year: int</code> -&gt; l'anno della classe (da 1 a 3 per le scuole medie, da 1 a 5 per le superiori).</li>
+<li><code>instituteType: string</code> -&gt; l'istituto scolastico di appartenenza (e.g. Liceo Classico)</li>
+</ul>
+<h2 id="eventgroup">EventGroup</h2>
+<ul>
+<li><code>type: string</code> -&gt; stringa che indica il nome dell'EventGroupManager da creare all'inizio del gruppo di step.
+N.B.: è molto importante che il valore di type sia esattamente uguale al nome della classe dello specifico manager.</li>
+<li><code>instructionsIntro: List&lt;string&gt;</code> -&gt; la lista di istruzioni che l'assistente virtuale fornisce all'inizio del gruppo di step.
+Solitamente sono istruzioni che introducono l'utente all'attività,
+oppure che spiegano che azioni dovrà compiere all'interno del gruppo di step.</li>
+<li><code>instructionsEnd: List&lt;string&gt;</code> -&gt; la lista di istruzioni che l'assistente virtuale fornisce alla fine del gruppo di step.</li>
+<li><code>stepsToReproduce: int</code> -&gt; spesso un gruppo di step contiene un numero elevato di step;
+nel caso non si vogliano far eseguire tutti, bisogna specificare il numero di steo da eseguire.
+Se lasciato vuoto questo campo, di default verranno eseguiti tutti gli step.</li>
+<li><code>randomEvents: bool</code> -&gt; settare questo campo a true se si vuole riprodurre gli step in modo casuale all'interno di un gruppo di step.
+Il valore di default è false.</li>
+<li><code>selectablesToSpawn: int</code> -&gt; usato sempre in correlazione a selectableSpawnPoints.
+All'interno dello step, è possibile che ci sia un numero di oggetti maggiore rispetto a quelli che si vuole effettivamente generare
+(per esempio, si vuole generare 3 oggetti ad ogni step, ma i selectablesToActivate nei vari step sono 10, 9, 11, ecc.).
+Specificando questo campo, verranno generati soltanto n oggetti all'interno degli step.</li>
+<li><code>interactablesToSpawn: int</code> -&gt; vedi descrizione di <code>selectablesToSpawn</code>.</li>
+<li><code>targetsToSpawn: int</code> -&gt; vedi descrizione di <code>selectablesToSpawn</code>.</li>
+<li><code>selectablesSpawnPoints: List&lt;CustomTransform&gt;</code> -&gt; è l'insieme di posizioni fisse in cui si vuole generare gli oggetti nei singoli step.
+Specificando una lista di <code>selectablesSpawnPoints</code>, quando viene istanziato un oggetto,
+invece che la posizione relativa al suo prefab, viene presa una delle posizioni di <code>selectablesSpawnPoints</code>.
+N.B. è utile specificare una lista di <code>selectablesSpawnPoints</code> quando si ha a che fare con prefab che hanno pivot in posizioni analoghe
+(ad esempio degli sprite), altrimenti si corre il rischio che non tutti gli oggetti abbiano la posizione desiderata.</li>
+<li><code>interactablesSpawnPoints: List&lt;CustomTransform&gt;</code> -&gt; vedi descrizione di <code>selectablesToSpawn</code>.</li>
+<li><code>targetsSpawnPoints: List&lt;CustomTransform&gt;</code> -&gt; vedi descrizione di <code>selectablesToSpawn</code>.</li>
+<li><code>selectablesRandomSpawn: bool</code> -&gt; se specificato come true, gli oggetti generati mescoleranno le loro posizioni tra di loro.
+N.B. consigliabile settare questo parametro solo quando si ha a che fare con prefab che hanno pivot in posizioni analoghe
+(ad esempio degli sprite), altrimenti si corre il rischio che non tutti gli oggetti abbiano la posizione desiderata.
+Il valore di default è false.</li>
+<li><code>interactablesRandomSpawn: bool</code> -&gt; vedi descrizione di <code>selectablesRandomSpawn</code>.</li>
+<li><code>targetsRandomSpawn: bool</code> -&gt; vedi descrizione di <code>selectablesRandomSpawn</code>.</li>
+<li><code>eventGroupObjs: EventObjs</code> -&gt; gli oggetti da generare all'inizio del gruppo di step, e da rimuovere al termine dello stesso.</li>
+<li><code>skipIfWrong: bool</code> -&gt; se posto a true, in tutti gli step del gruppo di step, quando l'utente compie un'azione errata,
+si passa allo step successivo. Il comportamento di default è che se l'azione è sbagliata, si rimane nello step corrente
+(Questo parametro è utile nelle attività orali, quando l'utente non sa la risposta:
+se non specificato, l'applicazione rimarrebbe sempre allo stesso step).</li>
+<li><code>events: List&lt;EventConfiguration&gt;</code> -&gt; la lista di step che compongono il gruppo di step.</li>
+</ul>
+<h2 id="eventconfiguration">EventConfiguration</h2>
+<ul>
+<li><code>eventObjs: EventObjs</code> -&gt; gli oggetti da generare all'inizio dello step, e da rimuovere al termine dello stesso.</li>
+<li><code>instructions: Instructions</code> -&gt; le istruzioni che l'assistente fornisce come richiesta,
+feedback per azione corretta e feedback per azione sbagliata.</li>
+<li><code>parameters: EventParameters</code> -&gt; i parametri che indicano quali sono le azioni corrette, e altre info.</li>
+</ul>
+<h2 id="eventobjs">EventObjs</h2>
+<ul>
+<li><code>selectablesToActivate: List&lt;string&gt;</code> -&gt; la lista di oggetti di tipo selectable da attivare.</li>
+<li><code>interactablesToActivate: List&lt;string&gt;</code> -&gt; la lista di oggetti di tipo interactable da attivare.</li>
+<li><code>targetsToActivate: List&lt;string&gt;</code> -&gt; la lista di oggetti di tipo target da attivare.</li>
+<li><code>othersToActivate: List&lt;string&gt;</code> -&gt; la lista di oggetti di tipo other da attivare.</li>
+<li><code>selectablesToDeactivate: List&lt;string&gt;</code> -&gt; la lista di nomi di oggetti da rimuovere dalla scena.</li>
+<li><code>interactablesToDeactivate: List&lt;string&gt;</code> -&gt; la lista di nomi di oggetti da rimuovere dalla scena.</li>
+<li><code>targetsToDeactivate: List&lt;string&gt;</code> -&gt; la lista di nomi di oggetti da rimuovere dalla scena.</li>
+<li><code>othersToDeactivate: List&lt;string&gt;</code> -&gt; la lista di nomi di oggetti da rimuovere dalla scena.</li>
+</ul>
+<h2 id="instructions">Instructions</h2>
+<ul>
+<li><code>request: List&lt;string&gt;</code> -&gt; insieme di possibili richieste che l'assistente può fare all'inizio dello step.</li>
+<li><code>correct: List&lt;string&gt;</code> -&gt; insieme di possibili feedback che l'assistente può dare se l'utente commette un'azione sbagliata.</li>
+<li><code>wrong: List&lt;string&gt;</code> -&gt; insieme di possibili feedback che l'assistente può dare se l'utente commette un'azione sbagliata.</li>
+</ul>
+<h2 id="eventparameters">EventParameters</h2>
+<ul>
+<li><code>correctSelectables: List&lt;string&gt;</code> -&gt; lista con i nomi dei GameObject che rappresentano delle risposte giuste per lo step.</li>
+<li><code>correctInteractables: List&lt;string&gt;</code> -&gt; lista con i nomi dei GameObject che rappresentano delle risposte giuste per lo step.</li>
+<li><code>correctTargets: List&lt;string&gt;</code> -&gt; lista con i nomi dei GameObject che rappresentano delle risposte giuste per lo step.</li>
+<li><code>correctAnswers: List&lt;string&gt;</code> -&gt; lista delle possibili risposte giuste per lo step.</li>
+<li><code>correctExpressions: List&lt;string&gt;</code> -&gt; lista delle possibili espressioni giuste per lo step.</li>
+<li><code>objsToActivate: List&lt;SceneObj&gt;</code> -&gt; lista di oggetti di tipo other da attivare nella scena appena l'utente esegue l'azione giusta.
+Questi oggetti vanno inclusi nella lista di oggetti del campo othersToDeactivate se vogliono essere rimossi alla fine dello step.</li>
+<li><code>objsToDeactivate: List&lt;SceneObj&gt;</code> -&gt; lista di oggetti da rimuovere dalla scena appena l'utente esegue l'azione giusta.</li>
+<li><code>finalTransform: CustomTransform</code> -&gt; se indicato, un oggetto a scelta si muoverà rapidamente (tramite un DOTWeen)
+verso la posizione indicata da <code>finalTransform</code>.
+Quale degli oggetti viene selezionato è da implementare nell'event manager specifico del gruppo di step.
+Solitamente si usa quando i correctSelectables o correctInteractables sono composti da un solo elemento,
+oppure si applica al parametro di <code>CheckCorrectAction(...)</code></li>
+<li><code>numericParameter: int</code> -&gt; parametro numerico che può servire per molti scopi.
+Ad esempio, per le attività Oculus il numero di secondi che bisogna far collidere un interactable con un target
+prima di completare lo step, oppure il numero di volte che un interactable deve collidere con il target.
+Come viene utilizzato questo parametro deve essere implementato nello specifico event manager del gruppo di step.</li>
+</ul>
+<h2 id="sceneobj">SceneObj</h2>
+<ul>
+<li><code>prefab: string</code> -&gt; parametro obbligatorio che indica il nome del prefab che viene istanziato.</li>
+<li><code>name: string</code> -&gt; se si vuole cambiare il nome del prefab, inserire il nome desiderato in questo campo.
+Il prefab istanziato sarà chiamato col nome che viene specificato qui.
+Se esiste un campo text, il valore del campo name ha la precedenza sul nome che assumerà il GameObject una volta istanziato.</li>
+<li><code>text: string</code> -&gt; se il prefab ha un figlio che ha un componente <code>TextMeshProUGUI</code>,
+con il campo text viene specificato che testo deve visualizzare il componente <code>TextMeshProUGUI</code>.
+nel caso il parametro name non sia specificato. il prefab viene istanziato con il nome indicato in text.</li>
+</ul>
+<h2 id="customtransform">CustomTransform</h2>
+<p>CustomTransform è analogo alla Transform, questa classe è necessaria per la serializzazione in un JSON.</p>
+<h2 id="customvector3">CustomVector3</h2>
+<p>CustomVector3 è analogo al Vector3, questa classe è necessaria per la serializzazione in un JSON.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/INCLUDI/Documentation/blob/main/developerguide/data-model.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
