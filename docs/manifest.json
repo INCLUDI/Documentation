@@ -789,10 +789,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.PopupManager.html",
-          "hash": "823LLLpk3N7BApDRHFLzCQ=="
+          "hash": "jRKuLCVwz2en4KqE+uG0Jw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -912,7 +912,7 @@
           "hash": "mg9HwgGT3vYQ4WTKd7X0Mw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1169,10 +1169,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/INCLUDI kit-Class diagram.png",
+      "source_relative_path": "images/INCLUDI kit-Class diagram.svg",
       "output": {
         "resource": {
-          "relative_path": "images/INCLUDI kit-Class diagram.png"
+          "relative_path": "images/INCLUDI kit-Class diagram.svg"
         }
       },
       "is_incremental": false,
@@ -1180,10 +1180,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/INCLUDI kit-Flow diagram.png",
+      "source_relative_path": "images/INCLUDI kit-Flow diagram.svg",
       "output": {
         "resource": {
-          "relative_path": "images/INCLUDI kit-Flow diagram.png"
+          "relative_path": "images/INCLUDI kit-Flow diagram.svg"
         }
       },
       "is_incremental": false,
@@ -1191,10 +1191,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/INCLUDI kit-Struttura repo.png",
+      "source_relative_path": "images/INCLUDI kit-Struttura repo.svg",
       "output": {
         "resource": {
-          "relative_path": "images/INCLUDI kit-Struttura repo.png"
+          "relative_path": "images/INCLUDI kit-Struttura repo.svg"
         }
       },
       "is_incremental": false,
@@ -1343,7 +1343,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 87,
-          "skipped_file_count": 87
+          "skipped_file_count": 86
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
