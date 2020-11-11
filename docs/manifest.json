@@ -1113,10 +1113,10 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/architecture.html",
-          "hash": "xYHvSjlEr1CebV4Pny99UA=="
+          "hash": "KTv6Sk1EmbbK/8AQCC0huQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1125,10 +1125,10 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/data-model.html",
-          "hash": "R9Q/cjUHJbMAlptaksit0w=="
+          "hash": "jVGewKgIqxTsAS/+MzhESA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1169,10 +1169,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/INCLUDI kit-Class diagram.svg",
+      "source_relative_path": "images/INCLUDIkit-Class-diagram.svg",
       "output": {
         "resource": {
-          "relative_path": "images/INCLUDI kit-Class diagram.svg"
+          "relative_path": "images/INCLUDIkit-Class-diagram.svg"
         }
       },
       "is_incremental": false,
@@ -1180,10 +1180,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/INCLUDI kit-Flow diagram.svg",
+      "source_relative_path": "images/INCLUDIkit-Flow-diagram.svg",
       "output": {
         "resource": {
-          "relative_path": "images/INCLUDI kit-Flow diagram.svg"
+          "relative_path": "images/INCLUDIkit-Flow-diagram.svg"
         }
       },
       "is_incremental": false,
@@ -1191,10 +1191,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/INCLUDI kit-Struttura repo.svg",
+      "source_relative_path": "images/INCLUDIkit-Project-Structure.svg",
       "output": {
         "resource": {
-          "relative_path": "images/INCLUDI kit-Struttura repo.svg"
+          "relative_path": "images/INCLUDIkit-Project-Structure.svg"
         }
       },
       "is_incremental": false,
@@ -1226,71 +1226,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "userguide/architecture.md",
-      "output": {
-        ".html": {
-          "relative_path": "userguide/architecture.html",
-          "hash": "rs4JblAcT++yOA1gAYtp5g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "userguide/data-model.md",
-      "output": {
-        ".html": {
-          "relative_path": "userguide/data-model.html",
-          "hash": "gZRSx5+dyfenknHLQyfgCQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "userguide/design-new-activities.md",
-      "output": {
-        ".html": {
-          "relative_path": "userguide/design-new-activities.html",
-          "hash": "k8Ij5kmsTexojj45oGdeRQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "userguide/gettingstarted-kit.md",
-      "output": {
-        ".html": {
-          "relative_path": "userguide/gettingstarted-kit.html",
-          "hash": "vSG0xx/peNId7vjIqoURsw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "userguide/index.md",
       "output": {
         ".html": {
           "relative_path": "userguide/index.html",
           "hash": "UyZ7acj0RLaEfLSWacqIIQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "userguide/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "userguide/intro.html",
-          "hash": "WrONCAKQQtSsuwR6jJd1sw=="
         }
       },
       "is_incremental": true,
@@ -1336,8 +1276,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 15,
-          "skipped_file_count": 15
+          "total_file_count": 10,
+          "skipped_file_count": 8
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

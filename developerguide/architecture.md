@@ -4,7 +4,7 @@
 
 Le attività sono tutte basate sull'algoritmo rappresentato nel seguente diagramma di flusso.
 
-![Flow diagram](draw.io/INCLUDI kit-Flow diagram.png)
+![Flow diagram](/images/INCLUDIkit-Flow-diagram.svg)
 
 ## PlatformManager
 
