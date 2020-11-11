@@ -1089,7 +1089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "BSjbFJQW3g1AV+OlIJQ/cw=="
+          "hash": "4d1+Ew8r8GKt4n5hMnIQFQ=="
         }
       },
       "is_incremental": true,
@@ -1116,7 +1116,7 @@
           "hash": "KTv6Sk1EmbbK/8AQCC0huQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1128,7 +1128,7 @@
           "hash": "jVGewKgIqxTsAS/+MzhESA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1206,10 +1206,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "zCmvknXpIfyaxrHbeiZEPA=="
+          "hash": "zOvma2VMw8AmGt2l4I9kfg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1218,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "mboHFaSUVg1rmCvRPGrDBw=="
+          "hash": "fpXD4kvhVYslR/fnRdZITg=="
         }
       },
       "is_incremental": false,
@@ -1226,11 +1226,35 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "userguide/index.md",
+      "source_relative_path": "userguide/gettingstarted.md",
       "output": {
         ".html": {
-          "relative_path": "userguide/index.html",
-          "hash": "UyZ7acj0RLaEfLSWacqIIQ=="
+          "relative_path": "userguide/gettingstarted.html",
+          "hash": "zTtis8wWs+/OdV2It3DreQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "userguide/mobilevr.md",
+      "output": {
+        ".html": {
+          "relative_path": "userguide/mobilevr.html",
+          "hash": "Qb8TyFFXy0eWkH4yEtJCEQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "userguide/oculus.md",
+      "output": {
+        ".html": {
+          "relative_path": "userguide/oculus.html",
+          "hash": "iMrKgyjITflupszpsfDqig=="
         }
       },
       "is_incremental": true,
@@ -1242,25 +1266,10 @@
       "output": {
         ".html": {
           "relative_path": "userguide/toc.html",
-          "hash": "xAO7DKaqBTECdWs9GKfRlw=="
+          "hash": "lVGQxYl+E6cpVPoL7X4uAg=="
         }
       },
       "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "userguide/userguide-vr.md",
-      "output": {
-        ".html": {
-          "relative_path": "userguide/userguide-vr.html",
-          "hash": "l52btjlSLGAyhysLLy0zlw=="
-        }
-      },
-      "is_incremental": true,
       "version": ""
     }
   ],
@@ -1276,8 +1285,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 10,
-          "skipped_file_count": 8
+          "total_file_count": 11,
+          "skipped_file_count": 10
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

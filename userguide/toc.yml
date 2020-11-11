@@ -1,2 +1,8 @@
-- name: User Guide - VR
-  href: userguide-vr.md
+- name: Come usare il Kit
+  items:
+    - name: Getting started
+      href: gettingstarted.md
+    - name: Mobile VR
+      href: mobilevr.md
+    - name: Oculus
+      href: oculus.md

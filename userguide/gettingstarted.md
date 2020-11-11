@@ -21,7 +21,8 @@ Nella schermata impostazioni puoi configurare l'esperienza delle attività di IN
 - Puoi cambiare l'avatare dell'insegnante virtuale.
 - Puoi abilitare (o disabilitare) un fumetto per l'insegnante per leggere quello che sta dicendo.
 - Puoi regolare la velocità del parlato dell'insegnante virtuale, aumentandola o diminuendola fino al 20%.
-- Se l'assistente parla troppo velocemente, puoi impostare una piccola pausa alla fine di ogni frase, lunga fino a 2 secondi.
+- Se l'assistente parla troppo velocemente, puoi impostare una piccola pausa alla fine di ogni frase,
+  della lunghezza fino a 2 secondi.
 - Se non vuoi vedere tutte le attività nella schermata Home,
   puoi decidere di visualizzare soltanto quelle che sono state progettate per la tua classe.
   Attenzione: questa opzione è disponibile soltanto se hai effettuato il login.
@@ -29,8 +30,8 @@ Nella schermata impostazioni puoi configurare l'esperienza delle attività di IN
 # Schermata login
 
 Nella schermata login puoi effettuare l'accesso con la tua mail INCLUDI,
-a patto che ti sia prima registrato su [app.includi.eu](app.includi.eu).
+a patto che ti sia prima registrato su [app.includi.eu](https://app.includi.eu).
 Una volta che ti sei registrato, quando giocherai con una delle attività verranno raccolti i tuoi dati sull'utilizzo,
-come le risposte giuste e gli errori, e queste saranno visibili dal tuo insegnante di inglese su [app.includi.eu](app.includi.eu).
-Se cerchi di eseguire il login ma non ti sei registrato su [app.includi.eu](app.includi.eu),
+come le risposte giuste e gli errori, e queste saranno visibili dal tuo insegnante di inglese su [app.includi.eu](https://app.includi.eu).
+Se cerchi di eseguire il login ma non ti sei registrato su [app.includi.eu](https://app.includi.eu),
 l'app ti segnalerà un errore e i tuoi dati di utilizzo non saranno raccolti.

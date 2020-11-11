@@ -38,6 +38,9 @@
         "files": ["images/**"]
       }
     ],
+    "globalMetadata": {
+      "_appFaviconPath": "favicon.ico"
+    },
     "overwrite": [
       {
         "files": ["apidoc/**.md"],
@@ -52,7 +55,7 @@
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
-    "cleanupCacheHistory": false,
+    "cleanupCacheHistory": true,
     "disableGitFeatures": false
   }
 }
