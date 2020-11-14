@@ -19,10 +19,10 @@ specifiche che bisogna rendere visibili nella cartella Assets del progetto princ
 
 Per creare un link simbolico (su Windows) apri il terminale nella cartella `Assets` del progetto e digita i seguenti comandi:
 
-- `mklink /d ..\Submodules\Kit-Assets\Assets\AddressableAssets AddressableAssets`
-- `mklink /d ..\Submodules\Kit-Assets\Assets\AddressableAssetsData AddressableAssetsData`
-- `mklink /d ..\Submodules\Kit-Assets\Assets\Shared Shared`
-- `mklink /d ..\Submodules\Kit-Assets\Assets\Resources Resources`
+- `mklink /d AddressableAssets ..\Submodules\Kit-Assets\Assets\AddressableAssets`
+- `mklink /d AddressableAssetsData ..\Submodules\Kit-Assets\Assets\AddressableAssetsData`
+- `mklink /d Shared ..\Submodules\Kit-Shared\Assets\Shared`
+- `mklink /d Resources ..\Submodules\Kit-Shared\Assets\Resources`
 
 Per ulteriori informazioni sui link simbolici su Windows, visita
 [questo sito](https://docs.microsoft.com/it-it/windows-server/administration/windows-commands/mklink).

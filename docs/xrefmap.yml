@@ -13,11 +13,11 @@ references:
   commentId: T:DG.Tweening.DOTweenModuleAudio
   fullName: DG.Tweening.DOTweenModuleAudio
   nameWithType: DOTweenModuleAudio
-- uid: DG.Tweening.DOTweenModuleAudio.DOFade(UnityEngine.AudioSource,System.Single,System.Single)
+- uid: DG.Tweening.DOTweenModuleAudio.DOFade(AudioSource,System.Single,System.Single)
   name: DOFade(AudioSource, Single, Single)
-  href: api/DG.Tweening.DOTweenModuleAudio.html#DG_Tweening_DOTweenModuleAudio_DOFade_UnityEngine_AudioSource_System_Single_System_Single_
-  commentId: M:DG.Tweening.DOTweenModuleAudio.DOFade(UnityEngine.AudioSource,System.Single,System.Single)
-  fullName: DG.Tweening.DOTweenModuleAudio.DOFade(UnityEngine.AudioSource, System.Single, System.Single)
+  href: api/DG.Tweening.DOTweenModuleAudio.html#DG_Tweening_DOTweenModuleAudio_DOFade_AudioSource_System_Single_System_Single_
+  commentId: M:DG.Tweening.DOTweenModuleAudio.DOFade(AudioSource,System.Single,System.Single)
+  fullName: DG.Tweening.DOTweenModuleAudio.DOFade(AudioSource, System.Single, System.Single)
   nameWithType: DOTweenModuleAudio.DOFade(AudioSource, Single, Single)
 - uid: DG.Tweening.DOTweenModuleAudio.DOFade*
   name: DOFade
@@ -26,11 +26,11 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModuleAudio.DOFade
   nameWithType: DOTweenModuleAudio.DOFade
-- uid: DG.Tweening.DOTweenModuleAudio.DOPitch(UnityEngine.AudioSource,System.Single,System.Single)
+- uid: DG.Tweening.DOTweenModuleAudio.DOPitch(AudioSource,System.Single,System.Single)
   name: DOPitch(AudioSource, Single, Single)
-  href: api/DG.Tweening.DOTweenModuleAudio.html#DG_Tweening_DOTweenModuleAudio_DOPitch_UnityEngine_AudioSource_System_Single_System_Single_
-  commentId: M:DG.Tweening.DOTweenModuleAudio.DOPitch(UnityEngine.AudioSource,System.Single,System.Single)
-  fullName: DG.Tweening.DOTweenModuleAudio.DOPitch(UnityEngine.AudioSource, System.Single, System.Single)
+  href: api/DG.Tweening.DOTweenModuleAudio.html#DG_Tweening_DOTweenModuleAudio_DOPitch_AudioSource_System_Single_System_Single_
+  commentId: M:DG.Tweening.DOTweenModuleAudio.DOPitch(AudioSource,System.Single,System.Single)
+  fullName: DG.Tweening.DOTweenModuleAudio.DOPitch(AudioSource, System.Single, System.Single)
   nameWithType: DOTweenModuleAudio.DOPitch(AudioSource, Single, Single)
 - uid: DG.Tweening.DOTweenModuleAudio.DOPitch*
   name: DOPitch
@@ -45,11 +45,11 @@ references:
   commentId: T:DG.Tweening.DOTweenModulePhysics
   fullName: DG.Tweening.DOTweenModulePhysics
   nameWithType: DOTweenModulePhysics
-- uid: DG.Tweening.DOTweenModulePhysics.DOJump(UnityEngine.Rigidbody,UnityEngine.Vector3,System.Single,System.Int32,System.Single,System.Boolean)
+- uid: DG.Tweening.DOTweenModulePhysics.DOJump(Rigidbody,Vector3,System.Single,System.Int32,System.Single,System.Boolean)
   name: DOJump(Rigidbody, Vector3, Single, Int32, Single, Boolean)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOJump_UnityEngine_Rigidbody_UnityEngine_Vector3_System_Single_System_Int32_System_Single_System_Boolean_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOJump(UnityEngine.Rigidbody,UnityEngine.Vector3,System.Single,System.Int32,System.Single,System.Boolean)
-  fullName: DG.Tweening.DOTweenModulePhysics.DOJump(UnityEngine.Rigidbody, UnityEngine.Vector3, System.Single, System.Int32, System.Single, System.Boolean)
+  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOJump_Rigidbody_Vector3_System_Single_System_Int32_System_Single_System_Boolean_
+  commentId: M:DG.Tweening.DOTweenModulePhysics.DOJump(Rigidbody,Vector3,System.Single,System.Int32,System.Single,System.Boolean)
+  fullName: DG.Tweening.DOTweenModulePhysics.DOJump(Rigidbody, Vector3, System.Single, System.Int32, System.Single, System.Boolean)
   nameWithType: DOTweenModulePhysics.DOJump(Rigidbody, Vector3, Single, Int32, Single, Boolean)
 - uid: DG.Tweening.DOTweenModulePhysics.DOJump*
   name: DOJump
@@ -58,13 +58,13 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModulePhysics.DOJump
   nameWithType: DOTweenModulePhysics.DOJump
-- uid: DG.Tweening.DOTweenModulePhysics.DOLocalPath(UnityEngine.Rigidbody,UnityEngine.Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{UnityEngine.Color})
+- uid: DG.Tweening.DOTweenModulePhysics.DOLocalPath(Rigidbody,Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{Color})
   name: DOLocalPath(Rigidbody, Vector3[], Single, PathType, PathMode, Int32, Nullable<Color>)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOLocalPath_UnityEngine_Rigidbody_UnityEngine_Vector3___System_Single_DG_Tweening_PathType_DG_Tweening_PathMode_System_Int32_System_Nullable_UnityEngine_Color__
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOLocalPath(UnityEngine.Rigidbody,UnityEngine.Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{UnityEngine.Color})
+  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOLocalPath_Rigidbody_Vector3___System_Single_DG_Tweening_PathType_DG_Tweening_PathMode_System_Int32_System_Nullable_Color__
+  commentId: M:DG.Tweening.DOTweenModulePhysics.DOLocalPath(Rigidbody,Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{Color})
   name.vb: DOLocalPath(Rigidbody, Vector3(), Single, PathType, PathMode, Int32, Nullable(Of Color))
-  fullName: DG.Tweening.DOTweenModulePhysics.DOLocalPath(UnityEngine.Rigidbody, UnityEngine.Vector3[], System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable<UnityEngine.Color>)
-  fullName.vb: DG.Tweening.DOTweenModulePhysics.DOLocalPath(UnityEngine.Rigidbody, UnityEngine.Vector3(), System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable(Of UnityEngine.Color))
+  fullName: DG.Tweening.DOTweenModulePhysics.DOLocalPath(Rigidbody, Vector3[], System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable<Color>)
+  fullName.vb: DG.Tweening.DOTweenModulePhysics.DOLocalPath(Rigidbody, Vector3(), System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable(Of Color))
   nameWithType: DOTweenModulePhysics.DOLocalPath(Rigidbody, Vector3[], Single, PathType, PathMode, Int32, Nullable<Color>)
   nameWithType.vb: DOTweenModulePhysics.DOLocalPath(Rigidbody, Vector3(), Single, PathType, PathMode, Int32, Nullable(Of Color))
 - uid: DG.Tweening.DOTweenModulePhysics.DOLocalPath*
@@ -74,13 +74,13 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModulePhysics.DOLocalPath
   nameWithType: DOTweenModulePhysics.DOLocalPath
-- uid: DG.Tweening.DOTweenModulePhysics.DOLookAt(UnityEngine.Rigidbody,UnityEngine.Vector3,System.Single,DG.Tweening.AxisConstraint,System.Nullable{UnityEngine.Vector3})
+- uid: DG.Tweening.DOTweenModulePhysics.DOLookAt(Rigidbody,Vector3,System.Single,DG.Tweening.AxisConstraint,System.Nullable{Vector3})
   name: DOLookAt(Rigidbody, Vector3, Single, AxisConstraint, Nullable<Vector3>)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOLookAt_UnityEngine_Rigidbody_UnityEngine_Vector3_System_Single_DG_Tweening_AxisConstraint_System_Nullable_UnityEngine_Vector3__
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOLookAt(UnityEngine.Rigidbody,UnityEngine.Vector3,System.Single,DG.Tweening.AxisConstraint,System.Nullable{UnityEngine.Vector3})
+  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOLookAt_Rigidbody_Vector3_System_Single_DG_Tweening_AxisConstraint_System_Nullable_Vector3__
+  commentId: M:DG.Tweening.DOTweenModulePhysics.DOLookAt(Rigidbody,Vector3,System.Single,DG.Tweening.AxisConstraint,System.Nullable{Vector3})
   name.vb: DOLookAt(Rigidbody, Vector3, Single, AxisConstraint, Nullable(Of Vector3))
-  fullName: DG.Tweening.DOTweenModulePhysics.DOLookAt(UnityEngine.Rigidbody, UnityEngine.Vector3, System.Single, DG.Tweening.AxisConstraint, System.Nullable<UnityEngine.Vector3>)
-  fullName.vb: DG.Tweening.DOTweenModulePhysics.DOLookAt(UnityEngine.Rigidbody, UnityEngine.Vector3, System.Single, DG.Tweening.AxisConstraint, System.Nullable(Of UnityEngine.Vector3))
+  fullName: DG.Tweening.DOTweenModulePhysics.DOLookAt(Rigidbody, Vector3, System.Single, DG.Tweening.AxisConstraint, System.Nullable<Vector3>)
+  fullName.vb: DG.Tweening.DOTweenModulePhysics.DOLookAt(Rigidbody, Vector3, System.Single, DG.Tweening.AxisConstraint, System.Nullable(Of Vector3))
   nameWithType: DOTweenModulePhysics.DOLookAt(Rigidbody, Vector3, Single, AxisConstraint, Nullable<Vector3>)
   nameWithType.vb: DOTweenModulePhysics.DOLookAt(Rigidbody, Vector3, Single, AxisConstraint, Nullable(Of Vector3))
 - uid: DG.Tweening.DOTweenModulePhysics.DOLookAt*
@@ -90,11 +90,11 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModulePhysics.DOLookAt
   nameWithType: DOTweenModulePhysics.DOLookAt
-- uid: DG.Tweening.DOTweenModulePhysics.DOMove(UnityEngine.Rigidbody,UnityEngine.Vector3,System.Single,System.Boolean)
+- uid: DG.Tweening.DOTweenModulePhysics.DOMove(Rigidbody,Vector3,System.Single,System.Boolean)
   name: DOMove(Rigidbody, Vector3, Single, Boolean)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMove_UnityEngine_Rigidbody_UnityEngine_Vector3_System_Single_System_Boolean_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMove(UnityEngine.Rigidbody,UnityEngine.Vector3,System.Single,System.Boolean)
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMove(UnityEngine.Rigidbody, UnityEngine.Vector3, System.Single, System.Boolean)
+  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMove_Rigidbody_Vector3_System_Single_System_Boolean_
+  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMove(Rigidbody,Vector3,System.Single,System.Boolean)
+  fullName: DG.Tweening.DOTweenModulePhysics.DOMove(Rigidbody, Vector3, System.Single, System.Boolean)
   nameWithType: DOTweenModulePhysics.DOMove(Rigidbody, Vector3, Single, Boolean)
 - uid: DG.Tweening.DOTweenModulePhysics.DOMove*
   name: DOMove
@@ -103,11 +103,11 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModulePhysics.DOMove
   nameWithType: DOTweenModulePhysics.DOMove
-- uid: DG.Tweening.DOTweenModulePhysics.DOMoveX(UnityEngine.Rigidbody,System.Single,System.Single,System.Boolean)
+- uid: DG.Tweening.DOTweenModulePhysics.DOMoveX(Rigidbody,System.Single,System.Single,System.Boolean)
   name: DOMoveX(Rigidbody, Single, Single, Boolean)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveX_UnityEngine_Rigidbody_System_Single_System_Single_System_Boolean_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMoveX(UnityEngine.Rigidbody,System.Single,System.Single,System.Boolean)
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveX(UnityEngine.Rigidbody, System.Single, System.Single, System.Boolean)
+  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveX_Rigidbody_System_Single_System_Single_System_Boolean_
+  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMoveX(Rigidbody,System.Single,System.Single,System.Boolean)
+  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveX(Rigidbody, System.Single, System.Single, System.Boolean)
   nameWithType: DOTweenModulePhysics.DOMoveX(Rigidbody, Single, Single, Boolean)
 - uid: DG.Tweening.DOTweenModulePhysics.DOMoveX*
   name: DOMoveX
@@ -116,11 +116,11 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModulePhysics.DOMoveX
   nameWithType: DOTweenModulePhysics.DOMoveX
-- uid: DG.Tweening.DOTweenModulePhysics.DOMoveY(UnityEngine.Rigidbody,System.Single,System.Single,System.Boolean)
+- uid: DG.Tweening.DOTweenModulePhysics.DOMoveY(Rigidbody,System.Single,System.Single,System.Boolean)
   name: DOMoveY(Rigidbody, Single, Single, Boolean)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveY_UnityEngine_Rigidbody_System_Single_System_Single_System_Boolean_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMoveY(UnityEngine.Rigidbody,System.Single,System.Single,System.Boolean)
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveY(UnityEngine.Rigidbody, System.Single, System.Single, System.Boolean)
+  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveY_Rigidbody_System_Single_System_Single_System_Boolean_
+  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMoveY(Rigidbody,System.Single,System.Single,System.Boolean)
+  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveY(Rigidbody, System.Single, System.Single, System.Boolean)
   nameWithType: DOTweenModulePhysics.DOMoveY(Rigidbody, Single, Single, Boolean)
 - uid: DG.Tweening.DOTweenModulePhysics.DOMoveY*
   name: DOMoveY
@@ -129,11 +129,11 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModulePhysics.DOMoveY
   nameWithType: DOTweenModulePhysics.DOMoveY
-- uid: DG.Tweening.DOTweenModulePhysics.DOMoveZ(UnityEngine.Rigidbody,System.Single,System.Single,System.Boolean)
+- uid: DG.Tweening.DOTweenModulePhysics.DOMoveZ(Rigidbody,System.Single,System.Single,System.Boolean)
   name: DOMoveZ(Rigidbody, Single, Single, Boolean)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveZ_UnityEngine_Rigidbody_System_Single_System_Single_System_Boolean_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMoveZ(UnityEngine.Rigidbody,System.Single,System.Single,System.Boolean)
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveZ(UnityEngine.Rigidbody, System.Single, System.Single, System.Boolean)
+  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveZ_Rigidbody_System_Single_System_Single_System_Boolean_
+  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMoveZ(Rigidbody,System.Single,System.Single,System.Boolean)
+  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveZ(Rigidbody, System.Single, System.Single, System.Boolean)
   nameWithType: DOTweenModulePhysics.DOMoveZ(Rigidbody, Single, Single, Boolean)
 - uid: DG.Tweening.DOTweenModulePhysics.DOMoveZ*
   name: DOMoveZ
@@ -142,13 +142,13 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModulePhysics.DOMoveZ
   nameWithType: DOTweenModulePhysics.DOMoveZ
-- uid: DG.Tweening.DOTweenModulePhysics.DOPath(UnityEngine.Rigidbody,UnityEngine.Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{UnityEngine.Color})
+- uid: DG.Tweening.DOTweenModulePhysics.DOPath(Rigidbody,Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{Color})
   name: DOPath(Rigidbody, Vector3[], Single, PathType, PathMode, Int32, Nullable<Color>)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOPath_UnityEngine_Rigidbody_UnityEngine_Vector3___System_Single_DG_Tweening_PathType_DG_Tweening_PathMode_System_Int32_System_Nullable_UnityEngine_Color__
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOPath(UnityEngine.Rigidbody,UnityEngine.Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{UnityEngine.Color})
+  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOPath_Rigidbody_Vector3___System_Single_DG_Tweening_PathType_DG_Tweening_PathMode_System_Int32_System_Nullable_Color__
+  commentId: M:DG.Tweening.DOTweenModulePhysics.DOPath(Rigidbody,Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{Color})
   name.vb: DOPath(Rigidbody, Vector3(), Single, PathType, PathMode, Int32, Nullable(Of Color))
-  fullName: DG.Tweening.DOTweenModulePhysics.DOPath(UnityEngine.Rigidbody, UnityEngine.Vector3[], System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable<UnityEngine.Color>)
-  fullName.vb: DG.Tweening.DOTweenModulePhysics.DOPath(UnityEngine.Rigidbody, UnityEngine.Vector3(), System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable(Of UnityEngine.Color))
+  fullName: DG.Tweening.DOTweenModulePhysics.DOPath(Rigidbody, Vector3[], System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable<Color>)
+  fullName.vb: DG.Tweening.DOTweenModulePhysics.DOPath(Rigidbody, Vector3(), System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable(Of Color))
   nameWithType: DOTweenModulePhysics.DOPath(Rigidbody, Vector3[], Single, PathType, PathMode, Int32, Nullable<Color>)
   nameWithType.vb: DOTweenModulePhysics.DOPath(Rigidbody, Vector3(), Single, PathType, PathMode, Int32, Nullable(Of Color))
 - uid: DG.Tweening.DOTweenModulePhysics.DOPath*
@@ -158,11 +158,11 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModulePhysics.DOPath
   nameWithType: DOTweenModulePhysics.DOPath
-- uid: DG.Tweening.DOTweenModulePhysics.DORotate(UnityEngine.Rigidbody,UnityEngine.Vector3,System.Single,DG.Tweening.RotateMode)
+- uid: DG.Tweening.DOTweenModulePhysics.DORotate(Rigidbody,Vector3,System.Single,DG.Tweening.RotateMode)
   name: DORotate(Rigidbody, Vector3, Single, RotateMode)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DORotate_UnityEngine_Rigidbody_UnityEngine_Vector3_System_Single_DG_Tweening_RotateMode_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DORotate(UnityEngine.Rigidbody,UnityEngine.Vector3,System.Single,DG.Tweening.RotateMode)
-  fullName: DG.Tweening.DOTweenModulePhysics.DORotate(UnityEngine.Rigidbody, UnityEngine.Vector3, System.Single, DG.Tweening.RotateMode)
+  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DORotate_Rigidbody_Vector3_System_Single_DG_Tweening_RotateMode_
+  commentId: M:DG.Tweening.DOTweenModulePhysics.DORotate(Rigidbody,Vector3,System.Single,DG.Tweening.RotateMode)
+  fullName: DG.Tweening.DOTweenModulePhysics.DORotate(Rigidbody, Vector3, System.Single, DG.Tweening.RotateMode)
   nameWithType: DOTweenModulePhysics.DORotate(Rigidbody, Vector3, Single, RotateMode)
 - uid: DG.Tweening.DOTweenModulePhysics.DORotate*
   name: DORotate
@@ -202,11 +202,11 @@ references:
   commentId: T:DG.Tweening.DOTweenModuleUtils.Physics
   fullName: DG.Tweening.DOTweenModuleUtils.Physics
   nameWithType: DOTweenModuleUtils.Physics
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween(UnityEngine.MonoBehaviour,System.Boolean,System.Boolean,DG.Tweening.Plugins.Core.PathCore.Path,System.Single,DG.Tweening.PathMode)
+- uid: DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween(MonoBehaviour,System.Boolean,System.Boolean,DG.Tweening.Plugins.Core.PathCore.Path,System.Single,DG.Tweening.PathMode)
   name: CreateDOTweenPathTween(MonoBehaviour, Boolean, Boolean, Path, Single, PathMode)
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_CreateDOTweenPathTween_UnityEngine_MonoBehaviour_System_Boolean_System_Boolean_DG_Tweening_Plugins_Core_PathCore_Path_System_Single_DG_Tweening_PathMode_
-  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween(UnityEngine.MonoBehaviour,System.Boolean,System.Boolean,DG.Tweening.Plugins.Core.PathCore.Path,System.Single,DG.Tweening.PathMode)
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween(UnityEngine.MonoBehaviour, System.Boolean, System.Boolean, DG.Tweening.Plugins.Core.PathCore.Path, System.Single, DG.Tweening.PathMode)
+  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_CreateDOTweenPathTween_MonoBehaviour_System_Boolean_System_Boolean_DG_Tweening_Plugins_Core_PathCore_Path_System_Single_DG_Tweening_PathMode_
+  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween(MonoBehaviour,System.Boolean,System.Boolean,DG.Tweening.Plugins.Core.PathCore.Path,System.Single,DG.Tweening.PathMode)
+  fullName: DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween(MonoBehaviour, System.Boolean, System.Boolean, DG.Tweening.Plugins.Core.PathCore.Path, System.Single, DG.Tweening.PathMode)
   nameWithType: DOTweenModuleUtils.Physics.CreateDOTweenPathTween(MonoBehaviour, Boolean, Boolean, Path, Single, PathMode)
 - uid: DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween*
   name: CreateDOTweenPathTween
@@ -215,11 +215,11 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween
   nameWithType: DOTweenModuleUtils.Physics.CreateDOTweenPathTween
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody(UnityEngine.Component)
+- uid: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody(Component)
   name: HasRigidbody(Component)
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_HasRigidbody_UnityEngine_Component_
-  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody(UnityEngine.Component)
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody(UnityEngine.Component)
+  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_HasRigidbody_Component_
+  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody(Component)
+  fullName: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody(Component)
   nameWithType: DOTweenModuleUtils.Physics.HasRigidbody(Component)
 - uid: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody*
   name: HasRigidbody
@@ -228,11 +228,11 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody
   nameWithType: DOTweenModuleUtils.Physics.HasRigidbody
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D(UnityEngine.Component)
+- uid: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D(Component)
   name: HasRigidbody2D(Component)
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_HasRigidbody2D_UnityEngine_Component_
-  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D(UnityEngine.Component)
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D(UnityEngine.Component)
+  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_HasRigidbody2D_Component_
+  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D(Component)
+  fullName: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D(Component)
   nameWithType: DOTweenModuleUtils.Physics.HasRigidbody2D(Component)
 - uid: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D*
   name: HasRigidbody2D
@@ -241,11 +241,11 @@ references:
   isSpec: "True"
   fullName: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D
   nameWithType: DOTweenModuleUtils.Physics.HasRigidbody2D
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath(DG.Tweening.Plugins.Options.PathOptions,DG.Tweening.Tween,UnityEngine.Quaternion,UnityEngine.Transform)
+- uid: DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath(DG.Tweening.Plugins.Options.PathOptions,DG.Tweening.Tween,Quaternion,Transform)
   name: SetOrientationOnPath(PathOptions, Tween, Quaternion, Transform)
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_SetOrientationOnPath_DG_Tweening_Plugins_Options_PathOptions_DG_Tweening_Tween_UnityEngine_Quaternion_UnityEngine_Transform_
-  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath(DG.Tweening.Plugins.Options.PathOptions,DG.Tweening.Tween,UnityEngine.Quaternion,UnityEngine.Transform)
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath(DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Tween, UnityEngine.Quaternion, UnityEngine.Transform)
+  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_SetOrientationOnPath_DG_Tweening_Plugins_Options_PathOptions_DG_Tweening_Tween_Quaternion_Transform_
+  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath(DG.Tweening.Plugins.Options.PathOptions,DG.Tweening.Tween,Quaternion,Transform)
+  fullName: DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath(DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Tween, Quaternion, Transform)
   nameWithType: DOTweenModuleUtils.Physics.SetOrientationOnPath(PathOptions, Tween, Quaternion, Transform)
 - uid: DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath*
   name: SetOrientationOnPath
@@ -278,13 +278,13 @@ references:
   commentId: F:Kit.ActivityManager.activityConfiguration
   fullName: Kit.ActivityManager.activityConfiguration
   nameWithType: ActivityManager.activityConfiguration
-- uid: Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List{UnityEngine.GameObject},System.Collections.Generic.List{Kit.DataModel.CustomTransform})
+- uid: Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List{GameObject},System.Collections.Generic.List{Kit.DataModel.CustomTransform})
   name: assignSpawnPoints(List<GameObject>, List<DataModel.CustomTransform>)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_assignSpawnPoints_System_Collections_Generic_List_UnityEngine_GameObject__System_Collections_Generic_List_Kit_DataModel_CustomTransform__
-  commentId: M:Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List{UnityEngine.GameObject},System.Collections.Generic.List{Kit.DataModel.CustomTransform})
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_assignSpawnPoints_System_Collections_Generic_List_GameObject__System_Collections_Generic_List_Kit_DataModel_CustomTransform__
+  commentId: M:Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List{GameObject},System.Collections.Generic.List{Kit.DataModel.CustomTransform})
   name.vb: assignSpawnPoints(List(Of GameObject), List(Of DataModel.CustomTransform))
-  fullName: Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List<UnityEngine.GameObject>, System.Collections.Generic.List<Kit.DataModel.CustomTransform>)
-  fullName.vb: Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List(Of UnityEngine.GameObject), System.Collections.Generic.List(Of Kit.DataModel.CustomTransform))
+  fullName: Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List<GameObject>, System.Collections.Generic.List<Kit.DataModel.CustomTransform>)
+  fullName.vb: Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List(Of GameObject), System.Collections.Generic.List(Of Kit.DataModel.CustomTransform))
   nameWithType: ActivityManager.assignSpawnPoints(List<GameObject>, List<DataModel.CustomTransform>)
   nameWithType.vb: ActivityManager.assignSpawnPoints(List(Of GameObject), List(Of DataModel.CustomTransform))
 - uid: Kit.ActivityManager.assignSpawnPoints*
@@ -307,24 +307,24 @@ references:
   isSpec: "True"
   fullName: Kit.ActivityManager.AssistantTriggered
   nameWithType: ActivityManager.AssistantTriggered
+- uid: Kit.ActivityManager.checkCorrectAction(GameObject)
+  name: checkCorrectAction(GameObject)
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_checkCorrectAction_GameObject_
+  commentId: M:Kit.ActivityManager.checkCorrectAction(GameObject)
+  fullName: Kit.ActivityManager.checkCorrectAction(GameObject)
+  nameWithType: ActivityManager.checkCorrectAction(GameObject)
+- uid: Kit.ActivityManager.checkCorrectAction(GameObject,GameObject)
+  name: checkCorrectAction(GameObject, GameObject)
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_checkCorrectAction_GameObject_GameObject_
+  commentId: M:Kit.ActivityManager.checkCorrectAction(GameObject,GameObject)
+  fullName: Kit.ActivityManager.checkCorrectAction(GameObject, GameObject)
+  nameWithType: ActivityManager.checkCorrectAction(GameObject, GameObject)
 - uid: Kit.ActivityManager.checkCorrectAction(System.String)
   name: checkCorrectAction(String)
   href: api/Kit.ActivityManager.html#Kit_ActivityManager_checkCorrectAction_System_String_
   commentId: M:Kit.ActivityManager.checkCorrectAction(System.String)
   fullName: Kit.ActivityManager.checkCorrectAction(System.String)
   nameWithType: ActivityManager.checkCorrectAction(String)
-- uid: Kit.ActivityManager.checkCorrectAction(UnityEngine.GameObject)
-  name: checkCorrectAction(GameObject)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_checkCorrectAction_UnityEngine_GameObject_
-  commentId: M:Kit.ActivityManager.checkCorrectAction(UnityEngine.GameObject)
-  fullName: Kit.ActivityManager.checkCorrectAction(UnityEngine.GameObject)
-  nameWithType: ActivityManager.checkCorrectAction(GameObject)
-- uid: Kit.ActivityManager.checkCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
-  name: checkCorrectAction(GameObject, GameObject)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_checkCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
-  commentId: M:Kit.ActivityManager.checkCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
-  fullName: Kit.ActivityManager.checkCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
-  nameWithType: ActivityManager.checkCorrectAction(GameObject, GameObject)
 - uid: Kit.ActivityManager.checkCorrectAction*
   name: checkCorrectAction
   href: api/Kit.ActivityManager.html#Kit_ActivityManager_checkCorrectAction_
@@ -471,13 +471,13 @@ references:
   isSpec: "True"
   fullName: Kit.ActivityManager.playSingleInstruction
   nameWithType: ActivityManager.playSingleInstruction
-- uid: Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List{UnityEngine.GameObject})
+- uid: Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List{GameObject})
   name: randomizeObjSpawn(List<GameObject>)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_randomizeObjSpawn_System_Collections_Generic_List_UnityEngine_GameObject__
-  commentId: M:Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List{UnityEngine.GameObject})
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_randomizeObjSpawn_System_Collections_Generic_List_GameObject__
+  commentId: M:Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List{GameObject})
   name.vb: randomizeObjSpawn(List(Of GameObject))
-  fullName: Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List<UnityEngine.GameObject>)
-  fullName.vb: Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List(Of UnityEngine.GameObject))
+  fullName: Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List<GameObject>)
+  fullName.vb: Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List(Of GameObject))
   nameWithType: ActivityManager.randomizeObjSpawn(List<GameObject>)
   nameWithType.vb: ActivityManager.randomizeObjSpawn(List(Of GameObject))
 - uid: Kit.ActivityManager.randomizeObjSpawn*
@@ -570,11 +570,11 @@ references:
   isSpec: "True"
   fullName: Kit.AudioManager.instance
   nameWithType: AudioManager.instance
-- uid: Kit.AudioManager.PlayAudio(UnityEngine.AudioClip,UnityEngine.AudioSource)
+- uid: Kit.AudioManager.PlayAudio(AudioClip,AudioSource)
   name: PlayAudio(AudioClip, AudioSource)
-  href: api/Kit.AudioManager.html#Kit_AudioManager_PlayAudio_UnityEngine_AudioClip_UnityEngine_AudioSource_
-  commentId: M:Kit.AudioManager.PlayAudio(UnityEngine.AudioClip,UnityEngine.AudioSource)
-  fullName: Kit.AudioManager.PlayAudio(UnityEngine.AudioClip, UnityEngine.AudioSource)
+  href: api/Kit.AudioManager.html#Kit_AudioManager_PlayAudio_AudioClip_AudioSource_
+  commentId: M:Kit.AudioManager.PlayAudio(AudioClip,AudioSource)
+  fullName: Kit.AudioManager.PlayAudio(AudioClip, AudioSource)
   nameWithType: AudioManager.PlayAudio(AudioClip, AudioSource)
 - uid: Kit.AudioManager.PlayAudio*
   name: PlayAudio
@@ -1293,11 +1293,11 @@ references:
   isSpec: "True"
   fullName: Kit.EventManager.instance
   nameWithType: EventManager.instance
-- uid: Kit.EventManager.StartListening(System.String,UnityEngine.Events.UnityAction)
+- uid: Kit.EventManager.StartListening(System.String,UnityAction)
   name: StartListening(String, UnityAction)
-  href: api/Kit.EventManager.html#Kit_EventManager_StartListening_System_String_UnityEngine_Events_UnityAction_
-  commentId: M:Kit.EventManager.StartListening(System.String,UnityEngine.Events.UnityAction)
-  fullName: Kit.EventManager.StartListening(System.String, UnityEngine.Events.UnityAction)
+  href: api/Kit.EventManager.html#Kit_EventManager_StartListening_System_String_UnityAction_
+  commentId: M:Kit.EventManager.StartListening(System.String,UnityAction)
+  fullName: Kit.EventManager.StartListening(System.String, UnityAction)
   nameWithType: EventManager.StartListening(String, UnityAction)
 - uid: Kit.EventManager.StartListening*
   name: StartListening
@@ -1306,11 +1306,11 @@ references:
   isSpec: "True"
   fullName: Kit.EventManager.StartListening
   nameWithType: EventManager.StartListening
-- uid: Kit.EventManager.StopListening(System.String,UnityEngine.Events.UnityAction)
+- uid: Kit.EventManager.StopListening(System.String,UnityAction)
   name: StopListening(String, UnityAction)
-  href: api/Kit.EventManager.html#Kit_EventManager_StopListening_System_String_UnityEngine_Events_UnityAction_
-  commentId: M:Kit.EventManager.StopListening(System.String,UnityEngine.Events.UnityAction)
-  fullName: Kit.EventManager.StopListening(System.String, UnityEngine.Events.UnityAction)
+  href: api/Kit.EventManager.html#Kit_EventManager_StopListening_System_String_UnityAction_
+  commentId: M:Kit.EventManager.StopListening(System.String,UnityAction)
+  fullName: Kit.EventManager.StopListening(System.String, UnityAction)
   nameWithType: EventManager.StopListening(String, UnityAction)
 - uid: Kit.EventManager.StopListening*
   name: StopListening
@@ -1899,11 +1899,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.DragHold.ActiveTargets
   nameWithType: DragHold.ActiveTargets
-- uid: Kit.StepGroupManagers.DragHold.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.DragHold.CheckCorrectAction(GameObject,GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.DragHold.html#Kit_StepGroupManagers_DragHold_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.DragHold.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.DragHold.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.DragHold.html#Kit_StepGroupManagers_DragHold_CheckCorrectAction_GameObject_GameObject_
+  commentId: M:Kit.StepGroupManagers.DragHold.CheckCorrectAction(GameObject,GameObject)
+  fullName: Kit.StepGroupManagers.DragHold.CheckCorrectAction(GameObject, GameObject)
   nameWithType: DragHold.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.DragHold.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2014,11 +2014,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.DragMove.ActiveTargets
   nameWithType: DragMove.ActiveTargets
-- uid: Kit.StepGroupManagers.DragMove.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.DragMove.CheckCorrectAction(GameObject,GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.DragMove.html#Kit_StepGroupManagers_DragMove_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.DragMove.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.DragMove.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.DragMove.html#Kit_StepGroupManagers_DragMove_CheckCorrectAction_GameObject_GameObject_
+  commentId: M:Kit.StepGroupManagers.DragMove.CheckCorrectAction(GameObject,GameObject)
+  fullName: Kit.StepGroupManagers.DragMove.CheckCorrectAction(GameObject, GameObject)
   nameWithType: DragMove.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.DragMove.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2100,11 +2100,11 @@ references:
   commentId: T:Kit.StepGroupManagers.DragRelease
   fullName: Kit.StepGroupManagers.DragRelease
   nameWithType: DragRelease
-- uid: Kit.StepGroupManagers.DragRelease.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.DragRelease.CheckCorrectAction(GameObject,GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.DragRelease.html#Kit_StepGroupManagers_DragRelease_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.DragRelease.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.DragRelease.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.DragRelease.html#Kit_StepGroupManagers_DragRelease_CheckCorrectAction_GameObject_GameObject_
+  commentId: M:Kit.StepGroupManagers.DragRelease.CheckCorrectAction(GameObject,GameObject)
+  fullName: Kit.StepGroupManagers.DragRelease.CheckCorrectAction(GameObject, GameObject)
   nameWithType: DragRelease.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.DragRelease.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2183,17 +2183,17 @@ references:
   commentId: T:Kit.StepGroupManagers.ExpressionsAssociate
   fullName: Kit.StepGroupManagers.ExpressionsAssociate
   nameWithType: ExpressionsAssociate
-- uid: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject)
   name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.ExpressionsAssociate.html#Kit_StepGroupManagers_ExpressionsAssociate_CheckCorrectAction_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.ExpressionsAssociate.html#Kit_StepGroupManagers_ExpressionsAssociate_CheckCorrectAction_GameObject_
+  commentId: M:Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject)
+  fullName: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject)
   nameWithType: ExpressionsAssociate.CheckCorrectAction(GameObject)
-- uid: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject,GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.ExpressionsAssociate.html#Kit_StepGroupManagers_ExpressionsAssociate_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.ExpressionsAssociate.html#Kit_StepGroupManagers_ExpressionsAssociate_CheckCorrectAction_GameObject_GameObject_
+  commentId: M:Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject,GameObject)
+  fullName: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject, GameObject)
   nameWithType: ExpressionsAssociate.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2240,11 +2240,11 @@ references:
   commentId: T:Kit.StepGroupManagers.ExpressionsComplete
   fullName: Kit.StepGroupManagers.ExpressionsComplete
   nameWithType: ExpressionsComplete
-- uid: Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(GameObject)
   name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.ExpressionsComplete.html#Kit_StepGroupManagers_ExpressionsComplete_CheckCorrectAction_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.ExpressionsComplete.html#Kit_StepGroupManagers_ExpressionsComplete_CheckCorrectAction_GameObject_
+  commentId: M:Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(GameObject)
+  fullName: Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(GameObject)
   nameWithType: ExpressionsComplete.CheckCorrectAction(GameObject)
 - uid: Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2307,17 +2307,17 @@ references:
   commentId: T:Kit.StepGroupManagers.ExpressionsReorder
   fullName: Kit.StepGroupManagers.ExpressionsReorder
   nameWithType: ExpressionsReorder
-- uid: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject)
   name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.ExpressionsReorder.html#Kit_StepGroupManagers_ExpressionsReorder_CheckCorrectAction_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.ExpressionsReorder.html#Kit_StepGroupManagers_ExpressionsReorder_CheckCorrectAction_GameObject_
+  commentId: M:Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject)
+  fullName: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject)
   nameWithType: ExpressionsReorder.CheckCorrectAction(GameObject)
-- uid: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject,GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.ExpressionsReorder.html#Kit_StepGroupManagers_ExpressionsReorder_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.ExpressionsReorder.html#Kit_StepGroupManagers_ExpressionsReorder_CheckCorrectAction_GameObject_GameObject_
+  commentId: M:Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject,GameObject)
+  fullName: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject, GameObject)
   nameWithType: ExpressionsReorder.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2348,11 +2348,11 @@ references:
   commentId: T:Kit.StepGroupManagers.Select
   fullName: Kit.StepGroupManagers.Select
   nameWithType: Select
-- uid: Kit.StepGroupManagers.Select.CheckCorrectAction(UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.Select.CheckCorrectAction(GameObject)
   name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.Select.html#Kit_StepGroupManagers_Select_CheckCorrectAction_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.Select.CheckCorrectAction(UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.Select.CheckCorrectAction(UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.Select.html#Kit_StepGroupManagers_Select_CheckCorrectAction_GameObject_
+  commentId: M:Kit.StepGroupManagers.Select.CheckCorrectAction(GameObject)
+  fullName: Kit.StepGroupManagers.Select.CheckCorrectAction(GameObject)
   nameWithType: Select.CheckCorrectAction(GameObject)
 - uid: Kit.StepGroupManagers.Select.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2431,11 +2431,11 @@ references:
   commentId: T:Kit.StepGroupManagers.SelectNear
   fullName: Kit.StepGroupManagers.SelectNear
   nameWithType: SelectNear
-- uid: Kit.StepGroupManagers.SelectNear.CheckCorrectAction(UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.SelectNear.CheckCorrectAction(GameObject)
   name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.SelectNear.html#Kit_StepGroupManagers_SelectNear_CheckCorrectAction_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.SelectNear.CheckCorrectAction(UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.SelectNear.CheckCorrectAction(UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.SelectNear.html#Kit_StepGroupManagers_SelectNear_CheckCorrectAction_GameObject_
+  commentId: M:Kit.StepGroupManagers.SelectNear.CheckCorrectAction(GameObject)
+  fullName: Kit.StepGroupManagers.SelectNear.CheckCorrectAction(GameObject)
   nameWithType: SelectNear.CheckCorrectAction(GameObject)
 - uid: Kit.StepGroupManagers.SelectNear.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2590,24 +2590,24 @@ references:
   commentId: F:Kit.StepGroupManagers.StepGroupManagerBase._initialScale
   fullName: Kit.StepGroupManagers.StepGroupManagerBase._initialScale
   nameWithType: StepGroupManagerBase._initialScale
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject)
+  name: CheckCorrectAction(GameObject)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject)
+  nameWithType: StepGroupManagerBase.CheckCorrectAction(GameObject)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject,GameObject)
+  name: CheckCorrectAction(GameObject, GameObject)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_GameObject_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject,GameObject)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject, GameObject)
+  nameWithType: StepGroupManagerBase.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(System.String)
   name: CheckCorrectAction(String)
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_System_String_
   commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(System.String)
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(System.String)
   nameWithType: StepGroupManagerBase.CheckCorrectAction(String)
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject)
-  name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject)
-  nameWithType: StepGroupManagerBase.CheckCorrectAction(GameObject)
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
-  name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
-  nameWithType: StepGroupManagerBase.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction*
   name: CheckCorrectAction
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_
@@ -2721,11 +2721,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.SelectWrong
   nameWithType: StepGroupManagerBase.SelectWrong
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(GameObject)
   name: SetFinalPosition(GameObject)
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_GameObject_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(GameObject)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(GameObject)
   nameWithType: StepGroupManagerBase.SetFinalPosition(GameObject)
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition*
   name: SetFinalPosition
@@ -2734,11 +2734,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition
   nameWithType: StepGroupManagerBase.SetFinalPosition
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(GameObject)
   name: SetFinalRotation(GameObject)
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_GameObject_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(GameObject)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(GameObject)
   nameWithType: StepGroupManagerBase.SetFinalRotation(GameObject)
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation*
   name: SetFinalRotation
@@ -2763,11 +2763,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetStepsInCurrentGroup
   nameWithType: StepGroupManagerBase.SetStepsInCurrentGroup
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(UnityEngine.GameObject)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(GameObject)
   name: StopVisualFeedback(GameObject)
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_UnityEngine_GameObject_
-  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(UnityEngine.GameObject)
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(UnityEngine.GameObject)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_GameObject_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(GameObject)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(GameObject)
   nameWithType: StepGroupManagerBase.StopVisualFeedback(GameObject)
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback*
   name: StopVisualFeedback
@@ -3087,11 +3087,11 @@ references:
   commentId: T:Kit.UI.PopupManager
   fullName: Kit.UI.PopupManager
   nameWithType: PopupManager
-- uid: Kit.UI.PopupManager.ActivatePopup(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,UnityEngine.Events.UnityAction,UnityEngine.Events.UnityAction)
+- uid: Kit.UI.PopupManager.ActivatePopup(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,UnityAction,UnityAction)
   name: ActivatePopup(String, String, Boolean, Boolean, String, String, UnityAction, UnityAction)
-  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_ActivatePopup_System_String_System_String_System_Boolean_System_Boolean_System_String_System_String_UnityEngine_Events_UnityAction_UnityEngine_Events_UnityAction_
-  commentId: M:Kit.UI.PopupManager.ActivatePopup(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,UnityEngine.Events.UnityAction,UnityEngine.Events.UnityAction)
-  fullName: Kit.UI.PopupManager.ActivatePopup(System.String, System.String, System.Boolean, System.Boolean, System.String, System.String, UnityEngine.Events.UnityAction, UnityEngine.Events.UnityAction)
+  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_ActivatePopup_System_String_System_String_System_Boolean_System_Boolean_System_String_System_String_UnityAction_UnityAction_
+  commentId: M:Kit.UI.PopupManager.ActivatePopup(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,UnityAction,UnityAction)
+  fullName: Kit.UI.PopupManager.ActivatePopup(System.String, System.String, System.Boolean, System.Boolean, System.String, System.String, UnityAction, UnityAction)
   nameWithType: PopupManager.ActivatePopup(String, String, Boolean, Boolean, String, String, UnityAction, UnityAction)
 - uid: Kit.UI.PopupManager.ActivatePopup*
   name: ActivatePopup
@@ -3283,11 +3283,11 @@ references:
   commentId: F:Kit.UI.TabsManager.InactiveTab
   fullName: Kit.UI.TabsManager.InactiveTab
   nameWithType: TabsManager.InactiveTab
-- uid: Kit.UI.TabsManager.PageActivated(UnityEngine.GameObject)
+- uid: Kit.UI.TabsManager.PageActivated(GameObject)
   name: PageActivated(GameObject)
-  href: api/Kit.UI.TabsManager.html#Kit_UI_TabsManager_PageActivated_UnityEngine_GameObject_
-  commentId: M:Kit.UI.TabsManager.PageActivated(UnityEngine.GameObject)
-  fullName: Kit.UI.TabsManager.PageActivated(UnityEngine.GameObject)
+  href: api/Kit.UI.TabsManager.html#Kit_UI_TabsManager_PageActivated_GameObject_
+  commentId: M:Kit.UI.TabsManager.PageActivated(GameObject)
+  fullName: Kit.UI.TabsManager.PageActivated(GameObject)
   nameWithType: TabsManager.PageActivated(GameObject)
 - uid: Kit.UI.TabsManager.PageActivated*
   name: PageActivated
@@ -3302,11 +3302,11 @@ references:
   commentId: F:Kit.UI.TabsManager.Pages
   fullName: Kit.UI.TabsManager.Pages
   nameWithType: TabsManager.Pages
-- uid: Kit.UI.TabsManager.TabActivated(UnityEngine.GameObject)
+- uid: Kit.UI.TabsManager.TabActivated(GameObject)
   name: TabActivated(GameObject)
-  href: api/Kit.UI.TabsManager.html#Kit_UI_TabsManager_TabActivated_UnityEngine_GameObject_
-  commentId: M:Kit.UI.TabsManager.TabActivated(UnityEngine.GameObject)
-  fullName: Kit.UI.TabsManager.TabActivated(UnityEngine.GameObject)
+  href: api/Kit.UI.TabsManager.html#Kit_UI_TabsManager_TabActivated_GameObject_
+  commentId: M:Kit.UI.TabsManager.TabActivated(GameObject)
+  fullName: Kit.UI.TabsManager.TabActivated(GameObject)
   nameWithType: TabsManager.TabActivated(GameObject)
 - uid: Kit.UI.TabsManager.TabActivated*
   name: TabActivated
@@ -3453,11 +3453,11 @@ references:
   commentId: F:Kit.UI.VirtualAssistantComponentFiller.assistantName
   fullName: Kit.UI.VirtualAssistantComponentFiller.assistantName
   nameWithType: VirtualAssistantComponentFiller.assistantName
-- uid: Kit.UI.VirtualAssistantComponentFiller.Fill(UnityEngine.Sprite)
+- uid: Kit.UI.VirtualAssistantComponentFiller.Fill(Sprite)
   name: Fill(Sprite)
-  href: api/Kit.UI.VirtualAssistantComponentFiller.html#Kit_UI_VirtualAssistantComponentFiller_Fill_UnityEngine_Sprite_
-  commentId: M:Kit.UI.VirtualAssistantComponentFiller.Fill(UnityEngine.Sprite)
-  fullName: Kit.UI.VirtualAssistantComponentFiller.Fill(UnityEngine.Sprite)
+  href: api/Kit.UI.VirtualAssistantComponentFiller.html#Kit_UI_VirtualAssistantComponentFiller_Fill_Sprite_
+  commentId: M:Kit.UI.VirtualAssistantComponentFiller.Fill(Sprite)
+  fullName: Kit.UI.VirtualAssistantComponentFiller.Fill(Sprite)
   nameWithType: VirtualAssistantComponentFiller.Fill(Sprite)
 - uid: Kit.UI.VirtualAssistantComponentFiller.Fill*
   name: Fill
@@ -3633,11 +3633,11 @@ references:
   isSpec: "True"
   fullName: YAProgressBar.BaseMeshGenerator.FillQuadInverse
   nameWithType: BaseMeshGenerator.FillQuadInverse
-- uid: YAProgressBar.BaseMeshGenerator.GenerateCircularMesh(UnityEngine.Mesh,YAProgressBar.CircularProgressBar)
+- uid: YAProgressBar.BaseMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
   name: GenerateCircularMesh(Mesh, CircularProgressBar)
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_GenerateCircularMesh_UnityEngine_Mesh_YAProgressBar_CircularProgressBar_
-  commentId: M:YAProgressBar.BaseMeshGenerator.GenerateCircularMesh(UnityEngine.Mesh,YAProgressBar.CircularProgressBar)
-  fullName: YAProgressBar.BaseMeshGenerator.GenerateCircularMesh(UnityEngine.Mesh, YAProgressBar.CircularProgressBar)
+  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_GenerateCircularMesh_Mesh_YAProgressBar_CircularProgressBar_
+  commentId: M:YAProgressBar.BaseMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
+  fullName: YAProgressBar.BaseMeshGenerator.GenerateCircularMesh(Mesh, YAProgressBar.CircularProgressBar)
   nameWithType: BaseMeshGenerator.GenerateCircularMesh(Mesh, CircularProgressBar)
 - uid: YAProgressBar.BaseMeshGenerator.GenerateCircularMesh*
   name: GenerateCircularMesh
@@ -3646,11 +3646,11 @@ references:
   isSpec: "True"
   fullName: YAProgressBar.BaseMeshGenerator.GenerateCircularMesh
   nameWithType: BaseMeshGenerator.GenerateCircularMesh
-- uid: YAProgressBar.BaseMeshGenerator.GenerateLinearMesh(UnityEngine.Mesh,YAProgressBar.LinearProgressBar)
+- uid: YAProgressBar.BaseMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
   name: GenerateLinearMesh(Mesh, LinearProgressBar)
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_GenerateLinearMesh_UnityEngine_Mesh_YAProgressBar_LinearProgressBar_
-  commentId: M:YAProgressBar.BaseMeshGenerator.GenerateLinearMesh(UnityEngine.Mesh,YAProgressBar.LinearProgressBar)
-  fullName: YAProgressBar.BaseMeshGenerator.GenerateLinearMesh(UnityEngine.Mesh, YAProgressBar.LinearProgressBar)
+  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_GenerateLinearMesh_Mesh_YAProgressBar_LinearProgressBar_
+  commentId: M:YAProgressBar.BaseMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
+  fullName: YAProgressBar.BaseMeshGenerator.GenerateLinearMesh(Mesh, YAProgressBar.LinearProgressBar)
   nameWithType: BaseMeshGenerator.GenerateLinearMesh(Mesh, LinearProgressBar)
 - uid: YAProgressBar.BaseMeshGenerator.GenerateLinearMesh*
   name: GenerateLinearMesh
@@ -3684,11 +3684,11 @@ references:
   commentId: F:YAProgressBar.BaseMeshGenerator.maxElementsCount
   fullName: YAProgressBar.BaseMeshGenerator.maxElementsCount
   nameWithType: BaseMeshGenerator.maxElementsCount
-- uid: YAProgressBar.BaseMeshGenerator.SetMaterialDivider(UnityEngine.Mesh,System.Single,System.Boolean,System.Int32,System.Boolean)
+- uid: YAProgressBar.BaseMeshGenerator.SetMaterialDivider(Mesh,System.Single,System.Boolean,System.Int32,System.Boolean)
   name: SetMaterialDivider(Mesh, Single, Boolean, Int32, Boolean)
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_SetMaterialDivider_UnityEngine_Mesh_System_Single_System_Boolean_System_Int32_System_Boolean_
-  commentId: M:YAProgressBar.BaseMeshGenerator.SetMaterialDivider(UnityEngine.Mesh,System.Single,System.Boolean,System.Int32,System.Boolean)
-  fullName: YAProgressBar.BaseMeshGenerator.SetMaterialDivider(UnityEngine.Mesh, System.Single, System.Boolean, System.Int32, System.Boolean)
+  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_SetMaterialDivider_Mesh_System_Single_System_Boolean_System_Int32_System_Boolean_
+  commentId: M:YAProgressBar.BaseMeshGenerator.SetMaterialDivider(Mesh,System.Single,System.Boolean,System.Int32,System.Boolean)
+  fullName: YAProgressBar.BaseMeshGenerator.SetMaterialDivider(Mesh, System.Single, System.Boolean, System.Int32, System.Boolean)
   nameWithType: BaseMeshGenerator.SetMaterialDivider(Mesh, Single, Boolean, Int32, Boolean)
 - uid: YAProgressBar.BaseMeshGenerator.SetMaterialDivider*
   name: SetMaterialDivider
@@ -3745,11 +3745,11 @@ references:
   isSpec: "True"
   fullName: YAProgressBar.BoxMeshGenerator.FillElementIndices
   nameWithType: BoxMeshGenerator.FillElementIndices
-- uid: YAProgressBar.BoxMeshGenerator.GenerateCircularMesh(UnityEngine.Mesh,YAProgressBar.CircularProgressBar)
+- uid: YAProgressBar.BoxMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
   name: GenerateCircularMesh(Mesh, CircularProgressBar)
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_GenerateCircularMesh_UnityEngine_Mesh_YAProgressBar_CircularProgressBar_
-  commentId: M:YAProgressBar.BoxMeshGenerator.GenerateCircularMesh(UnityEngine.Mesh,YAProgressBar.CircularProgressBar)
-  fullName: YAProgressBar.BoxMeshGenerator.GenerateCircularMesh(UnityEngine.Mesh, YAProgressBar.CircularProgressBar)
+  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_GenerateCircularMesh_Mesh_YAProgressBar_CircularProgressBar_
+  commentId: M:YAProgressBar.BoxMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
+  fullName: YAProgressBar.BoxMeshGenerator.GenerateCircularMesh(Mesh, YAProgressBar.CircularProgressBar)
   nameWithType: BoxMeshGenerator.GenerateCircularMesh(Mesh, CircularProgressBar)
 - uid: YAProgressBar.BoxMeshGenerator.GenerateCircularMesh*
   name: GenerateCircularMesh
@@ -3758,11 +3758,11 @@ references:
   isSpec: "True"
   fullName: YAProgressBar.BoxMeshGenerator.GenerateCircularMesh
   nameWithType: BoxMeshGenerator.GenerateCircularMesh
-- uid: YAProgressBar.BoxMeshGenerator.GenerateLinearMesh(UnityEngine.Mesh,YAProgressBar.LinearProgressBar)
+- uid: YAProgressBar.BoxMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
   name: GenerateLinearMesh(Mesh, LinearProgressBar)
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_GenerateLinearMesh_UnityEngine_Mesh_YAProgressBar_LinearProgressBar_
-  commentId: M:YAProgressBar.BoxMeshGenerator.GenerateLinearMesh(UnityEngine.Mesh,YAProgressBar.LinearProgressBar)
-  fullName: YAProgressBar.BoxMeshGenerator.GenerateLinearMesh(UnityEngine.Mesh, YAProgressBar.LinearProgressBar)
+  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_GenerateLinearMesh_Mesh_YAProgressBar_LinearProgressBar_
+  commentId: M:YAProgressBar.BoxMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
+  fullName: YAProgressBar.BoxMeshGenerator.GenerateLinearMesh(Mesh, YAProgressBar.LinearProgressBar)
   nameWithType: BoxMeshGenerator.GenerateLinearMesh(Mesh, LinearProgressBar)
 - uid: YAProgressBar.BoxMeshGenerator.GenerateLinearMesh*
   name: GenerateLinearMesh
@@ -3829,31 +3829,31 @@ references:
   isSpec: "True"
   fullName: YAProgressBar.CircularCurve.GetFullAngle
   nameWithType: CircularCurve.GetFullAngle
-- uid: YAProgressBar.CircularCurve.GetPoint(System.Single,UnityEngine.Quaternion@)
+- uid: YAProgressBar.CircularCurve.GetPoint(System.Single,Quaternion@)
   name: GetPoint(Single, out Quaternion)
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetPoint_System_Single_UnityEngine_Quaternion__
-  commentId: M:YAProgressBar.CircularCurve.GetPoint(System.Single,UnityEngine.Quaternion@)
+  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetPoint_System_Single_Quaternion__
+  commentId: M:YAProgressBar.CircularCurve.GetPoint(System.Single,Quaternion@)
   name.vb: GetPoint(Single, ByRef Quaternion)
-  fullName: YAProgressBar.CircularCurve.GetPoint(System.Single, out UnityEngine.Quaternion)
-  fullName.vb: YAProgressBar.CircularCurve.GetPoint(System.Single, ByRef UnityEngine.Quaternion)
+  fullName: YAProgressBar.CircularCurve.GetPoint(System.Single, out Quaternion)
+  fullName.vb: YAProgressBar.CircularCurve.GetPoint(System.Single, ByRef Quaternion)
   nameWithType: CircularCurve.GetPoint(Single, out Quaternion)
   nameWithType.vb: CircularCurve.GetPoint(Single, ByRef Quaternion)
-- uid: YAProgressBar.CircularCurve.GetPoint(System.Single,UnityEngine.Quaternion@,UnityEngine.Vector3@)
+- uid: YAProgressBar.CircularCurve.GetPoint(System.Single,Quaternion@,Vector3@)
   name: GetPoint(Single, out Quaternion, out Vector3)
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetPoint_System_Single_UnityEngine_Quaternion__UnityEngine_Vector3__
-  commentId: M:YAProgressBar.CircularCurve.GetPoint(System.Single,UnityEngine.Quaternion@,UnityEngine.Vector3@)
+  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetPoint_System_Single_Quaternion__Vector3__
+  commentId: M:YAProgressBar.CircularCurve.GetPoint(System.Single,Quaternion@,Vector3@)
   name.vb: GetPoint(Single, ByRef Quaternion, ByRef Vector3)
-  fullName: YAProgressBar.CircularCurve.GetPoint(System.Single, out UnityEngine.Quaternion, out UnityEngine.Vector3)
-  fullName.vb: YAProgressBar.CircularCurve.GetPoint(System.Single, ByRef UnityEngine.Quaternion, ByRef UnityEngine.Vector3)
+  fullName: YAProgressBar.CircularCurve.GetPoint(System.Single, out Quaternion, out Vector3)
+  fullName.vb: YAProgressBar.CircularCurve.GetPoint(System.Single, ByRef Quaternion, ByRef Vector3)
   nameWithType: CircularCurve.GetPoint(Single, out Quaternion, out Vector3)
   nameWithType.vb: CircularCurve.GetPoint(Single, ByRef Quaternion, ByRef Vector3)
-- uid: YAProgressBar.CircularCurve.GetPoint(System.Single,UnityEngine.Vector3@)
+- uid: YAProgressBar.CircularCurve.GetPoint(System.Single,Vector3@)
   name: GetPoint(Single, out Vector3)
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetPoint_System_Single_UnityEngine_Vector3__
-  commentId: M:YAProgressBar.CircularCurve.GetPoint(System.Single,UnityEngine.Vector3@)
+  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetPoint_System_Single_Vector3__
+  commentId: M:YAProgressBar.CircularCurve.GetPoint(System.Single,Vector3@)
   name.vb: GetPoint(Single, ByRef Vector3)
-  fullName: YAProgressBar.CircularCurve.GetPoint(System.Single, out UnityEngine.Vector3)
-  fullName.vb: YAProgressBar.CircularCurve.GetPoint(System.Single, ByRef UnityEngine.Vector3)
+  fullName: YAProgressBar.CircularCurve.GetPoint(System.Single, out Vector3)
+  fullName.vb: YAProgressBar.CircularCurve.GetPoint(System.Single, ByRef Vector3)
   nameWithType: CircularCurve.GetPoint(Single, out Vector3)
   nameWithType.vb: CircularCurve.GetPoint(Single, ByRef Vector3)
 - uid: YAProgressBar.CircularCurve.GetPoint*
@@ -4434,11 +4434,11 @@ references:
   isSpec: "True"
   fullName: YAProgressBar.QuadMeshGenerator.FlipNormal
   nameWithType: QuadMeshGenerator.FlipNormal
-- uid: YAProgressBar.QuadMeshGenerator.GenerateCircularMesh(UnityEngine.Mesh,YAProgressBar.CircularProgressBar)
+- uid: YAProgressBar.QuadMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
   name: GenerateCircularMesh(Mesh, CircularProgressBar)
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_GenerateCircularMesh_UnityEngine_Mesh_YAProgressBar_CircularProgressBar_
-  commentId: M:YAProgressBar.QuadMeshGenerator.GenerateCircularMesh(UnityEngine.Mesh,YAProgressBar.CircularProgressBar)
-  fullName: YAProgressBar.QuadMeshGenerator.GenerateCircularMesh(UnityEngine.Mesh, YAProgressBar.CircularProgressBar)
+  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_GenerateCircularMesh_Mesh_YAProgressBar_CircularProgressBar_
+  commentId: M:YAProgressBar.QuadMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
+  fullName: YAProgressBar.QuadMeshGenerator.GenerateCircularMesh(Mesh, YAProgressBar.CircularProgressBar)
   nameWithType: QuadMeshGenerator.GenerateCircularMesh(Mesh, CircularProgressBar)
 - uid: YAProgressBar.QuadMeshGenerator.GenerateCircularMesh*
   name: GenerateCircularMesh
@@ -4447,11 +4447,11 @@ references:
   isSpec: "True"
   fullName: YAProgressBar.QuadMeshGenerator.GenerateCircularMesh
   nameWithType: QuadMeshGenerator.GenerateCircularMesh
-- uid: YAProgressBar.QuadMeshGenerator.GenerateLinearMesh(UnityEngine.Mesh,YAProgressBar.LinearProgressBar)
+- uid: YAProgressBar.QuadMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
   name: GenerateLinearMesh(Mesh, LinearProgressBar)
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_GenerateLinearMesh_UnityEngine_Mesh_YAProgressBar_LinearProgressBar_
-  commentId: M:YAProgressBar.QuadMeshGenerator.GenerateLinearMesh(UnityEngine.Mesh,YAProgressBar.LinearProgressBar)
-  fullName: YAProgressBar.QuadMeshGenerator.GenerateLinearMesh(UnityEngine.Mesh, YAProgressBar.LinearProgressBar)
+  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_GenerateLinearMesh_Mesh_YAProgressBar_LinearProgressBar_
+  commentId: M:YAProgressBar.QuadMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
+  fullName: YAProgressBar.QuadMeshGenerator.GenerateLinearMesh(Mesh, YAProgressBar.LinearProgressBar)
   nameWithType: QuadMeshGenerator.GenerateLinearMesh(Mesh, LinearProgressBar)
 - uid: YAProgressBar.QuadMeshGenerator.GenerateLinearMesh*
   name: GenerateLinearMesh
