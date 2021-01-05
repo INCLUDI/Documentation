@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.ActivityManager.html",
-          "hash": "bfnOUg3o6LmWl4kjzC1dXQ=="
+          "hash": "awNhQj7Bd3K12Mjp9HfrZw=="
         }
       },
       "is_incremental": true,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.AudioManager.html",
-          "hash": "TgvP/I3yZBbFn9KmQNLTeQ=="
+          "hash": "ugjHZHM7cdj2Gsc2Cvj/bg=="
         }
       },
       "is_incremental": true,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.AuthManager.AuthBody.html",
-          "hash": "8CajxawAlc+wURMLRLAw2Q=="
+          "hash": "/z1oyRZDi3/cEbcg0Y1FZQ=="
         }
       },
       "is_incremental": true,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.AuthManager.Group.html",
-          "hash": "AQenzeSXqK1Jp8hJhcvw1Q=="
+          "hash": "Crta0GMmNvlkcTjhgEOplQ=="
         }
       },
       "is_incremental": true,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.AuthManager.Institute.html",
-          "hash": "lrKZpYrS8Y8+Ng4vOLuAHw=="
+          "hash": "w5+UkHEo2i35AK+cKe/KMw=="
         }
       },
       "is_incremental": true,
@@ -177,7 +177,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.AuthManager.SubjectData.html",
-          "hash": "itDAA0nK/uLSLDyDT0RS1w=="
+          "hash": "GTW71JoqVinQpDgNreEayA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kit.AuthManager.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kit.AuthManager.User.html",
+          "hash": "B7K485f+83yavC39yrYZTw=="
         }
       },
       "is_incremental": true,
@@ -189,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.AuthManager.html",
-          "hash": "V7K2U97ez0WXZ8DR2RlbCA=="
+          "hash": "Y36rv0z40j2lS0UUdLbzBw=="
         }
       },
       "is_incremental": true,
@@ -201,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.ConnectionManager.html",
-          "hash": "0f9YGjC3/IkKyGEIGI9kLA=="
+          "hash": "ciRtErs0a+fFahFaB3fwmA=="
         }
       },
       "is_incremental": true,
@@ -213,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.ActivityConfiguration.html",
-          "hash": "1cp90Dob4+CTswZhliu2LA=="
+          "hash": "48KDOC1B07xTYoVC2c/rVg=="
         }
       },
       "is_incremental": true,
@@ -225,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.ClassInfo.html",
-          "hash": "zWIQFrfpp67zQFdBPiMRKw=="
+          "hash": "bz1qUxbZ2mddNROWkrtBRQ=="
         }
       },
       "is_incremental": true,
@@ -237,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.CustomTransform.html",
-          "hash": "18JyAdRZ4giYEK3IlfKlCg=="
+          "hash": "8ihhxOFgBbPvVFDsfo7e4g=="
         }
       },
       "is_incremental": true,
@@ -249,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.CustomVector3.html",
-          "hash": "dPTMS8Mn2P8V5IaOffx2EA=="
+          "hash": "9xwy97xo135u7SVctHiSeA=="
         }
       },
       "is_incremental": true,
@@ -261,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.Instructions.html",
-          "hash": "blyBJZWvvyAwOg4sTcPn4g=="
+          "hash": "GykAtIgfhMYGpxhkjtcHvw=="
         }
       },
       "is_incremental": true,
@@ -273,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.Obj.html",
-          "hash": "9tQHf0T3VO/Omfy/tdp3TA=="
+          "hash": "+EaX5+9t5f3KIUNf75opuw=="
         }
       },
       "is_incremental": true,
@@ -285,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.ObjGroup.html",
-          "hash": "F+xx9GvMbmcFwNsrW+BJ5A=="
+          "hash": "vWsSH9MaxrnKE6GRi5k2oA=="
         }
       },
       "is_incremental": true,
@@ -297,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.Parameters.html",
-          "hash": "OEiwiLHoK92Se0ezgWjm/g=="
+          "hash": "WZ8g6rLQOUK5NIM4CV3YXw=="
         }
       },
       "is_incremental": true,
@@ -309,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.PlayerInfo.html",
-          "hash": "apH7Xzb95gvgG/8+kgpadA=="
+          "hash": "aMd/nRYW1pJ1QZ3wNofCmA=="
         }
       },
       "is_incremental": true,
@@ -321,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.Step.html",
-          "hash": "kZj9ErcICdh8PpNdM7XadA=="
+          "hash": "lAYKafjuCByfvr2ZVZURzw=="
         }
       },
       "is_incremental": true,
@@ -333,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.StepGroup.html",
-          "hash": "Xq5bEpHvNSQnJ1e4CurfFg=="
+          "hash": "CZcR8nZtr5pMdNjcZZg7rw=="
         }
       },
       "is_incremental": true,
@@ -345,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.VirtualAssistantInfo.html",
-          "hash": "eQ6FQZBeK82G69dSGL52Uw=="
+          "hash": "nmiKLnvZstZf8UKzuBVM+Q=="
         }
       },
       "is_incremental": true,
@@ -357,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.DataModel.html",
-          "hash": "DOfIWJ+uRjD+pKKxkI7Bww=="
+          "hash": "EI+8inl2oYuHrpEUEdxY/Q=="
         }
       },
       "is_incremental": true,
@@ -369,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.EventManager.html",
-          "hash": "b5NOMQxEE5cn/R/w7pfAZA=="
+          "hash": "MNccUAXLrXuB767WYKQyQA=="
         }
       },
       "is_incremental": true,
@@ -381,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.PlatformManager.html",
-          "hash": "Ru5D2N1VhAcJmSJeZEdAkQ=="
+          "hash": "XOe1jnT2ArFi+iX1LBLZcg=="
         }
       },
       "is_incremental": true,
@@ -393,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.SpeechBubbleManager.html",
-          "hash": "CM1DGZGynNXPihtrQ9csUw=="
+          "hash": "sPRa76WtTB2gNeoHe6OvMg=="
         }
       },
       "is_incremental": true,
@@ -405,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.SpeechToText.html",
-          "hash": "adsftFg0qruSyyE4Iis2rQ=="
+          "hash": "7sYRi1nLY6jhNaAFZD58aw=="
         }
       },
       "is_incremental": true,
@@ -417,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StatsManager.ActionParameters.html",
-          "hash": "8C27MU3T8QJ9iyTCuFXD3Q=="
+          "hash": "2E91rZgL5qoRR2nYpW5a5g=="
         }
       },
       "is_incremental": true,
@@ -429,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StatsManager.Session.html",
-          "hash": "9vmhK35sNGX5usCVvFS2LA=="
+          "hash": "f/2SoLFJx+McM3EzH1smtw=="
         }
       },
       "is_incremental": true,
@@ -441,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StatsManager.SessionBody.html",
-          "hash": "6UsJzRl/vISnqNkev0faiA=="
+          "hash": "E6CVaOX+1NarOzYGitcXWQ=="
         }
       },
       "is_incremental": true,
@@ -453,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StatsManager.StepParameter.html",
-          "hash": "anmqZdsV5L02SYkTdgfnYg=="
+          "hash": "/WS/ENEWbX2AjAsDGKdGcw=="
         }
       },
       "is_incremental": true,
@@ -465,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StatsManager.UserAction.html",
-          "hash": "Kpm0lt7sc7S4vSQTwiI2zg=="
+          "hash": "L6UTUxs1gx1rdnuKWeYPzw=="
         }
       },
       "is_incremental": true,
@@ -477,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StatsManager.html",
-          "hash": "V7LRZqOvnwZ66s+leTGh9g=="
+          "hash": "wUu14M1s4MK+uHKMavPViQ=="
         }
       },
       "is_incremental": true,
@@ -489,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.DragHold.html",
-          "hash": "iGpEQstBPdYxCdGLuxCsxA=="
+          "hash": "LOg/bbTea+H6DZ9W0Qp2DA=="
         }
       },
       "is_incremental": true,
@@ -501,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.DragMove.html",
-          "hash": "I8fQbGVE/T6ohROBnhsT1A=="
+          "hash": "b5ocdFMCBB/gApGQAMvgjw=="
         }
       },
       "is_incremental": true,
@@ -513,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.DragRelease.html",
-          "hash": "TfZineYdfBPCzW/DfiZbvA=="
+          "hash": "jDGOIcCA9tixMNN1YvCmJQ=="
         }
       },
       "is_incremental": true,
@@ -525,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.ExpressionsAssociate.html",
-          "hash": "BjsD/2NS7/kQkjqrpYAL7A=="
+          "hash": "HnAth0BXmxOGMr0E9OrW6w=="
         }
       },
       "is_incremental": true,
@@ -537,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.ExpressionsComplete.html",
-          "hash": "5O8FntCBM+cTpY1hQxS0vw=="
+          "hash": "oBnnS7Iht1mgel/50WHz3w=="
         }
       },
       "is_incremental": true,
@@ -549,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.ExpressionsReorder.html",
-          "hash": "2tWu5uO6fAPndcWyGzNsSA=="
+          "hash": "icTv5ktO3r7XdakPSqRfYw=="
         }
       },
       "is_incremental": true,
@@ -561,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.Select.html",
-          "hash": "am0YnOxkhlTh6PC2eSFPVA=="
+          "hash": "/o7JFWELXtjGntmcqEUlxQ=="
         }
       },
       "is_incremental": true,
@@ -573,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.SelectNear.html",
-          "hash": "fujZrw+IuFlk+bx4ooEiGA=="
+          "hash": "TGvUjRgcC/8OFCQnSOzxcw=="
         }
       },
       "is_incremental": true,
@@ -585,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.Speech.html",
-          "hash": "Rp+CxpgwkE/akGkDg3iCfw=="
+          "hash": "Vdbot7RY4JjiRUpI4Q9uxg=="
         }
       },
       "is_incremental": true,
@@ -597,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.SpeechTimer.html",
-          "hash": "uWLpWsE7Zt7nlmw7+x2cWQ=="
+          "hash": "QY4b+bWTz0+Nq7g0nATs/w=="
         }
       },
       "is_incremental": true,
@@ -609,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.StepGroupManagerBase.html",
-          "hash": "KCqiOJI2SvC6JDaGg21NBw=="
+          "hash": "Si2KQg2xkxHZdYLMl+/wRQ=="
         }
       },
       "is_incremental": true,
@@ -621,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.StepGroupManagers.html",
-          "hash": "UNx1ZaTmmZvPGJDWhqt2rw=="
+          "hash": "fG6J09QbEk4/Ju1VYGDaIw=="
         }
       },
       "is_incremental": true,
@@ -633,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.TextToSpeech.html",
-          "hash": "zfqfCXligHOtLHcRyCewnA=="
+          "hash": "ehO+u3ArOa0+LyKF6NOMpQ=="
         }
       },
       "is_incremental": true,
@@ -645,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.TimerManager.html",
-          "hash": "D55dXLD+whXOnw2u8rqvvA=="
+          "hash": "3Z0K6NulIZvAnOWI5eIs+Q=="
         }
       },
       "is_incremental": true,
@@ -657,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.Triggers.IButtonTrigger.html",
-          "hash": "Q8i3V1/rXZCpj1DpG9Kx1Q=="
+          "hash": "r4mZj0cgIXqHwWsF+KI8CA=="
         }
       },
       "is_incremental": true,
@@ -669,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.Triggers.IInteractableTrigger.html",
-          "hash": "Yh1B31QDQAafWI4fgloXXw=="
+          "hash": "JBsba6oMUmE7n37keg6qFw=="
         }
       },
       "is_incremental": true,
@@ -681,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.Triggers.ISelectableTrigger.html",
-          "hash": "m3Iqd71Smm1s2mFH81mTeA=="
+          "hash": "SIsS16adzW6Gv0D+17NJ5Q=="
         }
       },
       "is_incremental": true,
@@ -693,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.Triggers.ITargetTrigger.html",
-          "hash": "5Pe2quBzaCAv4862c5NAAQ=="
+          "hash": "MBRs5k3wLA+2TYGdhLQsPA=="
         }
       },
       "is_incremental": true,
@@ -705,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.Triggers.IVirtualAssistantTrigger.html",
-          "hash": "j7lO4LEEHJpUq9yuQBu6nQ=="
+          "hash": "GGWCTj4FiWKGBGDvFGfzNw=="
         }
       },
       "is_incremental": true,
@@ -717,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.Triggers.html",
-          "hash": "Yr6geunvubTXtXZM7NK7AA=="
+          "hash": "eaXHTmjrbg9HpBfCXd6jIg=="
         }
       },
       "is_incremental": true,
@@ -729,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.ActivityComponentFiller.html",
-          "hash": "dsgkWo0gvM9TylIQQqCJ2A=="
+          "hash": "N0SMNlNKZMZqPur5Q6NTyg=="
         }
       },
       "is_incremental": true,
@@ -741,19 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.LoadingAnimation.html",
-          "hash": "BLatawf1Wf27wqWDcAurrA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.LoginButtonGoogle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.LoginButtonGoogle.html",
-          "hash": "XrvSNRhVsG/KLxp8+Yk/8A=="
+          "hash": "uGcfMIfa46l3KdbKIHUsAg=="
         }
       },
       "is_incremental": true,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.LogoutButton.html",
-          "hash": "WcSJS6zMt49VMgmHb0e41w=="
+          "hash": "08qyKi7ogQEZOSnnxQuoBA=="
         }
       },
       "is_incremental": true,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.MenuManager.html",
-          "hash": "fJtxrT2EfDYuckYflX7HcQ=="
+          "hash": "wRB+Sj4Unzl3w3HENy9fRA=="
         }
       },
       "is_incremental": true,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.PopupManager.html",
-          "hash": "C1T/V6Ws7TVClBAE9Tfoug=="
+          "hash": "HdiHTtebHRWE5PpdtgZNTg=="
         }
       },
       "is_incremental": true,
@@ -801,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.ProfileContentManager.html",
-          "hash": "ZkysiIcBikxqmG3UohT4vw=="
+          "hash": "1It3zEZ20xKhBSa9h8tODw=="
         }
       },
       "is_incremental": true,
@@ -813,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.ProfileInfoManager.html",
-          "hash": "mBdR+By1ZN5z0RnQRWNOIA=="
+          "hash": "tglxGk8M2ihQeZDcZrPfjA=="
         }
       },
       "is_incremental": true,
@@ -825,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.ProfilePageManager.html",
-          "hash": "ayz4V+1IfPaj7Wo0H/w6og=="
+          "hash": "eegNZ+yS8RZVdwJZgE2aeQ=="
         }
       },
       "is_incremental": true,
@@ -837,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.SliderComponent.html",
-          "hash": "MjxvIY9jyG1pTbcMQEjf/A=="
+          "hash": "mYnBc0w5cSthdCP+dD7Beg=="
         }
       },
       "is_incremental": true,
@@ -849,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.TabsManager.html",
-          "hash": "7Fk1YoV6BP8RLtWdGxpF8Q=="
+          "hash": "JsRfZxE4MYyKWKfKQwRY0g=="
         }
       },
       "is_incremental": true,
@@ -861,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.ToggleComponent.html",
-          "hash": "EFE06Y5WN/nACR9ARqCIbg=="
+          "hash": "sfe0N7VIluKiQhJZx67+bg=="
         }
       },
       "is_incremental": true,
@@ -873,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.ToggleComponentWAuth.html",
-          "hash": "2D7tCqZR894N5sKEQ0oN6Q=="
+          "hash": "+Em6k71Yh5/8/5Qf8aNfug=="
         }
       },
       "is_incremental": true,
@@ -885,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.VirtualAssistantComponent.html",
-          "hash": "tC2okhHB/7aK8tleTFQRMA=="
+          "hash": "KiAFBDBOSbc/X01ojd4QXA=="
         }
       },
       "is_incremental": true,
@@ -897,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.VirtualAssistantComponentFiller.html",
-          "hash": "ee1d7IDmJ0n/Veu1lO96Xg=="
+          "hash": "V9BVjSYHSnuwYCyZGXRhbg=="
         }
       },
       "is_incremental": true,
@@ -909,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.UI.html",
-          "hash": "mg9HwgGT3vYQ4WTKd7X0Mw=="
+          "hash": "2BMh73vzZrNCgePHMGrQ4A=="
         }
       },
       "is_incremental": true,
@@ -921,7 +921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.VirtualAssistantManager.html",
-          "hash": "qBdw9nFWnE0KR1mPYFe5+w=="
+          "hash": "VdGw9pAlUe4Dth6kmIE3VQ=="
         }
       },
       "is_incremental": true,
@@ -933,7 +933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Kit.html",
-          "hash": "xC2AXr8VrZ/pC/yD598HTg=="
+          "hash": "0wV1onuJwUv3wK3jKAdVUQ=="
         }
       },
       "is_incremental": true,
@@ -945,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/YAProgressBar.BaseMeshGenerator.html",
-          "hash": "Qd0EVsshkLOduqNlJUCUPQ=="
+          "hash": "+7cD2iQE+RCCcf+Vk9PyQA=="
         }
       },
       "is_incremental": true,
@@ -957,7 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/YAProgressBar.BoxMeshGenerator.html",
-          "hash": "NaGq1N6Y9K9POcnWSPDokQ=="
+          "hash": "uSObrWZnyvSsTr8SR6z7mg=="
         }
       },
       "is_incremental": true,
@@ -969,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/YAProgressBar.CircularCurve.html",
-          "hash": "GwcqhztIa6GNtZNX5RtCfQ=="
+          "hash": "pKE/MGLbk56UvnScawhYsw=="
         }
       },
       "is_incremental": true,
@@ -981,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/YAProgressBar.CircularProgressBar.html",
-          "hash": "cGmeAnPOpwovI41whulRwg=="
+          "hash": "r+nbjBpj6Uejl0eUQcS6Gg=="
         }
       },
       "is_incremental": true,
@@ -993,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/YAProgressBar.LinearProgressBar.html",
-          "hash": "QRFc1/8/mwIIYhzw0KgNwQ=="
+          "hash": "AihmyBt33x1fAAt1xVZ12Q=="
         }
       },
       "is_incremental": true,
@@ -1005,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/YAProgressBar.ProgressBarAdapter.html",
-          "hash": "y1qCo+yIOOyWALXhLLYeQQ=="
+          "hash": "38cT/zWYFle3vACZxuRjvQ=="
         }
       },
       "is_incremental": true,
@@ -1017,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/YAProgressBar.ProgressBarBaseMesh.ElementShape.html",
-          "hash": "2aadg60HXIDoVlGCEWK3Cg=="
+          "hash": "+f5sT6sEZ26SJWc1asOPMw=="
         }
       },
       "is_incremental": true,
@@ -1029,7 +1029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/YAProgressBar.ProgressBarBaseMesh.XAlign.html",
-          "hash": "TjAIpQJn8Nr87jqArx1qdw=="
+          "hash": "6ZPTGIkICAWg3638j/M9Ig=="
         }
       },
       "is_incremental": true,
@@ -1041,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/YAProgressBar.ProgressBarBaseMesh.YAlign.html",
-          "hash": "G8mUYEWND4GuBvyCFccFvQ=="
+          "hash": "O6xHB0UJYiVe3sKPghsF3w=="
         }
       },
       "is_incremental": true,
@@ -1053,7 +1053,7 @@
       "output": {
         ".html": {
           "relative_path": "api/YAProgressBar.ProgressBarBaseMesh.html",
-          "hash": "wxdJKfPA6di5rSe7zH/GFw=="
+          "hash": "qfWr90KVIWyH1icxdlCw1Q=="
         }
       },
       "is_incremental": true,
@@ -1065,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/YAProgressBar.QuadMeshGenerator.html",
-          "hash": "MeIYi1tPQPQlVjb+mcc8SQ=="
+          "hash": "4NPEpVnbPkVxpVP8/2SeJA=="
         }
       },
       "is_incremental": true,
@@ -1101,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "T81DIR0kG+4mSItBTubflw=="
+          "hash": "1U65HVB/1wDPGYsbId5TKA=="
         }
       },
       "is_incremental": false,
@@ -1149,10 +1149,10 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/gettingstarted-kit.html",
-          "hash": "r9mOWoZBl+Uxl+uoourb+w=="
+          "hash": "316t7mprW/g7vmi5VFWjcg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1209,7 +1209,7 @@
           "hash": "zOvma2VMw8AmGt2l4I9kfg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1286,7 +1286,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 11,
-          "skipped_file_count": 11
+          "skipped_file_count": 10
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

@@ -73,7 +73,11 @@
   
   <h1 id="Kit_StepGroupManagers_StepGroupManagerBase" data-uid="Kit.StepGroupManagers.StepGroupManagerBase" class="text-break">Class StepGroupManagerBase
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Base class that provides all the logic required to reproduce a step group.
+When implementing custom step group managers by extending this class,
+the only method to mandatorily override for a correct interaction is
+(at least) one of the overloads of CheckCorrectAction.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -100,10 +104,68 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase__dynamicObjects.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase._dynamicObjects%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L21">View Source</a>
+  </span>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase__dynamicObjects" data-uid="Kit.StepGroupManagers.StepGroupManagerBase._dynamicObjects">_dynamicObjects</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform _dynamicObjects</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase__hints.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase._hints%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L22">View Source</a>
+  </span>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase__hints" data-uid="Kit.StepGroupManagers.StepGroupManagerBase._hints">_hints</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int _hints</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase__initialScale.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase._initialScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L18">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L23">View Source</a>
   </span>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase__initialScale" data-uid="Kit.StepGroupManagers.StepGroupManagerBase._initialScale">_initialScale</h4>
   <div class="markdown level1 summary"></div>
@@ -127,24 +189,21 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_Correct.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.Correct%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase__stepIndex.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase._stepIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L20">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L27">View Source</a>
   </span>
-  <a id="Kit_StepGroupManagers_StepGroupManagerBase_Correct_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Correct*"></a>
-  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_Correct" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Correct">Correct</h4>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase__stepIndex" data-uid="Kit.StepGroupManagers.StepGroupManagerBase._stepIndex">_stepIndex</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;string&gt; Correct { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected int _stepIndex</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -154,25 +213,56 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_Wrong.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.Wrong%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase__stepsInGroup.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase._stepsInGroup%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L21">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L24">View Source</a>
   </span>
-  <a id="Kit_StepGroupManagers_StepGroupManagerBase_Wrong_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Wrong*"></a>
-  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_Wrong" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Wrong">Wrong</h4>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase__stepsInGroup" data-uid="Kit.StepGroupManagers.StepGroupManagerBase._stepsInGroup">_stepsInGroup</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;string&gt; Wrong { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected List&lt;DataModel.Step&gt; _stepsInGroup</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Kit.DataModel.Step.html">DataModel.Step</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_CurrentStep.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.CurrentStep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L30">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_CurrentStep_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CurrentStep*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_CurrentStep" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CurrentStep">CurrentStep</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataModel.Step CurrentStep { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -184,7 +274,97 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><a class="xref" href="Kit.DataModel.Step.html">DataModel.Step</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_Instance.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.Instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L52">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_Instance_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Instance*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_Instance" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Instance">Instance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static StepGroupManagerBase Instance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html">StepGroupManagerBase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_IsFree.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.IsFree%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L33">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_IsFree_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.IsFree*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_IsFree" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.IsFree">IsFree</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsFree { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_StepGroup.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.StepGroup%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L29">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_StepGroup_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.StepGroup*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_StepGroup" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.StepGroup">StepGroup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataModel.StepGroup StepGroup { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Kit.DataModel.StepGroup.html">DataModel.StepGroup</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -193,18 +373,52 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_AssistantTriggered.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.AssistantTriggered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L43">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L397">View Source</a>
   </span>
-  <a id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction*"></a>
-  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject)">CheckCorrectAction(GameObject)</h4>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_AssistantTriggered_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.AssistantTriggered*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_AssistantTriggered" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.AssistantTriggered">AssistantTriggered()</h4>
+  <div class="markdown level1 summary"><p>Activates the virtual assistant when the user has interacted with it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AssistantTriggered()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_Awake.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.Awake%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L58">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_Awake_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Awake*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_Awake" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.Awake">Awake()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void CheckCorrectAction(GameObject interactable)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L375">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject)">CheckCorrectAction(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Checks if the user has triggered the correct selectable,
+shows visual feedback and triggers the assistant accordingly,
+saves the details of the performed action and (possibly) goes to the next step.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void CheckCorrectAction(GameObject selectable)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -218,8 +432,9 @@
     <tbody>
       <tr>
         <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">interactable</span></td>
-        <td></td>
+        <td><span class="parametername">selectable</span></td>
+        <td><p>The selectable triggered by the user</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -228,11 +443,14 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject%2CGameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L45">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L384">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction*"></a>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_GameObject_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject,GameObject)">CheckCorrectAction(GameObject, GameObject)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the user has triggered the correct target and interactable,
+shows visual feedback and triggers the assistant accordingly,
+saves the details of the performed action and (possibly) goes to the next step.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -251,12 +469,14 @@
       <tr>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">target</span></td>
-        <td></td>
+        <td><p>The target triggered by the user.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">interactable</span></td>
-        <td></td>
+        <td><p>The interactable triggered by the user. It can be null.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -265,11 +485,14 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_System_String_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L47">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L392">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction*"></a>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_System_String_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(System.String)">CheckCorrectAction(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks the correctness of the answer given by the user,
+shows visual feedback and triggers the assistant accordingly,
+saves the details of the performed action and (possibly) goes to the next step.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -288,39 +511,233 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">answer</span></td>
-        <td></td>
+        <td><p>The answer given by the user.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_ParameterObjects.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_GenerateSceneObjects_Kit_DataModel_ObjGroup_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.GenerateSceneObjects(Kit.DataModel.ObjGroup)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L97">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L115">View Source</a>
   </span>
-  <a id="Kit_StepGroupManagers_StepGroupManagerBase_ParameterObjects_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects*"></a>
-  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_ParameterObjects" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects">ParameterObjects()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_GenerateSceneObjects_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.GenerateSceneObjects*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_GenerateSceneObjects_Kit_DataModel_ObjGroup_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.GenerateSceneObjects(Kit.DataModel.ObjGroup)">GenerateSceneObjects(DataModel.ObjGroup)</h4>
+  <div class="markdown level1 summary"><p>Generates a group of objects, specified in a step group or in a single step.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void ParameterObjects()</code></pre>
+    <pre><code class="lang-csharp hljs">protected void GenerateSceneObjects(DataModel.ObjGroup objs)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Kit.DataModel.ObjGroup.html">DataModel.ObjGroup</a></td>
+        <td><span class="parametername">objs</span></td>
+        <td><p>The objects that have to be instantiated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_InitializeStepGroup_Kit_DataModel_StepGroup_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.InitializeStepGroup(Kit.DataModel.StepGroup)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L76">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_InitializeStepGroup_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.InitializeStepGroup*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_InitializeStepGroup_Kit_DataModel_StepGroup_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.InitializeStepGroup(Kit.DataModel.StepGroup)">InitializeStepGroup(DataModel.StepGroup)</h4>
+  <div class="markdown level1 summary"><p>Initializes the steps group and reproduces the first step.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitializeStepGroup(DataModel.StepGroup stepGroup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Kit.DataModel.StepGroup.html">DataModel.StepGroup</a></td>
+        <td><span class="parametername">stepGroup</span></td>
+        <td><p>The current step group to be initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_NextStep.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.NextStep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L342">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_NextStep_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.NextStep*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_NextStep" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.NextStep">NextStep()</h4>
+  <div class="markdown level1 summary"><p>If it is the last step of a step group, goes to the next step group,
+otherwise it increases the step index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task NextStep()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>The Task operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_PlayInstructionSequence_System_Collections_Generic_List_System_String__.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.PlayInstructionSequence(System.Collections.Generic.List%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L311">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_PlayInstructionSequence_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.PlayInstructionSequence*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_PlayInstructionSequence_System_Collections_Generic_List_System_String__" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.PlayInstructionSequence(System.Collections.Generic.List{System.String})">PlayInstructionSequence(List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Activates the vitual assistant to reproduce a list of instructions in sequence.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task PlayInstructionSequence(List&lt;string&gt; instructions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">instructions</span></td>
+        <td><p>The list of instructions to reproduce.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>The Task operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_PlaySingleInstruction_System_String_System_String_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.PlaySingleInstruction(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L325">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_PlaySingleInstruction_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.PlaySingleInstruction*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_PlaySingleInstruction_System_String_System_String_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.PlaySingleInstruction(System.String,System.String)">PlaySingleInstruction(String, String)</h4>
+  <div class="markdown level1 summary"><p>Activates the vitual assistant to reproduce a single instruction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task PlaySingleInstruction(string instruction, string animatorParam)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">instruction</span></td>
+        <td><p>The instruction to reproduce.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">animatorParam</span></td>
+        <td><p>The animation to be played by the virtual assistant.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>The Task operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_RandomizeObjects_System_Collections_Generic_List_Kit_DataModel_Obj__System_Int32_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.RandomizeObjects(System.Collections.Generic.List%7BKit.DataModel.Obj%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L34">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L189">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_StepGroupManagerBase_RandomizeObjects_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.RandomizeObjects*"></a>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_RandomizeObjects_System_Collections_Generic_List_Kit_DataModel_Obj__System_Int32_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.RandomizeObjects(System.Collections.Generic.List{Kit.DataModel.Obj},System.Int32)">RandomizeObjects(List&lt;DataModel.Obj&gt;, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Randomize the list of objects that are generated.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual List&lt;DataModel.Obj&gt; RandomizeObjects(List&lt;DataModel.Obj&gt; objs, int objectsToSpawn)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual List&lt;DataModel.Obj&gt; RandomizeObjects(List&lt;DataModel.Obj&gt; objs, int objectsToSpawn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -335,12 +752,14 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Kit.DataModel.Obj.html">DataModel.Obj</a>&gt;</td>
         <td><span class="parametername">objs</span></td>
-        <td></td>
+        <td><p>The list of objects to randomize.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">objectsToSpawn</span></td>
-        <td></td>
+        <td><p>The number of objects to randomize.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -355,7 +774,42 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Kit.DataModel.Obj.html">DataModel.Obj</a>&gt;</td>
-        <td></td>
+        <td><p>The list of objects, randomized</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_RemoveSceneObjects_Kit_DataModel_ObjGroup_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.RemoveSceneObjects(Kit.DataModel.ObjGroup)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L262">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_RemoveSceneObjects_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.RemoveSceneObjects*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_RemoveSceneObjects_Kit_DataModel_ObjGroup_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.RemoveSceneObjects(Kit.DataModel.ObjGroup)">RemoveSceneObjects(DataModel.ObjGroup)</h4>
+  <div class="markdown level1 summary"><p>Deactivate a group of GameObjects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RemoveSceneObjects(DataModel.ObjGroup objs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Kit.DataModel.ObjGroup.html">DataModel.ObjGroup</a></td>
+        <td><span class="parametername">objs</span></td>
+        <td><p>The ObjGroup of objects to deactivate.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -364,11 +818,12 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SaveAction_System_Collections_Generic_List_System_String__Kit_StatsManager_StepParameter_Kit_StatsManager_ActionParameters_System_Boolean_System_Int32_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SaveAction(System.Collections.Generic.List%7BSystem.String%7D%2CKit.StatsManager.StepParameter%2CKit.StatsManager.ActionParameters%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L134">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L565">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_StepGroupManagerBase_SaveAction_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SaveAction*"></a>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SaveAction_System_Collections_Generic_List_System_String__Kit_StatsManager_StepParameter_Kit_StatsManager_ActionParameters_System_Boolean_System_Int32_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SaveAction(System.Collections.Generic.List{System.String},Kit.StatsManager.StepParameter,Kit.StatsManager.ActionParameters,System.Boolean,System.Int32)">SaveAction(List&lt;String&gt;, StatsManager.StepParameter, StatsManager.ActionParameters, Boolean, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Store an action into the StatsManager, if the StatsManager GameObject exists.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -387,27 +842,32 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">request</span></td>
-        <td></td>
+        <td><p>The request associated to the current step.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Kit.StatsManager.StepParameter.html">StatsManager.StepParameter</a></td>
         <td><span class="parametername">correctParameters</span></td>
-        <td></td>
+        <td><p>The correct parameters of the step.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Kit.StatsManager.ActionParameters.html">StatsManager.ActionParameters</a></td>
         <td><span class="parametername">action</span></td>
-        <td></td>
+        <td><p>The action performed by the user.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">error</span></td>
-        <td></td>
+        <td><p>Whether the action performed by the user was an error or not.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">hints</span></td>
-        <td></td>
+        <td><p>The hints provided to the user during the current step.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -416,15 +876,17 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SelectCorrect_System_Collections_Generic_List_System_String__System_String_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SelectCorrect(System.Collections.Generic.List%7BSystem.String%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L54">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L429">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_StepGroupManagerBase_SelectCorrect_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectCorrect*"></a>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SelectCorrect_System_Collections_Generic_List_System_String__System_String_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectCorrect(System.Collections.Generic.List{System.String},System.String)">SelectCorrect(List&lt;String&gt;, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Selects a correct feedback instruction from a list of instructions.
+By default the method selects a random instruction in the list.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string SelectCorrect(List&lt;string&gt; instructions, string param = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual string SelectCorrect(List&lt;string&gt; instructions, string param = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -439,7 +901,8 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">instructions</span></td>
-        <td></td>
+        <td><p>The list of possible instructions.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
@@ -459,7 +922,58 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>The selected instruction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SelectRandomInstruction_System_Collections_Generic_List_System_String__.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SelectRandomInstruction(System.Collections.Generic.List%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L450">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_SelectRandomInstruction_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectRandomInstruction*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SelectRandomInstruction_System_Collections_Generic_List_System_String__" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectRandomInstruction(System.Collections.Generic.List{System.String})">SelectRandomInstruction(List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Selects a random instruction from the list of possible instructions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string SelectRandomInstruction(List&lt;string&gt; instructions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">instructions</span></td>
+        <td><p>The list of possible instructions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The selected random instruction.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -468,15 +982,17 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SelectRequest_System_Collections_Generic_List_System_String__.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SelectRequest(System.Collections.Generic.List%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L49">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L418">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_StepGroupManagerBase_SelectRequest_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectRequest*"></a>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SelectRequest_System_Collections_Generic_List_System_String__" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectRequest(System.Collections.Generic.List{System.String})">SelectRequest(List&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Selects a request instruction from a list of instructions.
+By default the method selects the next instruction in the list.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string SelectRequest(List&lt;string&gt; instructions)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual string SelectRequest(List&lt;string&gt; instructions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -491,7 +1007,8 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">instructions</span></td>
-        <td></td>
+        <td><p>The list of possible instructions.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -506,7 +1023,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>The selected instruction.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -515,15 +1033,17 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SelectWrong_System_Collections_Generic_List_System_String__System_String_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SelectWrong(System.Collections.Generic.List%7BSystem.String%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L59">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L440">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_StepGroupManagerBase_SelectWrong_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectWrong*"></a>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SelectWrong_System_Collections_Generic_List_System_String__System_String_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SelectWrong(System.Collections.Generic.List{System.String},System.String)">SelectWrong(List&lt;String&gt;, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Selects a correct feedback instruction from a list of instructions.
+By default the methods selects a random instruction in the list.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string SelectWrong(List&lt;string&gt; instructions, string param = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual string SelectWrong(List&lt;string&gt; instructions, string param = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -538,7 +1058,8 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">instructions</span></td>
-        <td></td>
+        <td><p>The list of possible instructions.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
@@ -558,7 +1079,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>The selected instruction.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -567,11 +1089,12 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L110">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L525">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition*"></a>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_GameObject_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(GameObject)">SetFinalPosition(GameObject)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the final position of an object when it has been triggered correctly by the user.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -590,7 +1113,8 @@
       <tr>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">interactable</span></td>
-        <td></td>
+        <td><p>The GameObject which has been triggered by the user.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -599,11 +1123,12 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L122">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L541">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation*"></a>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_GameObject_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(GameObject)">SetFinalRotation(GameObject)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the final rotation of an object when it has been triggered correctly by the user.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -622,7 +1147,8 @@
       <tr>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">interactable</span></td>
-        <td></td>
+        <td><p>The GameObject which has been triggered by the user.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -631,15 +1157,16 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_SetStepsInCurrentGroup_System_Collections_Generic_List_Kit_DataModel_Step__System_Boolean_System_Int32_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.SetStepsInCurrentGroup(System.Collections.Generic.List%7BKit.DataModel.Step%7D%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L26">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L99">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_StepGroupManagerBase_SetStepsInCurrentGroup_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetStepsInCurrentGroup*"></a>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_SetStepsInCurrentGroup_System_Collections_Generic_List_Kit_DataModel_Step__System_Boolean_System_Int32_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.SetStepsInCurrentGroup(System.Collections.Generic.List{Kit.DataModel.Step},System.Boolean,System.Int32)">SetStepsInCurrentGroup(List&lt;DataModel.Step&gt;, Boolean, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Initializes the steps in the current step group.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual List&lt;DataModel.Step&gt; SetStepsInCurrentGroup(List&lt;DataModel.Step&gt; events, bool randomEvents, int stepsToReproduce)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual List&lt;DataModel.Step&gt; SetStepsInCurrentGroup(List&lt;DataModel.Step&gt; steps, bool randomSteps, int stepsToReproduce)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -653,18 +1180,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Kit.DataModel.Step.html">DataModel.Step</a>&gt;</td>
-        <td><span class="parametername">events</span></td>
-        <td></td>
+        <td><span class="parametername">steps</span></td>
+        <td><p>The list of steps contained in the step group.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">randomEvents</span></td>
-        <td></td>
+        <td><span class="parametername">randomSteps</span></td>
+        <td><p>True if the steps in the current group must be reproduced randomly.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">stepsToReproduce</span></td>
-        <td></td>
+        <td><p>The number of steps that have to be reproduced in the current step group.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -679,7 +1209,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Kit.DataModel.Step.html">DataModel.Step</a>&gt;</td>
-        <td></td>
+        <td><p>The list of steps initialized.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -688,11 +1219,12 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L88">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L493">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback*"></a>
   <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_GameObject_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(GameObject)">StopVisualFeedback(GameObject)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Stops the visual feedback after a user action.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -711,10 +1243,28 @@
       <tr>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">feedback</span></td>
-        <td></td>
+        <td><p>The GameObject referencing the visual feedback to be stopped.</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase_UpdateParameterObjects.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase.UpdateParameterObjects%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L506">View Source</a>
+  </span>
+  <a id="Kit_StepGroupManagers_StepGroupManagerBase_UpdateParameterObjects_" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.UpdateParameterObjects*"></a>
+  <h4 id="Kit_StepGroupManagers_StepGroupManagerBase_UpdateParameterObjects" data-uid="Kit.StepGroupManagers.StepGroupManagerBase.UpdateParameterObjects">UpdateParameterObjects()</h4>
+  <div class="markdown level1 summary"><p>Removes and adds the objects specified in the parameters of the current step.
+Use this to modify the scene objects as soon as the user has performed an action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void UpdateParameterObjects()</code></pre>
+  </div>
 </article>
           </div>
           
@@ -726,7 +1276,7 @@
                     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_StepGroupManagerBase.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.StepGroupManagerBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/StepGroupManagerBase.cs/#L19" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

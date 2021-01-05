@@ -73,7 +73,9 @@
   
   <h1 id="Kit_EventManager" data-uid="Kit.EventManager" class="text-break">Class EventManager
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Manages the registration/unregistration of Unity events,
+and the triggeration of them.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -90,18 +92,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_EventManager_instance.md&amp;value=---%0Auid%3A%20Kit.EventManager.instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_EventManager_Instance.md&amp;value=---%0Auid%3A%20Kit.EventManager.Instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/EventManager.cs/#L20">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/EventManager.cs/#L21">View Source</a>
   </span>
-  <a id="Kit_EventManager_instance_" data-uid="Kit.EventManager.instance*"></a>
-  <h4 id="Kit_EventManager_instance" data-uid="Kit.EventManager.instance">instance</h4>
+  <a id="Kit_EventManager_Instance_" data-uid="Kit.EventManager.Instance*"></a>
+  <h4 id="Kit_EventManager_Instance" data-uid="Kit.EventManager.Instance">Instance</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static EventManager instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static EventManager Instance { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -125,11 +127,12 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_EventManager_StartListening_System_String_UnityAction_.md&amp;value=---%0Auid%3A%20Kit.EventManager.StartListening(System.String%2CUnityAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/EventManager.cs/#L50">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/EventManager.cs/#L56">View Source</a>
   </span>
   <a id="Kit_EventManager_StartListening_" data-uid="Kit.EventManager.StartListening*"></a>
   <h4 id="Kit_EventManager_StartListening_System_String_UnityAction_" data-uid="Kit.EventManager.StartListening(System.String,UnityAction)">StartListening(String, UnityAction)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Registers an event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -148,12 +151,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">eventName</span></td>
-        <td></td>
+        <td><p>The name of the event.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">UnityAction</span></td>
         <td><span class="parametername">listener</span></td>
-        <td></td>
+        <td><p>The zero-argument delegate used for the UnityEvent.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -162,11 +167,12 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_EventManager_StopListening_System_String_UnityAction_.md&amp;value=---%0Auid%3A%20Kit.EventManager.StopListening(System.String%2CUnityAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/EventManager.cs/#L65">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/EventManager.cs/#L75">View Source</a>
   </span>
   <a id="Kit_EventManager_StopListening_" data-uid="Kit.EventManager.StopListening*"></a>
   <h4 id="Kit_EventManager_StopListening_System_String_UnityAction_" data-uid="Kit.EventManager.StopListening(System.String,UnityAction)">StopListening(String, UnityAction)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Unregisters an event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -185,12 +191,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">eventName</span></td>
-        <td></td>
+        <td><p>The name of the event.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">UnityAction</span></td>
         <td><span class="parametername">listener</span></td>
-        <td></td>
+        <td><p>The zero-argument delegate used for the UnityEvent.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -199,11 +207,12 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_EventManager_TriggerEvent_System_String_.md&amp;value=---%0Auid%3A%20Kit.EventManager.TriggerEvent(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/EventManager.cs/#L75">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/EventManager.cs/#L91">View Source</a>
   </span>
   <a id="Kit_EventManager_TriggerEvent_" data-uid="Kit.EventManager.TriggerEvent*"></a>
   <h4 id="Kit_EventManager_TriggerEvent_System_String_" data-uid="Kit.EventManager.TriggerEvent(System.String)">TriggerEvent(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Triggers an event, if it has been registered.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -222,7 +231,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">eventName</span></td>
-        <td></td>
+        <td><p>The name of the event.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -237,7 +247,7 @@
                     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_EventManager.md&amp;value=---%0Auid%3A%20Kit.EventManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/EventManager.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/EventManager.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -266,253 +266,71 @@ references:
   commentId: T:Kit.ActivityManager
   fullName: Kit.ActivityManager
   nameWithType: ActivityManager
-- uid: Kit.ActivityManager._dynamicObjects
-  name: _dynamicObjects
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager__dynamicObjects
-  commentId: F:Kit.ActivityManager._dynamicObjects
-  fullName: Kit.ActivityManager._dynamicObjects
-  nameWithType: ActivityManager._dynamicObjects
-- uid: Kit.ActivityManager.activityConfiguration
-  name: activityConfiguration
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_activityConfiguration
-  commentId: F:Kit.ActivityManager.activityConfiguration
-  fullName: Kit.ActivityManager.activityConfiguration
-  nameWithType: ActivityManager.activityConfiguration
-- uid: Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List{GameObject},System.Collections.Generic.List{Kit.DataModel.CustomTransform})
-  name: assignSpawnPoints(List<GameObject>, List<DataModel.CustomTransform>)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_assignSpawnPoints_System_Collections_Generic_List_GameObject__System_Collections_Generic_List_Kit_DataModel_CustomTransform__
-  commentId: M:Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List{GameObject},System.Collections.Generic.List{Kit.DataModel.CustomTransform})
-  name.vb: assignSpawnPoints(List(Of GameObject), List(Of DataModel.CustomTransform))
-  fullName: Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List<GameObject>, System.Collections.Generic.List<Kit.DataModel.CustomTransform>)
-  fullName.vb: Kit.ActivityManager.assignSpawnPoints(System.Collections.Generic.List(Of GameObject), System.Collections.Generic.List(Of Kit.DataModel.CustomTransform))
-  nameWithType: ActivityManager.assignSpawnPoints(List<GameObject>, List<DataModel.CustomTransform>)
-  nameWithType.vb: ActivityManager.assignSpawnPoints(List(Of GameObject), List(Of DataModel.CustomTransform))
-- uid: Kit.ActivityManager.assignSpawnPoints*
-  name: assignSpawnPoints
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_assignSpawnPoints_
-  commentId: Overload:Kit.ActivityManager.assignSpawnPoints
+- uid: Kit.ActivityManager.ActivityAssets
+  name: ActivityAssets
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_ActivityAssets
+  commentId: P:Kit.ActivityManager.ActivityAssets
+  fullName: Kit.ActivityManager.ActivityAssets
+  nameWithType: ActivityManager.ActivityAssets
+- uid: Kit.ActivityManager.ActivityAssets*
+  name: ActivityAssets
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_ActivityAssets_
+  commentId: Overload:Kit.ActivityManager.ActivityAssets
   isSpec: "True"
-  fullName: Kit.ActivityManager.assignSpawnPoints
-  nameWithType: ActivityManager.assignSpawnPoints
-- uid: Kit.ActivityManager.AssistantTriggered
-  name: AssistantTriggered()
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_AssistantTriggered
-  commentId: M:Kit.ActivityManager.AssistantTriggered
-  fullName: Kit.ActivityManager.AssistantTriggered()
-  nameWithType: ActivityManager.AssistantTriggered()
-- uid: Kit.ActivityManager.AssistantTriggered*
-  name: AssistantTriggered
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_AssistantTriggered_
-  commentId: Overload:Kit.ActivityManager.AssistantTriggered
+  fullName: Kit.ActivityManager.ActivityAssets
+  nameWithType: ActivityManager.ActivityAssets
+- uid: Kit.ActivityManager.ActivityConfiguration
+  name: ActivityConfiguration
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_ActivityConfiguration
+  commentId: P:Kit.ActivityManager.ActivityConfiguration
+  fullName: Kit.ActivityManager.ActivityConfiguration
+  nameWithType: ActivityManager.ActivityConfiguration
+- uid: Kit.ActivityManager.ActivityConfiguration*
+  name: ActivityConfiguration
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_ActivityConfiguration_
+  commentId: Overload:Kit.ActivityManager.ActivityConfiguration
   isSpec: "True"
-  fullName: Kit.ActivityManager.AssistantTriggered
-  nameWithType: ActivityManager.AssistantTriggered
-- uid: Kit.ActivityManager.checkCorrectAction(GameObject)
-  name: checkCorrectAction(GameObject)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_checkCorrectAction_GameObject_
-  commentId: M:Kit.ActivityManager.checkCorrectAction(GameObject)
-  fullName: Kit.ActivityManager.checkCorrectAction(GameObject)
-  nameWithType: ActivityManager.checkCorrectAction(GameObject)
-- uid: Kit.ActivityManager.checkCorrectAction(GameObject,GameObject)
-  name: checkCorrectAction(GameObject, GameObject)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_checkCorrectAction_GameObject_GameObject_
-  commentId: M:Kit.ActivityManager.checkCorrectAction(GameObject,GameObject)
-  fullName: Kit.ActivityManager.checkCorrectAction(GameObject, GameObject)
-  nameWithType: ActivityManager.checkCorrectAction(GameObject, GameObject)
-- uid: Kit.ActivityManager.checkCorrectAction(System.String)
-  name: checkCorrectAction(String)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_checkCorrectAction_System_String_
-  commentId: M:Kit.ActivityManager.checkCorrectAction(System.String)
-  fullName: Kit.ActivityManager.checkCorrectAction(System.String)
-  nameWithType: ActivityManager.checkCorrectAction(String)
-- uid: Kit.ActivityManager.checkCorrectAction*
-  name: checkCorrectAction
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_checkCorrectAction_
-  commentId: Overload:Kit.ActivityManager.checkCorrectAction
+  fullName: Kit.ActivityManager.ActivityConfiguration
+  nameWithType: ActivityManager.ActivityConfiguration
+- uid: Kit.ActivityManager.Instance
+  name: Instance
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_Instance
+  commentId: P:Kit.ActivityManager.Instance
+  fullName: Kit.ActivityManager.Instance
+  nameWithType: ActivityManager.Instance
+- uid: Kit.ActivityManager.Instance*
+  name: Instance
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_Instance_
+  commentId: Overload:Kit.ActivityManager.Instance
   isSpec: "True"
-  fullName: Kit.ActivityManager.checkCorrectAction
-  nameWithType: ActivityManager.checkCorrectAction
-- uid: Kit.ActivityManager.CurrentStep
-  name: CurrentStep
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_CurrentStep
-  commentId: P:Kit.ActivityManager.CurrentStep
-  fullName: Kit.ActivityManager.CurrentStep
-  nameWithType: ActivityManager.CurrentStep
-- uid: Kit.ActivityManager.CurrentStep*
-  name: CurrentStep
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_CurrentStep_
-  commentId: Overload:Kit.ActivityManager.CurrentStep
+  fullName: Kit.ActivityManager.Instance
+  nameWithType: ActivityManager.Instance
+- uid: Kit.ActivityManager.LoadActivity(Kit.DataModel.ActivityConfiguration)
+  name: LoadActivity(DataModel.ActivityConfiguration)
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_LoadActivity_Kit_DataModel_ActivityConfiguration_
+  commentId: M:Kit.ActivityManager.LoadActivity(Kit.DataModel.ActivityConfiguration)
+  fullName: Kit.ActivityManager.LoadActivity(Kit.DataModel.ActivityConfiguration)
+  nameWithType: ActivityManager.LoadActivity(DataModel.ActivityConfiguration)
+- uid: Kit.ActivityManager.LoadActivity*
+  name: LoadActivity
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_LoadActivity_
+  commentId: Overload:Kit.ActivityManager.LoadActivity
   isSpec: "True"
-  fullName: Kit.ActivityManager.CurrentStep
-  nameWithType: ActivityManager.CurrentStep
-- uid: Kit.ActivityManager.CurrentStepGroup
-  name: CurrentStepGroup
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_CurrentStepGroup
-  commentId: P:Kit.ActivityManager.CurrentStepGroup
-  fullName: Kit.ActivityManager.CurrentStepGroup
-  nameWithType: ActivityManager.CurrentStepGroup
-- uid: Kit.ActivityManager.CurrentStepGroup*
-  name: CurrentStepGroup
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_CurrentStepGroup_
-  commentId: Overload:Kit.ActivityManager.CurrentStepGroup
+  fullName: Kit.ActivityManager.LoadActivity
+  nameWithType: ActivityManager.LoadActivity
+- uid: Kit.ActivityManager.NextStepGroup
+  name: NextStepGroup()
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_NextStepGroup
+  commentId: M:Kit.ActivityManager.NextStepGroup
+  fullName: Kit.ActivityManager.NextStepGroup()
+  nameWithType: ActivityManager.NextStepGroup()
+- uid: Kit.ActivityManager.NextStepGroup*
+  name: NextStepGroup
+  href: api/Kit.ActivityManager.html#Kit_ActivityManager_NextStepGroup_
+  commentId: Overload:Kit.ActivityManager.NextStepGroup
   isSpec: "True"
-  fullName: Kit.ActivityManager.CurrentStepGroup
-  nameWithType: ActivityManager.CurrentStepGroup
-- uid: Kit.ActivityManager.generateSceneObjects(Kit.DataModel.ObjGroup)
-  name: generateSceneObjects(DataModel.ObjGroup)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_generateSceneObjects_Kit_DataModel_ObjGroup_
-  commentId: M:Kit.ActivityManager.generateSceneObjects(Kit.DataModel.ObjGroup)
-  fullName: Kit.ActivityManager.generateSceneObjects(Kit.DataModel.ObjGroup)
-  nameWithType: ActivityManager.generateSceneObjects(DataModel.ObjGroup)
-- uid: Kit.ActivityManager.generateSceneObjects*
-  name: generateSceneObjects
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_generateSceneObjects_
-  commentId: Overload:Kit.ActivityManager.generateSceneObjects
-  isSpec: "True"
-  fullName: Kit.ActivityManager.generateSceneObjects
-  nameWithType: ActivityManager.generateSceneObjects
-- uid: Kit.ActivityManager.hints
-  name: hints
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_hints
-  commentId: F:Kit.ActivityManager.hints
-  fullName: Kit.ActivityManager.hints
-  nameWithType: ActivityManager.hints
-- uid: Kit.ActivityManager.instance
-  name: instance
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_instance
-  commentId: P:Kit.ActivityManager.instance
-  fullName: Kit.ActivityManager.instance
-  nameWithType: ActivityManager.instance
-- uid: Kit.ActivityManager.instance*
-  name: instance
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_instance_
-  commentId: Overload:Kit.ActivityManager.instance
-  isSpec: "True"
-  fullName: Kit.ActivityManager.instance
-  nameWithType: ActivityManager.instance
-- uid: Kit.ActivityManager.InstantiateObj(Kit.DataModel.Obj)
-  name: InstantiateObj(DataModel.Obj)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_InstantiateObj_Kit_DataModel_Obj_
-  commentId: M:Kit.ActivityManager.InstantiateObj(Kit.DataModel.Obj)
-  fullName: Kit.ActivityManager.InstantiateObj(Kit.DataModel.Obj)
-  nameWithType: ActivityManager.InstantiateObj(DataModel.Obj)
-- uid: Kit.ActivityManager.InstantiateObj*
-  name: InstantiateObj
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_InstantiateObj_
-  commentId: Overload:Kit.ActivityManager.InstantiateObj
-  isSpec: "True"
-  fullName: Kit.ActivityManager.InstantiateObj
-  nameWithType: ActivityManager.InstantiateObj
-- uid: Kit.ActivityManager.IsFree
-  name: IsFree
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_IsFree
-  commentId: P:Kit.ActivityManager.IsFree
-  fullName: Kit.ActivityManager.IsFree
-  nameWithType: ActivityManager.IsFree
-- uid: Kit.ActivityManager.IsFree*
-  name: IsFree
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_IsFree_
-  commentId: Overload:Kit.ActivityManager.IsFree
-  isSpec: "True"
-  fullName: Kit.ActivityManager.IsFree
-  nameWithType: ActivityManager.IsFree
-- uid: Kit.ActivityManager.nextEvent
-  name: nextEvent()
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_nextEvent
-  commentId: M:Kit.ActivityManager.nextEvent
-  fullName: Kit.ActivityManager.nextEvent()
-  nameWithType: ActivityManager.nextEvent()
-- uid: Kit.ActivityManager.nextEvent*
-  name: nextEvent
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_nextEvent_
-  commentId: Overload:Kit.ActivityManager.nextEvent
-  isSpec: "True"
-  fullName: Kit.ActivityManager.nextEvent
-  nameWithType: ActivityManager.nextEvent
-- uid: Kit.ActivityManager.Parameters
-  name: Parameters
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_Parameters
-  commentId: P:Kit.ActivityManager.Parameters
-  fullName: Kit.ActivityManager.Parameters
-  nameWithType: ActivityManager.Parameters
-- uid: Kit.ActivityManager.Parameters*
-  name: Parameters
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_Parameters_
-  commentId: Overload:Kit.ActivityManager.Parameters
-  isSpec: "True"
-  fullName: Kit.ActivityManager.Parameters
-  nameWithType: ActivityManager.Parameters
-- uid: Kit.ActivityManager.playInstructionSequence(System.Collections.Generic.List{System.String})
-  name: playInstructionSequence(List<String>)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_playInstructionSequence_System_Collections_Generic_List_System_String__
-  commentId: M:Kit.ActivityManager.playInstructionSequence(System.Collections.Generic.List{System.String})
-  name.vb: playInstructionSequence(List(Of String))
-  fullName: Kit.ActivityManager.playInstructionSequence(System.Collections.Generic.List<System.String>)
-  fullName.vb: Kit.ActivityManager.playInstructionSequence(System.Collections.Generic.List(Of System.String))
-  nameWithType: ActivityManager.playInstructionSequence(List<String>)
-  nameWithType.vb: ActivityManager.playInstructionSequence(List(Of String))
-- uid: Kit.ActivityManager.playInstructionSequence*
-  name: playInstructionSequence
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_playInstructionSequence_
-  commentId: Overload:Kit.ActivityManager.playInstructionSequence
-  isSpec: "True"
-  fullName: Kit.ActivityManager.playInstructionSequence
-  nameWithType: ActivityManager.playInstructionSequence
-- uid: Kit.ActivityManager.playSingleInstruction(System.String,System.String)
-  name: playSingleInstruction(String, String)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_playSingleInstruction_System_String_System_String_
-  commentId: M:Kit.ActivityManager.playSingleInstruction(System.String,System.String)
-  fullName: Kit.ActivityManager.playSingleInstruction(System.String, System.String)
-  nameWithType: ActivityManager.playSingleInstruction(String, String)
-- uid: Kit.ActivityManager.playSingleInstruction*
-  name: playSingleInstruction
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_playSingleInstruction_
-  commentId: Overload:Kit.ActivityManager.playSingleInstruction
-  isSpec: "True"
-  fullName: Kit.ActivityManager.playSingleInstruction
-  nameWithType: ActivityManager.playSingleInstruction
-- uid: Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List{GameObject})
-  name: randomizeObjSpawn(List<GameObject>)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_randomizeObjSpawn_System_Collections_Generic_List_GameObject__
-  commentId: M:Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List{GameObject})
-  name.vb: randomizeObjSpawn(List(Of GameObject))
-  fullName: Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List<GameObject>)
-  fullName.vb: Kit.ActivityManager.randomizeObjSpawn(System.Collections.Generic.List(Of GameObject))
-  nameWithType: ActivityManager.randomizeObjSpawn(List<GameObject>)
-  nameWithType.vb: ActivityManager.randomizeObjSpawn(List(Of GameObject))
-- uid: Kit.ActivityManager.randomizeObjSpawn*
-  name: randomizeObjSpawn
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_randomizeObjSpawn_
-  commentId: Overload:Kit.ActivityManager.randomizeObjSpawn
-  isSpec: "True"
-  fullName: Kit.ActivityManager.randomizeObjSpawn
-  nameWithType: ActivityManager.randomizeObjSpawn
-- uid: Kit.ActivityManager.removeSceneObjects(Kit.DataModel.ObjGroup)
-  name: removeSceneObjects(DataModel.ObjGroup)
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_removeSceneObjects_Kit_DataModel_ObjGroup_
-  commentId: M:Kit.ActivityManager.removeSceneObjects(Kit.DataModel.ObjGroup)
-  fullName: Kit.ActivityManager.removeSceneObjects(Kit.DataModel.ObjGroup)
-  nameWithType: ActivityManager.removeSceneObjects(DataModel.ObjGroup)
-- uid: Kit.ActivityManager.removeSceneObjects*
-  name: removeSceneObjects
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_removeSceneObjects_
-  commentId: Overload:Kit.ActivityManager.removeSceneObjects
-  isSpec: "True"
-  fullName: Kit.ActivityManager.removeSceneObjects
-  nameWithType: ActivityManager.removeSceneObjects
-- uid: Kit.ActivityManager.Request
-  name: Request
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_Request
-  commentId: P:Kit.ActivityManager.Request
-  fullName: Kit.ActivityManager.Request
-  nameWithType: ActivityManager.Request
-- uid: Kit.ActivityManager.Request*
-  name: Request
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_Request_
-  commentId: Overload:Kit.ActivityManager.Request
-  isSpec: "True"
-  fullName: Kit.ActivityManager.Request
-  nameWithType: ActivityManager.Request
+  fullName: Kit.ActivityManager.NextStepGroup
+  nameWithType: ActivityManager.NextStepGroup
 - uid: Kit.ActivityManager.SpeechRegion
   name: SpeechRegion
   href: api/Kit.ActivityManager.html#Kit_ActivityManager_SpeechRegion
@@ -525,51 +343,25 @@ references:
   commentId: F:Kit.ActivityManager.SpeechSubscriptionKey
   fullName: Kit.ActivityManager.SpeechSubscriptionKey
   nameWithType: ActivityManager.SpeechSubscriptionKey
-- uid: Kit.ActivityManager.StartActivity
-  name: StartActivity()
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_StartActivity
-  commentId: M:Kit.ActivityManager.StartActivity
-  fullName: Kit.ActivityManager.StartActivity()
-  nameWithType: ActivityManager.StartActivity()
-- uid: Kit.ActivityManager.StartActivity*
-  name: StartActivity
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_StartActivity_
-  commentId: Overload:Kit.ActivityManager.StartActivity
-  isSpec: "True"
-  fullName: Kit.ActivityManager.StartActivity
-  nameWithType: ActivityManager.StartActivity
-- uid: Kit.ActivityManager.StepObjs
-  name: StepObjs
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_StepObjs
-  commentId: P:Kit.ActivityManager.StepObjs
-  fullName: Kit.ActivityManager.StepObjs
-  nameWithType: ActivityManager.StepObjs
-- uid: Kit.ActivityManager.StepObjs*
-  name: StepObjs
-  href: api/Kit.ActivityManager.html#Kit_ActivityManager_StepObjs_
-  commentId: Overload:Kit.ActivityManager.StepObjs
-  isSpec: "True"
-  fullName: Kit.ActivityManager.StepObjs
-  nameWithType: ActivityManager.StepObjs
 - uid: Kit.AudioManager
   name: AudioManager
   href: api/Kit.AudioManager.html
   commentId: T:Kit.AudioManager
   fullName: Kit.AudioManager
   nameWithType: AudioManager
-- uid: Kit.AudioManager.instance
-  name: instance
-  href: api/Kit.AudioManager.html#Kit_AudioManager_instance
-  commentId: P:Kit.AudioManager.instance
-  fullName: Kit.AudioManager.instance
-  nameWithType: AudioManager.instance
-- uid: Kit.AudioManager.instance*
-  name: instance
-  href: api/Kit.AudioManager.html#Kit_AudioManager_instance_
-  commentId: Overload:Kit.AudioManager.instance
+- uid: Kit.AudioManager.Instance
+  name: Instance
+  href: api/Kit.AudioManager.html#Kit_AudioManager_Instance
+  commentId: P:Kit.AudioManager.Instance
+  fullName: Kit.AudioManager.Instance
+  nameWithType: AudioManager.Instance
+- uid: Kit.AudioManager.Instance*
+  name: Instance
+  href: api/Kit.AudioManager.html#Kit_AudioManager_Instance_
+  commentId: Overload:Kit.AudioManager.Instance
   isSpec: "True"
-  fullName: Kit.AudioManager.instance
-  nameWithType: AudioManager.instance
+  fullName: Kit.AudioManager.Instance
+  nameWithType: AudioManager.Instance
 - uid: Kit.AudioManager.PlayAudio(AudioClip,AudioSource)
   name: PlayAudio(AudioClip, AudioSource)
   href: api/Kit.AudioManager.html#Kit_AudioManager_PlayAudio_AudioClip_AudioSource_
@@ -589,18 +381,6 @@ references:
   commentId: T:Kit.AuthManager
   fullName: Kit.AuthManager
   nameWithType: AuthManager
-- uid: Kit.AuthManager.app
-  name: app
-  href: api/Kit.AuthManager.html#Kit_AuthManager_app
-  commentId: F:Kit.AuthManager.app
-  fullName: Kit.AuthManager.app
-  nameWithType: AuthManager.app
-- uid: Kit.AuthManager.auth
-  name: auth
-  href: api/Kit.AuthManager.html#Kit_AuthManager_auth
-  commentId: F:Kit.AuthManager.auth
-  fullName: Kit.AuthManager.auth
-  nameWithType: AuthManager.auth
 - uid: Kit.AuthManager.AuthBody
   name: AuthManager.AuthBody
   href: api/Kit.AuthManager.AuthBody.html
@@ -619,19 +399,6 @@ references:
   commentId: F:Kit.AuthManager.AuthBody.googleId
   fullName: Kit.AuthManager.AuthBody.googleId
   nameWithType: AuthManager.AuthBody.googleId
-- uid: Kit.AuthManager.FirebaseSignIn(Credential)
-  name: FirebaseSignIn(Credential)
-  href: api/Kit.AuthManager.html#Kit_AuthManager_FirebaseSignIn_Credential_
-  commentId: M:Kit.AuthManager.FirebaseSignIn(Credential)
-  fullName: Kit.AuthManager.FirebaseSignIn(Credential)
-  nameWithType: AuthManager.FirebaseSignIn(Credential)
-- uid: Kit.AuthManager.FirebaseSignIn*
-  name: FirebaseSignIn
-  href: api/Kit.AuthManager.html#Kit_AuthManager_FirebaseSignIn_
-  commentId: Overload:Kit.AuthManager.FirebaseSignIn
-  isSpec: "True"
-  fullName: Kit.AuthManager.FirebaseSignIn
-  nameWithType: AuthManager.FirebaseSignIn
 - uid: Kit.AuthManager.Group
   name: AuthManager.Group
   href: api/Kit.AuthManager.Group.html
@@ -669,6 +436,19 @@ references:
   isSpec: "True"
   fullName: Kit.AuthManager.IncludiConnected
   nameWithType: AuthManager.IncludiConnected
+- uid: Kit.AuthManager.InitializeIncludiAuth(System.String,System.String)
+  name: InitializeIncludiAuth(String, String)
+  href: api/Kit.AuthManager.html#Kit_AuthManager_InitializeIncludiAuth_System_String_System_String_
+  commentId: M:Kit.AuthManager.InitializeIncludiAuth(System.String,System.String)
+  fullName: Kit.AuthManager.InitializeIncludiAuth(System.String, System.String)
+  nameWithType: AuthManager.InitializeIncludiAuth(String, String)
+- uid: Kit.AuthManager.InitializeIncludiAuth*
+  name: InitializeIncludiAuth
+  href: api/Kit.AuthManager.html#Kit_AuthManager_InitializeIncludiAuth_
+  commentId: Overload:Kit.AuthManager.InitializeIncludiAuth
+  isSpec: "True"
+  fullName: Kit.AuthManager.InitializeIncludiAuth
+  nameWithType: AuthManager.InitializeIncludiAuth
 - uid: Kit.AuthManager.instance
   name: instance
   href: api/Kit.AuthManager.html#Kit_AuthManager_instance
@@ -731,6 +511,24 @@ references:
   commentId: F:Kit.AuthManager.user
   fullName: Kit.AuthManager.user
   nameWithType: AuthManager.user
+- uid: Kit.AuthManager.User
+  name: AuthManager.User
+  href: api/Kit.AuthManager.User.html
+  commentId: T:Kit.AuthManager.User
+  fullName: Kit.AuthManager.User
+  nameWithType: AuthManager.User
+- uid: Kit.AuthManager.User.DisplayName
+  name: DisplayName
+  href: api/Kit.AuthManager.User.html#Kit_AuthManager_User_DisplayName
+  commentId: F:Kit.AuthManager.User.DisplayName
+  fullName: Kit.AuthManager.User.DisplayName
+  nameWithType: AuthManager.User.DisplayName
+- uid: Kit.AuthManager.User.PhotoUrl
+  name: PhotoUrl
+  href: api/Kit.AuthManager.User.html#Kit_AuthManager_User_PhotoUrl
+  commentId: F:Kit.AuthManager.User.PhotoUrl
+  fullName: Kit.AuthManager.User.PhotoUrl
+  nameWithType: AuthManager.User.PhotoUrl
 - uid: Kit.AuthManager.userClass
   name: userClass
   href: api/Kit.AuthManager.html#Kit_AuthManager_userClass
@@ -749,19 +547,19 @@ references:
   commentId: T:Kit.ConnectionManager
   fullName: Kit.ConnectionManager
   nameWithType: ConnectionManager
-- uid: Kit.ConnectionManager.instance
-  name: instance
-  href: api/Kit.ConnectionManager.html#Kit_ConnectionManager_instance
-  commentId: P:Kit.ConnectionManager.instance
-  fullName: Kit.ConnectionManager.instance
-  nameWithType: ConnectionManager.instance
-- uid: Kit.ConnectionManager.instance*
-  name: instance
-  href: api/Kit.ConnectionManager.html#Kit_ConnectionManager_instance_
-  commentId: Overload:Kit.ConnectionManager.instance
+- uid: Kit.ConnectionManager.Instance
+  name: Instance
+  href: api/Kit.ConnectionManager.html#Kit_ConnectionManager_Instance
+  commentId: P:Kit.ConnectionManager.Instance
+  fullName: Kit.ConnectionManager.Instance
+  nameWithType: ConnectionManager.Instance
+- uid: Kit.ConnectionManager.Instance*
+  name: Instance
+  href: api/Kit.ConnectionManager.html#Kit_ConnectionManager_Instance_
+  commentId: Overload:Kit.ConnectionManager.Instance
   isSpec: "True"
-  fullName: Kit.ConnectionManager.instance
-  nameWithType: ConnectionManager.instance
+  fullName: Kit.ConnectionManager.Instance
+  nameWithType: ConnectionManager.Instance
 - uid: Kit.ConnectionManager.Post(System.Uri,System.String)
   name: Post(Uri, String)
   href: api/Kit.ConnectionManager.html#Kit_ConnectionManager_Post_System_Uri_System_String_
@@ -1202,6 +1000,12 @@ references:
   commentId: F:Kit.DataModel.StepGroup.skipIfWrong
   fullName: Kit.DataModel.StepGroup.skipIfWrong
   nameWithType: DataModel.StepGroup.skipIfWrong
+- uid: Kit.DataModel.StepGroup.skippable
+  name: skippable
+  href: api/Kit.DataModel.StepGroup.html#Kit_DataModel_StepGroup_skippable
+  commentId: F:Kit.DataModel.StepGroup.skippable
+  fullName: Kit.DataModel.StepGroup.skippable
+  nameWithType: DataModel.StepGroup.skippable
 - uid: Kit.DataModel.StepGroup.stepGroupObjs
   name: stepGroupObjs
   href: api/Kit.DataModel.StepGroup.html#Kit_DataModel_StepGroup_stepGroupObjs
@@ -1280,19 +1084,19 @@ references:
   commentId: T:Kit.EventManager
   fullName: Kit.EventManager
   nameWithType: EventManager
-- uid: Kit.EventManager.instance
-  name: instance
-  href: api/Kit.EventManager.html#Kit_EventManager_instance
-  commentId: P:Kit.EventManager.instance
-  fullName: Kit.EventManager.instance
-  nameWithType: EventManager.instance
-- uid: Kit.EventManager.instance*
-  name: instance
-  href: api/Kit.EventManager.html#Kit_EventManager_instance_
-  commentId: Overload:Kit.EventManager.instance
+- uid: Kit.EventManager.Instance
+  name: Instance
+  href: api/Kit.EventManager.html#Kit_EventManager_Instance
+  commentId: P:Kit.EventManager.Instance
+  fullName: Kit.EventManager.Instance
+  nameWithType: EventManager.Instance
+- uid: Kit.EventManager.Instance*
+  name: Instance
+  href: api/Kit.EventManager.html#Kit_EventManager_Instance_
+  commentId: Overload:Kit.EventManager.Instance
   isSpec: "True"
-  fullName: Kit.EventManager.instance
-  nameWithType: EventManager.instance
+  fullName: Kit.EventManager.Instance
+  nameWithType: EventManager.Instance
 - uid: Kit.EventManager.StartListening(System.String,UnityAction)
   name: StartListening(String, UnityAction)
   href: api/Kit.EventManager.html#Kit_EventManager_StartListening_System_String_UnityAction_
@@ -1370,12 +1174,6 @@ references:
   isSpec: "True"
   fullName: Kit.PlatformManager.ActivityReady
   nameWithType: PlatformManager.ActivityReady
-- uid: Kit.PlatformManager.assistantsList
-  name: assistantsList
-  href: api/Kit.PlatformManager.html#Kit_PlatformManager_assistantsList
-  commentId: F:Kit.PlatformManager.assistantsList
-  fullName: Kit.PlatformManager.assistantsList
-  nameWithType: PlatformManager.assistantsList
 - uid: Kit.PlatformManager.Awake
   name: Awake()
   href: api/Kit.PlatformManager.html#Kit_PlatformManager_Awake
@@ -1402,31 +1200,25 @@ references:
   isSpec: "True"
   fullName: Kit.PlatformManager.ButtonTriggerType
   nameWithType: PlatformManager.ButtonTriggerType
-- uid: Kit.PlatformManager.currentActivity
-  name: currentActivity
-  href: api/Kit.PlatformManager.html#Kit_PlatformManager_currentActivity
-  commentId: F:Kit.PlatformManager.currentActivity
-  fullName: Kit.PlatformManager.currentActivity
-  nameWithType: PlatformManager.currentActivity
 - uid: Kit.PlatformManager.Device
   name: Device
   href: api/Kit.PlatformManager.html#Kit_PlatformManager_Device
   commentId: F:Kit.PlatformManager.Device
   fullName: Kit.PlatformManager.Device
   nameWithType: PlatformManager.Device
-- uid: Kit.PlatformManager.instance
-  name: instance
-  href: api/Kit.PlatformManager.html#Kit_PlatformManager_instance
-  commentId: P:Kit.PlatformManager.instance
-  fullName: Kit.PlatformManager.instance
-  nameWithType: PlatformManager.instance
-- uid: Kit.PlatformManager.instance*
-  name: instance
-  href: api/Kit.PlatformManager.html#Kit_PlatformManager_instance_
-  commentId: Overload:Kit.PlatformManager.instance
+- uid: Kit.PlatformManager.Instance
+  name: Instance
+  href: api/Kit.PlatformManager.html#Kit_PlatformManager_Instance
+  commentId: P:Kit.PlatformManager.Instance
+  fullName: Kit.PlatformManager.Instance
+  nameWithType: PlatformManager.Instance
+- uid: Kit.PlatformManager.Instance*
+  name: Instance
+  href: api/Kit.PlatformManager.html#Kit_PlatformManager_Instance_
+  commentId: Overload:Kit.PlatformManager.Instance
   isSpec: "True"
-  fullName: Kit.PlatformManager.instance
-  nameWithType: PlatformManager.instance
+  fullName: Kit.PlatformManager.Instance
+  nameWithType: PlatformManager.Instance
 - uid: Kit.PlatformManager.InteractableTriggerType
   name: InteractableTriggerType()
   href: api/Kit.PlatformManager.html#Kit_PlatformManager_InteractableTriggerType
@@ -1478,22 +1270,6 @@ references:
   commentId: F:Kit.PlatformManager.Popup
   fullName: Kit.PlatformManager.Popup
   nameWithType: PlatformManager.Popup
-- uid: Kit.PlatformManager.SceneLoaded(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle{UnityEngine.ResourceManagement.ResourceProviders.SceneInstance})
-  name: SceneLoaded(AsyncOperationHandle<SceneInstance>)
-  href: api/Kit.PlatformManager.html#Kit_PlatformManager_SceneLoaded_UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandle_UnityEngine_ResourceManagement_ResourceProviders_SceneInstance__
-  commentId: M:Kit.PlatformManager.SceneLoaded(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle{UnityEngine.ResourceManagement.ResourceProviders.SceneInstance})
-  name.vb: SceneLoaded(AsyncOperationHandle(Of SceneInstance))
-  fullName: Kit.PlatformManager.SceneLoaded(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>)
-  fullName.vb: Kit.PlatformManager.SceneLoaded(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle(Of UnityEngine.ResourceManagement.ResourceProviders.SceneInstance))
-  nameWithType: PlatformManager.SceneLoaded(AsyncOperationHandle<SceneInstance>)
-  nameWithType.vb: PlatformManager.SceneLoaded(AsyncOperationHandle(Of SceneInstance))
-- uid: Kit.PlatformManager.SceneLoaded*
-  name: SceneLoaded
-  href: api/Kit.PlatformManager.html#Kit_PlatformManager_SceneLoaded_
-  commentId: Overload:Kit.PlatformManager.SceneLoaded
-  isSpec: "True"
-  fullName: Kit.PlatformManager.SceneLoaded
-  nameWithType: PlatformManager.SceneLoaded
 - uid: Kit.PlatformManager.SelectableTriggerType
   name: SelectableTriggerType()
   href: api/Kit.PlatformManager.html#Kit_PlatformManager_SelectableTriggerType
@@ -1699,19 +1475,19 @@ references:
   commentId: F:Kit.StatsManager.ActionParameters.target
   fullName: Kit.StatsManager.ActionParameters.target
   nameWithType: StatsManager.ActionParameters.target
-- uid: Kit.StatsManager.instance
-  name: instance
-  href: api/Kit.StatsManager.html#Kit_StatsManager_instance
-  commentId: P:Kit.StatsManager.instance
-  fullName: Kit.StatsManager.instance
-  nameWithType: StatsManager.instance
-- uid: Kit.StatsManager.instance*
-  name: instance
-  href: api/Kit.StatsManager.html#Kit_StatsManager_instance_
-  commentId: Overload:Kit.StatsManager.instance
+- uid: Kit.StatsManager.Instance
+  name: Instance
+  href: api/Kit.StatsManager.html#Kit_StatsManager_Instance
+  commentId: P:Kit.StatsManager.Instance
+  fullName: Kit.StatsManager.Instance
+  nameWithType: StatsManager.Instance
+- uid: Kit.StatsManager.Instance*
+  name: Instance
+  href: api/Kit.StatsManager.html#Kit_StatsManager_Instance_
+  commentId: Overload:Kit.StatsManager.Instance
   isSpec: "True"
-  fullName: Kit.StatsManager.instance
-  nameWithType: StatsManager.instance
+  fullName: Kit.StatsManager.Instance
+  nameWithType: StatsManager.Instance
 - uid: Kit.StatsManager.Session
   name: StatsManager.Session
   href: api/Kit.StatsManager.Session.html
@@ -1899,6 +1675,19 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.DragHold.ActiveTargets
   nameWithType: DragHold.ActiveTargets
+- uid: Kit.StepGroupManagers.DragHold.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.DragHold.html#Kit_StepGroupManagers_DragHold_Awake
+  commentId: M:Kit.StepGroupManagers.DragHold.Awake
+  fullName: Kit.StepGroupManagers.DragHold.Awake()
+  nameWithType: DragHold.Awake()
+- uid: Kit.StepGroupManagers.DragHold.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.DragHold.html#Kit_StepGroupManagers_DragHold_Awake_
+  commentId: Overload:Kit.StepGroupManagers.DragHold.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.DragHold.Awake
+  nameWithType: DragHold.Awake
 - uid: Kit.StepGroupManagers.DragHold.CheckCorrectAction(GameObject,GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
   href: api/Kit.StepGroupManagers.DragHold.html#Kit_StepGroupManagers_DragHold_CheckCorrectAction_GameObject_GameObject_
@@ -2014,6 +1803,19 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.DragMove.ActiveTargets
   nameWithType: DragMove.ActiveTargets
+- uid: Kit.StepGroupManagers.DragMove.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.DragMove.html#Kit_StepGroupManagers_DragMove_Awake
+  commentId: M:Kit.StepGroupManagers.DragMove.Awake
+  fullName: Kit.StepGroupManagers.DragMove.Awake()
+  nameWithType: DragMove.Awake()
+- uid: Kit.StepGroupManagers.DragMove.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.DragMove.html#Kit_StepGroupManagers_DragMove_Awake_
+  commentId: Overload:Kit.StepGroupManagers.DragMove.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.DragMove.Awake
+  nameWithType: DragMove.Awake
 - uid: Kit.StepGroupManagers.DragMove.CheckCorrectAction(GameObject,GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
   href: api/Kit.StepGroupManagers.DragMove.html#Kit_StepGroupManagers_DragMove_CheckCorrectAction_GameObject_GameObject_
@@ -2100,6 +1902,19 @@ references:
   commentId: T:Kit.StepGroupManagers.DragRelease
   fullName: Kit.StepGroupManagers.DragRelease
   nameWithType: DragRelease
+- uid: Kit.StepGroupManagers.DragRelease.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.DragRelease.html#Kit_StepGroupManagers_DragRelease_Awake
+  commentId: M:Kit.StepGroupManagers.DragRelease.Awake
+  fullName: Kit.StepGroupManagers.DragRelease.Awake()
+  nameWithType: DragRelease.Awake()
+- uid: Kit.StepGroupManagers.DragRelease.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.DragRelease.html#Kit_StepGroupManagers_DragRelease_Awake_
+  commentId: Overload:Kit.StepGroupManagers.DragRelease.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.DragRelease.Awake
+  nameWithType: DragRelease.Awake
 - uid: Kit.StepGroupManagers.DragRelease.CheckCorrectAction(GameObject,GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
   href: api/Kit.StepGroupManagers.DragRelease.html#Kit_StepGroupManagers_DragRelease_CheckCorrectAction_GameObject_GameObject_
@@ -2183,6 +1998,19 @@ references:
   commentId: T:Kit.StepGroupManagers.ExpressionsAssociate
   fullName: Kit.StepGroupManagers.ExpressionsAssociate
   nameWithType: ExpressionsAssociate
+- uid: Kit.StepGroupManagers.ExpressionsAssociate.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.ExpressionsAssociate.html#Kit_StepGroupManagers_ExpressionsAssociate_Awake
+  commentId: M:Kit.StepGroupManagers.ExpressionsAssociate.Awake
+  fullName: Kit.StepGroupManagers.ExpressionsAssociate.Awake()
+  nameWithType: ExpressionsAssociate.Awake()
+- uid: Kit.StepGroupManagers.ExpressionsAssociate.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.ExpressionsAssociate.html#Kit_StepGroupManagers_ExpressionsAssociate_Awake_
+  commentId: Overload:Kit.StepGroupManagers.ExpressionsAssociate.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.ExpressionsAssociate.Awake
+  nameWithType: ExpressionsAssociate.Awake
 - uid: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject)
   name: CheckCorrectAction(GameObject)
   href: api/Kit.StepGroupManagers.ExpressionsAssociate.html#Kit_StepGroupManagers_ExpressionsAssociate_CheckCorrectAction_GameObject_
@@ -2240,6 +2068,19 @@ references:
   commentId: T:Kit.StepGroupManagers.ExpressionsComplete
   fullName: Kit.StepGroupManagers.ExpressionsComplete
   nameWithType: ExpressionsComplete
+- uid: Kit.StepGroupManagers.ExpressionsComplete.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.ExpressionsComplete.html#Kit_StepGroupManagers_ExpressionsComplete_Awake
+  commentId: M:Kit.StepGroupManagers.ExpressionsComplete.Awake
+  fullName: Kit.StepGroupManagers.ExpressionsComplete.Awake()
+  nameWithType: ExpressionsComplete.Awake()
+- uid: Kit.StepGroupManagers.ExpressionsComplete.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.ExpressionsComplete.html#Kit_StepGroupManagers_ExpressionsComplete_Awake_
+  commentId: Overload:Kit.StepGroupManagers.ExpressionsComplete.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.ExpressionsComplete.Awake
+  nameWithType: ExpressionsComplete.Awake
 - uid: Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(GameObject)
   name: CheckCorrectAction(GameObject)
   href: api/Kit.StepGroupManagers.ExpressionsComplete.html#Kit_StepGroupManagers_ExpressionsComplete_CheckCorrectAction_GameObject_
@@ -2307,6 +2148,19 @@ references:
   commentId: T:Kit.StepGroupManagers.ExpressionsReorder
   fullName: Kit.StepGroupManagers.ExpressionsReorder
   nameWithType: ExpressionsReorder
+- uid: Kit.StepGroupManagers.ExpressionsReorder.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.ExpressionsReorder.html#Kit_StepGroupManagers_ExpressionsReorder_Awake
+  commentId: M:Kit.StepGroupManagers.ExpressionsReorder.Awake
+  fullName: Kit.StepGroupManagers.ExpressionsReorder.Awake()
+  nameWithType: ExpressionsReorder.Awake()
+- uid: Kit.StepGroupManagers.ExpressionsReorder.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.ExpressionsReorder.html#Kit_StepGroupManagers_ExpressionsReorder_Awake_
+  commentId: Overload:Kit.StepGroupManagers.ExpressionsReorder.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.ExpressionsReorder.Awake
+  nameWithType: ExpressionsReorder.Awake
 - uid: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject)
   name: CheckCorrectAction(GameObject)
   href: api/Kit.StepGroupManagers.ExpressionsReorder.html#Kit_StepGroupManagers_ExpressionsReorder_CheckCorrectAction_GameObject_
@@ -2348,6 +2202,19 @@ references:
   commentId: T:Kit.StepGroupManagers.Select
   fullName: Kit.StepGroupManagers.Select
   nameWithType: Select
+- uid: Kit.StepGroupManagers.Select.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.Select.html#Kit_StepGroupManagers_Select_Awake
+  commentId: M:Kit.StepGroupManagers.Select.Awake
+  fullName: Kit.StepGroupManagers.Select.Awake()
+  nameWithType: Select.Awake()
+- uid: Kit.StepGroupManagers.Select.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.Select.html#Kit_StepGroupManagers_Select_Awake_
+  commentId: Overload:Kit.StepGroupManagers.Select.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.Select.Awake
+  nameWithType: Select.Awake
 - uid: Kit.StepGroupManagers.Select.CheckCorrectAction(GameObject)
   name: CheckCorrectAction(GameObject)
   href: api/Kit.StepGroupManagers.Select.html#Kit_StepGroupManagers_Select_CheckCorrectAction_GameObject_
@@ -2431,6 +2298,19 @@ references:
   commentId: T:Kit.StepGroupManagers.SelectNear
   fullName: Kit.StepGroupManagers.SelectNear
   nameWithType: SelectNear
+- uid: Kit.StepGroupManagers.SelectNear.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.SelectNear.html#Kit_StepGroupManagers_SelectNear_Awake
+  commentId: M:Kit.StepGroupManagers.SelectNear.Awake
+  fullName: Kit.StepGroupManagers.SelectNear.Awake()
+  nameWithType: SelectNear.Awake()
+- uid: Kit.StepGroupManagers.SelectNear.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.SelectNear.html#Kit_StepGroupManagers_SelectNear_Awake_
+  commentId: Overload:Kit.StepGroupManagers.SelectNear.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.SelectNear.Awake
+  nameWithType: SelectNear.Awake
 - uid: Kit.StepGroupManagers.SelectNear.CheckCorrectAction(GameObject)
   name: CheckCorrectAction(GameObject)
   href: api/Kit.StepGroupManagers.SelectNear.html#Kit_StepGroupManagers_SelectNear_CheckCorrectAction_GameObject_
@@ -2498,6 +2378,19 @@ references:
   commentId: T:Kit.StepGroupManagers.Speech
   fullName: Kit.StepGroupManagers.Speech
   nameWithType: Speech
+- uid: Kit.StepGroupManagers.Speech.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.Speech.html#Kit_StepGroupManagers_Speech_Awake
+  commentId: M:Kit.StepGroupManagers.Speech.Awake
+  fullName: Kit.StepGroupManagers.Speech.Awake()
+  nameWithType: Speech.Awake()
+- uid: Kit.StepGroupManagers.Speech.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.Speech.html#Kit_StepGroupManagers_Speech_Awake_
+  commentId: Overload:Kit.StepGroupManagers.Speech.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.Speech.Awake
+  nameWithType: Speech.Awake
 - uid: Kit.StepGroupManagers.Speech.CheckCorrectAction(System.String)
   name: CheckCorrectAction(String)
   href: api/Kit.StepGroupManagers.Speech.html#Kit_StepGroupManagers_Speech_CheckCorrectAction_System_String_
@@ -2565,6 +2458,19 @@ references:
   commentId: T:Kit.StepGroupManagers.SpeechTimer
   fullName: Kit.StepGroupManagers.SpeechTimer
   nameWithType: SpeechTimer
+- uid: Kit.StepGroupManagers.SpeechTimer.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.SpeechTimer.html#Kit_StepGroupManagers_SpeechTimer_Awake
+  commentId: M:Kit.StepGroupManagers.SpeechTimer.Awake
+  fullName: Kit.StepGroupManagers.SpeechTimer.Awake()
+  nameWithType: SpeechTimer.Awake()
+- uid: Kit.StepGroupManagers.SpeechTimer.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.SpeechTimer.html#Kit_StepGroupManagers_SpeechTimer_Awake_
+  commentId: Overload:Kit.StepGroupManagers.SpeechTimer.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.SpeechTimer.Awake
+  nameWithType: SpeechTimer.Awake
 - uid: Kit.StepGroupManagers.SpeechTimer.CheckCorrectAction(System.String)
   name: CheckCorrectAction(String)
   href: api/Kit.StepGroupManagers.SpeechTimer.html#Kit_StepGroupManagers_SpeechTimer_CheckCorrectAction_System_String_
@@ -2584,12 +2490,62 @@ references:
   commentId: T:Kit.StepGroupManagers.StepGroupManagerBase
   fullName: Kit.StepGroupManagers.StepGroupManagerBase
   nameWithType: StepGroupManagerBase
+- uid: Kit.StepGroupManagers.StepGroupManagerBase._dynamicObjects
+  name: _dynamicObjects
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__dynamicObjects
+  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase._dynamicObjects
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase._dynamicObjects
+  nameWithType: StepGroupManagerBase._dynamicObjects
+- uid: Kit.StepGroupManagers.StepGroupManagerBase._hints
+  name: _hints
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__hints
+  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase._hints
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase._hints
+  nameWithType: StepGroupManagerBase._hints
 - uid: Kit.StepGroupManagers.StepGroupManagerBase._initialScale
   name: _initialScale
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__initialScale
   commentId: F:Kit.StepGroupManagers.StepGroupManagerBase._initialScale
   fullName: Kit.StepGroupManagers.StepGroupManagerBase._initialScale
   nameWithType: StepGroupManagerBase._initialScale
+- uid: Kit.StepGroupManagers.StepGroupManagerBase._stepIndex
+  name: _stepIndex
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__stepIndex
+  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase._stepIndex
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase._stepIndex
+  nameWithType: StepGroupManagerBase._stepIndex
+- uid: Kit.StepGroupManagers.StepGroupManagerBase._stepsInGroup
+  name: _stepsInGroup
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__stepsInGroup
+  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase._stepsInGroup
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase._stepsInGroup
+  nameWithType: StepGroupManagerBase._stepsInGroup
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.AssistantTriggered
+  name: AssistantTriggered()
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_AssistantTriggered
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.AssistantTriggered
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.AssistantTriggered()
+  nameWithType: StepGroupManagerBase.AssistantTriggered()
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.AssistantTriggered*
+  name: AssistantTriggered
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_AssistantTriggered_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.AssistantTriggered
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.AssistantTriggered
+  nameWithType: StepGroupManagerBase.AssistantTriggered
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Awake
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.Awake
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.Awake()
+  nameWithType: StepGroupManagerBase.Awake()
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Awake_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.Awake
+  nameWithType: StepGroupManagerBase.Awake
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject)
   name: CheckCorrectAction(GameObject)
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_
@@ -2615,32 +2571,113 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction
   nameWithType: StepGroupManagerBase.CheckCorrectAction
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.Correct
-  name: Correct
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Correct
-  commentId: P:Kit.StepGroupManagers.StepGroupManagerBase.Correct
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.Correct
-  nameWithType: StepGroupManagerBase.Correct
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.Correct*
-  name: Correct
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Correct_
-  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.Correct
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.CurrentStep
+  name: CurrentStep
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CurrentStep
+  commentId: P:Kit.StepGroupManagers.StepGroupManagerBase.CurrentStep
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.CurrentStep
+  nameWithType: StepGroupManagerBase.CurrentStep
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.CurrentStep*
+  name: CurrentStep
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CurrentStep_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.CurrentStep
   isSpec: "True"
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.Correct
-  nameWithType: StepGroupManagerBase.Correct
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects
-  name: ParameterObjects()
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_ParameterObjects
-  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects()
-  nameWithType: StepGroupManagerBase.ParameterObjects()
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects*
-  name: ParameterObjects
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_ParameterObjects_
-  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.CurrentStep
+  nameWithType: StepGroupManagerBase.CurrentStep
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.GenerateSceneObjects(Kit.DataModel.ObjGroup)
+  name: GenerateSceneObjects(DataModel.ObjGroup)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_GenerateSceneObjects_Kit_DataModel_ObjGroup_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.GenerateSceneObjects(Kit.DataModel.ObjGroup)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.GenerateSceneObjects(Kit.DataModel.ObjGroup)
+  nameWithType: StepGroupManagerBase.GenerateSceneObjects(DataModel.ObjGroup)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.GenerateSceneObjects*
+  name: GenerateSceneObjects
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_GenerateSceneObjects_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.GenerateSceneObjects
   isSpec: "True"
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.ParameterObjects
-  nameWithType: StepGroupManagerBase.ParameterObjects
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.GenerateSceneObjects
+  nameWithType: StepGroupManagerBase.GenerateSceneObjects
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.InitializeStepGroup(Kit.DataModel.StepGroup)
+  name: InitializeStepGroup(DataModel.StepGroup)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_InitializeStepGroup_Kit_DataModel_StepGroup_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.InitializeStepGroup(Kit.DataModel.StepGroup)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.InitializeStepGroup(Kit.DataModel.StepGroup)
+  nameWithType: StepGroupManagerBase.InitializeStepGroup(DataModel.StepGroup)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.InitializeStepGroup*
+  name: InitializeStepGroup
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_InitializeStepGroup_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.InitializeStepGroup
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.InitializeStepGroup
+  nameWithType: StepGroupManagerBase.InitializeStepGroup
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.Instance
+  name: Instance
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Instance
+  commentId: P:Kit.StepGroupManagers.StepGroupManagerBase.Instance
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.Instance
+  nameWithType: StepGroupManagerBase.Instance
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.Instance*
+  name: Instance
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Instance_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.Instance
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.Instance
+  nameWithType: StepGroupManagerBase.Instance
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.IsFree
+  name: IsFree
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_IsFree
+  commentId: P:Kit.StepGroupManagers.StepGroupManagerBase.IsFree
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.IsFree
+  nameWithType: StepGroupManagerBase.IsFree
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.IsFree*
+  name: IsFree
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_IsFree_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.IsFree
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.IsFree
+  nameWithType: StepGroupManagerBase.IsFree
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.NextStep
+  name: NextStep()
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_NextStep
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.NextStep
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.NextStep()
+  nameWithType: StepGroupManagerBase.NextStep()
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.NextStep*
+  name: NextStep
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_NextStep_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.NextStep
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.NextStep
+  nameWithType: StepGroupManagerBase.NextStep
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.PlayInstructionSequence(System.Collections.Generic.List{System.String})
+  name: PlayInstructionSequence(List<String>)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_PlayInstructionSequence_System_Collections_Generic_List_System_String__
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.PlayInstructionSequence(System.Collections.Generic.List{System.String})
+  name.vb: PlayInstructionSequence(List(Of String))
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.PlayInstructionSequence(System.Collections.Generic.List<System.String>)
+  fullName.vb: Kit.StepGroupManagers.StepGroupManagerBase.PlayInstructionSequence(System.Collections.Generic.List(Of System.String))
+  nameWithType: StepGroupManagerBase.PlayInstructionSequence(List<String>)
+  nameWithType.vb: StepGroupManagerBase.PlayInstructionSequence(List(Of String))
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.PlayInstructionSequence*
+  name: PlayInstructionSequence
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_PlayInstructionSequence_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.PlayInstructionSequence
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.PlayInstructionSequence
+  nameWithType: StepGroupManagerBase.PlayInstructionSequence
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.PlaySingleInstruction(System.String,System.String)
+  name: PlaySingleInstruction(String, String)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_PlaySingleInstruction_System_String_System_String_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.PlaySingleInstruction(System.String,System.String)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.PlaySingleInstruction(System.String, System.String)
+  nameWithType: StepGroupManagerBase.PlaySingleInstruction(String, String)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.PlaySingleInstruction*
+  name: PlaySingleInstruction
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_PlaySingleInstruction_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.PlaySingleInstruction
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.PlaySingleInstruction
+  nameWithType: StepGroupManagerBase.PlaySingleInstruction
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.RandomizeObjects(System.Collections.Generic.List{Kit.DataModel.Obj},System.Int32)
   name: RandomizeObjects(List<DataModel.Obj>, Int32)
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_RandomizeObjects_System_Collections_Generic_List_Kit_DataModel_Obj__System_Int32_
@@ -2657,6 +2694,19 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.RandomizeObjects
   nameWithType: StepGroupManagerBase.RandomizeObjects
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.RemoveSceneObjects(Kit.DataModel.ObjGroup)
+  name: RemoveSceneObjects(DataModel.ObjGroup)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_RemoveSceneObjects_Kit_DataModel_ObjGroup_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.RemoveSceneObjects(Kit.DataModel.ObjGroup)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.RemoveSceneObjects(Kit.DataModel.ObjGroup)
+  nameWithType: StepGroupManagerBase.RemoveSceneObjects(DataModel.ObjGroup)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.RemoveSceneObjects*
+  name: RemoveSceneObjects
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_RemoveSceneObjects_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.RemoveSceneObjects
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.RemoveSceneObjects
+  nameWithType: StepGroupManagerBase.RemoveSceneObjects
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.SaveAction(System.Collections.Generic.List{System.String},Kit.StatsManager.StepParameter,Kit.StatsManager.ActionParameters,System.Boolean,System.Int32)
   name: SaveAction(List<String>, StatsManager.StepParameter, StatsManager.ActionParameters, Boolean, Int32)
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SaveAction_System_Collections_Generic_List_System_String__Kit_StatsManager_StepParameter_Kit_StatsManager_ActionParameters_System_Boolean_System_Int32_
@@ -2689,6 +2739,22 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.SelectCorrect
   nameWithType: StepGroupManagerBase.SelectCorrect
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.SelectRandomInstruction(System.Collections.Generic.List{System.String})
+  name: SelectRandomInstruction(List<String>)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SelectRandomInstruction_System_Collections_Generic_List_System_String__
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.SelectRandomInstruction(System.Collections.Generic.List{System.String})
+  name.vb: SelectRandomInstruction(List(Of String))
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.SelectRandomInstruction(System.Collections.Generic.List<System.String>)
+  fullName.vb: Kit.StepGroupManagers.StepGroupManagerBase.SelectRandomInstruction(System.Collections.Generic.List(Of System.String))
+  nameWithType: StepGroupManagerBase.SelectRandomInstruction(List<String>)
+  nameWithType.vb: StepGroupManagerBase.SelectRandomInstruction(List(Of String))
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.SelectRandomInstruction*
+  name: SelectRandomInstruction
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SelectRandomInstruction_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.SelectRandomInstruction
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.SelectRandomInstruction
+  nameWithType: StepGroupManagerBase.SelectRandomInstruction
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.SelectRequest(System.Collections.Generic.List{System.String})
   name: SelectRequest(List<String>)
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SelectRequest_System_Collections_Generic_List_System_String__
@@ -2763,6 +2829,19 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetStepsInCurrentGroup
   nameWithType: StepGroupManagerBase.SetStepsInCurrentGroup
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.StepGroup
+  name: StepGroup
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_StepGroup
+  commentId: P:Kit.StepGroupManagers.StepGroupManagerBase.StepGroup
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.StepGroup
+  nameWithType: StepGroupManagerBase.StepGroup
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.StepGroup*
+  name: StepGroup
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_StepGroup_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.StepGroup
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.StepGroup
+  nameWithType: StepGroupManagerBase.StepGroup
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(GameObject)
   name: StopVisualFeedback(GameObject)
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_GameObject_
@@ -2776,19 +2855,19 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback
   nameWithType: StepGroupManagerBase.StopVisualFeedback
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.Wrong
-  name: Wrong
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Wrong
-  commentId: P:Kit.StepGroupManagers.StepGroupManagerBase.Wrong
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.Wrong
-  nameWithType: StepGroupManagerBase.Wrong
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.Wrong*
-  name: Wrong
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Wrong_
-  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.Wrong
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.UpdateParameterObjects
+  name: UpdateParameterObjects()
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_UpdateParameterObjects
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.UpdateParameterObjects
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.UpdateParameterObjects()
+  nameWithType: StepGroupManagerBase.UpdateParameterObjects()
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.UpdateParameterObjects*
+  name: UpdateParameterObjects
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_UpdateParameterObjects_
+  commentId: Overload:Kit.StepGroupManagers.StepGroupManagerBase.UpdateParameterObjects
   isSpec: "True"
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.Wrong
-  nameWithType: StepGroupManagerBase.Wrong
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.UpdateParameterObjects
+  nameWithType: StepGroupManagerBase.UpdateParameterObjects
 - uid: Kit.TextToSpeech
   name: TextToSpeech
   href: api/Kit.TextToSpeech.html
@@ -3013,31 +3092,6 @@ references:
   commentId: F:Kit.UI.LoadingAnimation.rotateSpeed
   fullName: Kit.UI.LoadingAnimation.rotateSpeed
   nameWithType: LoadingAnimation.rotateSpeed
-- uid: Kit.UI.LoginButtonGoogle
-  name: LoginButtonGoogle
-  href: api/Kit.UI.LoginButtonGoogle.html
-  commentId: T:Kit.UI.LoginButtonGoogle
-  fullName: Kit.UI.LoginButtonGoogle
-  nameWithType: LoginButtonGoogle
-- uid: Kit.UI.LoginButtonGoogle.Login
-  name: Login()
-  href: api/Kit.UI.LoginButtonGoogle.html#Kit_UI_LoginButtonGoogle_Login
-  commentId: M:Kit.UI.LoginButtonGoogle.Login
-  fullName: Kit.UI.LoginButtonGoogle.Login()
-  nameWithType: LoginButtonGoogle.Login()
-- uid: Kit.UI.LoginButtonGoogle.Login*
-  name: Login
-  href: api/Kit.UI.LoginButtonGoogle.html#Kit_UI_LoginButtonGoogle_Login_
-  commentId: Overload:Kit.UI.LoginButtonGoogle.Login
-  isSpec: "True"
-  fullName: Kit.UI.LoginButtonGoogle.Login
-  nameWithType: LoginButtonGoogle.Login
-- uid: Kit.UI.LoginButtonGoogle.WebClientId
-  name: WebClientId
-  href: api/Kit.UI.LoginButtonGoogle.html#Kit_UI_LoginButtonGoogle_WebClientId
-  commentId: F:Kit.UI.LoginButtonGoogle.WebClientId
-  fullName: Kit.UI.LoginButtonGoogle.WebClientId
-  nameWithType: LoginButtonGoogle.WebClientId
 - uid: Kit.UI.LogoutButton
   name: LogoutButton
   href: api/Kit.UI.LogoutButton.html
@@ -3484,19 +3538,19 @@ references:
   commentId: F:Kit.VirtualAssistantManager.head
   fullName: Kit.VirtualAssistantManager.head
   nameWithType: VirtualAssistantManager.head
-- uid: Kit.VirtualAssistantManager.instance
-  name: instance
-  href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_instance
-  commentId: P:Kit.VirtualAssistantManager.instance
-  fullName: Kit.VirtualAssistantManager.instance
-  nameWithType: VirtualAssistantManager.instance
-- uid: Kit.VirtualAssistantManager.instance*
-  name: instance
-  href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_instance_
-  commentId: Overload:Kit.VirtualAssistantManager.instance
+- uid: Kit.VirtualAssistantManager.Instance
+  name: Instance
+  href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_Instance
+  commentId: P:Kit.VirtualAssistantManager.Instance
+  fullName: Kit.VirtualAssistantManager.Instance
+  nameWithType: VirtualAssistantManager.Instance
+- uid: Kit.VirtualAssistantManager.Instance*
+  name: Instance
+  href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_Instance_
+  commentId: Overload:Kit.VirtualAssistantManager.Instance
   isSpec: "True"
-  fullName: Kit.VirtualAssistantManager.instance
-  nameWithType: VirtualAssistantManager.instance
+  fullName: Kit.VirtualAssistantManager.Instance
+  nameWithType: VirtualAssistantManager.Instance
 - uid: Kit.VirtualAssistantManager.pitch
   name: pitch
   href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_pitch
@@ -3509,32 +3563,19 @@ references:
   commentId: F:Kit.VirtualAssistantManager.speechBubble
   fullName: Kit.VirtualAssistantManager.speechBubble
   nameWithType: VirtualAssistantManager.speechBubble
-- uid: Kit.VirtualAssistantManager.startTalking(System.String,System.String)
-  name: startTalking(String, String)
-  href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_startTalking_System_String_System_String_
-  commentId: M:Kit.VirtualAssistantManager.startTalking(System.String,System.String)
-  fullName: Kit.VirtualAssistantManager.startTalking(System.String, System.String)
-  nameWithType: VirtualAssistantManager.startTalking(String, String)
-- uid: Kit.VirtualAssistantManager.startTalking*
-  name: startTalking
-  href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_startTalking_
-  commentId: Overload:Kit.VirtualAssistantManager.startTalking
+- uid: Kit.VirtualAssistantManager.Talk(System.String,System.String)
+  name: Talk(String, String)
+  href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_Talk_System_String_System_String_
+  commentId: M:Kit.VirtualAssistantManager.Talk(System.String,System.String)
+  fullName: Kit.VirtualAssistantManager.Talk(System.String, System.String)
+  nameWithType: VirtualAssistantManager.Talk(String, String)
+- uid: Kit.VirtualAssistantManager.Talk*
+  name: Talk
+  href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_Talk_
+  commentId: Overload:Kit.VirtualAssistantManager.Talk
   isSpec: "True"
-  fullName: Kit.VirtualAssistantManager.startTalking
-  nameWithType: VirtualAssistantManager.startTalking
-- uid: Kit.VirtualAssistantManager.stopTalking(System.String)
-  name: stopTalking(String)
-  href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_stopTalking_System_String_
-  commentId: M:Kit.VirtualAssistantManager.stopTalking(System.String)
-  fullName: Kit.VirtualAssistantManager.stopTalking(System.String)
-  nameWithType: VirtualAssistantManager.stopTalking(String)
-- uid: Kit.VirtualAssistantManager.stopTalking*
-  name: stopTalking
-  href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_stopTalking_
-  commentId: Overload:Kit.VirtualAssistantManager.stopTalking
-  isSpec: "True"
-  fullName: Kit.VirtualAssistantManager.stopTalking
-  nameWithType: VirtualAssistantManager.stopTalking
+  fullName: Kit.VirtualAssistantManager.Talk
+  nameWithType: VirtualAssistantManager.Talk
 - uid: Kit.VirtualAssistantManager.voice
   name: voice
   href: api/Kit.VirtualAssistantManager.html#Kit_VirtualAssistantManager_voice

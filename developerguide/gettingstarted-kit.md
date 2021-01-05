@@ -17,12 +17,12 @@ specifiche che bisogna rendere visibili nella cartella Assets del progetto princ
 - nel caso di Kit-Shared bisogna creare dei link alla cartella `Shared` e `Resources`.
 - nel caso di Kit-Assets bisogna creare dei link alla cartella `AddressableAssets` e `AddressableAssetsData`.
 
-Per creare un link simbolico (su Windows) apri il terminale nella cartella `Assets` del progetto e digita i seguenti comandi:
+Per creare un link simbolico (su Windows) apri il terminale nella cartella `Assets` del progetto
+e digita i seguenti comandi:
 
 - `mklink /d AddressableAssets ..\Submodules\Kit-Assets\Assets\AddressableAssets`
 - `mklink /d AddressableAssetsData ..\Submodules\Kit-Assets\Assets\AddressableAssetsData`
 - `mklink /d Shared ..\Submodules\Kit-Shared\Assets\Shared`
-- `mklink /d Resources ..\Submodules\Kit-Shared\Assets\Resources`
 
 Per ulteriori informazioni sui link simbolici su Windows, visita
 [questo sito](https://docs.microsoft.com/it-it/windows-server/administration/windows-commands/mklink).

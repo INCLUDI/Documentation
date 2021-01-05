@@ -73,7 +73,8 @@
   
   <h1 id="Kit_StatsManager" data-uid="Kit.StatsManager" class="text-break">Class StatsManager
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Collects data regarding the activity usage.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -90,18 +91,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StatsManager_instance.md&amp;value=---%0Auid%3A%20Kit.StatsManager.instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StatsManager_Instance.md&amp;value=---%0Auid%3A%20Kit.StatsManager.Instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StatsManager.cs/#L24">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StatsManager.cs/#L23">View Source</a>
   </span>
-  <a id="Kit_StatsManager_instance_" data-uid="Kit.StatsManager.instance*"></a>
-  <h4 id="Kit_StatsManager_instance" data-uid="Kit.StatsManager.instance">instance</h4>
+  <a id="Kit_StatsManager_Instance_" data-uid="Kit.StatsManager.Instance*"></a>
+  <h4 id="Kit_StatsManager_Instance" data-uid="Kit.StatsManager.Instance">Instance</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static StatsManager instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static StatsManager Instance { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -125,11 +126,12 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StatsManager_ActionCompleted_System_Collections_Generic_List_System_String__Kit_StatsManager_StepParameter_Kit_StatsManager_ActionParameters_System_Boolean_System_Int32_.md&amp;value=---%0Auid%3A%20Kit.StatsManager.ActionCompleted(System.Collections.Generic.List%7BSystem.String%7D%2CKit.StatsManager.StepParameter%2CKit.StatsManager.ActionParameters%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StatsManager.cs/#L105">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StatsManager.cs/#L128">View Source</a>
   </span>
   <a id="Kit_StatsManager_ActionCompleted_" data-uid="Kit.StatsManager.ActionCompleted*"></a>
   <h4 id="Kit_StatsManager_ActionCompleted_System_Collections_Generic_List_System_String__Kit_StatsManager_StepParameter_Kit_StatsManager_ActionParameters_System_Boolean_System_Int32_" data-uid="Kit.StatsManager.ActionCompleted(System.Collections.Generic.List{System.String},Kit.StatsManager.StepParameter,Kit.StatsManager.ActionParameters,System.Boolean,System.Int32)">ActionCompleted(List&lt;String&gt;, StatsManager.StepParameter, StatsManager.ActionParameters, Boolean, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Invoked when an action is completed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -148,27 +150,32 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">request</span></td>
-        <td></td>
+        <td><p>The request performed to the user.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Kit.StatsManager.StepParameter.html">StatsManager.StepParameter</a></td>
         <td><span class="parametername">correctParameters</span></td>
-        <td></td>
+        <td><p>The correct options.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Kit.StatsManager.ActionParameters.html">StatsManager.ActionParameters</a></td>
         <td><span class="parametername">action</span></td>
-        <td></td>
+        <td><p>The action performed by the user.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">error</span></td>
-        <td></td>
+        <td><p>Whether the action performed by the user is an error or not.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">hints</span></td>
-        <td></td>
+        <td><p>The number of hints given by the virtual assistant.</p>
+</td>
       </tr>
     </tbody>
   </table>
