@@ -1,259 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: DG.Tweening
-  name: DG.Tweening
-  href: api/DG.Tweening.html
-  commentId: N:DG.Tweening
-  fullName: DG.Tweening
-  nameWithType: DG.Tweening
-- uid: DG.Tweening.DOTweenModuleAudio
-  name: DOTweenModuleAudio
-  href: api/DG.Tweening.DOTweenModuleAudio.html
-  commentId: T:DG.Tweening.DOTweenModuleAudio
-  fullName: DG.Tweening.DOTweenModuleAudio
-  nameWithType: DOTweenModuleAudio
-- uid: DG.Tweening.DOTweenModuleAudio.DOFade(AudioSource,System.Single,System.Single)
-  name: DOFade(AudioSource, Single, Single)
-  href: api/DG.Tweening.DOTweenModuleAudio.html#DG_Tweening_DOTweenModuleAudio_DOFade_AudioSource_System_Single_System_Single_
-  commentId: M:DG.Tweening.DOTweenModuleAudio.DOFade(AudioSource,System.Single,System.Single)
-  fullName: DG.Tweening.DOTweenModuleAudio.DOFade(AudioSource, System.Single, System.Single)
-  nameWithType: DOTweenModuleAudio.DOFade(AudioSource, Single, Single)
-- uid: DG.Tweening.DOTweenModuleAudio.DOFade*
-  name: DOFade
-  href: api/DG.Tweening.DOTweenModuleAudio.html#DG_Tweening_DOTweenModuleAudio_DOFade_
-  commentId: Overload:DG.Tweening.DOTweenModuleAudio.DOFade
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModuleAudio.DOFade
-  nameWithType: DOTweenModuleAudio.DOFade
-- uid: DG.Tweening.DOTweenModuleAudio.DOPitch(AudioSource,System.Single,System.Single)
-  name: DOPitch(AudioSource, Single, Single)
-  href: api/DG.Tweening.DOTweenModuleAudio.html#DG_Tweening_DOTweenModuleAudio_DOPitch_AudioSource_System_Single_System_Single_
-  commentId: M:DG.Tweening.DOTweenModuleAudio.DOPitch(AudioSource,System.Single,System.Single)
-  fullName: DG.Tweening.DOTweenModuleAudio.DOPitch(AudioSource, System.Single, System.Single)
-  nameWithType: DOTweenModuleAudio.DOPitch(AudioSource, Single, Single)
-- uid: DG.Tweening.DOTweenModuleAudio.DOPitch*
-  name: DOPitch
-  href: api/DG.Tweening.DOTweenModuleAudio.html#DG_Tweening_DOTweenModuleAudio_DOPitch_
-  commentId: Overload:DG.Tweening.DOTweenModuleAudio.DOPitch
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModuleAudio.DOPitch
-  nameWithType: DOTweenModuleAudio.DOPitch
-- uid: DG.Tweening.DOTweenModulePhysics
-  name: DOTweenModulePhysics
-  href: api/DG.Tweening.DOTweenModulePhysics.html
-  commentId: T:DG.Tweening.DOTweenModulePhysics
-  fullName: DG.Tweening.DOTweenModulePhysics
-  nameWithType: DOTweenModulePhysics
-- uid: DG.Tweening.DOTweenModulePhysics.DOJump(Rigidbody,Vector3,System.Single,System.Int32,System.Single,System.Boolean)
-  name: DOJump(Rigidbody, Vector3, Single, Int32, Single, Boolean)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOJump_Rigidbody_Vector3_System_Single_System_Int32_System_Single_System_Boolean_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOJump(Rigidbody,Vector3,System.Single,System.Int32,System.Single,System.Boolean)
-  fullName: DG.Tweening.DOTweenModulePhysics.DOJump(Rigidbody, Vector3, System.Single, System.Int32, System.Single, System.Boolean)
-  nameWithType: DOTweenModulePhysics.DOJump(Rigidbody, Vector3, Single, Int32, Single, Boolean)
-- uid: DG.Tweening.DOTweenModulePhysics.DOJump*
-  name: DOJump
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOJump_
-  commentId: Overload:DG.Tweening.DOTweenModulePhysics.DOJump
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModulePhysics.DOJump
-  nameWithType: DOTweenModulePhysics.DOJump
-- uid: DG.Tweening.DOTweenModulePhysics.DOLocalPath(Rigidbody,Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{Color})
-  name: DOLocalPath(Rigidbody, Vector3[], Single, PathType, PathMode, Int32, Nullable<Color>)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOLocalPath_Rigidbody_Vector3___System_Single_DG_Tweening_PathType_DG_Tweening_PathMode_System_Int32_System_Nullable_Color__
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOLocalPath(Rigidbody,Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{Color})
-  name.vb: DOLocalPath(Rigidbody, Vector3(), Single, PathType, PathMode, Int32, Nullable(Of Color))
-  fullName: DG.Tweening.DOTweenModulePhysics.DOLocalPath(Rigidbody, Vector3[], System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable<Color>)
-  fullName.vb: DG.Tweening.DOTweenModulePhysics.DOLocalPath(Rigidbody, Vector3(), System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable(Of Color))
-  nameWithType: DOTweenModulePhysics.DOLocalPath(Rigidbody, Vector3[], Single, PathType, PathMode, Int32, Nullable<Color>)
-  nameWithType.vb: DOTweenModulePhysics.DOLocalPath(Rigidbody, Vector3(), Single, PathType, PathMode, Int32, Nullable(Of Color))
-- uid: DG.Tweening.DOTweenModulePhysics.DOLocalPath*
-  name: DOLocalPath
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOLocalPath_
-  commentId: Overload:DG.Tweening.DOTweenModulePhysics.DOLocalPath
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModulePhysics.DOLocalPath
-  nameWithType: DOTweenModulePhysics.DOLocalPath
-- uid: DG.Tweening.DOTweenModulePhysics.DOLookAt(Rigidbody,Vector3,System.Single,DG.Tweening.AxisConstraint,System.Nullable{Vector3})
-  name: DOLookAt(Rigidbody, Vector3, Single, AxisConstraint, Nullable<Vector3>)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOLookAt_Rigidbody_Vector3_System_Single_DG_Tweening_AxisConstraint_System_Nullable_Vector3__
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOLookAt(Rigidbody,Vector3,System.Single,DG.Tweening.AxisConstraint,System.Nullable{Vector3})
-  name.vb: DOLookAt(Rigidbody, Vector3, Single, AxisConstraint, Nullable(Of Vector3))
-  fullName: DG.Tweening.DOTweenModulePhysics.DOLookAt(Rigidbody, Vector3, System.Single, DG.Tweening.AxisConstraint, System.Nullable<Vector3>)
-  fullName.vb: DG.Tweening.DOTweenModulePhysics.DOLookAt(Rigidbody, Vector3, System.Single, DG.Tweening.AxisConstraint, System.Nullable(Of Vector3))
-  nameWithType: DOTweenModulePhysics.DOLookAt(Rigidbody, Vector3, Single, AxisConstraint, Nullable<Vector3>)
-  nameWithType.vb: DOTweenModulePhysics.DOLookAt(Rigidbody, Vector3, Single, AxisConstraint, Nullable(Of Vector3))
-- uid: DG.Tweening.DOTweenModulePhysics.DOLookAt*
-  name: DOLookAt
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOLookAt_
-  commentId: Overload:DG.Tweening.DOTweenModulePhysics.DOLookAt
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModulePhysics.DOLookAt
-  nameWithType: DOTweenModulePhysics.DOLookAt
-- uid: DG.Tweening.DOTweenModulePhysics.DOMove(Rigidbody,Vector3,System.Single,System.Boolean)
-  name: DOMove(Rigidbody, Vector3, Single, Boolean)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMove_Rigidbody_Vector3_System_Single_System_Boolean_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMove(Rigidbody,Vector3,System.Single,System.Boolean)
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMove(Rigidbody, Vector3, System.Single, System.Boolean)
-  nameWithType: DOTweenModulePhysics.DOMove(Rigidbody, Vector3, Single, Boolean)
-- uid: DG.Tweening.DOTweenModulePhysics.DOMove*
-  name: DOMove
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMove_
-  commentId: Overload:DG.Tweening.DOTweenModulePhysics.DOMove
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMove
-  nameWithType: DOTweenModulePhysics.DOMove
-- uid: DG.Tweening.DOTweenModulePhysics.DOMoveX(Rigidbody,System.Single,System.Single,System.Boolean)
-  name: DOMoveX(Rigidbody, Single, Single, Boolean)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveX_Rigidbody_System_Single_System_Single_System_Boolean_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMoveX(Rigidbody,System.Single,System.Single,System.Boolean)
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveX(Rigidbody, System.Single, System.Single, System.Boolean)
-  nameWithType: DOTweenModulePhysics.DOMoveX(Rigidbody, Single, Single, Boolean)
-- uid: DG.Tweening.DOTweenModulePhysics.DOMoveX*
-  name: DOMoveX
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveX_
-  commentId: Overload:DG.Tweening.DOTweenModulePhysics.DOMoveX
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveX
-  nameWithType: DOTweenModulePhysics.DOMoveX
-- uid: DG.Tweening.DOTweenModulePhysics.DOMoveY(Rigidbody,System.Single,System.Single,System.Boolean)
-  name: DOMoveY(Rigidbody, Single, Single, Boolean)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveY_Rigidbody_System_Single_System_Single_System_Boolean_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMoveY(Rigidbody,System.Single,System.Single,System.Boolean)
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveY(Rigidbody, System.Single, System.Single, System.Boolean)
-  nameWithType: DOTweenModulePhysics.DOMoveY(Rigidbody, Single, Single, Boolean)
-- uid: DG.Tweening.DOTweenModulePhysics.DOMoveY*
-  name: DOMoveY
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveY_
-  commentId: Overload:DG.Tweening.DOTweenModulePhysics.DOMoveY
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveY
-  nameWithType: DOTweenModulePhysics.DOMoveY
-- uid: DG.Tweening.DOTweenModulePhysics.DOMoveZ(Rigidbody,System.Single,System.Single,System.Boolean)
-  name: DOMoveZ(Rigidbody, Single, Single, Boolean)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveZ_Rigidbody_System_Single_System_Single_System_Boolean_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOMoveZ(Rigidbody,System.Single,System.Single,System.Boolean)
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveZ(Rigidbody, System.Single, System.Single, System.Boolean)
-  nameWithType: DOTweenModulePhysics.DOMoveZ(Rigidbody, Single, Single, Boolean)
-- uid: DG.Tweening.DOTweenModulePhysics.DOMoveZ*
-  name: DOMoveZ
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOMoveZ_
-  commentId: Overload:DG.Tweening.DOTweenModulePhysics.DOMoveZ
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModulePhysics.DOMoveZ
-  nameWithType: DOTweenModulePhysics.DOMoveZ
-- uid: DG.Tweening.DOTweenModulePhysics.DOPath(Rigidbody,Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{Color})
-  name: DOPath(Rigidbody, Vector3[], Single, PathType, PathMode, Int32, Nullable<Color>)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOPath_Rigidbody_Vector3___System_Single_DG_Tweening_PathType_DG_Tweening_PathMode_System_Int32_System_Nullable_Color__
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DOPath(Rigidbody,Vector3[],System.Single,DG.Tweening.PathType,DG.Tweening.PathMode,System.Int32,System.Nullable{Color})
-  name.vb: DOPath(Rigidbody, Vector3(), Single, PathType, PathMode, Int32, Nullable(Of Color))
-  fullName: DG.Tweening.DOTweenModulePhysics.DOPath(Rigidbody, Vector3[], System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable<Color>)
-  fullName.vb: DG.Tweening.DOTweenModulePhysics.DOPath(Rigidbody, Vector3(), System.Single, DG.Tweening.PathType, DG.Tweening.PathMode, System.Int32, System.Nullable(Of Color))
-  nameWithType: DOTweenModulePhysics.DOPath(Rigidbody, Vector3[], Single, PathType, PathMode, Int32, Nullable<Color>)
-  nameWithType.vb: DOTweenModulePhysics.DOPath(Rigidbody, Vector3(), Single, PathType, PathMode, Int32, Nullable(Of Color))
-- uid: DG.Tweening.DOTweenModulePhysics.DOPath*
-  name: DOPath
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DOPath_
-  commentId: Overload:DG.Tweening.DOTweenModulePhysics.DOPath
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModulePhysics.DOPath
-  nameWithType: DOTweenModulePhysics.DOPath
-- uid: DG.Tweening.DOTweenModulePhysics.DORotate(Rigidbody,Vector3,System.Single,DG.Tweening.RotateMode)
-  name: DORotate(Rigidbody, Vector3, Single, RotateMode)
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DORotate_Rigidbody_Vector3_System_Single_DG_Tweening_RotateMode_
-  commentId: M:DG.Tweening.DOTweenModulePhysics.DORotate(Rigidbody,Vector3,System.Single,DG.Tweening.RotateMode)
-  fullName: DG.Tweening.DOTweenModulePhysics.DORotate(Rigidbody, Vector3, System.Single, DG.Tweening.RotateMode)
-  nameWithType: DOTweenModulePhysics.DORotate(Rigidbody, Vector3, Single, RotateMode)
-- uid: DG.Tweening.DOTweenModulePhysics.DORotate*
-  name: DORotate
-  href: api/DG.Tweening.DOTweenModulePhysics.html#DG_Tweening_DOTweenModulePhysics_DORotate_
-  commentId: Overload:DG.Tweening.DOTweenModulePhysics.DORotate
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModulePhysics.DORotate
-  nameWithType: DOTweenModulePhysics.DORotate
-- uid: DG.Tweening.DOTweenModuleUnityVersion
-  name: DOTweenModuleUnityVersion
-  href: api/DG.Tweening.DOTweenModuleUnityVersion.html
-  commentId: T:DG.Tweening.DOTweenModuleUnityVersion
-  fullName: DG.Tweening.DOTweenModuleUnityVersion
-  nameWithType: DOTweenModuleUnityVersion
-- uid: DG.Tweening.DOTweenModuleUtils
-  name: DOTweenModuleUtils
-  href: api/DG.Tweening.DOTweenModuleUtils.html
-  commentId: T:DG.Tweening.DOTweenModuleUtils
-  fullName: DG.Tweening.DOTweenModuleUtils
-  nameWithType: DOTweenModuleUtils
-- uid: DG.Tweening.DOTweenModuleUtils.Init
-  name: Init()
-  href: api/DG.Tweening.DOTweenModuleUtils.html#DG_Tweening_DOTweenModuleUtils_Init
-  commentId: M:DG.Tweening.DOTweenModuleUtils.Init
-  fullName: DG.Tweening.DOTweenModuleUtils.Init()
-  nameWithType: DOTweenModuleUtils.Init()
-- uid: DG.Tweening.DOTweenModuleUtils.Init*
-  name: Init
-  href: api/DG.Tweening.DOTweenModuleUtils.html#DG_Tweening_DOTweenModuleUtils_Init_
-  commentId: Overload:DG.Tweening.DOTweenModuleUtils.Init
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModuleUtils.Init
-  nameWithType: DOTweenModuleUtils.Init
-- uid: DG.Tweening.DOTweenModuleUtils.Physics
-  name: DOTweenModuleUtils.Physics
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html
-  commentId: T:DG.Tweening.DOTweenModuleUtils.Physics
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics
-  nameWithType: DOTweenModuleUtils.Physics
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween(MonoBehaviour,System.Boolean,System.Boolean,DG.Tweening.Plugins.Core.PathCore.Path,System.Single,DG.Tweening.PathMode)
-  name: CreateDOTweenPathTween(MonoBehaviour, Boolean, Boolean, Path, Single, PathMode)
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_CreateDOTweenPathTween_MonoBehaviour_System_Boolean_System_Boolean_DG_Tweening_Plugins_Core_PathCore_Path_System_Single_DG_Tweening_PathMode_
-  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween(MonoBehaviour,System.Boolean,System.Boolean,DG.Tweening.Plugins.Core.PathCore.Path,System.Single,DG.Tweening.PathMode)
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween(MonoBehaviour, System.Boolean, System.Boolean, DG.Tweening.Plugins.Core.PathCore.Path, System.Single, DG.Tweening.PathMode)
-  nameWithType: DOTweenModuleUtils.Physics.CreateDOTweenPathTween(MonoBehaviour, Boolean, Boolean, Path, Single, PathMode)
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween*
-  name: CreateDOTweenPathTween
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_CreateDOTweenPathTween_
-  commentId: Overload:DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween
-  nameWithType: DOTweenModuleUtils.Physics.CreateDOTweenPathTween
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody(Component)
-  name: HasRigidbody(Component)
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_HasRigidbody_Component_
-  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody(Component)
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody(Component)
-  nameWithType: DOTweenModuleUtils.Physics.HasRigidbody(Component)
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody*
-  name: HasRigidbody
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_HasRigidbody_
-  commentId: Overload:DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody
-  nameWithType: DOTweenModuleUtils.Physics.HasRigidbody
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D(Component)
-  name: HasRigidbody2D(Component)
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_HasRigidbody2D_Component_
-  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D(Component)
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D(Component)
-  nameWithType: DOTweenModuleUtils.Physics.HasRigidbody2D(Component)
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D*
-  name: HasRigidbody2D
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_HasRigidbody2D_
-  commentId: Overload:DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D
-  nameWithType: DOTweenModuleUtils.Physics.HasRigidbody2D
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath(DG.Tweening.Plugins.Options.PathOptions,DG.Tweening.Tween,Quaternion,Transform)
-  name: SetOrientationOnPath(PathOptions, Tween, Quaternion, Transform)
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_SetOrientationOnPath_DG_Tweening_Plugins_Options_PathOptions_DG_Tweening_Tween_Quaternion_Transform_
-  commentId: M:DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath(DG.Tweening.Plugins.Options.PathOptions,DG.Tweening.Tween,Quaternion,Transform)
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath(DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Tween, Quaternion, Transform)
-  nameWithType: DOTweenModuleUtils.Physics.SetOrientationOnPath(PathOptions, Tween, Quaternion, Transform)
-- uid: DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath*
-  name: SetOrientationOnPath
-  href: api/DG.Tweening.DOTweenModuleUtils.Physics.html#DG_Tweening_DOTweenModuleUtils_Physics_SetOrientationOnPath_
-  commentId: Overload:DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath
-  isSpec: "True"
-  fullName: DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath
-  nameWithType: DOTweenModuleUtils.Physics.SetOrientationOnPath
 - uid: Kit
   name: Kit
   href: api/Kit.html
@@ -362,11 +109,11 @@ references:
   isSpec: "True"
   fullName: Kit.AudioManager.Instance
   nameWithType: AudioManager.Instance
-- uid: Kit.AudioManager.PlayAudio(AudioClip,AudioSource)
+- uid: Kit.AudioManager.PlayAudio(UnityEngine.AudioClip,UnityEngine.AudioSource)
   name: PlayAudio(AudioClip, AudioSource)
-  href: api/Kit.AudioManager.html#Kit_AudioManager_PlayAudio_AudioClip_AudioSource_
-  commentId: M:Kit.AudioManager.PlayAudio(AudioClip,AudioSource)
-  fullName: Kit.AudioManager.PlayAudio(AudioClip, AudioSource)
+  href: api/Kit.AudioManager.html#Kit_AudioManager_PlayAudio_UnityEngine_AudioClip_UnityEngine_AudioSource_
+  commentId: M:Kit.AudioManager.PlayAudio(UnityEngine.AudioClip,UnityEngine.AudioSource)
+  fullName: Kit.AudioManager.PlayAudio(UnityEngine.AudioClip, UnityEngine.AudioSource)
   nameWithType: AudioManager.PlayAudio(AudioClip, AudioSource)
 - uid: Kit.AudioManager.PlayAudio*
   name: PlayAudio
@@ -449,19 +196,19 @@ references:
   isSpec: "True"
   fullName: Kit.AuthManager.InitializeIncludiAuth
   nameWithType: AuthManager.InitializeIncludiAuth
-- uid: Kit.AuthManager.instance
-  name: instance
-  href: api/Kit.AuthManager.html#Kit_AuthManager_instance
-  commentId: P:Kit.AuthManager.instance
-  fullName: Kit.AuthManager.instance
-  nameWithType: AuthManager.instance
-- uid: Kit.AuthManager.instance*
-  name: instance
-  href: api/Kit.AuthManager.html#Kit_AuthManager_instance_
-  commentId: Overload:Kit.AuthManager.instance
+- uid: Kit.AuthManager.Instance
+  name: Instance
+  href: api/Kit.AuthManager.html#Kit_AuthManager_Instance
+  commentId: P:Kit.AuthManager.Instance
+  fullName: Kit.AuthManager.Instance
+  nameWithType: AuthManager.Instance
+- uid: Kit.AuthManager.Instance*
+  name: Instance
+  href: api/Kit.AuthManager.html#Kit_AuthManager_Instance_
+  commentId: Overload:Kit.AuthManager.Instance
   isSpec: "True"
-  fullName: Kit.AuthManager.instance
-  nameWithType: AuthManager.instance
+  fullName: Kit.AuthManager.Instance
+  nameWithType: AuthManager.Instance
 - uid: Kit.AuthManager.Institute
   name: AuthManager.Institute
   href: api/Kit.AuthManager.Institute.html
@@ -1097,11 +844,11 @@ references:
   isSpec: "True"
   fullName: Kit.EventManager.Instance
   nameWithType: EventManager.Instance
-- uid: Kit.EventManager.StartListening(System.String,UnityAction)
+- uid: Kit.EventManager.StartListening(System.String,UnityEngine.Events.UnityAction)
   name: StartListening(String, UnityAction)
-  href: api/Kit.EventManager.html#Kit_EventManager_StartListening_System_String_UnityAction_
-  commentId: M:Kit.EventManager.StartListening(System.String,UnityAction)
-  fullName: Kit.EventManager.StartListening(System.String, UnityAction)
+  href: api/Kit.EventManager.html#Kit_EventManager_StartListening_System_String_UnityEngine_Events_UnityAction_
+  commentId: M:Kit.EventManager.StartListening(System.String,UnityEngine.Events.UnityAction)
+  fullName: Kit.EventManager.StartListening(System.String, UnityEngine.Events.UnityAction)
   nameWithType: EventManager.StartListening(String, UnityAction)
 - uid: Kit.EventManager.StartListening*
   name: StartListening
@@ -1110,11 +857,11 @@ references:
   isSpec: "True"
   fullName: Kit.EventManager.StartListening
   nameWithType: EventManager.StartListening
-- uid: Kit.EventManager.StopListening(System.String,UnityAction)
+- uid: Kit.EventManager.StopListening(System.String,UnityEngine.Events.UnityAction)
   name: StopListening(String, UnityAction)
-  href: api/Kit.EventManager.html#Kit_EventManager_StopListening_System_String_UnityAction_
-  commentId: M:Kit.EventManager.StopListening(System.String,UnityAction)
-  fullName: Kit.EventManager.StopListening(System.String, UnityAction)
+  href: api/Kit.EventManager.html#Kit_EventManager_StopListening_System_String_UnityEngine_Events_UnityAction_
+  commentId: M:Kit.EventManager.StopListening(System.String,UnityEngine.Events.UnityAction)
+  fullName: Kit.EventManager.StopListening(System.String, UnityEngine.Events.UnityAction)
   nameWithType: EventManager.StopListening(String, UnityAction)
 - uid: Kit.EventManager.StopListening*
   name: StopListening
@@ -1688,11 +1435,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.DragHold.Awake
   nameWithType: DragHold.Awake
-- uid: Kit.StepGroupManagers.DragHold.CheckCorrectAction(GameObject,GameObject)
+- uid: Kit.StepGroupManagers.DragHold.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.DragHold.html#Kit_StepGroupManagers_DragHold_CheckCorrectAction_GameObject_GameObject_
-  commentId: M:Kit.StepGroupManagers.DragHold.CheckCorrectAction(GameObject,GameObject)
-  fullName: Kit.StepGroupManagers.DragHold.CheckCorrectAction(GameObject, GameObject)
+  href: api/Kit.StepGroupManagers.DragHold.html#Kit_StepGroupManagers_DragHold_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.DragHold.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.DragHold.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
   nameWithType: DragHold.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.DragHold.CheckCorrectAction*
   name: CheckCorrectAction
@@ -1701,12 +1448,6 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.DragHold.CheckCorrectAction
   nameWithType: DragHold.CheckCorrectAction
-- uid: Kit.StepGroupManagers.DragHold.progressBarManager
-  name: progressBarManager
-  href: api/Kit.StepGroupManagers.DragHold.html#Kit_StepGroupManagers_DragHold_progressBarManager
-  commentId: F:Kit.StepGroupManagers.DragHold.progressBarManager
-  fullName: Kit.StepGroupManagers.DragHold.progressBarManager
-  nameWithType: DragHold.progressBarManager
 - uid: Kit.StepGroupManagers.DragHold.SelectCorrect(System.Collections.Generic.List{System.String},System.String)
   name: SelectCorrect(List<String>, String)
   href: api/Kit.StepGroupManagers.DragHold.html#Kit_StepGroupManagers_DragHold_SelectCorrect_System_Collections_Generic_List_System_String__System_String_
@@ -1816,11 +1557,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.DragMove.Awake
   nameWithType: DragMove.Awake
-- uid: Kit.StepGroupManagers.DragMove.CheckCorrectAction(GameObject,GameObject)
+- uid: Kit.StepGroupManagers.DragMove.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.DragMove.html#Kit_StepGroupManagers_DragMove_CheckCorrectAction_GameObject_GameObject_
-  commentId: M:Kit.StepGroupManagers.DragMove.CheckCorrectAction(GameObject,GameObject)
-  fullName: Kit.StepGroupManagers.DragMove.CheckCorrectAction(GameObject, GameObject)
+  href: api/Kit.StepGroupManagers.DragMove.html#Kit_StepGroupManagers_DragMove_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.DragMove.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.DragMove.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
   nameWithType: DragMove.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.DragMove.CheckCorrectAction*
   name: CheckCorrectAction
@@ -1915,11 +1656,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.DragRelease.Awake
   nameWithType: DragRelease.Awake
-- uid: Kit.StepGroupManagers.DragRelease.CheckCorrectAction(GameObject,GameObject)
+- uid: Kit.StepGroupManagers.DragRelease.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.DragRelease.html#Kit_StepGroupManagers_DragRelease_CheckCorrectAction_GameObject_GameObject_
-  commentId: M:Kit.StepGroupManagers.DragRelease.CheckCorrectAction(GameObject,GameObject)
-  fullName: Kit.StepGroupManagers.DragRelease.CheckCorrectAction(GameObject, GameObject)
+  href: api/Kit.StepGroupManagers.DragRelease.html#Kit_StepGroupManagers_DragRelease_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.DragRelease.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.DragRelease.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
   nameWithType: DragRelease.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.DragRelease.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2011,17 +1752,17 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.ExpressionsAssociate.Awake
   nameWithType: ExpressionsAssociate.Awake
-- uid: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject)
+- uid: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject)
   name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.ExpressionsAssociate.html#Kit_StepGroupManagers_ExpressionsAssociate_CheckCorrectAction_GameObject_
-  commentId: M:Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject)
-  fullName: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject)
+  href: api/Kit.StepGroupManagers.ExpressionsAssociate.html#Kit_StepGroupManagers_ExpressionsAssociate_CheckCorrectAction_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject)
   nameWithType: ExpressionsAssociate.CheckCorrectAction(GameObject)
-- uid: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject,GameObject)
+- uid: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.ExpressionsAssociate.html#Kit_StepGroupManagers_ExpressionsAssociate_CheckCorrectAction_GameObject_GameObject_
-  commentId: M:Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject,GameObject)
-  fullName: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(GameObject, GameObject)
+  href: api/Kit.StepGroupManagers.ExpressionsAssociate.html#Kit_StepGroupManagers_ExpressionsAssociate_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
   nameWithType: ExpressionsAssociate.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.ExpressionsAssociate.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2081,11 +1822,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.ExpressionsComplete.Awake
   nameWithType: ExpressionsComplete.Awake
-- uid: Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(GameObject)
+- uid: Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(UnityEngine.GameObject)
   name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.ExpressionsComplete.html#Kit_StepGroupManagers_ExpressionsComplete_CheckCorrectAction_GameObject_
-  commentId: M:Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(GameObject)
-  fullName: Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(GameObject)
+  href: api/Kit.StepGroupManagers.ExpressionsComplete.html#Kit_StepGroupManagers_ExpressionsComplete_CheckCorrectAction_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction(UnityEngine.GameObject)
   nameWithType: ExpressionsComplete.CheckCorrectAction(GameObject)
 - uid: Kit.StepGroupManagers.ExpressionsComplete.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2161,17 +1902,17 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.ExpressionsReorder.Awake
   nameWithType: ExpressionsReorder.Awake
-- uid: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject)
+- uid: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject)
   name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.ExpressionsReorder.html#Kit_StepGroupManagers_ExpressionsReorder_CheckCorrectAction_GameObject_
-  commentId: M:Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject)
-  fullName: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject)
+  href: api/Kit.StepGroupManagers.ExpressionsReorder.html#Kit_StepGroupManagers_ExpressionsReorder_CheckCorrectAction_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject)
   nameWithType: ExpressionsReorder.CheckCorrectAction(GameObject)
-- uid: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject,GameObject)
+- uid: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
   name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.ExpressionsReorder.html#Kit_StepGroupManagers_ExpressionsReorder_CheckCorrectAction_GameObject_GameObject_
-  commentId: M:Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject,GameObject)
-  fullName: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(GameObject, GameObject)
+  href: api/Kit.StepGroupManagers.ExpressionsReorder.html#Kit_StepGroupManagers_ExpressionsReorder_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
   nameWithType: ExpressionsReorder.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.ExpressionsReorder.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2196,6 +1937,86 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.ExpressionsReorder.SelectCorrect
   nameWithType: ExpressionsReorder.SelectCorrect
+- uid: Kit.StepGroupManagers.Instructions
+  name: Instructions
+  href: api/Kit.StepGroupManagers.Instructions.html
+  commentId: T:Kit.StepGroupManagers.Instructions
+  fullName: Kit.StepGroupManagers.Instructions
+  nameWithType: Instructions
+- uid: Kit.StepGroupManagers.Instructions.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.Instructions.html#Kit_StepGroupManagers_Instructions_Awake
+  commentId: M:Kit.StepGroupManagers.Instructions.Awake
+  fullName: Kit.StepGroupManagers.Instructions.Awake()
+  nameWithType: Instructions.Awake()
+- uid: Kit.StepGroupManagers.Instructions.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.Instructions.html#Kit_StepGroupManagers_Instructions_Awake_
+  commentId: Overload:Kit.StepGroupManagers.Instructions.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.Instructions.Awake
+  nameWithType: Instructions.Awake
+- uid: Kit.StepGroupManagers.Instructions.CheckCorrectAction(System.String)
+  name: CheckCorrectAction(String)
+  href: api/Kit.StepGroupManagers.Instructions.html#Kit_StepGroupManagers_Instructions_CheckCorrectAction_System_String_
+  commentId: M:Kit.StepGroupManagers.Instructions.CheckCorrectAction(System.String)
+  fullName: Kit.StepGroupManagers.Instructions.CheckCorrectAction(System.String)
+  nameWithType: Instructions.CheckCorrectAction(String)
+- uid: Kit.StepGroupManagers.Instructions.CheckCorrectAction*
+  name: CheckCorrectAction
+  href: api/Kit.StepGroupManagers.Instructions.html#Kit_StepGroupManagers_Instructions_CheckCorrectAction_
+  commentId: Overload:Kit.StepGroupManagers.Instructions.CheckCorrectAction
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.Instructions.CheckCorrectAction
+  nameWithType: Instructions.CheckCorrectAction
+- uid: Kit.StepGroupManagers.Instructions.SelectCorrect(System.Collections.Generic.List{System.String},System.String)
+  name: SelectCorrect(List<String>, String)
+  href: api/Kit.StepGroupManagers.Instructions.html#Kit_StepGroupManagers_Instructions_SelectCorrect_System_Collections_Generic_List_System_String__System_String_
+  commentId: M:Kit.StepGroupManagers.Instructions.SelectCorrect(System.Collections.Generic.List{System.String},System.String)
+  name.vb: SelectCorrect(List(Of String), String)
+  fullName: Kit.StepGroupManagers.Instructions.SelectCorrect(System.Collections.Generic.List<System.String>, System.String)
+  fullName.vb: Kit.StepGroupManagers.Instructions.SelectCorrect(System.Collections.Generic.List(Of System.String), System.String)
+  nameWithType: Instructions.SelectCorrect(List<String>, String)
+  nameWithType.vb: Instructions.SelectCorrect(List(Of String), String)
+- uid: Kit.StepGroupManagers.Instructions.SelectCorrect*
+  name: SelectCorrect
+  href: api/Kit.StepGroupManagers.Instructions.html#Kit_StepGroupManagers_Instructions_SelectCorrect_
+  commentId: Overload:Kit.StepGroupManagers.Instructions.SelectCorrect
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.Instructions.SelectCorrect
+  nameWithType: Instructions.SelectCorrect
+- uid: Kit.StepGroupManagers.Instructions.SelectRequest(System.Collections.Generic.List{System.String})
+  name: SelectRequest(List<String>)
+  href: api/Kit.StepGroupManagers.Instructions.html#Kit_StepGroupManagers_Instructions_SelectRequest_System_Collections_Generic_List_System_String__
+  commentId: M:Kit.StepGroupManagers.Instructions.SelectRequest(System.Collections.Generic.List{System.String})
+  name.vb: SelectRequest(List(Of String))
+  fullName: Kit.StepGroupManagers.Instructions.SelectRequest(System.Collections.Generic.List<System.String>)
+  fullName.vb: Kit.StepGroupManagers.Instructions.SelectRequest(System.Collections.Generic.List(Of System.String))
+  nameWithType: Instructions.SelectRequest(List<String>)
+  nameWithType.vb: Instructions.SelectRequest(List(Of String))
+- uid: Kit.StepGroupManagers.Instructions.SelectRequest*
+  name: SelectRequest
+  href: api/Kit.StepGroupManagers.Instructions.html#Kit_StepGroupManagers_Instructions_SelectRequest_
+  commentId: Overload:Kit.StepGroupManagers.Instructions.SelectRequest
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.Instructions.SelectRequest
+  nameWithType: Instructions.SelectRequest
+- uid: Kit.StepGroupManagers.Instructions.SelectWrong(System.Collections.Generic.List{System.String},System.String)
+  name: SelectWrong(List<String>, String)
+  href: api/Kit.StepGroupManagers.Instructions.html#Kit_StepGroupManagers_Instructions_SelectWrong_System_Collections_Generic_List_System_String__System_String_
+  commentId: M:Kit.StepGroupManagers.Instructions.SelectWrong(System.Collections.Generic.List{System.String},System.String)
+  name.vb: SelectWrong(List(Of String), String)
+  fullName: Kit.StepGroupManagers.Instructions.SelectWrong(System.Collections.Generic.List<System.String>, System.String)
+  fullName.vb: Kit.StepGroupManagers.Instructions.SelectWrong(System.Collections.Generic.List(Of System.String), System.String)
+  nameWithType: Instructions.SelectWrong(List<String>, String)
+  nameWithType.vb: Instructions.SelectWrong(List(Of String), String)
+- uid: Kit.StepGroupManagers.Instructions.SelectWrong*
+  name: SelectWrong
+  href: api/Kit.StepGroupManagers.Instructions.html#Kit_StepGroupManagers_Instructions_SelectWrong_
+  commentId: Overload:Kit.StepGroupManagers.Instructions.SelectWrong
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.Instructions.SelectWrong
+  nameWithType: Instructions.SelectWrong
 - uid: Kit.StepGroupManagers.Select
   name: Select
   href: api/Kit.StepGroupManagers.Select.html
@@ -2215,11 +2036,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.Select.Awake
   nameWithType: Select.Awake
-- uid: Kit.StepGroupManagers.Select.CheckCorrectAction(GameObject)
+- uid: Kit.StepGroupManagers.Select.CheckCorrectAction(UnityEngine.GameObject)
   name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.Select.html#Kit_StepGroupManagers_Select_CheckCorrectAction_GameObject_
-  commentId: M:Kit.StepGroupManagers.Select.CheckCorrectAction(GameObject)
-  fullName: Kit.StepGroupManagers.Select.CheckCorrectAction(GameObject)
+  href: api/Kit.StepGroupManagers.Select.html#Kit_StepGroupManagers_Select_CheckCorrectAction_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.Select.CheckCorrectAction(UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.Select.CheckCorrectAction(UnityEngine.GameObject)
   nameWithType: Select.CheckCorrectAction(GameObject)
 - uid: Kit.StepGroupManagers.Select.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2311,11 +2132,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.SelectNear.Awake
   nameWithType: SelectNear.Awake
-- uid: Kit.StepGroupManagers.SelectNear.CheckCorrectAction(GameObject)
+- uid: Kit.StepGroupManagers.SelectNear.CheckCorrectAction(UnityEngine.GameObject)
   name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.SelectNear.html#Kit_StepGroupManagers_SelectNear_CheckCorrectAction_GameObject_
-  commentId: M:Kit.StepGroupManagers.SelectNear.CheckCorrectAction(GameObject)
-  fullName: Kit.StepGroupManagers.SelectNear.CheckCorrectAction(GameObject)
+  href: api/Kit.StepGroupManagers.SelectNear.html#Kit_StepGroupManagers_SelectNear_CheckCorrectAction_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.SelectNear.CheckCorrectAction(UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.SelectNear.CheckCorrectAction(UnityEngine.GameObject)
   nameWithType: SelectNear.CheckCorrectAction(GameObject)
 - uid: Kit.StepGroupManagers.SelectNear.CheckCorrectAction*
   name: CheckCorrectAction
@@ -2372,6 +2193,25 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.SelectNear.SelectWrong
   nameWithType: SelectNear.SelectWrong
+- uid: Kit.StepGroupManagers.SkipSteps
+  name: SkipSteps
+  href: api/Kit.StepGroupManagers.SkipSteps.html
+  commentId: T:Kit.StepGroupManagers.SkipSteps
+  fullName: Kit.StepGroupManagers.SkipSteps
+  nameWithType: SkipSteps
+- uid: Kit.StepGroupManagers.SkipSteps.Awake
+  name: Awake()
+  href: api/Kit.StepGroupManagers.SkipSteps.html#Kit_StepGroupManagers_SkipSteps_Awake
+  commentId: M:Kit.StepGroupManagers.SkipSteps.Awake
+  fullName: Kit.StepGroupManagers.SkipSteps.Awake()
+  nameWithType: SkipSteps.Awake()
+- uid: Kit.StepGroupManagers.SkipSteps.Awake*
+  name: Awake
+  href: api/Kit.StepGroupManagers.SkipSteps.html#Kit_StepGroupManagers_SkipSteps_Awake_
+  commentId: Overload:Kit.StepGroupManagers.SkipSteps.Awake
+  isSpec: "True"
+  fullName: Kit.StepGroupManagers.SkipSteps.Awake
+  nameWithType: SkipSteps.Awake
 - uid: Kit.StepGroupManagers.Speech
   name: Speech
   href: api/Kit.StepGroupManagers.Speech.html
@@ -2490,36 +2330,12 @@ references:
   commentId: T:Kit.StepGroupManagers.StepGroupManagerBase
   fullName: Kit.StepGroupManagers.StepGroupManagerBase
   nameWithType: StepGroupManagerBase
-- uid: Kit.StepGroupManagers.StepGroupManagerBase._dynamicObjects
-  name: _dynamicObjects
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__dynamicObjects
-  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase._dynamicObjects
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase._dynamicObjects
-  nameWithType: StepGroupManagerBase._dynamicObjects
-- uid: Kit.StepGroupManagers.StepGroupManagerBase._hints
-  name: _hints
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__hints
-  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase._hints
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase._hints
-  nameWithType: StepGroupManagerBase._hints
-- uid: Kit.StepGroupManagers.StepGroupManagerBase._initialScale
-  name: _initialScale
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__initialScale
-  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase._initialScale
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase._initialScale
-  nameWithType: StepGroupManagerBase._initialScale
 - uid: Kit.StepGroupManagers.StepGroupManagerBase._stepIndex
   name: _stepIndex
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__stepIndex
   commentId: F:Kit.StepGroupManagers.StepGroupManagerBase._stepIndex
   fullName: Kit.StepGroupManagers.StepGroupManagerBase._stepIndex
   nameWithType: StepGroupManagerBase._stepIndex
-- uid: Kit.StepGroupManagers.StepGroupManagerBase._stepsInGroup
-  name: _stepsInGroup
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__stepsInGroup
-  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase._stepsInGroup
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase._stepsInGroup
-  nameWithType: StepGroupManagerBase._stepsInGroup
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.AssistantTriggered
   name: AssistantTriggered()
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_AssistantTriggered
@@ -2546,24 +2362,24 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.Awake
   nameWithType: StepGroupManagerBase.Awake
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject)
-  name: CheckCorrectAction(GameObject)
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_
-  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject)
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject)
-  nameWithType: StepGroupManagerBase.CheckCorrectAction(GameObject)
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject,GameObject)
-  name: CheckCorrectAction(GameObject, GameObject)
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_GameObject_
-  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject,GameObject)
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(GameObject, GameObject)
-  nameWithType: StepGroupManagerBase.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(System.String)
   name: CheckCorrectAction(String)
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_System_String_
   commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(System.String)
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(System.String)
   nameWithType: StepGroupManagerBase.CheckCorrectAction(String)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject)
+  name: CheckCorrectAction(GameObject)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject)
+  nameWithType: StepGroupManagerBase.CheckCorrectAction(GameObject)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+  name: CheckCorrectAction(GameObject, GameObject)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject,UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction(UnityEngine.GameObject, UnityEngine.GameObject)
+  nameWithType: StepGroupManagerBase.CheckCorrectAction(GameObject, GameObject)
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.CheckCorrectAction*
   name: CheckCorrectAction
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_
@@ -2584,6 +2400,12 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.CurrentStep
   nameWithType: StepGroupManagerBase.CurrentStep
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.DynamicObjects
+  name: DynamicObjects
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_DynamicObjects
+  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase.DynamicObjects
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.DynamicObjects
+  nameWithType: StepGroupManagerBase.DynamicObjects
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.GenerateSceneObjects(Kit.DataModel.ObjGroup)
   name: GenerateSceneObjects(DataModel.ObjGroup)
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_GenerateSceneObjects_Kit_DataModel_ObjGroup_
@@ -2597,6 +2419,12 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.GenerateSceneObjects
   nameWithType: StepGroupManagerBase.GenerateSceneObjects
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.Hints
+  name: Hints
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Hints
+  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase.Hints
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.Hints
+  nameWithType: StepGroupManagerBase.Hints
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.InitializeStepGroup(Kit.DataModel.StepGroup)
   name: InitializeStepGroup(DataModel.StepGroup)
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_InitializeStepGroup_Kit_DataModel_StepGroup_
@@ -2610,6 +2438,12 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.InitializeStepGroup
   nameWithType: StepGroupManagerBase.InitializeStepGroup
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.InitialScale
+  name: InitialScale
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_InitialScale
+  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase.InitialScale
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.InitialScale
+  nameWithType: StepGroupManagerBase.InitialScale
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.Instance
   name: Instance
   href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Instance
@@ -2787,11 +2621,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.SelectWrong
   nameWithType: StepGroupManagerBase.SelectWrong
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(GameObject)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(UnityEngine.GameObject)
   name: SetFinalPosition(GameObject)
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_GameObject_
-  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(GameObject)
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(GameObject)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition(UnityEngine.GameObject)
   nameWithType: StepGroupManagerBase.SetFinalPosition(GameObject)
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition*
   name: SetFinalPosition
@@ -2800,11 +2634,11 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalPosition
   nameWithType: StepGroupManagerBase.SetFinalPosition
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(GameObject)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(UnityEngine.GameObject)
   name: SetFinalRotation(GameObject)
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_GameObject_
-  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(GameObject)
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(GameObject)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation(UnityEngine.GameObject)
   nameWithType: StepGroupManagerBase.SetFinalRotation(GameObject)
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.SetFinalRotation*
   name: SetFinalRotation
@@ -2842,11 +2676,17 @@ references:
   isSpec: "True"
   fullName: Kit.StepGroupManagers.StepGroupManagerBase.StepGroup
   nameWithType: StepGroupManagerBase.StepGroup
-- uid: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(GameObject)
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.StepsInGroup
+  name: StepsInGroup
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_StepsInGroup
+  commentId: F:Kit.StepGroupManagers.StepGroupManagerBase.StepsInGroup
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.StepsInGroup
+  nameWithType: StepGroupManagerBase.StepsInGroup
+- uid: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(UnityEngine.GameObject)
   name: StopVisualFeedback(GameObject)
-  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_GameObject_
-  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(GameObject)
-  fullName: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(GameObject)
+  href: api/Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_UnityEngine_GameObject_
+  commentId: M:Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(UnityEngine.GameObject)
+  fullName: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback(UnityEngine.GameObject)
   nameWithType: StepGroupManagerBase.StopVisualFeedback(GameObject)
 - uid: Kit.StepGroupManagers.StepGroupManagerBase.StopVisualFeedback*
   name: StopVisualFeedback
@@ -3013,73 +2853,91 @@ references:
   commentId: N:Kit.UI
   fullName: Kit.UI
   nameWithType: Kit.UI
-- uid: Kit.UI.ActivityComponentFiller
-  name: ActivityComponentFiller
-  href: api/Kit.UI.ActivityComponentFiller.html
-  commentId: T:Kit.UI.ActivityComponentFiller
-  fullName: Kit.UI.ActivityComponentFiller
-  nameWithType: ActivityComponentFiller
-- uid: Kit.UI.ActivityComponentFiller.ClassElement
+- uid: Kit.UI.ActivitiesPageManager
+  name: ActivitiesPageManager
+  href: api/Kit.UI.ActivitiesPageManager.html
+  commentId: T:Kit.UI.ActivitiesPageManager
+  fullName: Kit.UI.ActivitiesPageManager
+  nameWithType: ActivitiesPageManager
+- uid: Kit.UI.ActivitiesPageManager.ActivitiesPageContent
+  name: ActivitiesPageContent
+  href: api/Kit.UI.ActivitiesPageManager.html#Kit_UI_ActivitiesPageManager_ActivitiesPageContent
+  commentId: F:Kit.UI.ActivitiesPageManager.ActivitiesPageContent
+  fullName: Kit.UI.ActivitiesPageManager.ActivitiesPageContent
+  nameWithType: ActivitiesPageManager.ActivitiesPageContent
+- uid: Kit.UI.ActivitiesPageManager.ActivityPanelPrefab
+  name: ActivityPanelPrefab
+  href: api/Kit.UI.ActivitiesPageManager.html#Kit_UI_ActivitiesPageManager_ActivityPanelPrefab
+  commentId: F:Kit.UI.ActivitiesPageManager.ActivityPanelPrefab
+  fullName: Kit.UI.ActivitiesPageManager.ActivityPanelPrefab
+  nameWithType: ActivitiesPageManager.ActivityPanelPrefab
+- uid: Kit.UI.ActivitiesPageManager.LoadingPanel
+  name: LoadingPanel
+  href: api/Kit.UI.ActivitiesPageManager.html#Kit_UI_ActivitiesPageManager_LoadingPanel
+  commentId: F:Kit.UI.ActivitiesPageManager.LoadingPanel
+  fullName: Kit.UI.ActivitiesPageManager.LoadingPanel
+  nameWithType: ActivitiesPageManager.LoadingPanel
+- uid: Kit.UI.ActivityPanelFiller
+  name: ActivityPanelFiller
+  href: api/Kit.UI.ActivityPanelFiller.html
+  commentId: T:Kit.UI.ActivityPanelFiller
+  fullName: Kit.UI.ActivityPanelFiller
+  nameWithType: ActivityPanelFiller
+- uid: Kit.UI.ActivityPanelFiller.ClassElement
   name: ClassElement
-  href: api/Kit.UI.ActivityComponentFiller.html#Kit_UI_ActivityComponentFiller_ClassElement
-  commentId: F:Kit.UI.ActivityComponentFiller.ClassElement
-  fullName: Kit.UI.ActivityComponentFiller.ClassElement
-  nameWithType: ActivityComponentFiller.ClassElement
-- uid: Kit.UI.ActivityComponentFiller.classes
-  name: classes
-  href: api/Kit.UI.ActivityComponentFiller.html#Kit_UI_ActivityComponentFiller_classes
-  commentId: F:Kit.UI.ActivityComponentFiller.classes
-  fullName: Kit.UI.ActivityComponentFiller.classes
-  nameWithType: ActivityComponentFiller.classes
-- uid: Kit.UI.ActivityComponentFiller.ClassesScrollView
+  href: api/Kit.UI.ActivityPanelFiller.html#Kit_UI_ActivityPanelFiller_ClassElement
+  commentId: F:Kit.UI.ActivityPanelFiller.ClassElement
+  fullName: Kit.UI.ActivityPanelFiller.ClassElement
+  nameWithType: ActivityPanelFiller.ClassElement
+- uid: Kit.UI.ActivityPanelFiller.ClassesScrollView
   name: ClassesScrollView
-  href: api/Kit.UI.ActivityComponentFiller.html#Kit_UI_ActivityComponentFiller_ClassesScrollView
-  commentId: F:Kit.UI.ActivityComponentFiller.ClassesScrollView
-  fullName: Kit.UI.ActivityComponentFiller.ClassesScrollView
-  nameWithType: ActivityComponentFiller.ClassesScrollView
-- uid: Kit.UI.ActivityComponentFiller.Content
+  href: api/Kit.UI.ActivityPanelFiller.html#Kit_UI_ActivityPanelFiller_ClassesScrollView
+  commentId: F:Kit.UI.ActivityPanelFiller.ClassesScrollView
+  fullName: Kit.UI.ActivityPanelFiller.ClassesScrollView
+  nameWithType: ActivityPanelFiller.ClassesScrollView
+- uid: Kit.UI.ActivityPanelFiller.Content
   name: Content
-  href: api/Kit.UI.ActivityComponentFiller.html#Kit_UI_ActivityComponentFiller_Content
-  commentId: F:Kit.UI.ActivityComponentFiller.Content
-  fullName: Kit.UI.ActivityComponentFiller.Content
-  nameWithType: ActivityComponentFiller.Content
-- uid: Kit.UI.ActivityComponentFiller.description
-  name: description
-  href: api/Kit.UI.ActivityComponentFiller.html#Kit_UI_ActivityComponentFiller_description
-  commentId: F:Kit.UI.ActivityComponentFiller.description
-  fullName: Kit.UI.ActivityComponentFiller.description
-  nameWithType: ActivityComponentFiller.description
-- uid: Kit.UI.ActivityComponentFiller.Fill(Kit.DataModel.ActivityConfiguration)
+  href: api/Kit.UI.ActivityPanelFiller.html#Kit_UI_ActivityPanelFiller_Content
+  commentId: F:Kit.UI.ActivityPanelFiller.Content
+  fullName: Kit.UI.ActivityPanelFiller.Content
+  nameWithType: ActivityPanelFiller.Content
+- uid: Kit.UI.ActivityPanelFiller.Description
+  name: Description
+  href: api/Kit.UI.ActivityPanelFiller.html#Kit_UI_ActivityPanelFiller_Description
+  commentId: F:Kit.UI.ActivityPanelFiller.Description
+  fullName: Kit.UI.ActivityPanelFiller.Description
+  nameWithType: ActivityPanelFiller.Description
+- uid: Kit.UI.ActivityPanelFiller.Fill(Kit.DataModel.ActivityConfiguration)
   name: Fill(DataModel.ActivityConfiguration)
-  href: api/Kit.UI.ActivityComponentFiller.html#Kit_UI_ActivityComponentFiller_Fill_Kit_DataModel_ActivityConfiguration_
-  commentId: M:Kit.UI.ActivityComponentFiller.Fill(Kit.DataModel.ActivityConfiguration)
-  fullName: Kit.UI.ActivityComponentFiller.Fill(Kit.DataModel.ActivityConfiguration)
-  nameWithType: ActivityComponentFiller.Fill(DataModel.ActivityConfiguration)
-- uid: Kit.UI.ActivityComponentFiller.Fill*
+  href: api/Kit.UI.ActivityPanelFiller.html#Kit_UI_ActivityPanelFiller_Fill_Kit_DataModel_ActivityConfiguration_
+  commentId: M:Kit.UI.ActivityPanelFiller.Fill(Kit.DataModel.ActivityConfiguration)
+  fullName: Kit.UI.ActivityPanelFiller.Fill(Kit.DataModel.ActivityConfiguration)
+  nameWithType: ActivityPanelFiller.Fill(DataModel.ActivityConfiguration)
+- uid: Kit.UI.ActivityPanelFiller.Fill*
   name: Fill
-  href: api/Kit.UI.ActivityComponentFiller.html#Kit_UI_ActivityComponentFiller_Fill_
-  commentId: Overload:Kit.UI.ActivityComponentFiller.Fill
+  href: api/Kit.UI.ActivityPanelFiller.html#Kit_UI_ActivityPanelFiller_Fill_
+  commentId: Overload:Kit.UI.ActivityPanelFiller.Fill
   isSpec: "True"
-  fullName: Kit.UI.ActivityComponentFiller.Fill
-  nameWithType: ActivityComponentFiller.Fill
-- uid: Kit.UI.ActivityComponentFiller.image
-  name: image
-  href: api/Kit.UI.ActivityComponentFiller.html#Kit_UI_ActivityComponentFiller_image
-  commentId: F:Kit.UI.ActivityComponentFiller.image
-  fullName: Kit.UI.ActivityComponentFiller.image
-  nameWithType: ActivityComponentFiller.image
-- uid: Kit.UI.ActivityComponentFiller.title
-  name: title
-  href: api/Kit.UI.ActivityComponentFiller.html#Kit_UI_ActivityComponentFiller_title
-  commentId: F:Kit.UI.ActivityComponentFiller.title
-  fullName: Kit.UI.ActivityComponentFiller.title
-  nameWithType: ActivityComponentFiller.title
-- uid: Kit.UI.ActivityComponentFiller.Viewport
+  fullName: Kit.UI.ActivityPanelFiller.Fill
+  nameWithType: ActivityPanelFiller.Fill
+- uid: Kit.UI.ActivityPanelFiller.Image
+  name: Image
+  href: api/Kit.UI.ActivityPanelFiller.html#Kit_UI_ActivityPanelFiller_Image
+  commentId: F:Kit.UI.ActivityPanelFiller.Image
+  fullName: Kit.UI.ActivityPanelFiller.Image
+  nameWithType: ActivityPanelFiller.Image
+- uid: Kit.UI.ActivityPanelFiller.Title
+  name: Title
+  href: api/Kit.UI.ActivityPanelFiller.html#Kit_UI_ActivityPanelFiller_Title
+  commentId: F:Kit.UI.ActivityPanelFiller.Title
+  fullName: Kit.UI.ActivityPanelFiller.Title
+  nameWithType: ActivityPanelFiller.Title
+- uid: Kit.UI.ActivityPanelFiller.Viewport
   name: Viewport
-  href: api/Kit.UI.ActivityComponentFiller.html#Kit_UI_ActivityComponentFiller_Viewport
-  commentId: F:Kit.UI.ActivityComponentFiller.Viewport
-  fullName: Kit.UI.ActivityComponentFiller.Viewport
-  nameWithType: ActivityComponentFiller.Viewport
+  href: api/Kit.UI.ActivityPanelFiller.html#Kit_UI_ActivityPanelFiller_Viewport
+  commentId: F:Kit.UI.ActivityPanelFiller.Viewport
+  fullName: Kit.UI.ActivityPanelFiller.Viewport
+  nameWithType: ActivityPanelFiller.Viewport
 - uid: Kit.UI.LoadingAnimation
   name: LoadingAnimation
   href: api/Kit.UI.LoadingAnimation.html
@@ -3111,41 +2969,17 @@ references:
   isSpec: "True"
   fullName: Kit.UI.LogoutButton.Logout
   nameWithType: LogoutButton.Logout
-- uid: Kit.UI.MenuManager
-  name: MenuManager
-  href: api/Kit.UI.MenuManager.html
-  commentId: T:Kit.UI.MenuManager
-  fullName: Kit.UI.MenuManager
-  nameWithType: MenuManager
-- uid: Kit.UI.MenuManager.activityContent
-  name: activityContent
-  href: api/Kit.UI.MenuManager.html#Kit_UI_MenuManager_activityContent
-  commentId: F:Kit.UI.MenuManager.activityContent
-  fullName: Kit.UI.MenuManager.activityContent
-  nameWithType: MenuManager.activityContent
-- uid: Kit.UI.MenuManager.activityItem
-  name: activityItem
-  href: api/Kit.UI.MenuManager.html#Kit_UI_MenuManager_activityItem
-  commentId: F:Kit.UI.MenuManager.activityItem
-  fullName: Kit.UI.MenuManager.activityItem
-  nameWithType: MenuManager.activityItem
-- uid: Kit.UI.MenuManager.loadingPanel
-  name: loadingPanel
-  href: api/Kit.UI.MenuManager.html#Kit_UI_MenuManager_loadingPanel
-  commentId: F:Kit.UI.MenuManager.loadingPanel
-  fullName: Kit.UI.MenuManager.loadingPanel
-  nameWithType: MenuManager.loadingPanel
 - uid: Kit.UI.PopupManager
   name: PopupManager
   href: api/Kit.UI.PopupManager.html
   commentId: T:Kit.UI.PopupManager
   fullName: Kit.UI.PopupManager
   nameWithType: PopupManager
-- uid: Kit.UI.PopupManager.ActivatePopup(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,UnityAction,UnityAction)
+- uid: Kit.UI.PopupManager.ActivatePopup(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,UnityEngine.Events.UnityAction,UnityEngine.Events.UnityAction)
   name: ActivatePopup(String, String, Boolean, Boolean, String, String, UnityAction, UnityAction)
-  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_ActivatePopup_System_String_System_String_System_Boolean_System_Boolean_System_String_System_String_UnityAction_UnityAction_
-  commentId: M:Kit.UI.PopupManager.ActivatePopup(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,UnityAction,UnityAction)
-  fullName: Kit.UI.PopupManager.ActivatePopup(System.String, System.String, System.Boolean, System.Boolean, System.String, System.String, UnityAction, UnityAction)
+  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_ActivatePopup_System_String_System_String_System_Boolean_System_Boolean_System_String_System_String_UnityEngine_Events_UnityAction_UnityEngine_Events_UnityAction_
+  commentId: M:Kit.UI.PopupManager.ActivatePopup(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,UnityEngine.Events.UnityAction,UnityEngine.Events.UnityAction)
+  fullName: Kit.UI.PopupManager.ActivatePopup(System.String, System.String, System.Boolean, System.Boolean, System.String, System.String, UnityEngine.Events.UnityAction, UnityEngine.Events.UnityAction)
   nameWithType: PopupManager.ActivatePopup(String, String, Boolean, Boolean, String, String, UnityAction, UnityAction)
 - uid: Kit.UI.PopupManager.ActivatePopup*
   name: ActivatePopup
@@ -3154,104 +2988,73 @@ references:
   isSpec: "True"
   fullName: Kit.UI.PopupManager.ActivatePopup
   nameWithType: PopupManager.ActivatePopup
-- uid: Kit.UI.PopupManager.button1
-  name: button1
-  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_button1
-  commentId: F:Kit.UI.PopupManager.button1
-  fullName: Kit.UI.PopupManager.button1
-  nameWithType: PopupManager.button1
-- uid: Kit.UI.PopupManager.button1Text
-  name: button1Text
-  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_button1Text
-  commentId: F:Kit.UI.PopupManager.button1Text
-  fullName: Kit.UI.PopupManager.button1Text
-  nameWithType: PopupManager.button1Text
-- uid: Kit.UI.PopupManager.button2
-  name: button2
-  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_button2
-  commentId: F:Kit.UI.PopupManager.button2
-  fullName: Kit.UI.PopupManager.button2
-  nameWithType: PopupManager.button2
-- uid: Kit.UI.PopupManager.button2Text
-  name: button2Text
-  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_button2Text
-  commentId: F:Kit.UI.PopupManager.button2Text
-  fullName: Kit.UI.PopupManager.button2Text
-  nameWithType: PopupManager.button2Text
-- uid: Kit.UI.PopupManager.header
-  name: header
-  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_header
-  commentId: F:Kit.UI.PopupManager.header
-  fullName: Kit.UI.PopupManager.header
-  nameWithType: PopupManager.header
-- uid: Kit.UI.PopupManager.instance
-  name: instance
-  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_instance
-  commentId: P:Kit.UI.PopupManager.instance
-  fullName: Kit.UI.PopupManager.instance
-  nameWithType: PopupManager.instance
-- uid: Kit.UI.PopupManager.instance*
-  name: instance
-  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_instance_
-  commentId: Overload:Kit.UI.PopupManager.instance
+- uid: Kit.UI.PopupManager.Header
+  name: Header
+  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_Header
+  commentId: F:Kit.UI.PopupManager.Header
+  fullName: Kit.UI.PopupManager.Header
+  nameWithType: PopupManager.Header
+- uid: Kit.UI.PopupManager.Instance
+  name: Instance
+  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_Instance
+  commentId: P:Kit.UI.PopupManager.Instance
+  fullName: Kit.UI.PopupManager.Instance
+  nameWithType: PopupManager.Instance
+- uid: Kit.UI.PopupManager.Instance*
+  name: Instance
+  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_Instance_
+  commentId: Overload:Kit.UI.PopupManager.Instance
   isSpec: "True"
-  fullName: Kit.UI.PopupManager.instance
-  nameWithType: PopupManager.instance
-- uid: Kit.UI.PopupManager.message
-  name: message
-  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_message
-  commentId: F:Kit.UI.PopupManager.message
-  fullName: Kit.UI.PopupManager.message
-  nameWithType: PopupManager.message
-- uid: Kit.UI.ProfileContentManager
-  name: ProfileContentManager
-  href: api/Kit.UI.ProfileContentManager.html
-  commentId: T:Kit.UI.ProfileContentManager
-  fullName: Kit.UI.ProfileContentManager
-  nameWithType: ProfileContentManager
-- uid: Kit.UI.ProfileContentManager.ShowIncludiStatus
-  name: ShowIncludiStatus()
-  href: api/Kit.UI.ProfileContentManager.html#Kit_UI_ProfileContentManager_ShowIncludiStatus
-  commentId: M:Kit.UI.ProfileContentManager.ShowIncludiStatus
-  fullName: Kit.UI.ProfileContentManager.ShowIncludiStatus()
-  nameWithType: ProfileContentManager.ShowIncludiStatus()
-- uid: Kit.UI.ProfileContentManager.ShowIncludiStatus*
-  name: ShowIncludiStatus
-  href: api/Kit.UI.ProfileContentManager.html#Kit_UI_ProfileContentManager_ShowIncludiStatus_
-  commentId: Overload:Kit.UI.ProfileContentManager.ShowIncludiStatus
-  isSpec: "True"
-  fullName: Kit.UI.ProfileContentManager.ShowIncludiStatus
-  nameWithType: ProfileContentManager.ShowIncludiStatus
-- uid: Kit.UI.ProfileContentManager.StatusError
-  name: StatusError
-  href: api/Kit.UI.ProfileContentManager.html#Kit_UI_ProfileContentManager_StatusError
-  commentId: F:Kit.UI.ProfileContentManager.StatusError
-  fullName: Kit.UI.ProfileContentManager.StatusError
-  nameWithType: ProfileContentManager.StatusError
-- uid: Kit.UI.ProfileContentManager.StatusOk
-  name: StatusOk
-  href: api/Kit.UI.ProfileContentManager.html#Kit_UI_ProfileContentManager_StatusOk
-  commentId: F:Kit.UI.ProfileContentManager.StatusOk
-  fullName: Kit.UI.ProfileContentManager.StatusOk
-  nameWithType: ProfileContentManager.StatusOk
-- uid: Kit.UI.ProfileInfoManager
-  name: ProfileInfoManager
-  href: api/Kit.UI.ProfileInfoManager.html
-  commentId: T:Kit.UI.ProfileInfoManager
-  fullName: Kit.UI.ProfileInfoManager
-  nameWithType: ProfileInfoManager
-- uid: Kit.UI.ProfileInfoManager.ProfilePic
+  fullName: Kit.UI.PopupManager.Instance
+  nameWithType: PopupManager.Instance
+- uid: Kit.UI.PopupManager.Message
+  name: Message
+  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_Message
+  commentId: F:Kit.UI.PopupManager.Message
+  fullName: Kit.UI.PopupManager.Message
+  nameWithType: PopupManager.Message
+- uid: Kit.UI.PopupManager.PrimaryButton
+  name: PrimaryButton
+  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_PrimaryButton
+  commentId: F:Kit.UI.PopupManager.PrimaryButton
+  fullName: Kit.UI.PopupManager.PrimaryButton
+  nameWithType: PopupManager.PrimaryButton
+- uid: Kit.UI.PopupManager.PrimaryButtonText
+  name: PrimaryButtonText
+  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_PrimaryButtonText
+  commentId: F:Kit.UI.PopupManager.PrimaryButtonText
+  fullName: Kit.UI.PopupManager.PrimaryButtonText
+  nameWithType: PopupManager.PrimaryButtonText
+- uid: Kit.UI.PopupManager.SecondaryButton
+  name: SecondaryButton
+  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_SecondaryButton
+  commentId: F:Kit.UI.PopupManager.SecondaryButton
+  fullName: Kit.UI.PopupManager.SecondaryButton
+  nameWithType: PopupManager.SecondaryButton
+- uid: Kit.UI.PopupManager.SecondaryButtonText
+  name: SecondaryButtonText
+  href: api/Kit.UI.PopupManager.html#Kit_UI_PopupManager_SecondaryButtonText
+  commentId: F:Kit.UI.PopupManager.SecondaryButtonText
+  fullName: Kit.UI.PopupManager.SecondaryButtonText
+  nameWithType: PopupManager.SecondaryButtonText
+- uid: Kit.UI.ProfilePageInfoManager
+  name: ProfilePageInfoManager
+  href: api/Kit.UI.ProfilePageInfoManager.html
+  commentId: T:Kit.UI.ProfilePageInfoManager
+  fullName: Kit.UI.ProfilePageInfoManager
+  nameWithType: ProfilePageInfoManager
+- uid: Kit.UI.ProfilePageInfoManager.ProfilePic
   name: ProfilePic
-  href: api/Kit.UI.ProfileInfoManager.html#Kit_UI_ProfileInfoManager_ProfilePic
-  commentId: F:Kit.UI.ProfileInfoManager.ProfilePic
-  fullName: Kit.UI.ProfileInfoManager.ProfilePic
-  nameWithType: ProfileInfoManager.ProfilePic
-- uid: Kit.UI.ProfileInfoManager.userNameText
-  name: userNameText
-  href: api/Kit.UI.ProfileInfoManager.html#Kit_UI_ProfileInfoManager_userNameText
-  commentId: F:Kit.UI.ProfileInfoManager.userNameText
-  fullName: Kit.UI.ProfileInfoManager.userNameText
-  nameWithType: ProfileInfoManager.userNameText
+  href: api/Kit.UI.ProfilePageInfoManager.html#Kit_UI_ProfilePageInfoManager_ProfilePic
+  commentId: F:Kit.UI.ProfilePageInfoManager.ProfilePic
+  fullName: Kit.UI.ProfilePageInfoManager.ProfilePic
+  nameWithType: ProfilePageInfoManager.ProfilePic
+- uid: Kit.UI.ProfilePageInfoManager.UserNameText
+  name: UserNameText
+  href: api/Kit.UI.ProfilePageInfoManager.html#Kit_UI_ProfilePageInfoManager_UserNameText
+  commentId: F:Kit.UI.ProfilePageInfoManager.UserNameText
+  fullName: Kit.UI.ProfilePageInfoManager.UserNameText
+  nameWithType: ProfilePageInfoManager.UserNameText
 - uid: Kit.UI.ProfilePageManager
   name: ProfilePageManager
   href: api/Kit.UI.ProfilePageManager.html
@@ -3283,42 +3086,73 @@ references:
   commentId: F:Kit.UI.ProfilePageManager.SignIn
   fullName: Kit.UI.ProfilePageManager.SignIn
   nameWithType: ProfilePageManager.SignIn
+- uid: Kit.UI.ProfilePageStatusManager
+  name: ProfilePageStatusManager
+  href: api/Kit.UI.ProfilePageStatusManager.html
+  commentId: T:Kit.UI.ProfilePageStatusManager
+  fullName: Kit.UI.ProfilePageStatusManager
+  nameWithType: ProfilePageStatusManager
+- uid: Kit.UI.ProfilePageStatusManager.ShowIncludiStatus
+  name: ShowIncludiStatus()
+  href: api/Kit.UI.ProfilePageStatusManager.html#Kit_UI_ProfilePageStatusManager_ShowIncludiStatus
+  commentId: M:Kit.UI.ProfilePageStatusManager.ShowIncludiStatus
+  fullName: Kit.UI.ProfilePageStatusManager.ShowIncludiStatus()
+  nameWithType: ProfilePageStatusManager.ShowIncludiStatus()
+- uid: Kit.UI.ProfilePageStatusManager.ShowIncludiStatus*
+  name: ShowIncludiStatus
+  href: api/Kit.UI.ProfilePageStatusManager.html#Kit_UI_ProfilePageStatusManager_ShowIncludiStatus_
+  commentId: Overload:Kit.UI.ProfilePageStatusManager.ShowIncludiStatus
+  isSpec: "True"
+  fullName: Kit.UI.ProfilePageStatusManager.ShowIncludiStatus
+  nameWithType: ProfilePageStatusManager.ShowIncludiStatus
+- uid: Kit.UI.ProfilePageStatusManager.StatusError
+  name: StatusError
+  href: api/Kit.UI.ProfilePageStatusManager.html#Kit_UI_ProfilePageStatusManager_StatusError
+  commentId: F:Kit.UI.ProfilePageStatusManager.StatusError
+  fullName: Kit.UI.ProfilePageStatusManager.StatusError
+  nameWithType: ProfilePageStatusManager.StatusError
+- uid: Kit.UI.ProfilePageStatusManager.StatusOk
+  name: StatusOk
+  href: api/Kit.UI.ProfilePageStatusManager.html#Kit_UI_ProfilePageStatusManager_StatusOk
+  commentId: F:Kit.UI.ProfilePageStatusManager.StatusOk
+  fullName: Kit.UI.ProfilePageStatusManager.StatusOk
+  nameWithType: ProfilePageStatusManager.StatusOk
 - uid: Kit.UI.SliderComponent
   name: SliderComponent
   href: api/Kit.UI.SliderComponent.html
   commentId: T:Kit.UI.SliderComponent
   fullName: Kit.UI.SliderComponent
   nameWithType: SliderComponent
-- uid: Kit.UI.SliderComponent.multiplier
-  name: multiplier
-  href: api/Kit.UI.SliderComponent.html#Kit_UI_SliderComponent_multiplier
-  commentId: F:Kit.UI.SliderComponent.multiplier
-  fullName: Kit.UI.SliderComponent.multiplier
-  nameWithType: SliderComponent.multiplier
-- uid: Kit.UI.SliderComponent.parameter
-  name: parameter
-  href: api/Kit.UI.SliderComponent.html#Kit_UI_SliderComponent_parameter
-  commentId: F:Kit.UI.SliderComponent.parameter
-  fullName: Kit.UI.SliderComponent.parameter
-  nameWithType: SliderComponent.parameter
-- uid: Kit.UI.SliderComponent.slider
-  name: slider
-  href: api/Kit.UI.SliderComponent.html#Kit_UI_SliderComponent_slider
-  commentId: F:Kit.UI.SliderComponent.slider
-  fullName: Kit.UI.SliderComponent.slider
-  nameWithType: SliderComponent.slider
-- uid: Kit.UI.SliderComponent.text
-  name: text
-  href: api/Kit.UI.SliderComponent.html#Kit_UI_SliderComponent_text
-  commentId: F:Kit.UI.SliderComponent.text
-  fullName: Kit.UI.SliderComponent.text
-  nameWithType: SliderComponent.text
-- uid: Kit.UI.SliderComponent.textMultiplier
-  name: textMultiplier
-  href: api/Kit.UI.SliderComponent.html#Kit_UI_SliderComponent_textMultiplier
-  commentId: F:Kit.UI.SliderComponent.textMultiplier
-  fullName: Kit.UI.SliderComponent.textMultiplier
-  nameWithType: SliderComponent.textMultiplier
+- uid: Kit.UI.SliderComponent.Multiplier
+  name: Multiplier
+  href: api/Kit.UI.SliderComponent.html#Kit_UI_SliderComponent_Multiplier
+  commentId: F:Kit.UI.SliderComponent.Multiplier
+  fullName: Kit.UI.SliderComponent.Multiplier
+  nameWithType: SliderComponent.Multiplier
+- uid: Kit.UI.SliderComponent.Parameter
+  name: Parameter
+  href: api/Kit.UI.SliderComponent.html#Kit_UI_SliderComponent_Parameter
+  commentId: F:Kit.UI.SliderComponent.Parameter
+  fullName: Kit.UI.SliderComponent.Parameter
+  nameWithType: SliderComponent.Parameter
+- uid: Kit.UI.SliderComponent.Slider
+  name: Slider
+  href: api/Kit.UI.SliderComponent.html#Kit_UI_SliderComponent_Slider
+  commentId: F:Kit.UI.SliderComponent.Slider
+  fullName: Kit.UI.SliderComponent.Slider
+  nameWithType: SliderComponent.Slider
+- uid: Kit.UI.SliderComponent.Text
+  name: Text
+  href: api/Kit.UI.SliderComponent.html#Kit_UI_SliderComponent_Text
+  commentId: F:Kit.UI.SliderComponent.Text
+  fullName: Kit.UI.SliderComponent.Text
+  nameWithType: SliderComponent.Text
+- uid: Kit.UI.SliderComponent.TextMultiplier
+  name: TextMultiplier
+  href: api/Kit.UI.SliderComponent.html#Kit_UI_SliderComponent_TextMultiplier
+  commentId: F:Kit.UI.SliderComponent.TextMultiplier
+  fullName: Kit.UI.SliderComponent.TextMultiplier
+  nameWithType: SliderComponent.TextMultiplier
 - uid: Kit.UI.TabsManager
   name: TabsManager
   href: api/Kit.UI.TabsManager.html
@@ -3337,11 +3171,11 @@ references:
   commentId: F:Kit.UI.TabsManager.InactiveTab
   fullName: Kit.UI.TabsManager.InactiveTab
   nameWithType: TabsManager.InactiveTab
-- uid: Kit.UI.TabsManager.PageActivated(GameObject)
+- uid: Kit.UI.TabsManager.PageActivated(UnityEngine.GameObject)
   name: PageActivated(GameObject)
-  href: api/Kit.UI.TabsManager.html#Kit_UI_TabsManager_PageActivated_GameObject_
-  commentId: M:Kit.UI.TabsManager.PageActivated(GameObject)
-  fullName: Kit.UI.TabsManager.PageActivated(GameObject)
+  href: api/Kit.UI.TabsManager.html#Kit_UI_TabsManager_PageActivated_UnityEngine_GameObject_
+  commentId: M:Kit.UI.TabsManager.PageActivated(UnityEngine.GameObject)
+  fullName: Kit.UI.TabsManager.PageActivated(UnityEngine.GameObject)
   nameWithType: TabsManager.PageActivated(GameObject)
 - uid: Kit.UI.TabsManager.PageActivated*
   name: PageActivated
@@ -3356,11 +3190,11 @@ references:
   commentId: F:Kit.UI.TabsManager.Pages
   fullName: Kit.UI.TabsManager.Pages
   nameWithType: TabsManager.Pages
-- uid: Kit.UI.TabsManager.TabActivated(GameObject)
+- uid: Kit.UI.TabsManager.TabActivated(UnityEngine.GameObject)
   name: TabActivated(GameObject)
-  href: api/Kit.UI.TabsManager.html#Kit_UI_TabsManager_TabActivated_GameObject_
-  commentId: M:Kit.UI.TabsManager.TabActivated(GameObject)
-  fullName: Kit.UI.TabsManager.TabActivated(GameObject)
+  href: api/Kit.UI.TabsManager.html#Kit_UI_TabsManager_TabActivated_UnityEngine_GameObject_
+  commentId: M:Kit.UI.TabsManager.TabActivated(UnityEngine.GameObject)
+  fullName: Kit.UI.TabsManager.TabActivated(UnityEngine.GameObject)
   nameWithType: TabsManager.TabActivated(GameObject)
 - uid: Kit.UI.TabsManager.TabActivated*
   name: TabActivated
@@ -3394,31 +3228,31 @@ references:
   isSpec: "True"
   fullName: Kit.UI.ToggleComponent.Awake
   nameWithType: ToggleComponent.Awake
-- uid: Kit.UI.ToggleComponent.parameter
-  name: parameter
-  href: api/Kit.UI.ToggleComponent.html#Kit_UI_ToggleComponent_parameter
-  commentId: F:Kit.UI.ToggleComponent.parameter
-  fullName: Kit.UI.ToggleComponent.parameter
-  nameWithType: ToggleComponent.parameter
-- uid: Kit.UI.ToggleComponent.toggle
-  name: toggle
-  href: api/Kit.UI.ToggleComponent.html#Kit_UI_ToggleComponent_toggle
-  commentId: F:Kit.UI.ToggleComponent.toggle
-  fullName: Kit.UI.ToggleComponent.toggle
-  nameWithType: ToggleComponent.toggle
-- uid: Kit.UI.ToggleComponent.ValueChange(System.Boolean)
-  name: ValueChange(Boolean)
-  href: api/Kit.UI.ToggleComponent.html#Kit_UI_ToggleComponent_ValueChange_System_Boolean_
-  commentId: M:Kit.UI.ToggleComponent.ValueChange(System.Boolean)
-  fullName: Kit.UI.ToggleComponent.ValueChange(System.Boolean)
-  nameWithType: ToggleComponent.ValueChange(Boolean)
-- uid: Kit.UI.ToggleComponent.ValueChange*
-  name: ValueChange
-  href: api/Kit.UI.ToggleComponent.html#Kit_UI_ToggleComponent_ValueChange_
-  commentId: Overload:Kit.UI.ToggleComponent.ValueChange
+- uid: Kit.UI.ToggleComponent.Parameter
+  name: Parameter
+  href: api/Kit.UI.ToggleComponent.html#Kit_UI_ToggleComponent_Parameter
+  commentId: F:Kit.UI.ToggleComponent.Parameter
+  fullName: Kit.UI.ToggleComponent.Parameter
+  nameWithType: ToggleComponent.Parameter
+- uid: Kit.UI.ToggleComponent.Toggle
+  name: Toggle
+  href: api/Kit.UI.ToggleComponent.html#Kit_UI_ToggleComponent_Toggle
+  commentId: F:Kit.UI.ToggleComponent.Toggle
+  fullName: Kit.UI.ToggleComponent.Toggle
+  nameWithType: ToggleComponent.Toggle
+- uid: Kit.UI.ToggleComponent.ValueChanged(System.Boolean)
+  name: ValueChanged(Boolean)
+  href: api/Kit.UI.ToggleComponent.html#Kit_UI_ToggleComponent_ValueChanged_System_Boolean_
+  commentId: M:Kit.UI.ToggleComponent.ValueChanged(System.Boolean)
+  fullName: Kit.UI.ToggleComponent.ValueChanged(System.Boolean)
+  nameWithType: ToggleComponent.ValueChanged(Boolean)
+- uid: Kit.UI.ToggleComponent.ValueChanged*
+  name: ValueChanged
+  href: api/Kit.UI.ToggleComponent.html#Kit_UI_ToggleComponent_ValueChanged_
+  commentId: Overload:Kit.UI.ToggleComponent.ValueChanged
   isSpec: "True"
-  fullName: Kit.UI.ToggleComponent.ValueChange
-  nameWithType: ToggleComponent.ValueChange
+  fullName: Kit.UI.ToggleComponent.ValueChanged
+  nameWithType: ToggleComponent.ValueChanged
 - uid: Kit.UI.ToggleComponentWAuth
   name: ToggleComponentWAuth
   href: api/Kit.UI.ToggleComponentWAuth.html
@@ -3438,94 +3272,94 @@ references:
   isSpec: "True"
   fullName: Kit.UI.ToggleComponentWAuth.Awake
   nameWithType: ToggleComponentWAuth.Awake
-- uid: Kit.UI.ToggleComponentWAuth.ValueChange(System.Boolean)
-  name: ValueChange(Boolean)
-  href: api/Kit.UI.ToggleComponentWAuth.html#Kit_UI_ToggleComponentWAuth_ValueChange_System_Boolean_
-  commentId: M:Kit.UI.ToggleComponentWAuth.ValueChange(System.Boolean)
-  fullName: Kit.UI.ToggleComponentWAuth.ValueChange(System.Boolean)
-  nameWithType: ToggleComponentWAuth.ValueChange(Boolean)
-- uid: Kit.UI.ToggleComponentWAuth.ValueChange*
-  name: ValueChange
-  href: api/Kit.UI.ToggleComponentWAuth.html#Kit_UI_ToggleComponentWAuth_ValueChange_
-  commentId: Overload:Kit.UI.ToggleComponentWAuth.ValueChange
+- uid: Kit.UI.ToggleComponentWAuth.ValueChanged(System.Boolean)
+  name: ValueChanged(Boolean)
+  href: api/Kit.UI.ToggleComponentWAuth.html#Kit_UI_ToggleComponentWAuth_ValueChanged_System_Boolean_
+  commentId: M:Kit.UI.ToggleComponentWAuth.ValueChanged(System.Boolean)
+  fullName: Kit.UI.ToggleComponentWAuth.ValueChanged(System.Boolean)
+  nameWithType: ToggleComponentWAuth.ValueChanged(Boolean)
+- uid: Kit.UI.ToggleComponentWAuth.ValueChanged*
+  name: ValueChanged
+  href: api/Kit.UI.ToggleComponentWAuth.html#Kit_UI_ToggleComponentWAuth_ValueChanged_
+  commentId: Overload:Kit.UI.ToggleComponentWAuth.ValueChanged
   isSpec: "True"
-  fullName: Kit.UI.ToggleComponentWAuth.ValueChange
-  nameWithType: ToggleComponentWAuth.ValueChange
-- uid: Kit.UI.VirtualAssistantComponent
-  name: VirtualAssistantComponent
-  href: api/Kit.UI.VirtualAssistantComponent.html
-  commentId: T:Kit.UI.VirtualAssistantComponent
-  fullName: Kit.UI.VirtualAssistantComponent
-  nameWithType: VirtualAssistantComponent
-- uid: Kit.UI.VirtualAssistantComponent.assistantContent
-  name: assistantContent
-  href: api/Kit.UI.VirtualAssistantComponent.html#Kit_UI_VirtualAssistantComponent_assistantContent
-  commentId: F:Kit.UI.VirtualAssistantComponent.assistantContent
-  fullName: Kit.UI.VirtualAssistantComponent.assistantContent
-  nameWithType: VirtualAssistantComponent.assistantContent
-- uid: Kit.UI.VirtualAssistantComponent.assistantItem
-  name: assistantItem
-  href: api/Kit.UI.VirtualAssistantComponent.html#Kit_UI_VirtualAssistantComponent_assistantItem
-  commentId: F:Kit.UI.VirtualAssistantComponent.assistantItem
-  fullName: Kit.UI.VirtualAssistantComponent.assistantItem
-  nameWithType: VirtualAssistantComponent.assistantItem
-- uid: Kit.UI.VirtualAssistantComponent.LeftClicked
+  fullName: Kit.UI.ToggleComponentWAuth.ValueChanged
+  nameWithType: ToggleComponentWAuth.ValueChanged
+- uid: Kit.UI.VirtualAssistantPanel
+  name: VirtualAssistantPanel
+  href: api/Kit.UI.VirtualAssistantPanel.html
+  commentId: T:Kit.UI.VirtualAssistantPanel
+  fullName: Kit.UI.VirtualAssistantPanel
+  nameWithType: VirtualAssistantPanel
+- uid: Kit.UI.VirtualAssistantPanel.AssistantItemPrefab
+  name: AssistantItemPrefab
+  href: api/Kit.UI.VirtualAssistantPanel.html#Kit_UI_VirtualAssistantPanel_AssistantItemPrefab
+  commentId: F:Kit.UI.VirtualAssistantPanel.AssistantItemPrefab
+  fullName: Kit.UI.VirtualAssistantPanel.AssistantItemPrefab
+  nameWithType: VirtualAssistantPanel.AssistantItemPrefab
+- uid: Kit.UI.VirtualAssistantPanel.AssistantItemsContainer
+  name: AssistantItemsContainer
+  href: api/Kit.UI.VirtualAssistantPanel.html#Kit_UI_VirtualAssistantPanel_AssistantItemsContainer
+  commentId: F:Kit.UI.VirtualAssistantPanel.AssistantItemsContainer
+  fullName: Kit.UI.VirtualAssistantPanel.AssistantItemsContainer
+  nameWithType: VirtualAssistantPanel.AssistantItemsContainer
+- uid: Kit.UI.VirtualAssistantPanel.LeftClicked
   name: LeftClicked()
-  href: api/Kit.UI.VirtualAssistantComponent.html#Kit_UI_VirtualAssistantComponent_LeftClicked
-  commentId: M:Kit.UI.VirtualAssistantComponent.LeftClicked
-  fullName: Kit.UI.VirtualAssistantComponent.LeftClicked()
-  nameWithType: VirtualAssistantComponent.LeftClicked()
-- uid: Kit.UI.VirtualAssistantComponent.LeftClicked*
+  href: api/Kit.UI.VirtualAssistantPanel.html#Kit_UI_VirtualAssistantPanel_LeftClicked
+  commentId: M:Kit.UI.VirtualAssistantPanel.LeftClicked
+  fullName: Kit.UI.VirtualAssistantPanel.LeftClicked()
+  nameWithType: VirtualAssistantPanel.LeftClicked()
+- uid: Kit.UI.VirtualAssistantPanel.LeftClicked*
   name: LeftClicked
-  href: api/Kit.UI.VirtualAssistantComponent.html#Kit_UI_VirtualAssistantComponent_LeftClicked_
-  commentId: Overload:Kit.UI.VirtualAssistantComponent.LeftClicked
+  href: api/Kit.UI.VirtualAssistantPanel.html#Kit_UI_VirtualAssistantPanel_LeftClicked_
+  commentId: Overload:Kit.UI.VirtualAssistantPanel.LeftClicked
   isSpec: "True"
-  fullName: Kit.UI.VirtualAssistantComponent.LeftClicked
-  nameWithType: VirtualAssistantComponent.LeftClicked
-- uid: Kit.UI.VirtualAssistantComponent.RightClicked
+  fullName: Kit.UI.VirtualAssistantPanel.LeftClicked
+  nameWithType: VirtualAssistantPanel.LeftClicked
+- uid: Kit.UI.VirtualAssistantPanel.RightClicked
   name: RightClicked()
-  href: api/Kit.UI.VirtualAssistantComponent.html#Kit_UI_VirtualAssistantComponent_RightClicked
-  commentId: M:Kit.UI.VirtualAssistantComponent.RightClicked
-  fullName: Kit.UI.VirtualAssistantComponent.RightClicked()
-  nameWithType: VirtualAssistantComponent.RightClicked()
-- uid: Kit.UI.VirtualAssistantComponent.RightClicked*
+  href: api/Kit.UI.VirtualAssistantPanel.html#Kit_UI_VirtualAssistantPanel_RightClicked
+  commentId: M:Kit.UI.VirtualAssistantPanel.RightClicked
+  fullName: Kit.UI.VirtualAssistantPanel.RightClicked()
+  nameWithType: VirtualAssistantPanel.RightClicked()
+- uid: Kit.UI.VirtualAssistantPanel.RightClicked*
   name: RightClicked
-  href: api/Kit.UI.VirtualAssistantComponent.html#Kit_UI_VirtualAssistantComponent_RightClicked_
-  commentId: Overload:Kit.UI.VirtualAssistantComponent.RightClicked
+  href: api/Kit.UI.VirtualAssistantPanel.html#Kit_UI_VirtualAssistantPanel_RightClicked_
+  commentId: Overload:Kit.UI.VirtualAssistantPanel.RightClicked
   isSpec: "True"
-  fullName: Kit.UI.VirtualAssistantComponent.RightClicked
-  nameWithType: VirtualAssistantComponent.RightClicked
-- uid: Kit.UI.VirtualAssistantComponentFiller
-  name: VirtualAssistantComponentFiller
-  href: api/Kit.UI.VirtualAssistantComponentFiller.html
-  commentId: T:Kit.UI.VirtualAssistantComponentFiller
-  fullName: Kit.UI.VirtualAssistantComponentFiller
-  nameWithType: VirtualAssistantComponentFiller
-- uid: Kit.UI.VirtualAssistantComponentFiller.assistantName
-  name: assistantName
-  href: api/Kit.UI.VirtualAssistantComponentFiller.html#Kit_UI_VirtualAssistantComponentFiller_assistantName
-  commentId: F:Kit.UI.VirtualAssistantComponentFiller.assistantName
-  fullName: Kit.UI.VirtualAssistantComponentFiller.assistantName
-  nameWithType: VirtualAssistantComponentFiller.assistantName
-- uid: Kit.UI.VirtualAssistantComponentFiller.Fill(Sprite)
+  fullName: Kit.UI.VirtualAssistantPanel.RightClicked
+  nameWithType: VirtualAssistantPanel.RightClicked
+- uid: Kit.UI.VirtualAssistantPanelFiller
+  name: VirtualAssistantPanelFiller
+  href: api/Kit.UI.VirtualAssistantPanelFiller.html
+  commentId: T:Kit.UI.VirtualAssistantPanelFiller
+  fullName: Kit.UI.VirtualAssistantPanelFiller
+  nameWithType: VirtualAssistantPanelFiller
+- uid: Kit.UI.VirtualAssistantPanelFiller.Avatar
+  name: Avatar
+  href: api/Kit.UI.VirtualAssistantPanelFiller.html#Kit_UI_VirtualAssistantPanelFiller_Avatar
+  commentId: F:Kit.UI.VirtualAssistantPanelFiller.Avatar
+  fullName: Kit.UI.VirtualAssistantPanelFiller.Avatar
+  nameWithType: VirtualAssistantPanelFiller.Avatar
+- uid: Kit.UI.VirtualAssistantPanelFiller.Fill(UnityEngine.Sprite)
   name: Fill(Sprite)
-  href: api/Kit.UI.VirtualAssistantComponentFiller.html#Kit_UI_VirtualAssistantComponentFiller_Fill_Sprite_
-  commentId: M:Kit.UI.VirtualAssistantComponentFiller.Fill(Sprite)
-  fullName: Kit.UI.VirtualAssistantComponentFiller.Fill(Sprite)
-  nameWithType: VirtualAssistantComponentFiller.Fill(Sprite)
-- uid: Kit.UI.VirtualAssistantComponentFiller.Fill*
+  href: api/Kit.UI.VirtualAssistantPanelFiller.html#Kit_UI_VirtualAssistantPanelFiller_Fill_UnityEngine_Sprite_
+  commentId: M:Kit.UI.VirtualAssistantPanelFiller.Fill(UnityEngine.Sprite)
+  fullName: Kit.UI.VirtualAssistantPanelFiller.Fill(UnityEngine.Sprite)
+  nameWithType: VirtualAssistantPanelFiller.Fill(Sprite)
+- uid: Kit.UI.VirtualAssistantPanelFiller.Fill*
   name: Fill
-  href: api/Kit.UI.VirtualAssistantComponentFiller.html#Kit_UI_VirtualAssistantComponentFiller_Fill_
-  commentId: Overload:Kit.UI.VirtualAssistantComponentFiller.Fill
+  href: api/Kit.UI.VirtualAssistantPanelFiller.html#Kit_UI_VirtualAssistantPanelFiller_Fill_
+  commentId: Overload:Kit.UI.VirtualAssistantPanelFiller.Fill
   isSpec: "True"
-  fullName: Kit.UI.VirtualAssistantComponentFiller.Fill
-  nameWithType: VirtualAssistantComponentFiller.Fill
-- uid: Kit.UI.VirtualAssistantComponentFiller.image
-  name: image
-  href: api/Kit.UI.VirtualAssistantComponentFiller.html#Kit_UI_VirtualAssistantComponentFiller_image
-  commentId: F:Kit.UI.VirtualAssistantComponentFiller.image
-  fullName: Kit.UI.VirtualAssistantComponentFiller.image
-  nameWithType: VirtualAssistantComponentFiller.image
+  fullName: Kit.UI.VirtualAssistantPanelFiller.Fill
+  nameWithType: VirtualAssistantPanelFiller.Fill
+- uid: Kit.UI.VirtualAssistantPanelFiller.Name
+  name: Name
+  href: api/Kit.UI.VirtualAssistantPanelFiller.html#Kit_UI_VirtualAssistantPanelFiller_Name
+  commentId: F:Kit.UI.VirtualAssistantPanelFiller.Name
+  fullName: Kit.UI.VirtualAssistantPanelFiller.Name
+  nameWithType: VirtualAssistantPanelFiller.Name
 - uid: Kit.VirtualAssistantManager
   name: VirtualAssistantManager
   href: api/Kit.VirtualAssistantManager.html
@@ -3582,948 +3416,3 @@ references:
   commentId: F:Kit.VirtualAssistantManager.voice
   fullName: Kit.VirtualAssistantManager.voice
   nameWithType: VirtualAssistantManager.voice
-- uid: YAProgressBar
-  name: YAProgressBar
-  href: api/YAProgressBar.html
-  commentId: N:YAProgressBar
-  fullName: YAProgressBar
-  nameWithType: YAProgressBar
-- uid: YAProgressBar.BaseMeshGenerator
-  name: BaseMeshGenerator
-  href: api/YAProgressBar.BaseMeshGenerator.html
-  commentId: T:YAProgressBar.BaseMeshGenerator
-  fullName: YAProgressBar.BaseMeshGenerator
-  nameWithType: BaseMeshGenerator
-- uid: YAProgressBar.BaseMeshGenerator.ElementShape
-  name: ElementShape
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_ElementShape
-  commentId: P:YAProgressBar.BaseMeshGenerator.ElementShape
-  fullName: YAProgressBar.BaseMeshGenerator.ElementShape
-  nameWithType: BaseMeshGenerator.ElementShape
-- uid: YAProgressBar.BaseMeshGenerator.ElementShape*
-  name: ElementShape
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_ElementShape_
-  commentId: Overload:YAProgressBar.BaseMeshGenerator.ElementShape
-  isSpec: "True"
-  fullName: YAProgressBar.BaseMeshGenerator.ElementShape
-  nameWithType: BaseMeshGenerator.ElementShape
-- uid: YAProgressBar.BaseMeshGenerator.emptyIndices
-  name: emptyIndices
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_emptyIndices
-  commentId: F:YAProgressBar.BaseMeshGenerator.emptyIndices
-  fullName: YAProgressBar.BaseMeshGenerator.emptyIndices
-  nameWithType: BaseMeshGenerator.emptyIndices
-- uid: YAProgressBar.BaseMeshGenerator.FillElementIndices(System.Int32[],System.Int32,System.Int32)
-  name: FillElementIndices(Int32[], Int32, Int32)
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_FillElementIndices_System_Int32___System_Int32_System_Int32_
-  commentId: M:YAProgressBar.BaseMeshGenerator.FillElementIndices(System.Int32[],System.Int32,System.Int32)
-  name.vb: FillElementIndices(Int32(), Int32, Int32)
-  fullName: YAProgressBar.BaseMeshGenerator.FillElementIndices(System.Int32[], System.Int32, System.Int32)
-  fullName.vb: YAProgressBar.BaseMeshGenerator.FillElementIndices(System.Int32(), System.Int32, System.Int32)
-  nameWithType: BaseMeshGenerator.FillElementIndices(Int32[], Int32, Int32)
-  nameWithType.vb: BaseMeshGenerator.FillElementIndices(Int32(), Int32, Int32)
-- uid: YAProgressBar.BaseMeshGenerator.FillElementIndices*
-  name: FillElementIndices
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_FillElementIndices_
-  commentId: Overload:YAProgressBar.BaseMeshGenerator.FillElementIndices
-  isSpec: "True"
-  fullName: YAProgressBar.BaseMeshGenerator.FillElementIndices
-  nameWithType: BaseMeshGenerator.FillElementIndices
-- uid: YAProgressBar.BaseMeshGenerator.FillIndices(System.Int32)
-  name: FillIndices(Int32)
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_FillIndices_System_Int32_
-  commentId: M:YAProgressBar.BaseMeshGenerator.FillIndices(System.Int32)
-  fullName: YAProgressBar.BaseMeshGenerator.FillIndices(System.Int32)
-  nameWithType: BaseMeshGenerator.FillIndices(Int32)
-- uid: YAProgressBar.BaseMeshGenerator.FillIndices*
-  name: FillIndices
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_FillIndices_
-  commentId: Overload:YAProgressBar.BaseMeshGenerator.FillIndices
-  isSpec: "True"
-  fullName: YAProgressBar.BaseMeshGenerator.FillIndices
-  nameWithType: BaseMeshGenerator.FillIndices
-- uid: YAProgressBar.BaseMeshGenerator.FillQuad(System.Int32[],System.Int32,System.Int32)
-  name: FillQuad(Int32[], Int32, Int32)
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_FillQuad_System_Int32___System_Int32_System_Int32_
-  commentId: M:YAProgressBar.BaseMeshGenerator.FillQuad(System.Int32[],System.Int32,System.Int32)
-  name.vb: FillQuad(Int32(), Int32, Int32)
-  fullName: YAProgressBar.BaseMeshGenerator.FillQuad(System.Int32[], System.Int32, System.Int32)
-  fullName.vb: YAProgressBar.BaseMeshGenerator.FillQuad(System.Int32(), System.Int32, System.Int32)
-  nameWithType: BaseMeshGenerator.FillQuad(Int32[], Int32, Int32)
-  nameWithType.vb: BaseMeshGenerator.FillQuad(Int32(), Int32, Int32)
-- uid: YAProgressBar.BaseMeshGenerator.FillQuad*
-  name: FillQuad
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_FillQuad_
-  commentId: Overload:YAProgressBar.BaseMeshGenerator.FillQuad
-  isSpec: "True"
-  fullName: YAProgressBar.BaseMeshGenerator.FillQuad
-  nameWithType: BaseMeshGenerator.FillQuad
-- uid: YAProgressBar.BaseMeshGenerator.FillQuadInverse(System.Int32[],System.Int32,System.Int32)
-  name: FillQuadInverse(Int32[], Int32, Int32)
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_FillQuadInverse_System_Int32___System_Int32_System_Int32_
-  commentId: M:YAProgressBar.BaseMeshGenerator.FillQuadInverse(System.Int32[],System.Int32,System.Int32)
-  name.vb: FillQuadInverse(Int32(), Int32, Int32)
-  fullName: YAProgressBar.BaseMeshGenerator.FillQuadInverse(System.Int32[], System.Int32, System.Int32)
-  fullName.vb: YAProgressBar.BaseMeshGenerator.FillQuadInverse(System.Int32(), System.Int32, System.Int32)
-  nameWithType: BaseMeshGenerator.FillQuadInverse(Int32[], Int32, Int32)
-  nameWithType.vb: BaseMeshGenerator.FillQuadInverse(Int32(), Int32, Int32)
-- uid: YAProgressBar.BaseMeshGenerator.FillQuadInverse*
-  name: FillQuadInverse
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_FillQuadInverse_
-  commentId: Overload:YAProgressBar.BaseMeshGenerator.FillQuadInverse
-  isSpec: "True"
-  fullName: YAProgressBar.BaseMeshGenerator.FillQuadInverse
-  nameWithType: BaseMeshGenerator.FillQuadInverse
-- uid: YAProgressBar.BaseMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
-  name: GenerateCircularMesh(Mesh, CircularProgressBar)
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_GenerateCircularMesh_Mesh_YAProgressBar_CircularProgressBar_
-  commentId: M:YAProgressBar.BaseMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
-  fullName: YAProgressBar.BaseMeshGenerator.GenerateCircularMesh(Mesh, YAProgressBar.CircularProgressBar)
-  nameWithType: BaseMeshGenerator.GenerateCircularMesh(Mesh, CircularProgressBar)
-- uid: YAProgressBar.BaseMeshGenerator.GenerateCircularMesh*
-  name: GenerateCircularMesh
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_GenerateCircularMesh_
-  commentId: Overload:YAProgressBar.BaseMeshGenerator.GenerateCircularMesh
-  isSpec: "True"
-  fullName: YAProgressBar.BaseMeshGenerator.GenerateCircularMesh
-  nameWithType: BaseMeshGenerator.GenerateCircularMesh
-- uid: YAProgressBar.BaseMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
-  name: GenerateLinearMesh(Mesh, LinearProgressBar)
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_GenerateLinearMesh_Mesh_YAProgressBar_LinearProgressBar_
-  commentId: M:YAProgressBar.BaseMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
-  fullName: YAProgressBar.BaseMeshGenerator.GenerateLinearMesh(Mesh, YAProgressBar.LinearProgressBar)
-  nameWithType: BaseMeshGenerator.GenerateLinearMesh(Mesh, LinearProgressBar)
-- uid: YAProgressBar.BaseMeshGenerator.GenerateLinearMesh*
-  name: GenerateLinearMesh
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_GenerateLinearMesh_
-  commentId: Overload:YAProgressBar.BaseMeshGenerator.GenerateLinearMesh
-  isSpec: "True"
-  fullName: YAProgressBar.BaseMeshGenerator.GenerateLinearMesh
-  nameWithType: BaseMeshGenerator.GenerateLinearMesh
-- uid: YAProgressBar.BaseMeshGenerator.indices
-  name: indices
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_indices
-  commentId: F:YAProgressBar.BaseMeshGenerator.indices
-  fullName: YAProgressBar.BaseMeshGenerator.indices
-  nameWithType: BaseMeshGenerator.indices
-- uid: YAProgressBar.BaseMeshGenerator.IndicesCountPerElement
-  name: IndicesCountPerElement
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_IndicesCountPerElement
-  commentId: P:YAProgressBar.BaseMeshGenerator.IndicesCountPerElement
-  fullName: YAProgressBar.BaseMeshGenerator.IndicesCountPerElement
-  nameWithType: BaseMeshGenerator.IndicesCountPerElement
-- uid: YAProgressBar.BaseMeshGenerator.IndicesCountPerElement*
-  name: IndicesCountPerElement
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_IndicesCountPerElement_
-  commentId: Overload:YAProgressBar.BaseMeshGenerator.IndicesCountPerElement
-  isSpec: "True"
-  fullName: YAProgressBar.BaseMeshGenerator.IndicesCountPerElement
-  nameWithType: BaseMeshGenerator.IndicesCountPerElement
-- uid: YAProgressBar.BaseMeshGenerator.maxElementsCount
-  name: maxElementsCount
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_maxElementsCount
-  commentId: F:YAProgressBar.BaseMeshGenerator.maxElementsCount
-  fullName: YAProgressBar.BaseMeshGenerator.maxElementsCount
-  nameWithType: BaseMeshGenerator.maxElementsCount
-- uid: YAProgressBar.BaseMeshGenerator.SetMaterialDivider(Mesh,System.Single,System.Boolean,System.Int32,System.Boolean)
-  name: SetMaterialDivider(Mesh, Single, Boolean, Int32, Boolean)
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_SetMaterialDivider_Mesh_System_Single_System_Boolean_System_Int32_System_Boolean_
-  commentId: M:YAProgressBar.BaseMeshGenerator.SetMaterialDivider(Mesh,System.Single,System.Boolean,System.Int32,System.Boolean)
-  fullName: YAProgressBar.BaseMeshGenerator.SetMaterialDivider(Mesh, System.Single, System.Boolean, System.Int32, System.Boolean)
-  nameWithType: BaseMeshGenerator.SetMaterialDivider(Mesh, Single, Boolean, Int32, Boolean)
-- uid: YAProgressBar.BaseMeshGenerator.SetMaterialDivider*
-  name: SetMaterialDivider
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_SetMaterialDivider_
-  commentId: Overload:YAProgressBar.BaseMeshGenerator.SetMaterialDivider
-  isSpec: "True"
-  fullName: YAProgressBar.BaseMeshGenerator.SetMaterialDivider
-  nameWithType: BaseMeshGenerator.SetMaterialDivider
-- uid: YAProgressBar.BaseMeshGenerator.VertexCountPerElement
-  name: VertexCountPerElement
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_VertexCountPerElement
-  commentId: P:YAProgressBar.BaseMeshGenerator.VertexCountPerElement
-  fullName: YAProgressBar.BaseMeshGenerator.VertexCountPerElement
-  nameWithType: BaseMeshGenerator.VertexCountPerElement
-- uid: YAProgressBar.BaseMeshGenerator.VertexCountPerElement*
-  name: VertexCountPerElement
-  href: api/YAProgressBar.BaseMeshGenerator.html#YAProgressBar_BaseMeshGenerator_VertexCountPerElement_
-  commentId: Overload:YAProgressBar.BaseMeshGenerator.VertexCountPerElement
-  isSpec: "True"
-  fullName: YAProgressBar.BaseMeshGenerator.VertexCountPerElement
-  nameWithType: BaseMeshGenerator.VertexCountPerElement
-- uid: YAProgressBar.BoxMeshGenerator
-  name: BoxMeshGenerator
-  href: api/YAProgressBar.BoxMeshGenerator.html
-  commentId: T:YAProgressBar.BoxMeshGenerator
-  fullName: YAProgressBar.BoxMeshGenerator
-  nameWithType: BoxMeshGenerator
-- uid: YAProgressBar.BoxMeshGenerator.ElementShape
-  name: ElementShape
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_ElementShape
-  commentId: P:YAProgressBar.BoxMeshGenerator.ElementShape
-  fullName: YAProgressBar.BoxMeshGenerator.ElementShape
-  nameWithType: BoxMeshGenerator.ElementShape
-- uid: YAProgressBar.BoxMeshGenerator.ElementShape*
-  name: ElementShape
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_ElementShape_
-  commentId: Overload:YAProgressBar.BoxMeshGenerator.ElementShape
-  isSpec: "True"
-  fullName: YAProgressBar.BoxMeshGenerator.ElementShape
-  nameWithType: BoxMeshGenerator.ElementShape
-- uid: YAProgressBar.BoxMeshGenerator.FillElementIndices(System.Int32[],System.Int32,System.Int32)
-  name: FillElementIndices(Int32[], Int32, Int32)
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_FillElementIndices_System_Int32___System_Int32_System_Int32_
-  commentId: M:YAProgressBar.BoxMeshGenerator.FillElementIndices(System.Int32[],System.Int32,System.Int32)
-  name.vb: FillElementIndices(Int32(), Int32, Int32)
-  fullName: YAProgressBar.BoxMeshGenerator.FillElementIndices(System.Int32[], System.Int32, System.Int32)
-  fullName.vb: YAProgressBar.BoxMeshGenerator.FillElementIndices(System.Int32(), System.Int32, System.Int32)
-  nameWithType: BoxMeshGenerator.FillElementIndices(Int32[], Int32, Int32)
-  nameWithType.vb: BoxMeshGenerator.FillElementIndices(Int32(), Int32, Int32)
-- uid: YAProgressBar.BoxMeshGenerator.FillElementIndices*
-  name: FillElementIndices
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_FillElementIndices_
-  commentId: Overload:YAProgressBar.BoxMeshGenerator.FillElementIndices
-  isSpec: "True"
-  fullName: YAProgressBar.BoxMeshGenerator.FillElementIndices
-  nameWithType: BoxMeshGenerator.FillElementIndices
-- uid: YAProgressBar.BoxMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
-  name: GenerateCircularMesh(Mesh, CircularProgressBar)
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_GenerateCircularMesh_Mesh_YAProgressBar_CircularProgressBar_
-  commentId: M:YAProgressBar.BoxMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
-  fullName: YAProgressBar.BoxMeshGenerator.GenerateCircularMesh(Mesh, YAProgressBar.CircularProgressBar)
-  nameWithType: BoxMeshGenerator.GenerateCircularMesh(Mesh, CircularProgressBar)
-- uid: YAProgressBar.BoxMeshGenerator.GenerateCircularMesh*
-  name: GenerateCircularMesh
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_GenerateCircularMesh_
-  commentId: Overload:YAProgressBar.BoxMeshGenerator.GenerateCircularMesh
-  isSpec: "True"
-  fullName: YAProgressBar.BoxMeshGenerator.GenerateCircularMesh
-  nameWithType: BoxMeshGenerator.GenerateCircularMesh
-- uid: YAProgressBar.BoxMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
-  name: GenerateLinearMesh(Mesh, LinearProgressBar)
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_GenerateLinearMesh_Mesh_YAProgressBar_LinearProgressBar_
-  commentId: M:YAProgressBar.BoxMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
-  fullName: YAProgressBar.BoxMeshGenerator.GenerateLinearMesh(Mesh, YAProgressBar.LinearProgressBar)
-  nameWithType: BoxMeshGenerator.GenerateLinearMesh(Mesh, LinearProgressBar)
-- uid: YAProgressBar.BoxMeshGenerator.GenerateLinearMesh*
-  name: GenerateLinearMesh
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_GenerateLinearMesh_
-  commentId: Overload:YAProgressBar.BoxMeshGenerator.GenerateLinearMesh
-  isSpec: "True"
-  fullName: YAProgressBar.BoxMeshGenerator.GenerateLinearMesh
-  nameWithType: BoxMeshGenerator.GenerateLinearMesh
-- uid: YAProgressBar.BoxMeshGenerator.IndicesCountPerElement
-  name: IndicesCountPerElement
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_IndicesCountPerElement
-  commentId: P:YAProgressBar.BoxMeshGenerator.IndicesCountPerElement
-  fullName: YAProgressBar.BoxMeshGenerator.IndicesCountPerElement
-  nameWithType: BoxMeshGenerator.IndicesCountPerElement
-- uid: YAProgressBar.BoxMeshGenerator.IndicesCountPerElement*
-  name: IndicesCountPerElement
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_IndicesCountPerElement_
-  commentId: Overload:YAProgressBar.BoxMeshGenerator.IndicesCountPerElement
-  isSpec: "True"
-  fullName: YAProgressBar.BoxMeshGenerator.IndicesCountPerElement
-  nameWithType: BoxMeshGenerator.IndicesCountPerElement
-- uid: YAProgressBar.BoxMeshGenerator.VertexCountPerElement
-  name: VertexCountPerElement
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_VertexCountPerElement
-  commentId: P:YAProgressBar.BoxMeshGenerator.VertexCountPerElement
-  fullName: YAProgressBar.BoxMeshGenerator.VertexCountPerElement
-  nameWithType: BoxMeshGenerator.VertexCountPerElement
-- uid: YAProgressBar.BoxMeshGenerator.VertexCountPerElement*
-  name: VertexCountPerElement
-  href: api/YAProgressBar.BoxMeshGenerator.html#YAProgressBar_BoxMeshGenerator_VertexCountPerElement_
-  commentId: Overload:YAProgressBar.BoxMeshGenerator.VertexCountPerElement
-  isSpec: "True"
-  fullName: YAProgressBar.BoxMeshGenerator.VertexCountPerElement
-  nameWithType: BoxMeshGenerator.VertexCountPerElement
-- uid: YAProgressBar.CircularCurve
-  name: CircularCurve
-  href: api/YAProgressBar.CircularCurve.html
-  commentId: T:YAProgressBar.CircularCurve
-  fullName: YAProgressBar.CircularCurve
-  nameWithType: CircularCurve
-- uid: YAProgressBar.CircularCurve.EndAngle
-  name: EndAngle
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_EndAngle
-  commentId: P:YAProgressBar.CircularCurve.EndAngle
-  fullName: YAProgressBar.CircularCurve.EndAngle
-  nameWithType: CircularCurve.EndAngle
-- uid: YAProgressBar.CircularCurve.EndAngle*
-  name: EndAngle
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_EndAngle_
-  commentId: Overload:YAProgressBar.CircularCurve.EndAngle
-  isSpec: "True"
-  fullName: YAProgressBar.CircularCurve.EndAngle
-  nameWithType: CircularCurve.EndAngle
-- uid: YAProgressBar.CircularCurve.GetFullAngle
-  name: GetFullAngle()
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetFullAngle
-  commentId: M:YAProgressBar.CircularCurve.GetFullAngle
-  fullName: YAProgressBar.CircularCurve.GetFullAngle()
-  nameWithType: CircularCurve.GetFullAngle()
-- uid: YAProgressBar.CircularCurve.GetFullAngle*
-  name: GetFullAngle
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetFullAngle_
-  commentId: Overload:YAProgressBar.CircularCurve.GetFullAngle
-  isSpec: "True"
-  fullName: YAProgressBar.CircularCurve.GetFullAngle
-  nameWithType: CircularCurve.GetFullAngle
-- uid: YAProgressBar.CircularCurve.GetPoint(System.Single,Quaternion@)
-  name: GetPoint(Single, out Quaternion)
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetPoint_System_Single_Quaternion__
-  commentId: M:YAProgressBar.CircularCurve.GetPoint(System.Single,Quaternion@)
-  name.vb: GetPoint(Single, ByRef Quaternion)
-  fullName: YAProgressBar.CircularCurve.GetPoint(System.Single, out Quaternion)
-  fullName.vb: YAProgressBar.CircularCurve.GetPoint(System.Single, ByRef Quaternion)
-  nameWithType: CircularCurve.GetPoint(Single, out Quaternion)
-  nameWithType.vb: CircularCurve.GetPoint(Single, ByRef Quaternion)
-- uid: YAProgressBar.CircularCurve.GetPoint(System.Single,Quaternion@,Vector3@)
-  name: GetPoint(Single, out Quaternion, out Vector3)
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetPoint_System_Single_Quaternion__Vector3__
-  commentId: M:YAProgressBar.CircularCurve.GetPoint(System.Single,Quaternion@,Vector3@)
-  name.vb: GetPoint(Single, ByRef Quaternion, ByRef Vector3)
-  fullName: YAProgressBar.CircularCurve.GetPoint(System.Single, out Quaternion, out Vector3)
-  fullName.vb: YAProgressBar.CircularCurve.GetPoint(System.Single, ByRef Quaternion, ByRef Vector3)
-  nameWithType: CircularCurve.GetPoint(Single, out Quaternion, out Vector3)
-  nameWithType.vb: CircularCurve.GetPoint(Single, ByRef Quaternion, ByRef Vector3)
-- uid: YAProgressBar.CircularCurve.GetPoint(System.Single,Vector3@)
-  name: GetPoint(Single, out Vector3)
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetPoint_System_Single_Vector3__
-  commentId: M:YAProgressBar.CircularCurve.GetPoint(System.Single,Vector3@)
-  name.vb: GetPoint(Single, ByRef Vector3)
-  fullName: YAProgressBar.CircularCurve.GetPoint(System.Single, out Vector3)
-  fullName.vb: YAProgressBar.CircularCurve.GetPoint(System.Single, ByRef Vector3)
-  nameWithType: CircularCurve.GetPoint(Single, out Vector3)
-  nameWithType.vb: CircularCurve.GetPoint(Single, ByRef Vector3)
-- uid: YAProgressBar.CircularCurve.GetPoint*
-  name: GetPoint
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_GetPoint_
-  commentId: Overload:YAProgressBar.CircularCurve.GetPoint
-  isSpec: "True"
-  fullName: YAProgressBar.CircularCurve.GetPoint
-  nameWithType: CircularCurve.GetPoint
-- uid: YAProgressBar.CircularCurve.IsClosed
-  name: IsClosed
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_IsClosed
-  commentId: P:YAProgressBar.CircularCurve.IsClosed
-  fullName: YAProgressBar.CircularCurve.IsClosed
-  nameWithType: CircularCurve.IsClosed
-- uid: YAProgressBar.CircularCurve.IsClosed*
-  name: IsClosed
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_IsClosed_
-  commentId: Overload:YAProgressBar.CircularCurve.IsClosed
-  isSpec: "True"
-  fullName: YAProgressBar.CircularCurve.IsClosed
-  nameWithType: CircularCurve.IsClosed
-- uid: YAProgressBar.CircularCurve.Radius
-  name: Radius
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_Radius
-  commentId: P:YAProgressBar.CircularCurve.Radius
-  fullName: YAProgressBar.CircularCurve.Radius
-  nameWithType: CircularCurve.Radius
-- uid: YAProgressBar.CircularCurve.Radius*
-  name: Radius
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_Radius_
-  commentId: Overload:YAProgressBar.CircularCurve.Radius
-  isSpec: "True"
-  fullName: YAProgressBar.CircularCurve.Radius
-  nameWithType: CircularCurve.Radius
-- uid: YAProgressBar.CircularCurve.Setup(System.Single,System.Single,System.Single)
-  name: Setup(Single, Single, Single)
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_Setup_System_Single_System_Single_System_Single_
-  commentId: M:YAProgressBar.CircularCurve.Setup(System.Single,System.Single,System.Single)
-  fullName: YAProgressBar.CircularCurve.Setup(System.Single, System.Single, System.Single)
-  nameWithType: CircularCurve.Setup(Single, Single, Single)
-- uid: YAProgressBar.CircularCurve.Setup*
-  name: Setup
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_Setup_
-  commentId: Overload:YAProgressBar.CircularCurve.Setup
-  isSpec: "True"
-  fullName: YAProgressBar.CircularCurve.Setup
-  nameWithType: CircularCurve.Setup
-- uid: YAProgressBar.CircularCurve.StartAngle
-  name: StartAngle
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_StartAngle
-  commentId: P:YAProgressBar.CircularCurve.StartAngle
-  fullName: YAProgressBar.CircularCurve.StartAngle
-  nameWithType: CircularCurve.StartAngle
-- uid: YAProgressBar.CircularCurve.StartAngle*
-  name: StartAngle
-  href: api/YAProgressBar.CircularCurve.html#YAProgressBar_CircularCurve_StartAngle_
-  commentId: Overload:YAProgressBar.CircularCurve.StartAngle
-  isSpec: "True"
-  fullName: YAProgressBar.CircularCurve.StartAngle
-  nameWithType: CircularCurve.StartAngle
-- uid: YAProgressBar.CircularProgressBar
-  name: CircularProgressBar
-  href: api/YAProgressBar.CircularProgressBar.html
-  commentId: T:YAProgressBar.CircularProgressBar
-  fullName: YAProgressBar.CircularProgressBar
-  nameWithType: CircularProgressBar
-- uid: YAProgressBar.CircularProgressBar.Curve
-  name: Curve
-  href: api/YAProgressBar.CircularProgressBar.html#YAProgressBar_CircularProgressBar_Curve
-  commentId: P:YAProgressBar.CircularProgressBar.Curve
-  fullName: YAProgressBar.CircularProgressBar.Curve
-  nameWithType: CircularProgressBar.Curve
-- uid: YAProgressBar.CircularProgressBar.Curve*
-  name: Curve
-  href: api/YAProgressBar.CircularProgressBar.html#YAProgressBar_CircularProgressBar_Curve_
-  commentId: Overload:YAProgressBar.CircularProgressBar.Curve
-  isSpec: "True"
-  fullName: YAProgressBar.CircularProgressBar.Curve
-  nameWithType: CircularProgressBar.Curve
-- uid: YAProgressBar.CircularProgressBar.EndAngle
-  name: EndAngle
-  href: api/YAProgressBar.CircularProgressBar.html#YAProgressBar_CircularProgressBar_EndAngle
-  commentId: P:YAProgressBar.CircularProgressBar.EndAngle
-  fullName: YAProgressBar.CircularProgressBar.EndAngle
-  nameWithType: CircularProgressBar.EndAngle
-- uid: YAProgressBar.CircularProgressBar.EndAngle*
-  name: EndAngle
-  href: api/YAProgressBar.CircularProgressBar.html#YAProgressBar_CircularProgressBar_EndAngle_
-  commentId: Overload:YAProgressBar.CircularProgressBar.EndAngle
-  isSpec: "True"
-  fullName: YAProgressBar.CircularProgressBar.EndAngle
-  nameWithType: CircularProgressBar.EndAngle
-- uid: YAProgressBar.CircularProgressBar.Radius
-  name: Radius
-  href: api/YAProgressBar.CircularProgressBar.html#YAProgressBar_CircularProgressBar_Radius
-  commentId: P:YAProgressBar.CircularProgressBar.Radius
-  fullName: YAProgressBar.CircularProgressBar.Radius
-  nameWithType: CircularProgressBar.Radius
-- uid: YAProgressBar.CircularProgressBar.Radius*
-  name: Radius
-  href: api/YAProgressBar.CircularProgressBar.html#YAProgressBar_CircularProgressBar_Radius_
-  commentId: Overload:YAProgressBar.CircularProgressBar.Radius
-  isSpec: "True"
-  fullName: YAProgressBar.CircularProgressBar.Radius
-  nameWithType: CircularProgressBar.Radius
-- uid: YAProgressBar.CircularProgressBar.Rebuild
-  name: Rebuild()
-  href: api/YAProgressBar.CircularProgressBar.html#YAProgressBar_CircularProgressBar_Rebuild
-  commentId: M:YAProgressBar.CircularProgressBar.Rebuild
-  fullName: YAProgressBar.CircularProgressBar.Rebuild()
-  nameWithType: CircularProgressBar.Rebuild()
-- uid: YAProgressBar.CircularProgressBar.Rebuild*
-  name: Rebuild
-  href: api/YAProgressBar.CircularProgressBar.html#YAProgressBar_CircularProgressBar_Rebuild_
-  commentId: Overload:YAProgressBar.CircularProgressBar.Rebuild
-  isSpec: "True"
-  fullName: YAProgressBar.CircularProgressBar.Rebuild
-  nameWithType: CircularProgressBar.Rebuild
-- uid: YAProgressBar.CircularProgressBar.StartAngle
-  name: StartAngle
-  href: api/YAProgressBar.CircularProgressBar.html#YAProgressBar_CircularProgressBar_StartAngle
-  commentId: P:YAProgressBar.CircularProgressBar.StartAngle
-  fullName: YAProgressBar.CircularProgressBar.StartAngle
-  nameWithType: CircularProgressBar.StartAngle
-- uid: YAProgressBar.CircularProgressBar.StartAngle*
-  name: StartAngle
-  href: api/YAProgressBar.CircularProgressBar.html#YAProgressBar_CircularProgressBar_StartAngle_
-  commentId: Overload:YAProgressBar.CircularProgressBar.StartAngle
-  isSpec: "True"
-  fullName: YAProgressBar.CircularProgressBar.StartAngle
-  nameWithType: CircularProgressBar.StartAngle
-- uid: YAProgressBar.LinearProgressBar
-  name: LinearProgressBar
-  href: api/YAProgressBar.LinearProgressBar.html
-  commentId: T:YAProgressBar.LinearProgressBar
-  fullName: YAProgressBar.LinearProgressBar
-  nameWithType: LinearProgressBar
-- uid: YAProgressBar.LinearProgressBar.Length
-  name: Length
-  href: api/YAProgressBar.LinearProgressBar.html#YAProgressBar_LinearProgressBar_Length
-  commentId: P:YAProgressBar.LinearProgressBar.Length
-  fullName: YAProgressBar.LinearProgressBar.Length
-  nameWithType: LinearProgressBar.Length
-- uid: YAProgressBar.LinearProgressBar.Length*
-  name: Length
-  href: api/YAProgressBar.LinearProgressBar.html#YAProgressBar_LinearProgressBar_Length_
-  commentId: Overload:YAProgressBar.LinearProgressBar.Length
-  isSpec: "True"
-  fullName: YAProgressBar.LinearProgressBar.Length
-  nameWithType: LinearProgressBar.Length
-- uid: YAProgressBar.LinearProgressBar.Rebuild
-  name: Rebuild()
-  href: api/YAProgressBar.LinearProgressBar.html#YAProgressBar_LinearProgressBar_Rebuild
-  commentId: M:YAProgressBar.LinearProgressBar.Rebuild
-  fullName: YAProgressBar.LinearProgressBar.Rebuild()
-  nameWithType: LinearProgressBar.Rebuild()
-- uid: YAProgressBar.LinearProgressBar.Rebuild*
-  name: Rebuild
-  href: api/YAProgressBar.LinearProgressBar.html#YAProgressBar_LinearProgressBar_Rebuild_
-  commentId: Overload:YAProgressBar.LinearProgressBar.Rebuild
-  isSpec: "True"
-  fullName: YAProgressBar.LinearProgressBar.Rebuild
-  nameWithType: LinearProgressBar.Rebuild
-- uid: YAProgressBar.ProgressBarAdapter
-  name: ProgressBarAdapter
-  href: api/YAProgressBar.ProgressBarAdapter.html
-  commentId: T:YAProgressBar.ProgressBarAdapter
-  fullName: YAProgressBar.ProgressBarAdapter
-  nameWithType: ProgressBarAdapter
-- uid: YAProgressBar.ProgressBarAdapter.Max
-  name: Max
-  href: api/YAProgressBar.ProgressBarAdapter.html#YAProgressBar_ProgressBarAdapter_Max
-  commentId: P:YAProgressBar.ProgressBarAdapter.Max
-  fullName: YAProgressBar.ProgressBarAdapter.Max
-  nameWithType: ProgressBarAdapter.Max
-- uid: YAProgressBar.ProgressBarAdapter.Max*
-  name: Max
-  href: api/YAProgressBar.ProgressBarAdapter.html#YAProgressBar_ProgressBarAdapter_Max_
-  commentId: Overload:YAProgressBar.ProgressBarAdapter.Max
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarAdapter.Max
-  nameWithType: ProgressBarAdapter.Max
-- uid: YAProgressBar.ProgressBarAdapter.Min
-  name: Min
-  href: api/YAProgressBar.ProgressBarAdapter.html#YAProgressBar_ProgressBarAdapter_Min
-  commentId: P:YAProgressBar.ProgressBarAdapter.Min
-  fullName: YAProgressBar.ProgressBarAdapter.Min
-  nameWithType: ProgressBarAdapter.Min
-- uid: YAProgressBar.ProgressBarAdapter.Min*
-  name: Min
-  href: api/YAProgressBar.ProgressBarAdapter.html#YAProgressBar_ProgressBarAdapter_Min_
-  commentId: Overload:YAProgressBar.ProgressBarAdapter.Min
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarAdapter.Min
-  nameWithType: ProgressBarAdapter.Min
-- uid: YAProgressBar.ProgressBarAdapter.Value
-  name: Value
-  href: api/YAProgressBar.ProgressBarAdapter.html#YAProgressBar_ProgressBarAdapter_Value
-  commentId: P:YAProgressBar.ProgressBarAdapter.Value
-  fullName: YAProgressBar.ProgressBarAdapter.Value
-  nameWithType: ProgressBarAdapter.Value
-- uid: YAProgressBar.ProgressBarAdapter.Value*
-  name: Value
-  href: api/YAProgressBar.ProgressBarAdapter.html#YAProgressBar_ProgressBarAdapter_Value_
-  commentId: Overload:YAProgressBar.ProgressBarAdapter.Value
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarAdapter.Value
-  nameWithType: ProgressBarAdapter.Value
-- uid: YAProgressBar.ProgressBarBaseMesh
-  name: ProgressBarBaseMesh
-  href: api/YAProgressBar.ProgressBarBaseMesh.html
-  commentId: T:YAProgressBar.ProgressBarBaseMesh
-  fullName: YAProgressBar.ProgressBarBaseMesh
-  nameWithType: ProgressBarBaseMesh
-- uid: YAProgressBar.ProgressBarBaseMesh.AlignX
-  name: AlignX
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_AlignX
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.AlignX
-  fullName: YAProgressBar.ProgressBarBaseMesh.AlignX
-  nameWithType: ProgressBarBaseMesh.AlignX
-- uid: YAProgressBar.ProgressBarBaseMesh.AlignX*
-  name: AlignX
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_AlignX_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.AlignX
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.AlignX
-  nameWithType: ProgressBarBaseMesh.AlignX
-- uid: YAProgressBar.ProgressBarBaseMesh.AlignY
-  name: AlignY
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_AlignY
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.AlignY
-  fullName: YAProgressBar.ProgressBarBaseMesh.AlignY
-  nameWithType: ProgressBarBaseMesh.AlignY
-- uid: YAProgressBar.ProgressBarBaseMesh.AlignY*
-  name: AlignY
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_AlignY_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.AlignY
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.AlignY
-  nameWithType: ProgressBarBaseMesh.AlignY
-- uid: YAProgressBar.ProgressBarBaseMesh.CreateMeshGenerator(YAProgressBar.ProgressBarBaseMesh.ElementShape)
-  name: CreateMeshGenerator(ProgressBarBaseMesh.ElementShape)
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_CreateMeshGenerator_YAProgressBar_ProgressBarBaseMesh_ElementShape_
-  commentId: M:YAProgressBar.ProgressBarBaseMesh.CreateMeshGenerator(YAProgressBar.ProgressBarBaseMesh.ElementShape)
-  fullName: YAProgressBar.ProgressBarBaseMesh.CreateMeshGenerator(YAProgressBar.ProgressBarBaseMesh.ElementShape)
-  nameWithType: ProgressBarBaseMesh.CreateMeshGenerator(ProgressBarBaseMesh.ElementShape)
-- uid: YAProgressBar.ProgressBarBaseMesh.CreateMeshGenerator*
-  name: CreateMeshGenerator
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_CreateMeshGenerator_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.CreateMeshGenerator
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.CreateMeshGenerator
-  nameWithType: ProgressBarBaseMesh.CreateMeshGenerator
-- uid: YAProgressBar.ProgressBarBaseMesh.Depth
-  name: Depth
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Depth
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.Depth
-  fullName: YAProgressBar.ProgressBarBaseMesh.Depth
-  nameWithType: ProgressBarBaseMesh.Depth
-- uid: YAProgressBar.ProgressBarBaseMesh.Depth*
-  name: Depth
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Depth_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.Depth
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.Depth
-  nameWithType: ProgressBarBaseMesh.Depth
-- uid: YAProgressBar.ProgressBarBaseMesh.ElementGap
-  name: ElementGap
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_ElementGap
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.ElementGap
-  fullName: YAProgressBar.ProgressBarBaseMesh.ElementGap
-  nameWithType: ProgressBarBaseMesh.ElementGap
-- uid: YAProgressBar.ProgressBarBaseMesh.ElementGap*
-  name: ElementGap
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_ElementGap_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.ElementGap
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.ElementGap
-  nameWithType: ProgressBarBaseMesh.ElementGap
-- uid: YAProgressBar.ProgressBarBaseMesh.ElementsCount
-  name: ElementsCount
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_ElementsCount
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.ElementsCount
-  fullName: YAProgressBar.ProgressBarBaseMesh.ElementsCount
-  nameWithType: ProgressBarBaseMesh.ElementsCount
-- uid: YAProgressBar.ProgressBarBaseMesh.ElementsCount*
-  name: ElementsCount
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_ElementsCount_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.ElementsCount
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.ElementsCount
-  nameWithType: ProgressBarBaseMesh.ElementsCount
-- uid: YAProgressBar.ProgressBarBaseMesh.elementShape
-  name: elementShape
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_elementShape
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.elementShape
-  fullName: YAProgressBar.ProgressBarBaseMesh.elementShape
-  nameWithType: ProgressBarBaseMesh.elementShape
-- uid: YAProgressBar.ProgressBarBaseMesh.ElementShape
-  name: ProgressBarBaseMesh.ElementShape
-  href: api/YAProgressBar.ProgressBarBaseMesh.ElementShape.html
-  commentId: T:YAProgressBar.ProgressBarBaseMesh.ElementShape
-  fullName: YAProgressBar.ProgressBarBaseMesh.ElementShape
-  nameWithType: ProgressBarBaseMesh.ElementShape
-- uid: YAProgressBar.ProgressBarBaseMesh.ElementShape.Box
-  name: Box
-  href: api/YAProgressBar.ProgressBarBaseMesh.ElementShape.html#YAProgressBar_ProgressBarBaseMesh_ElementShape_Box
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.ElementShape.Box
-  fullName: YAProgressBar.ProgressBarBaseMesh.ElementShape.Box
-  nameWithType: ProgressBarBaseMesh.ElementShape.Box
-- uid: YAProgressBar.ProgressBarBaseMesh.ElementShape.Quad
-  name: Quad
-  href: api/YAProgressBar.ProgressBarBaseMesh.ElementShape.html#YAProgressBar_ProgressBarBaseMesh_ElementShape_Quad
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.ElementShape.Quad
-  fullName: YAProgressBar.ProgressBarBaseMesh.ElementShape.Quad
-  nameWithType: ProgressBarBaseMesh.ElementShape.Quad
-- uid: YAProgressBar.ProgressBarBaseMesh.FillAmount
-  name: FillAmount
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_FillAmount
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.FillAmount
-  fullName: YAProgressBar.ProgressBarBaseMesh.FillAmount
-  nameWithType: ProgressBarBaseMesh.FillAmount
-- uid: YAProgressBar.ProgressBarBaseMesh.FillAmount*
-  name: FillAmount
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_FillAmount_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.FillAmount
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.FillAmount
-  nameWithType: ProgressBarBaseMesh.FillAmount
-- uid: YAProgressBar.ProgressBarBaseMesh.FlipNormal
-  name: FlipNormal
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_FlipNormal
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.FlipNormal
-  fullName: YAProgressBar.ProgressBarBaseMesh.FlipNormal
-  nameWithType: ProgressBarBaseMesh.FlipNormal
-- uid: YAProgressBar.ProgressBarBaseMesh.FlipNormal*
-  name: FlipNormal
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_FlipNormal_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.FlipNormal
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.FlipNormal
-  nameWithType: ProgressBarBaseMesh.FlipNormal
-- uid: YAProgressBar.ProgressBarBaseMesh.Height
-  name: Height
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Height
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.Height
-  fullName: YAProgressBar.ProgressBarBaseMesh.Height
-  nameWithType: ProgressBarBaseMesh.Height
-- uid: YAProgressBar.ProgressBarBaseMesh.Height*
-  name: Height
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Height_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.Height
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.Height
-  nameWithType: ProgressBarBaseMesh.Height
-- uid: YAProgressBar.ProgressBarBaseMesh.Initialise
-  name: Initialise()
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Initialise
-  commentId: M:YAProgressBar.ProgressBarBaseMesh.Initialise
-  fullName: YAProgressBar.ProgressBarBaseMesh.Initialise()
-  nameWithType: ProgressBarBaseMesh.Initialise()
-- uid: YAProgressBar.ProgressBarBaseMesh.Initialise*
-  name: Initialise
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Initialise_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.Initialise
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.Initialise
-  nameWithType: ProgressBarBaseMesh.Initialise
-- uid: YAProgressBar.ProgressBarBaseMesh.Inverse
-  name: Inverse
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Inverse
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.Inverse
-  fullName: YAProgressBar.ProgressBarBaseMesh.Inverse
-  nameWithType: ProgressBarBaseMesh.Inverse
-- uid: YAProgressBar.ProgressBarBaseMesh.Inverse*
-  name: Inverse
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Inverse_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.Inverse
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.Inverse
-  nameWithType: ProgressBarBaseMesh.Inverse
-- uid: YAProgressBar.ProgressBarBaseMesh.IsInitialised
-  name: IsInitialised
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_IsInitialised
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.IsInitialised
-  fullName: YAProgressBar.ProgressBarBaseMesh.IsInitialised
-  nameWithType: ProgressBarBaseMesh.IsInitialised
-- uid: YAProgressBar.ProgressBarBaseMesh.IsInitialised*
-  name: IsInitialised
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_IsInitialised_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.IsInitialised
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.IsInitialised
-  nameWithType: ProgressBarBaseMesh.IsInitialised
-- uid: YAProgressBar.ProgressBarBaseMesh.mesh
-  name: mesh
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_mesh
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.mesh
-  fullName: YAProgressBar.ProgressBarBaseMesh.mesh
-  nameWithType: ProgressBarBaseMesh.mesh
-- uid: YAProgressBar.ProgressBarBaseMesh.meshGenerator
-  name: meshGenerator
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_meshGenerator
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.meshGenerator
-  fullName: YAProgressBar.ProgressBarBaseMesh.meshGenerator
-  nameWithType: ProgressBarBaseMesh.meshGenerator
-- uid: YAProgressBar.ProgressBarBaseMesh.Rebuild
-  name: Rebuild()
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Rebuild
-  commentId: M:YAProgressBar.ProgressBarBaseMesh.Rebuild
-  fullName: YAProgressBar.ProgressBarBaseMesh.Rebuild()
-  nameWithType: ProgressBarBaseMesh.Rebuild()
-- uid: YAProgressBar.ProgressBarBaseMesh.Rebuild*
-  name: Rebuild
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Rebuild_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.Rebuild
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.Rebuild
-  nameWithType: ProgressBarBaseMesh.Rebuild
-- uid: YAProgressBar.ProgressBarBaseMesh.RecalculateAligment(System.Boolean)
-  name: RecalculateAligment(Boolean)
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_RecalculateAligment_System_Boolean_
-  commentId: M:YAProgressBar.ProgressBarBaseMesh.RecalculateAligment(System.Boolean)
-  fullName: YAProgressBar.ProgressBarBaseMesh.RecalculateAligment(System.Boolean)
-  nameWithType: ProgressBarBaseMesh.RecalculateAligment(Boolean)
-- uid: YAProgressBar.ProgressBarBaseMesh.RecalculateAligment*
-  name: RecalculateAligment
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_RecalculateAligment_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.RecalculateAligment
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.RecalculateAligment
-  nameWithType: ProgressBarBaseMesh.RecalculateAligment
-- uid: YAProgressBar.ProgressBarBaseMesh.Skew
-  name: Skew
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Skew
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.Skew
-  fullName: YAProgressBar.ProgressBarBaseMesh.Skew
-  nameWithType: ProgressBarBaseMesh.Skew
-- uid: YAProgressBar.ProgressBarBaseMesh.Skew*
-  name: Skew
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_Skew_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.Skew
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.Skew
-  nameWithType: ProgressBarBaseMesh.Skew
-- uid: YAProgressBar.ProgressBarBaseMesh.StartX
-  name: StartX
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_StartX
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.StartX
-  fullName: YAProgressBar.ProgressBarBaseMesh.StartX
-  nameWithType: ProgressBarBaseMesh.StartX
-- uid: YAProgressBar.ProgressBarBaseMesh.StartX*
-  name: StartX
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_StartX_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.StartX
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.StartX
-  nameWithType: ProgressBarBaseMesh.StartX
-- uid: YAProgressBar.ProgressBarBaseMesh.StartY
-  name: StartY
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_StartY
-  commentId: P:YAProgressBar.ProgressBarBaseMesh.StartY
-  fullName: YAProgressBar.ProgressBarBaseMesh.StartY
-  nameWithType: ProgressBarBaseMesh.StartY
-- uid: YAProgressBar.ProgressBarBaseMesh.StartY*
-  name: StartY
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_StartY_
-  commentId: Overload:YAProgressBar.ProgressBarBaseMesh.StartY
-  isSpec: "True"
-  fullName: YAProgressBar.ProgressBarBaseMesh.StartY
-  nameWithType: ProgressBarBaseMesh.StartY
-- uid: YAProgressBar.ProgressBarBaseMesh.xAlign
-  name: xAlign
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_xAlign
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.xAlign
-  fullName: YAProgressBar.ProgressBarBaseMesh.xAlign
-  nameWithType: ProgressBarBaseMesh.xAlign
-- uid: YAProgressBar.ProgressBarBaseMesh.XAlign
-  name: ProgressBarBaseMesh.XAlign
-  href: api/YAProgressBar.ProgressBarBaseMesh.XAlign.html
-  commentId: T:YAProgressBar.ProgressBarBaseMesh.XAlign
-  fullName: YAProgressBar.ProgressBarBaseMesh.XAlign
-  nameWithType: ProgressBarBaseMesh.XAlign
-- uid: YAProgressBar.ProgressBarBaseMesh.XAlign.center
-  name: center
-  href: api/YAProgressBar.ProgressBarBaseMesh.XAlign.html#YAProgressBar_ProgressBarBaseMesh_XAlign_center
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.XAlign.center
-  fullName: YAProgressBar.ProgressBarBaseMesh.XAlign.center
-  nameWithType: ProgressBarBaseMesh.XAlign.center
-- uid: YAProgressBar.ProgressBarBaseMesh.XAlign.left
-  name: left
-  href: api/YAProgressBar.ProgressBarBaseMesh.XAlign.html#YAProgressBar_ProgressBarBaseMesh_XAlign_left
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.XAlign.left
-  fullName: YAProgressBar.ProgressBarBaseMesh.XAlign.left
-  nameWithType: ProgressBarBaseMesh.XAlign.left
-- uid: YAProgressBar.ProgressBarBaseMesh.XAlign.right
-  name: right
-  href: api/YAProgressBar.ProgressBarBaseMesh.XAlign.html#YAProgressBar_ProgressBarBaseMesh_XAlign_right
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.XAlign.right
-  fullName: YAProgressBar.ProgressBarBaseMesh.XAlign.right
-  nameWithType: ProgressBarBaseMesh.XAlign.right
-- uid: YAProgressBar.ProgressBarBaseMesh.yAlign
-  name: yAlign
-  href: api/YAProgressBar.ProgressBarBaseMesh.html#YAProgressBar_ProgressBarBaseMesh_yAlign
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.yAlign
-  fullName: YAProgressBar.ProgressBarBaseMesh.yAlign
-  nameWithType: ProgressBarBaseMesh.yAlign
-- uid: YAProgressBar.ProgressBarBaseMesh.YAlign
-  name: ProgressBarBaseMesh.YAlign
-  href: api/YAProgressBar.ProgressBarBaseMesh.YAlign.html
-  commentId: T:YAProgressBar.ProgressBarBaseMesh.YAlign
-  fullName: YAProgressBar.ProgressBarBaseMesh.YAlign
-  nameWithType: ProgressBarBaseMesh.YAlign
-- uid: YAProgressBar.ProgressBarBaseMesh.YAlign.bottom
-  name: bottom
-  href: api/YAProgressBar.ProgressBarBaseMesh.YAlign.html#YAProgressBar_ProgressBarBaseMesh_YAlign_bottom
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.YAlign.bottom
-  fullName: YAProgressBar.ProgressBarBaseMesh.YAlign.bottom
-  nameWithType: ProgressBarBaseMesh.YAlign.bottom
-- uid: YAProgressBar.ProgressBarBaseMesh.YAlign.center
-  name: center
-  href: api/YAProgressBar.ProgressBarBaseMesh.YAlign.html#YAProgressBar_ProgressBarBaseMesh_YAlign_center
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.YAlign.center
-  fullName: YAProgressBar.ProgressBarBaseMesh.YAlign.center
-  nameWithType: ProgressBarBaseMesh.YAlign.center
-- uid: YAProgressBar.ProgressBarBaseMesh.YAlign.top
-  name: top
-  href: api/YAProgressBar.ProgressBarBaseMesh.YAlign.html#YAProgressBar_ProgressBarBaseMesh_YAlign_top
-  commentId: F:YAProgressBar.ProgressBarBaseMesh.YAlign.top
-  fullName: YAProgressBar.ProgressBarBaseMesh.YAlign.top
-  nameWithType: ProgressBarBaseMesh.YAlign.top
-- uid: YAProgressBar.QuadMeshGenerator
-  name: QuadMeshGenerator
-  href: api/YAProgressBar.QuadMeshGenerator.html
-  commentId: T:YAProgressBar.QuadMeshGenerator
-  fullName: YAProgressBar.QuadMeshGenerator
-  nameWithType: QuadMeshGenerator
-- uid: YAProgressBar.QuadMeshGenerator.ElementShape
-  name: ElementShape
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_ElementShape
-  commentId: P:YAProgressBar.QuadMeshGenerator.ElementShape
-  fullName: YAProgressBar.QuadMeshGenerator.ElementShape
-  nameWithType: QuadMeshGenerator.ElementShape
-- uid: YAProgressBar.QuadMeshGenerator.ElementShape*
-  name: ElementShape
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_ElementShape_
-  commentId: Overload:YAProgressBar.QuadMeshGenerator.ElementShape
-  isSpec: "True"
-  fullName: YAProgressBar.QuadMeshGenerator.ElementShape
-  nameWithType: QuadMeshGenerator.ElementShape
-- uid: YAProgressBar.QuadMeshGenerator.FillElementIndices(System.Int32[],System.Int32,System.Int32)
-  name: FillElementIndices(Int32[], Int32, Int32)
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_FillElementIndices_System_Int32___System_Int32_System_Int32_
-  commentId: M:YAProgressBar.QuadMeshGenerator.FillElementIndices(System.Int32[],System.Int32,System.Int32)
-  name.vb: FillElementIndices(Int32(), Int32, Int32)
-  fullName: YAProgressBar.QuadMeshGenerator.FillElementIndices(System.Int32[], System.Int32, System.Int32)
-  fullName.vb: YAProgressBar.QuadMeshGenerator.FillElementIndices(System.Int32(), System.Int32, System.Int32)
-  nameWithType: QuadMeshGenerator.FillElementIndices(Int32[], Int32, Int32)
-  nameWithType.vb: QuadMeshGenerator.FillElementIndices(Int32(), Int32, Int32)
-- uid: YAProgressBar.QuadMeshGenerator.FillElementIndices*
-  name: FillElementIndices
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_FillElementIndices_
-  commentId: Overload:YAProgressBar.QuadMeshGenerator.FillElementIndices
-  isSpec: "True"
-  fullName: YAProgressBar.QuadMeshGenerator.FillElementIndices
-  nameWithType: QuadMeshGenerator.FillElementIndices
-- uid: YAProgressBar.QuadMeshGenerator.FlipNormal
-  name: FlipNormal
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_FlipNormal
-  commentId: P:YAProgressBar.QuadMeshGenerator.FlipNormal
-  fullName: YAProgressBar.QuadMeshGenerator.FlipNormal
-  nameWithType: QuadMeshGenerator.FlipNormal
-- uid: YAProgressBar.QuadMeshGenerator.FlipNormal*
-  name: FlipNormal
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_FlipNormal_
-  commentId: Overload:YAProgressBar.QuadMeshGenerator.FlipNormal
-  isSpec: "True"
-  fullName: YAProgressBar.QuadMeshGenerator.FlipNormal
-  nameWithType: QuadMeshGenerator.FlipNormal
-- uid: YAProgressBar.QuadMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
-  name: GenerateCircularMesh(Mesh, CircularProgressBar)
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_GenerateCircularMesh_Mesh_YAProgressBar_CircularProgressBar_
-  commentId: M:YAProgressBar.QuadMeshGenerator.GenerateCircularMesh(Mesh,YAProgressBar.CircularProgressBar)
-  fullName: YAProgressBar.QuadMeshGenerator.GenerateCircularMesh(Mesh, YAProgressBar.CircularProgressBar)
-  nameWithType: QuadMeshGenerator.GenerateCircularMesh(Mesh, CircularProgressBar)
-- uid: YAProgressBar.QuadMeshGenerator.GenerateCircularMesh*
-  name: GenerateCircularMesh
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_GenerateCircularMesh_
-  commentId: Overload:YAProgressBar.QuadMeshGenerator.GenerateCircularMesh
-  isSpec: "True"
-  fullName: YAProgressBar.QuadMeshGenerator.GenerateCircularMesh
-  nameWithType: QuadMeshGenerator.GenerateCircularMesh
-- uid: YAProgressBar.QuadMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
-  name: GenerateLinearMesh(Mesh, LinearProgressBar)
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_GenerateLinearMesh_Mesh_YAProgressBar_LinearProgressBar_
-  commentId: M:YAProgressBar.QuadMeshGenerator.GenerateLinearMesh(Mesh,YAProgressBar.LinearProgressBar)
-  fullName: YAProgressBar.QuadMeshGenerator.GenerateLinearMesh(Mesh, YAProgressBar.LinearProgressBar)
-  nameWithType: QuadMeshGenerator.GenerateLinearMesh(Mesh, LinearProgressBar)
-- uid: YAProgressBar.QuadMeshGenerator.GenerateLinearMesh*
-  name: GenerateLinearMesh
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_GenerateLinearMesh_
-  commentId: Overload:YAProgressBar.QuadMeshGenerator.GenerateLinearMesh
-  isSpec: "True"
-  fullName: YAProgressBar.QuadMeshGenerator.GenerateLinearMesh
-  nameWithType: QuadMeshGenerator.GenerateLinearMesh
-- uid: YAProgressBar.QuadMeshGenerator.IndicesCountPerElement
-  name: IndicesCountPerElement
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_IndicesCountPerElement
-  commentId: P:YAProgressBar.QuadMeshGenerator.IndicesCountPerElement
-  fullName: YAProgressBar.QuadMeshGenerator.IndicesCountPerElement
-  nameWithType: QuadMeshGenerator.IndicesCountPerElement
-- uid: YAProgressBar.QuadMeshGenerator.IndicesCountPerElement*
-  name: IndicesCountPerElement
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_IndicesCountPerElement_
-  commentId: Overload:YAProgressBar.QuadMeshGenerator.IndicesCountPerElement
-  isSpec: "True"
-  fullName: YAProgressBar.QuadMeshGenerator.IndicesCountPerElement
-  nameWithType: QuadMeshGenerator.IndicesCountPerElement
-- uid: YAProgressBar.QuadMeshGenerator.VertexCountPerElement
-  name: VertexCountPerElement
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_VertexCountPerElement
-  commentId: P:YAProgressBar.QuadMeshGenerator.VertexCountPerElement
-  fullName: YAProgressBar.QuadMeshGenerator.VertexCountPerElement
-  nameWithType: QuadMeshGenerator.VertexCountPerElement
-- uid: YAProgressBar.QuadMeshGenerator.VertexCountPerElement*
-  name: VertexCountPerElement
-  href: api/YAProgressBar.QuadMeshGenerator.html#YAProgressBar_QuadMeshGenerator_VertexCountPerElement_
-  commentId: Overload:YAProgressBar.QuadMeshGenerator.VertexCountPerElement
-  isSpec: "True"
-  fullName: YAProgressBar.QuadMeshGenerator.VertexCountPerElement
-  nameWithType: QuadMeshGenerator.VertexCountPerElement

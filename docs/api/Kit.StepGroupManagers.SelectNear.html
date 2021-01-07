@@ -73,27 +73,30 @@
   
   <h1 id="Kit_StepGroupManagers_SelectNear" data-uid="Kit.StepGroupManagers.SelectNear" class="text-break">Class SelectNear
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Manages the step group relative to touching the correct ojbect.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html">StepGroupManagerBase</a></div>
-    <div class="level2"><span class="xref">SelectNear</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html">StepGroupManagerBase</a></div>
+    <div class="level4"><span class="xref">SelectNear</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__dynamicObjects">StepGroupManagerBase._dynamicObjects</a>
+      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_DynamicObjects">StepGroupManagerBase.DynamicObjects</a>
     </div>
     <div>
-      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__hints">StepGroupManagerBase._hints</a>
+      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Hints">StepGroupManagerBase.Hints</a>
     </div>
     <div>
-      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__initialScale">StepGroupManagerBase._initialScale</a>
+      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_InitialScale">StepGroupManagerBase.InitialScale</a>
     </div>
     <div>
-      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__stepsInGroup">StepGroupManagerBase._stepsInGroup</a>
+      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_StepsInGroup">StepGroupManagerBase.StepsInGroup</a>
     </div>
     <div>
       <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase__stepIndex">StepGroupManagerBase._stepIndex</a>
@@ -135,7 +138,7 @@
       <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_NextStep">StepGroupManagerBase.NextStep()</a>
     </div>
     <div>
-      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_GameObject_">StepGroupManagerBase.CheckCorrectAction(GameObject, GameObject)</a>
+      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_UnityEngine_GameObject_UnityEngine_GameObject_">StepGroupManagerBase.CheckCorrectAction(GameObject, GameObject)</a>
     </div>
     <div>
       <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_System_String_">StepGroupManagerBase.CheckCorrectAction(String)</a>
@@ -147,19 +150,145 @@
       <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SelectRandomInstruction_System_Collections_Generic_List_System_String__">StepGroupManagerBase.SelectRandomInstruction(List&lt;String&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_GameObject_">StepGroupManagerBase.StopVisualFeedback(GameObject)</a>
+      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_StopVisualFeedback_UnityEngine_GameObject_">StepGroupManagerBase.StopVisualFeedback(GameObject)</a>
     </div>
     <div>
       <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_UpdateParameterObjects">StepGroupManagerBase.UpdateParameterObjects()</a>
     </div>
     <div>
-      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_GameObject_">StepGroupManagerBase.SetFinalPosition(GameObject)</a>
+      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalPosition_UnityEngine_GameObject_">StepGroupManagerBase.SetFinalPosition(GameObject)</a>
     </div>
     <div>
-      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_GameObject_">StepGroupManagerBase.SetFinalRotation(GameObject)</a>
+      <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SetFinalRotation_UnityEngine_GameObject_">StepGroupManagerBase.SetFinalRotation(GameObject)</a>
     </div>
     <div>
       <a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_SaveAction_System_Collections_Generic_List_System_String__Kit_StatsManager_StepParameter_Kit_StatsManager_ActionParameters_System_Boolean_System_Int32_">StepGroupManagerBase.SaveAction(List&lt;String&gt;, StatsManager.StepParameter, StatsManager.ActionParameters, Boolean, Int32)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.SetDirty()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Kit.StepGroupManagers.html">Kit.StepGroupManagers</a></h6>
@@ -175,7 +304,7 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_SelectNear_Awake.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.SelectNear.Awake%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L14">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L17">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_SelectNear_Awake_" data-uid="Kit.StepGroupManagers.SelectNear.Awake*"></a>
   <h4 id="Kit_StepGroupManagers_SelectNear_Awake" data-uid="Kit.StepGroupManagers.SelectNear.Awake">Awake()</h4>
@@ -189,13 +318,13 @@
   <div><a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_Awake">StepGroupManagerBase.Awake()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_SelectNear_CheckCorrectAction_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.SelectNear.CheckCorrectAction(GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_SelectNear_CheckCorrectAction_UnityEngine_GameObject_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.SelectNear.CheckCorrectAction(UnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L29">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L32">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_SelectNear_CheckCorrectAction_" data-uid="Kit.StepGroupManagers.SelectNear.CheckCorrectAction*"></a>
-  <h4 id="Kit_StepGroupManagers_SelectNear_CheckCorrectAction_GameObject_" data-uid="Kit.StepGroupManagers.SelectNear.CheckCorrectAction(GameObject)">CheckCorrectAction(GameObject)</h4>
+  <h4 id="Kit_StepGroupManagers_SelectNear_CheckCorrectAction_UnityEngine_GameObject_" data-uid="Kit.StepGroupManagers.SelectNear.CheckCorrectAction(UnityEngine.GameObject)">CheckCorrectAction(GameObject)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -213,20 +342,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
         <td><span class="parametername">selectable</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_GameObject_">StepGroupManagerBase.CheckCorrectAction(GameObject)</a></div>
+  <div><a class="xref" href="Kit.StepGroupManagers.StepGroupManagerBase.html#Kit_StepGroupManagers_StepGroupManagerBase_CheckCorrectAction_UnityEngine_GameObject_">StepGroupManagerBase.CheckCorrectAction(GameObject)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_SelectNear_SelectCorrect_System_Collections_Generic_List_System_String__System_String_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.SelectNear.SelectCorrect(System.Collections.Generic.List%7BSystem.String%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L76">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L79">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_SelectNear_SelectCorrect_" data-uid="Kit.StepGroupManagers.SelectNear.SelectCorrect*"></a>
   <h4 id="Kit_StepGroupManagers_SelectNear_SelectCorrect_System_Collections_Generic_List_System_String__System_String_" data-uid="Kit.StepGroupManagers.SelectNear.SelectCorrect(System.Collections.Generic.List{System.String},System.String)">SelectCorrect(List&lt;String&gt;, String)</h4>
@@ -280,7 +409,7 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_SelectNear_SelectRequest_System_Collections_Generic_List_System_String__.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.SelectNear.SelectRequest(System.Collections.Generic.List%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L70">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L73">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_SelectNear_SelectRequest_" data-uid="Kit.StepGroupManagers.SelectNear.SelectRequest*"></a>
   <h4 id="Kit_StepGroupManagers_SelectNear_SelectRequest_System_Collections_Generic_List_System_String__" data-uid="Kit.StepGroupManagers.SelectNear.SelectRequest(System.Collections.Generic.List{System.String})">SelectRequest(List&lt;String&gt;)</h4>
@@ -329,7 +458,7 @@
     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_SelectNear_SelectWrong_System_Collections_Generic_List_System_String__System_String_.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.SelectNear.SelectWrong(System.Collections.Generic.List%7BSystem.String%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L82">View Source</a>
+    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L85">View Source</a>
   </span>
   <a id="Kit_StepGroupManagers_SelectNear_SelectWrong_" data-uid="Kit.StepGroupManagers.SelectNear.SelectWrong*"></a>
   <h4 id="Kit_StepGroupManagers_SelectNear_SelectWrong_System_Collections_Generic_List_System_String__System_String_" data-uid="Kit.StepGroupManagers.SelectNear.SelectWrong(System.Collections.Generic.List{System.String},System.String)">SelectWrong(List&lt;String&gt;, String)</h4>
@@ -389,7 +518,7 @@
                     <a href="https://github.com/INCLUDI/Kit-Shared/new/master/apiSpec/new?filename=Kit_StepGroupManagers_SelectNear.md&amp;value=---%0Auid%3A%20Kit.StepGroupManagers.SelectNear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/INCLUDI/Kit-Shared/blob/master/Assets/Shared/Scripts/StepGroupsManagers/SelectNear.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

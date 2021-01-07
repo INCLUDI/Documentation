@@ -1,0 +1,4 @@
+apiRules:
+  - exclude:
+      uidRegex: ^DG\.Tweening
+      type: Namespace
