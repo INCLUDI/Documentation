@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/menne/Progetti/INCLUDI/docfx_project",
+  "source_base_path": "C:/Users/menne/Progetti/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "activities/activities-mobile.html",
-          "hash": "kyPsS71oN7RxFkBQfp02aw=="
+          "hash": "fitK4pCLcY3oRgCykKue1A=="
         }
       },
       "is_incremental": true,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "activities/activities-oculus.html",
-          "hash": "I5w7bDFbh8GjCIO34L4F2w=="
+          "hash": "SMy4/aNJmcaqVb0YD6R1NA=="
         }
       },
       "is_incremental": true,
@@ -40,879 +40,15 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.ActivityManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.ActivityManager.html",
-          "hash": "WuQ8xcmY0mhGsfXsZwfSHQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.AudioManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.AudioManager.html",
-          "hash": "1QrZdZtsnKsrXwfYXROCYw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.AuthManager.AuthBody.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.AuthManager.AuthBody.html",
-          "hash": "88GvrL8/4ZOa2wYr6lEGUQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.AuthManager.Group.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.AuthManager.Group.html",
-          "hash": "P/R6qFZFoxtIkiZpkN3ikw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.AuthManager.Institute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.AuthManager.Institute.html",
-          "hash": "Oa1sAwndrAhT7LJUMybthw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.AuthManager.SubjectData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.AuthManager.SubjectData.html",
-          "hash": "BX5J9XALaLwgTJNK3ru6Lg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.AuthManager.User.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.AuthManager.User.html",
-          "hash": "eMpMTAGmhQfnjqPIWwwMxQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.AuthManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.AuthManager.html",
-          "hash": "EMlRbbhrepwwC5os1m+aug=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.ConnectionManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.ConnectionManager.html",
-          "hash": "9bCa32CVyBb2bJaphh5QFg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.ActivityConfiguration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.ActivityConfiguration.html",
-          "hash": "zkUt/VzGM4OdqzxI9sOz+g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.ClassInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.ClassInfo.html",
-          "hash": "+z4OEOfIh1UKoAR2tQh44w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.CustomTransform.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.CustomTransform.html",
-          "hash": "VP1y09ppwvlri3JIaUi8Lw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.CustomVector3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.CustomVector3.html",
-          "hash": "I6egGoZ3DEW+Smsin2ds+A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.Instructions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.Instructions.html",
-          "hash": "Sf965a38+ZwXveydbidHyg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.Obj.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.Obj.html",
-          "hash": "y4EiT4niZrnR7ABGEFR8GA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.ObjGroup.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.ObjGroup.html",
-          "hash": "iW4LU1+3Wq6004tytLgYLA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.Parameters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.Parameters.html",
-          "hash": "xl17Q0wplU3wttoNFqJdsw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.PlayerInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.PlayerInfo.html",
-          "hash": "XlPLteaF/t976x0VwVQx8Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.Step.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.Step.html",
-          "hash": "b6MkLjfl4ZGohOW/29D2Pg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.StepGroup.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.StepGroup.html",
-          "hash": "JG9q6mmGbEVPsb7SSyceEg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.VirtualAssistantInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.VirtualAssistantInfo.html",
-          "hash": "ctU0XHq5IgY8hme8bwfjig=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.DataModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.DataModel.html",
-          "hash": "wamapUyUQKNdhrzMEUPVrQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.EventManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.EventManager.html",
-          "hash": "qqwn1fEwknvPUUdO6hfVcg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.PlatformManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.PlatformManager.html",
-          "hash": "B1VUHMkFOR4rDWC5RR6wAw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.SpeechBubbleManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.SpeechBubbleManager.html",
-          "hash": "H2pHTcUq1tVrt7V2Jw9lLA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.SpeechToText.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.SpeechToText.html",
-          "hash": "GpetawwheAPSpUfIbv66zw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StatsManager.ActionParameters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StatsManager.ActionParameters.html",
-          "hash": "RANtqFeZuJ30xRjNCiRYBw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StatsManager.Session.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StatsManager.Session.html",
-          "hash": "VlpJIl0aQXG2OKHGe4El1g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StatsManager.SessionBody.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StatsManager.SessionBody.html",
-          "hash": "5rSJnGD7tVeRuPUIW3QNyA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StatsManager.StepParameter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StatsManager.StepParameter.html",
-          "hash": "u0eR/QF+rCpR7bdhbob4DA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StatsManager.UserAction.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StatsManager.UserAction.html",
-          "hash": "ojKF7DslD+7m52bADhEurQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StatsManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StatsManager.html",
-          "hash": "O/cUeHnK3fy+gwnW5CqXLw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.DragHold.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.DragHold.html",
-          "hash": "FPeEvbfQkiPYkt0gtv3qJA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.DragMove.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.DragMove.html",
-          "hash": "Hl6qyEtCrvlMDRNeH7vLPw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.DragRelease.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.DragRelease.html",
-          "hash": "J3ZW1eVdroxwmLPIU7wUgQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.ExpressionsAssociate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.ExpressionsAssociate.html",
-          "hash": "pugb56MZr1Y2K5hG3HLFqQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.ExpressionsComplete.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.ExpressionsComplete.html",
-          "hash": "wdmqTg2xAgrI3VWcMPVe9g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.ExpressionsReorder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.ExpressionsReorder.html",
-          "hash": "cTo0GKmscBh07DsJb6z+1A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.Instructions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.Instructions.html",
-          "hash": "GLEbe0vdwA+Ai3217X6YcA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.Select.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.Select.html",
-          "hash": "YeebCeWB86XcQzrc/NnJqQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.SelectNear.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.SelectNear.html",
-          "hash": "z7LvipvnNnC7DP1QvBVkEg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.SkipSteps.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.SkipSteps.html",
-          "hash": "ESupvAXu0p2mNq93HXzOwA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.Speech.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.Speech.html",
-          "hash": "Y8Acb8kbiZNJtPbZI73s7A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.SpeechTimer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.SpeechTimer.html",
-          "hash": "8WeXRzghMo6pKMmCe3Gw9Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.StepGroupManagerBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.StepGroupManagerBase.html",
-          "hash": "ltwdJbXPHD4RfOBbgV9yNQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.StepGroupManagers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.StepGroupManagers.html",
-          "hash": "jTRW79dSwWHrHPT6A/mJ4Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.TextToSpeech.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.TextToSpeech.html",
-          "hash": "bQASgf55GyVIccHXH/IwPQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.TimerManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.TimerManager.html",
-          "hash": "x+O2rsOKiv41iMYB12w4eA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.Triggers.IButtonTrigger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.Triggers.IButtonTrigger.html",
-          "hash": "sZik4SU1ZvERR5bfbkRODQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.Triggers.IInteractableTrigger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.Triggers.IInteractableTrigger.html",
-          "hash": "JBsba6oMUmE7n37keg6qFw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.Triggers.ISelectableTrigger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.Triggers.ISelectableTrigger.html",
-          "hash": "SIsS16adzW6Gv0D+17NJ5Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.Triggers.ITargetTrigger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.Triggers.ITargetTrigger.html",
-          "hash": "MBRs5k3wLA+2TYGdhLQsPA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.Triggers.IVirtualAssistantTrigger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.Triggers.IVirtualAssistantTrigger.html",
-          "hash": "GGWCTj4FiWKGBGDvFGfzNw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.Triggers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.Triggers.html",
-          "hash": "eaXHTmjrbg9HpBfCXd6jIg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.ActivitiesPageManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.ActivitiesPageManager.html",
-          "hash": "rbhMLHuiL72pwH9w+XlEMw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.ActivityPanelFiller.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.ActivityPanelFiller.html",
-          "hash": "SyyxZn+SrE5RFyRZYZEa7g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.LoadingAnimation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.LoadingAnimation.html",
-          "hash": "M0javfl7YaQaK3SAGXnOFw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.LogoutButton.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.LogoutButton.html",
-          "hash": "XZ2qlIrtyhjehdOydH5x7A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.PopupManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.PopupManager.html",
-          "hash": "xNAoW33gsoz1NEW4joQE1g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.ProfilePageInfoManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.ProfilePageInfoManager.html",
-          "hash": "TO0wYhMEldPKj7D2TEESzA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.ProfilePageManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.ProfilePageManager.html",
-          "hash": "57JJ9GMDHPL2X6dOayA8Lg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.ProfilePageStatusManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.ProfilePageStatusManager.html",
-          "hash": "U+9j27lW9ilD+VN+QCRr0Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.SliderComponent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.SliderComponent.html",
-          "hash": "qUL3pO6jWhVp7gzJqfsV+A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.TabsManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.TabsManager.html",
-          "hash": "z7H56WdI+s7jeP/r0zHICw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.ToggleComponent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.ToggleComponent.html",
-          "hash": "4Zdx9o00+pLZTjyJy6N+7A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.ToggleComponentWAuth.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.ToggleComponentWAuth.html",
-          "hash": "is83x4gMrW9uLhvqu//TnQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.VirtualAssistantPanel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.VirtualAssistantPanel.html",
-          "hash": "fU7+uthCbEipdhqnQUtrsA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.VirtualAssistantPanelFiller.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.VirtualAssistantPanelFiller.html",
-          "hash": "tpY5XXomgNNAl7pxpdC5ZA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.UI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.UI.html",
-          "hash": "7yPhXjT05NOfWQjgrU1HQQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.VirtualAssistantManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.VirtualAssistantManager.html",
-          "hash": "W0Q4pgQiZuleynnFgm88OQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Kit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Kit.html",
-          "hash": "0wV1onuJwUv3wK3jKAdVUQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "4d1+Ew8r8GKt4n5hMnIQFQ=="
+          "hash": "vc/Bx+3vlnsVrvQ3veILEw=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "MIz4/OK110Cp6IeouIk2cA=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -921,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/architecture.html",
-          "hash": "KTv6Sk1EmbbK/8AQCC0huQ=="
+          "hash": "gHXLwqCoI7PswbISw9UTig=="
         }
       },
       "is_incremental": true,
@@ -933,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/data-model.html",
-          "hash": "jVGewKgIqxTsAS/+MzhESA=="
+          "hash": "4YE08UxBQReO+aesZbkJYg=="
         }
       },
       "is_incremental": true,
@@ -945,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/design-new-activities.html",
-          "hash": "rLoeTJ5V07ixjOyVa9trRg=="
+          "hash": "iLpPv+6wEXq8mge16mSFGg=="
         }
       },
       "is_incremental": true,
@@ -1009,12 +145,133 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/activity-mobile1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/activity-mobile1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/activity-mobile2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/activity-mobile2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/activity1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/activity1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/activity2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/activity2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/activity3.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/activity3.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/activity4.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/activity4.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/home.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/home.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/login1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/login1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/login2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/login2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "zOvma2VMw8AmGt2l4I9kfg=="
+          "hash": "UgqJfD3AIVvrkSg2XglmOw=="
         }
       },
       "is_incremental": true,
@@ -1026,7 +283,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "fpXD4kvhVYslR/fnRdZITg=="
+          "hash": "D07QRzg/4yicrZQGUYUTqQ=="
         }
       },
       "is_incremental": false,
@@ -1038,7 +295,7 @@
       "output": {
         ".html": {
           "relative_path": "userguide/gettingstarted.html",
-          "hash": "zTtis8wWs+/OdV2It3DreQ=="
+          "hash": "Q6pUYT6EZDx9PooS3+qS8g=="
         }
       },
       "is_incremental": true,
@@ -1050,10 +307,10 @@
       "output": {
         ".html": {
           "relative_path": "userguide/mobilevr.html",
-          "hash": "Qb8TyFFXy0eWkH4yEtJCEQ=="
+          "hash": "QPOZ0/ocpp1QIFKcj3NrGg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1062,7 +319,7 @@
       "output": {
         ".html": {
           "relative_path": "userguide/oculus.html",
-          "hash": "iMrKgyjITflupszpsfDqig=="
+          "hash": "vXiW7sU/L6lpbBss77sRaQ=="
         }
       },
       "is_incremental": true,
@@ -1094,13 +351,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 11,
-          "skipped_file_count": 11
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 71,
-          "skipped_file_count": 6
+          "skipped_file_count": 10
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
