@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/menne/Progetti/docs",
+  "source_base_path": "C:/Users/emanu/Progetti/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "activities/activities-mobile.html",
-          "hash": "fitK4pCLcY3oRgCykKue1A=="
+          "hash": "O3qvXDekhRdbLGsEOVglIvpYkwKx6vSG5EvYDgvpt3Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "activities/activities-oculus.html",
-          "hash": "SMy4/aNJmcaqVb0YD6R1NA=="
+          "hash": "8i/zpnGI1pKPQ36TQwI0YYti/YovQMzTmFvnhyZ6YWM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "activities/toc.html",
-          "hash": "okrXyrdrltgYpLNFT60WFw=="
+          "hash": "oRuEFb0effsRIcfg0lkhhYv82rXEeA8K8x8ggnTS03k="
         }
       },
       "is_incremental": false,
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "vc/Bx+3vlnsVrvQ3veILEw=="
+          "hash": "VgC/rwIVL5xORocidS5bHdEfnYnasa8EqXxb752gh20="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/architecture.html",
-          "hash": "gHXLwqCoI7PswbISw9UTig=="
+          "hash": "qU66RtX0bcR6/rDkfiG0W2HFPa6S/t9x/7u3bypKYBw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/data-model.html",
-          "hash": "4YE08UxBQReO+aesZbkJYg=="
+          "hash": "dzpfoAQUJeWE5T/aJpLnFfdvSDuDM0w2t5wIinIM03o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/design-new-activities.html",
-          "hash": "iLpPv+6wEXq8mge16mSFGg=="
+          "hash": "ynWk7aZEcEFhWbwHx48IA5INk3gYUekA5whFQkImBOE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/gettingstarted-kit.html",
-          "hash": "316t7mprW/g7vmi5VFWjcg=="
+          "hash": "UbQKZTHxIEKIRylFTytrENJVq44uIpOo/EBtnctowmY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/toc.html",
-          "hash": "UXGYz+QGReie1K4GVnHOBQ=="
+          "hash": "wDyc0UPLWQNwF+v0mxa5L/fceFIdS0PkTjZTGeqy7mw="
         }
       },
       "is_incremental": false,
@@ -271,10 +271,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "UgqJfD3AIVvrkSg2XglmOw=="
+          "hash": "p1A0plhgiIFBZBa/SBYoD7ya/AXAsadnYmnYh7sxQIs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -283,7 +283,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "D07QRzg/4yicrZQGUYUTqQ=="
+          "hash": "kFnQ9lK6ut4KfFbRE5xF4regD+cbQgznJH8SrnDiIiA="
         }
       },
       "is_incremental": false,
@@ -295,10 +295,10 @@
       "output": {
         ".html": {
           "relative_path": "userguide/gettingstarted.html",
-          "hash": "Q6pUYT6EZDx9PooS3+qS8g=="
+          "hash": "bJsI0Ccqkynzk7hsLE+OXC6YyBoBP+ca6GRT3dNGzIs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -307,7 +307,7 @@
       "output": {
         ".html": {
           "relative_path": "userguide/mobilevr.html",
-          "hash": "QPOZ0/ocpp1QIFKcj3NrGg=="
+          "hash": "o38lyJAPRR/BpolLlxHJ05Oq3Rt4KI/8hufW934wO68="
         }
       },
       "is_incremental": false,
@@ -319,10 +319,10 @@
       "output": {
         ".html": {
           "relative_path": "userguide/oculus.html",
-          "hash": "vXiW7sU/L6lpbBss77sRaQ=="
+          "hash": "QfX4SZ1gQQCB/+lIehpkSqU7PwWsgeC18LQq02r3Cpg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -331,7 +331,7 @@
       "output": {
         ".html": {
           "relative_path": "userguide/toc.html",
-          "hash": "lVGQxYl+E6cpVPoL7X4uAg=="
+          "hash": "hyDRVXsx1tPI58fEvlBegZjl7/8g46IZI0R0I6z6GWM="
         }
       },
       "is_incremental": false,
@@ -341,17 +341,19 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 11,
-          "skipped_file_count": 10
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
@@ -371,8 +373,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
