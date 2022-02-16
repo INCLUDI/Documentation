@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "activities/activities-mobile.html",
-          "hash": "O3qvXDekhRdbLGsEOVglIvpYkwKx6vSG5EvYDgvpt3Y="
+          "hash": "7XQ/oOWp5+ZNG3RCSzQDz9oCf1ArzytSXG17rX8YRZM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "activities/activities-oculus.html",
-          "hash": "8i/zpnGI1pKPQ36TQwI0YYti/YovQMzTmFvnhyZ6YWM="
+          "hash": "MwKVWnNWRwQKvJJX/ftXO41ZjBcWp5iOzEL3vUgx+iw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "VgC/rwIVL5xORocidS5bHdEfnYnasa8EqXxb752gh20="
+          "hash": "paxQTggUBNiH7a45ZxwtYEdzQ8XjbF5xHE5gaXWWmrU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/architecture.html",
-          "hash": "qU66RtX0bcR6/rDkfiG0W2HFPa6S/t9x/7u3bypKYBw="
+          "hash": "MzZPXwdVZ2YZYIZN8WvoN4wZ0rHxxyfgu0qPPQ6LlmA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/data-model.html",
-          "hash": "dzpfoAQUJeWE5T/aJpLnFfdvSDuDM0w2t5wIinIM03o="
+          "hash": "qDRCwmPApvXzXDbXgTOmin2hr3L7hot8veGCB90wt4s="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/design-new-activities.html",
-          "hash": "ynWk7aZEcEFhWbwHx48IA5INk3gYUekA5whFQkImBOE="
+          "hash": "jva/3phdxLXWqYDiPwb/tEwLbD/InnE/QscYhpZoKWY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "developerguide/gettingstarted-kit.html",
-          "hash": "UbQKZTHxIEKIRylFTytrENJVq44uIpOo/EBtnctowmY="
+          "hash": "J/21WyEfct39eOnMV4JJFqKV4Qz9WlN6OD3QdI08NPU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -271,10 +271,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "p1A0plhgiIFBZBa/SBYoD7ya/AXAsadnYmnYh7sxQIs="
+          "hash": "zc/BnaozSmer6o/g3nEVXUPSmpt61a2ow7rroZLSvsY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -295,7 +295,7 @@
       "output": {
         ".html": {
           "relative_path": "userguide/gettingstarted.html",
-          "hash": "bJsI0Ccqkynzk7hsLE+OXC6YyBoBP+ca6GRT3dNGzIs="
+          "hash": "Telg5fIqQRvzMtrEwww+HgoT9WUm3HpLnugNcSWE/MA="
         }
       },
       "is_incremental": false,
@@ -307,7 +307,7 @@
       "output": {
         ".html": {
           "relative_path": "userguide/mobilevr.html",
-          "hash": "o38lyJAPRR/BpolLlxHJ05Oq3Rt4KI/8hufW934wO68="
+          "hash": "dhk/gBK8DCpD/gMIawiJZXv1JMDAH6IE7GMO4DK+s8E="
         }
       },
       "is_incremental": false,
@@ -319,7 +319,7 @@
       "output": {
         ".html": {
           "relative_path": "userguide/oculus.html",
-          "hash": "QfX4SZ1gQQCB/+lIehpkSqU7PwWsgeC18LQq02r3Cpg="
+          "hash": "6GpmZ3HUp6lNvTgj0xLXbQRsNR4OC0b7aNYe02KHGxM="
         }
       },
       "is_incremental": false,
@@ -331,7 +331,19 @@
       "output": {
         ".html": {
           "relative_path": "userguide/toc.html",
-          "hash": "hyDRVXsx1tPI58fEvlBegZjl7/8g46IZI0R0I6z6GWM="
+          "hash": "ZtZ90ZicB6YLeOwVdb3lIg55fiLR9IMQlhm3/DvxXi8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "userguide/webapp.md",
+      "output": {
+        ".html": {
+          "relative_path": "userguide/webapp.html",
+          "hash": "UOeWySQp6hCzppljNgM1ggkePljQqCzPTj43IiVlwyw="
         }
       },
       "is_incremental": false,
@@ -341,19 +353,17 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 11,
-          "skipped_file_count": 0
+          "total_file_count": 12,
+          "skipped_file_count": 11
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
@@ -373,8 +383,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
