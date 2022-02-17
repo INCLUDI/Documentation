@@ -23,12 +23,14 @@
       },
       {
         "files": [
-          "userguide/**.md",
-          "userguide/**/toc.yml",
-          "developerguide/**.md",
-          "developerguide/**/toc.yml",
+          "guide-kit/**.md",
+          "guide-kit/**/toc.yml",
+          "guide-webapp/**.md",
+          "guide-webapp/**/toc.yml",
           "activities/**.md",
           "activities/**/toc.yml",
+          "tech-docs/**.md",
+          "tech-docs/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
@@ -36,7 +38,7 @@
     ],
     "resource": [
       {
-        "files": ["images/**"]
+        "files": ["**/images/**"]
       }
     ],
     "globalMetadata": {

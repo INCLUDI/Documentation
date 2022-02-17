@@ -52,12 +52,651 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-kit/images/activity-mobile1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-kit/images/activity-mobile1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-kit/images/activity-mobile2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-kit/images/activity-mobile2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-kit/images/activity1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-kit/images/activity1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-kit/images/activity2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-kit/images/activity2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-kit/images/activity3.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-kit/images/activity3.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-kit/images/activity4.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-kit/images/activity4.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-kit/images/home.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-kit/images/home.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-kit/images/login1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-kit/images/login1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-kit/images/login2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-kit/images/login2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-kit/images/settings1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-kit/images/settings1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-kit/images/settings2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-kit/images/settings2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine10.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine10.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine11.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine11.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine12.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine12.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine13.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine13.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine14.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine14.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine15.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine15.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine16.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine16.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine17.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine17.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine18.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine18.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine3.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine3.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine4.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine4.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine5.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine5.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine6.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine6.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine7.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine7.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine8.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine8.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/guide-webapp/images/Immagine9.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/guide-webapp/images/Immagine9.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/INCLUDIkit-Class-diagram.svg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/INCLUDIkit-Class-diagram.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/INCLUDIkit-Flow-diagram.svg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/INCLUDIkit-Flow-diagram.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/INCLUDIkit-Project-Structure.svg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/INCLUDIkit-Project-Structure.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/activity-mobile1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/activity-mobile1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/activity-mobile2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/activity-mobile2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/activity1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/activity1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/activity2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/activity2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/activity3.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/activity3.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/activity4.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/activity4.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/home.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/home.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/login1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/login1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/login2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/login2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/settings1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/settings1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/settings2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/settings2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/tech-docs/images/INCLUDIkit-Class-diagram.svg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/tech-docs/images/INCLUDIkit-Class-diagram.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/tech-docs/images/INCLUDIkit-Flow-diagram.svg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/tech-docs/images/INCLUDIkit-Flow-diagram.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/tech-docs/images/INCLUDIkit-Project-Structure.svg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/tech-docs/images/INCLUDIkit-Project-Structure.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
-      "source_relative_path": "developerguide/architecture.md",
+      "source_relative_path": "guide-kit/gettingstarted.md",
       "output": {
         ".html": {
-          "relative_path": "developerguide/architecture.html",
-          "hash": "MzZPXwdVZ2YZYIZN8WvoN4wZ0rHxxyfgu0qPPQ6LlmA="
+          "relative_path": "guide-kit/gettingstarted.html",
+          "hash": "aWnauCJaW4prz8IOqADaa1XvVuaORksd9+I20rpMFM4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-kit/images/activity-mobile1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-kit/images/activity-mobile1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-kit/images/activity-mobile2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-kit/images/activity-mobile2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-kit/images/activity1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-kit/images/activity1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-kit/images/activity2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-kit/images/activity2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-kit/images/activity3.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-kit/images/activity3.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-kit/images/activity4.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-kit/images/activity4.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-kit/images/home.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-kit/images/home.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-kit/images/login1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-kit/images/login1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-kit/images/login2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-kit/images/login2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-kit/images/settings1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-kit/images/settings1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-kit/images/settings2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-kit/images/settings2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guide-kit/mobile.md",
+      "output": {
+        ".html": {
+          "relative_path": "guide-kit/mobile.html",
+          "hash": "peWOWllkQQHKIl1vAPEJxkrTIScgM/j02vJirIY8yA0="
         }
       },
       "is_incremental": true,
@@ -65,35 +704,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "developerguide/data-model.md",
+      "source_relative_path": "guide-kit/oculus.md",
       "output": {
         ".html": {
-          "relative_path": "developerguide/data-model.html",
-          "hash": "qDRCwmPApvXzXDbXgTOmin2hr3L7hot8veGCB90wt4s="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "developerguide/design-new-activities.md",
-      "output": {
-        ".html": {
-          "relative_path": "developerguide/design-new-activities.html",
-          "hash": "jva/3phdxLXWqYDiPwb/tEwLbD/InnE/QscYhpZoKWY="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "developerguide/gettingstarted-kit.md",
-      "output": {
-        ".html": {
-          "relative_path": "developerguide/gettingstarted-kit.html",
-          "hash": "J/21WyEfct39eOnMV4JJFqKV4Qz9WlN6OD3QdI08NPU="
+          "relative_path": "guide-kit/oculus.html",
+          "hash": "/MbpS6MRxhWX114XVvQuaMWGQuqATPTdyc95KJ2ehyE="
         }
       },
       "is_incremental": true,
@@ -101,11 +716,11 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "developerguide/toc.yml",
+      "source_relative_path": "guide-kit/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "developerguide/toc.html",
-          "hash": "wDyc0UPLWQNwF+v0mxa5L/fceFIdS0PkTjZTGeqy7mw="
+          "relative_path": "guide-kit/toc.html",
+          "hash": "Fow8BT/NTsb0yqoIERYVLhLt1u9peR3/cWtJi0ar+4M="
         }
       },
       "is_incremental": false,
@@ -113,10 +728,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/INCLUDIkit-Class-diagram.svg",
+      "source_relative_path": "guide-webapp/images/Immagine1.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/INCLUDIkit-Class-diagram.svg"
+          "relative_path": "guide-webapp/images/Immagine1.jpg"
         }
       },
       "is_incremental": false,
@@ -124,10 +739,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/INCLUDIkit-Flow-diagram.svg",
+      "source_relative_path": "guide-webapp/images/Immagine10.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/INCLUDIkit-Flow-diagram.svg"
+          "relative_path": "guide-webapp/images/Immagine10.jpg"
         }
       },
       "is_incremental": false,
@@ -135,10 +750,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/INCLUDIkit-Project-Structure.svg",
+      "source_relative_path": "guide-webapp/images/Immagine11.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/INCLUDIkit-Project-Structure.svg"
+          "relative_path": "guide-webapp/images/Immagine11.jpg"
         }
       },
       "is_incremental": false,
@@ -146,10 +761,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/activity-mobile1.jpg",
+      "source_relative_path": "guide-webapp/images/Immagine12.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/activity-mobile1.jpg"
+          "relative_path": "guide-webapp/images/Immagine12.jpg"
         }
       },
       "is_incremental": false,
@@ -157,10 +772,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/activity-mobile2.jpg",
+      "source_relative_path": "guide-webapp/images/Immagine13.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/activity-mobile2.jpg"
+          "relative_path": "guide-webapp/images/Immagine13.jpg"
         }
       },
       "is_incremental": false,
@@ -168,10 +783,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/activity1.jpg",
+      "source_relative_path": "guide-webapp/images/Immagine14.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/activity1.jpg"
+          "relative_path": "guide-webapp/images/Immagine14.jpg"
         }
       },
       "is_incremental": false,
@@ -179,10 +794,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/activity2.jpg",
+      "source_relative_path": "guide-webapp/images/Immagine15.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/activity2.jpg"
+          "relative_path": "guide-webapp/images/Immagine15.jpg"
         }
       },
       "is_incremental": false,
@@ -190,10 +805,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/activity3.jpg",
+      "source_relative_path": "guide-webapp/images/Immagine16.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/activity3.jpg"
+          "relative_path": "guide-webapp/images/Immagine16.jpg"
         }
       },
       "is_incremental": false,
@@ -201,10 +816,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/activity4.jpg",
+      "source_relative_path": "guide-webapp/images/Immagine17.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/activity4.jpg"
+          "relative_path": "guide-webapp/images/Immagine17.jpg"
         }
       },
       "is_incremental": false,
@@ -212,10 +827,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/home.jpg",
+      "source_relative_path": "guide-webapp/images/Immagine18.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/home.jpg"
+          "relative_path": "guide-webapp/images/Immagine18.jpg"
         }
       },
       "is_incremental": false,
@@ -223,10 +838,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/login1.jpg",
+      "source_relative_path": "guide-webapp/images/Immagine2.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/login1.jpg"
+          "relative_path": "guide-webapp/images/Immagine2.jpg"
         }
       },
       "is_incremental": false,
@@ -234,10 +849,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/login2.jpg",
+      "source_relative_path": "guide-webapp/images/Immagine3.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/login2.jpg"
+          "relative_path": "guide-webapp/images/Immagine3.jpg"
         }
       },
       "is_incremental": false,
@@ -245,10 +860,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/settings1.jpg",
+      "source_relative_path": "guide-webapp/images/Immagine4.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/settings1.jpg"
+          "relative_path": "guide-webapp/images/Immagine4.jpg"
         }
       },
       "is_incremental": false,
@@ -256,10 +871,102 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/settings2.jpg",
+      "source_relative_path": "guide-webapp/images/Immagine5.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/settings2.jpg"
+          "relative_path": "guide-webapp/images/Immagine5.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-webapp/images/Immagine6.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-webapp/images/Immagine6.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-webapp/images/Immagine7.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-webapp/images/Immagine7.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-webapp/images/Immagine8.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-webapp/images/Immagine8.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guide-webapp/images/Immagine9.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "guide-webapp/images/Immagine9.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guide-webapp/signup-students.md",
+      "output": {
+        ".html": {
+          "relative_path": "guide-webapp/signup-students.html",
+          "hash": "X32soYvHQIwsCmB5EGFQq5ley0xXr2Y72vjP/EvFu5E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guide-webapp/signup-teachers.md",
+      "output": {
+        ".html": {
+          "relative_path": "guide-webapp/signup-teachers.html",
+          "hash": "f8QvPNGjsg23wrFDJY1FLvoDYNNxMgFokzvgOX3lr9M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guide-webapp/teachers-platform.md",
+      "output": {
+        ".html": {
+          "relative_path": "guide-webapp/teachers-platform.html",
+          "hash": "rusSTnK/YpFzz1FhmFutUHMfY/G7Kw9G1MtPXPOydu0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "guide-webapp/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "guide-webapp/toc.html",
+          "hash": "tdOpFGhqkyh17xagMPqE7O+8cPYgZEDER6eOGNDrF/A="
         }
       },
       "is_incremental": false,
@@ -271,10 +978,103 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "zc/BnaozSmer6o/g3nEVXUPSmpt61a2ow7rroZLSvsY="
+          "hash": "VtlE6Omt0RTErTbHI5VLvaOWrPLVtWVdmTiihtyhh9Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tech-docs/architecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "tech-docs/architecture.html",
+          "hash": "pXW/TnldvzGJOlnC14KtncclNA9oqHQjgjw+0VnusQw="
         }
       },
       "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tech-docs/data-model.md",
+      "output": {
+        ".html": {
+          "relative_path": "tech-docs/data-model.html",
+          "hash": "MaElzSsnh/Onc6tPQcHveHhzdAVzQml9JI4245mOVlI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tech-docs/design-new-activities.md",
+      "output": {
+        ".html": {
+          "relative_path": "tech-docs/design-new-activities.html",
+          "hash": "7MyA+9krHqF1NwskJj4urcXzCrR9fFQtihlPtaVs3Yg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tech-docs/gettingstarted-kit.md",
+      "output": {
+        ".html": {
+          "relative_path": "tech-docs/gettingstarted-kit.html",
+          "hash": "ribHS71ZoDRDbkhxu/SGrWgrauynYuMZh0sO4SPxSnA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "tech-docs/images/INCLUDIkit-Class-diagram.svg",
+      "output": {
+        "resource": {
+          "relative_path": "tech-docs/images/INCLUDIkit-Class-diagram.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "tech-docs/images/INCLUDIkit-Flow-diagram.svg",
+      "output": {
+        "resource": {
+          "relative_path": "tech-docs/images/INCLUDIkit-Flow-diagram.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "tech-docs/images/INCLUDIkit-Project-Structure.svg",
+      "output": {
+        "resource": {
+          "relative_path": "tech-docs/images/INCLUDIkit-Project-Structure.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "tech-docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "tech-docs/toc.html",
+          "hash": "wDyc0UPLWQNwF+v0mxa5L/fceFIdS0PkTjZTGeqy7mw="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -283,67 +1083,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "kFnQ9lK6ut4KfFbRE5xF4regD+cbQgznJH8SrnDiIiA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "userguide/gettingstarted.md",
-      "output": {
-        ".html": {
-          "relative_path": "userguide/gettingstarted.html",
-          "hash": "Telg5fIqQRvzMtrEwww+HgoT9WUm3HpLnugNcSWE/MA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "userguide/mobilevr.md",
-      "output": {
-        ".html": {
-          "relative_path": "userguide/mobilevr.html",
-          "hash": "dhk/gBK8DCpD/gMIawiJZXv1JMDAH6IE7GMO4DK+s8E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "userguide/oculus.md",
-      "output": {
-        ".html": {
-          "relative_path": "userguide/oculus.html",
-          "hash": "6GpmZ3HUp6lNvTgj0xLXbQRsNR4OC0b7aNYe02KHGxM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "userguide/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "userguide/toc.html",
-          "hash": "ZtZ90ZicB6YLeOwVdb3lIg55fiLR9IMQlhm3/DvxXi8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "userguide/webapp.md",
-      "output": {
-        ".html": {
-          "relative_path": "userguide/webapp.html",
-          "hash": "UOeWySQp6hCzppljNgM1ggkePljQqCzPTj43IiVlwyw="
+          "hash": "e0WSh6f0JZy2mxMabhTD9fCIVYtFKDgiqukLqWuEwfk="
         }
       },
       "is_incremental": false,
@@ -362,7 +1102,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 12,
+          "total_file_count": 14,
           "skipped_file_count": 11
         },
         "ResourceDocumentProcessor": {

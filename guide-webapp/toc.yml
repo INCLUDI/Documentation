@@ -1,0 +1,8 @@
+- name: Guida per la web app
+  items:
+    - name: Registrazione docenti 
+      href: signup-teachers.md
+    - name: Registrazione studenti 
+      href: signup-students.md
+    - name: Piattaforma per docenti
+      href: teachers-platform.md

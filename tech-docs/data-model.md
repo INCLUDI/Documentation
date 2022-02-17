@@ -3,7 +3,7 @@
 Le attività si basano su una serie di parametri che vengono parsati da un file JSON.
 Il file JSON (e dunque gli oggetti C# che ne derivano durante il parsing), segue il modello rappresentato in figura:
 
-![Class diagram](/images/INCLUDIkit-Class-diagram.svg)
+![Class diagram](/tech-docs/images/INCLUDIkit-Class-diagram.svg)
 
 Il modello è contenuto nello script DataModel.cs.
 

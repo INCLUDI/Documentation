@@ -3,11 +3,7 @@
     - name: Getting started
       href: gettingstarted.md
     - name: Mobile VR
-      href: mobilevr.md
+      href: mobile.md
     - name: Oculus
       href: oculus.md
-- name: Come usare l'applicazione web
-  items:
-    - name: Web app
-      href: webapp.md
 
