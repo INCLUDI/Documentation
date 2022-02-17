@@ -38,7 +38,12 @@
     ],
     "resource": [
       {
-        "files": ["**/images/**"]
+        "files": [
+          "guide-kit/images/**",
+          "guide-webapp/images/**",
+          "activities/images/**",
+          "tech-docs/images/**"
+        ]
       }
     ],
     "globalMetadata": {

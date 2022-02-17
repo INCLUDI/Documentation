@@ -52,518 +52,12 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-kit/images/activity-mobile1.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-kit/images/activity-mobile1.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-kit/images/activity-mobile2.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-kit/images/activity-mobile2.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-kit/images/activity1.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-kit/images/activity1.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-kit/images/activity2.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-kit/images/activity2.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-kit/images/activity3.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-kit/images/activity3.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-kit/images/activity4.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-kit/images/activity4.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-kit/images/home.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-kit/images/home.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-kit/images/login1.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-kit/images/login1.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-kit/images/login2.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-kit/images/login2.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-kit/images/settings1.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-kit/images/settings1.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-kit/images/settings2.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-kit/images/settings2.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine1.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine1.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine10.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine10.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine11.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine11.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine12.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine12.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine13.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine13.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine14.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine14.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine15.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine15.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine16.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine16.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine17.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine17.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine18.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine18.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine2.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine2.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine3.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine3.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine4.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine4.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine5.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine5.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine6.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine6.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine7.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine7.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine8.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine8.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/guide-webapp/images/Immagine9.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/guide-webapp/images/Immagine9.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/INCLUDIkit-Class-diagram.svg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/INCLUDIkit-Class-diagram.svg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/INCLUDIkit-Flow-diagram.svg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/INCLUDIkit-Flow-diagram.svg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/INCLUDIkit-Project-Structure.svg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/INCLUDIkit-Project-Structure.svg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/activity-mobile1.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/activity-mobile1.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/activity-mobile2.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/activity-mobile2.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/activity1.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/activity1.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/activity2.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/activity2.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/activity3.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/activity3.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/activity4.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/activity4.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/home.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/home.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/login1.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/login1.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/login2.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/login2.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/settings1.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/settings1.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/images/settings2.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/images/settings2.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/tech-docs/images/INCLUDIkit-Class-diagram.svg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/tech-docs/images/INCLUDIkit-Class-diagram.svg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/tech-docs/images/INCLUDIkit-Flow-diagram.svg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/tech-docs/images/INCLUDIkit-Flow-diagram.svg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/tech-docs/images/INCLUDIkit-Project-Structure.svg",
-      "output": {
-        "resource": {
-          "relative_path": "docs/tech-docs/images/INCLUDIkit-Project-Structure.svg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "guide-kit/gettingstarted.md",
       "output": {
         ".html": {
           "relative_path": "guide-kit/gettingstarted.html",
-          "hash": "aWnauCJaW4prz8IOqADaa1XvVuaORksd9+I20rpMFM4="
+          "hash": "0L/jdOPsw/owcDMGyTL9SjbPXTZnYJUrt+yA6U7ImGM="
         }
       },
       "is_incremental": true,
@@ -930,10 +424,10 @@
       "output": {
         ".html": {
           "relative_path": "guide-webapp/signup-students.html",
-          "hash": "X32soYvHQIwsCmB5EGFQq5ley0xXr2Y72vjP/EvFu5E="
+          "hash": "EsCrVPRy1v6xEfwdaeWQ739mBMr7XAxeY9aoSmqfBy8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -942,10 +436,10 @@
       "output": {
         ".html": {
           "relative_path": "guide-webapp/signup-teachers.html",
-          "hash": "f8QvPNGjsg23wrFDJY1FLvoDYNNxMgFokzvgOX3lr9M="
+          "hash": "3uM3UDI3IMergh/fHUlWq6LX79fzGEd0Mlrb78o1JoQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -954,10 +448,10 @@
       "output": {
         ".html": {
           "relative_path": "guide-webapp/teachers-platform.html",
-          "hash": "rusSTnK/YpFzz1FhmFutUHMfY/G7Kw9G1MtPXPOydu0="
+          "hash": "fYmrj0TWmCLV2Qz+6xSbk1U3G93k7TymtMgeXs1lS2c="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -981,7 +475,7 @@
           "hash": "VtlE6Omt0RTErTbHI5VLvaOWrPLVtWVdmTiihtyhh9Y="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1103,7 +597,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 14,
-          "skipped_file_count": 11
+          "skipped_file_count": 14
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

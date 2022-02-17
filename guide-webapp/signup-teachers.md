@@ -1,4 +1,4 @@
-#Registrazione docenti 
+# Registrazione docenti 
  
 Un account docente permette di aggiungere studenti nelle classi assegnate e visualizzare i risultati delle loro sessioni. 
 Per registrare un account docente è necessario seguire i seguenti passaggi: 

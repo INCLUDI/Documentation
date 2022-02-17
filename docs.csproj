@@ -46,10 +46,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
     <None Include="activities\activities-mobile.md" />
     <None Include="activities\activities-oculus.md" />
     <None Include="activities\toc.yml" />
     <None Include="api\index.md" />
+    <None Include="filterConfig.yml" />
     <None Include="guide-webapp\signup-teachers.md" />
     <None Include="guide-webapp\teachers-platform.md" />
     <None Include="tech-docs\architecture.md" />
@@ -70,6 +73,7 @@
     <None Include="guide-kit\toc.yml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="docs.sln" />
     <Content Include="guide-kit\images\activity-mobile1.jpg" />
     <Content Include="guide-kit\images\activity-mobile2.jpg" />
     <Content Include="guide-kit\images\activity1.jpg" />
@@ -95,6 +99,7 @@
     <Content Include="guide-webapp\images\Immagine7.jpg" />
     <Content Include="guide-webapp\images\Immagine8.jpg" />
     <Content Include="guide-webapp\images\Immagine9.jpg" />
+    <Content Include="log.txt" />
     <Content Include="tech-docs\images\INCLUDIkit-Class-diagram.svg" />
     <Content Include="tech-docs\images\INCLUDIkit-Flow-diagram.svg" />
     <Content Include="tech-docs\images\INCLUDIkit-Project-Structure.svg" />

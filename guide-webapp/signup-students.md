@@ -1,4 +1,4 @@
-Registrazione studenti 
+# Registrazione studenti 
  
 Un account studente permette di effettuare il login all’interno dell’applicazione del Kit INCLUDI 
 e di salvare e inviare i dati relativi alle proprie esperienze. 

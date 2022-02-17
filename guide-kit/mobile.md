@@ -8,7 +8,7 @@ A questo punto, devi inserire lo smartphone nel visore e indossarlo per poter sv
 Appena l'attività ha completato il caricamento, compare un menu davanti al tuo sguardo:
 puntando con lo sguardo il pulsante OK l'attività ha inizio.
 
-![Activity example](/images/activity-mobile1.jpg)
+![Activity example](/guide-kit/images/activity-mobile1.jpg)
 
 Quando hai finito l'attività, lo stesso menu compare nuovamente davanti al tuo sguardo:
 a questo punto, devi togliere lo smartphone dal visore, e centrare di nuovo il puntatore sul pulsante OK
@@ -18,4 +18,4 @@ Se vuoi interrompere l'attività in corso e tornare al menu principale, rimuovi 
 in questo modo comparirà il menu di conferma. Per tornare al menu principale, ruota il telefono fino a che il puntatore
 è sul pulsante OK.
 
-![Activity example](/images/activity-mobile2.jpg)
+![Activity example](/guide-kit/images/activity-mobile2.jpg)

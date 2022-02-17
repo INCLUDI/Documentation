@@ -1,10 +1,10 @@
-#Piattaforma per docenti 
+# Piattaforma per docenti 
  
 Se registrati alla piattaforma INCLUDI come docenti, è possibile effettuare le seguenti operazioni: 
 - Visualizzare classi e studenti del proprio istituto  
 - Aggiungere studenti alle proprie classi 
  
-##Visualizzare le classi e studenti 
+## Visualizzare le classi e studenti 
  
 Dopo aver effettuato il login all’interno della piattaforma, per visualizzare le proprie classi e studenti, 
 è necessario seguire i seguenti passi: 
@@ -21,7 +21,7 @@ Dopo aver effettuato il login all’interno della piattaforma, per visualizzare 
  
 ![Image13](/guide-webapp/images/Immagine13.jpg) 
  
-##Aggiungere uno studente alla propria classe 
+## Aggiungere uno studente alla propria classe 
  
 Dopo aver effettuato il login all’interno della piattaforma, 
 per aggiungere uno studente che ha fatto richiesta di essere inserito tra le proprie classi, 

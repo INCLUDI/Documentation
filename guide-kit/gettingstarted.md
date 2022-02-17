@@ -12,8 +12,8 @@ e ti verrà ripetuta.
 
 |                                            |                                            |
 | :----------------------------------------: | :----------------------------------------: |
-| ![Activity example](/images/activity1.jpg) | ![Activity example](/images/activity2.jpg) |
-| ![Activity example](/images/activity3.jpg) | ![Activity example](/images/activity4.jpg) |
+| ![Activity example](/guide-kit/images/activity1.jpg) | ![Activity example](/guide-kit/images/activity2.jpg) |
+| ![Activity example](/guide-kit/images/activity3.jpg) | ![Activity example](/guide-kit/images/activity4.jpg) |
 
 ## Schermata Home
 
@@ -21,7 +21,7 @@ Le attività possono essere visualizzate nel menu principale dell'app.
 Ogni attività è associata a una lista di classi per cui è stata progettata,
 puoi scorrere la lista a destra e sinistra per vedere tutte le classi.
 
-![Activity example](/images/home.jpg)
+![Activity example](/guide-kit/images/home.jpg)
 
 ## Schermata impostazioni
 
@@ -39,7 +39,7 @@ Nella schermata impostazioni puoi configurare l'esperienza delle attività di IN
 
 |                                            |                                            |
 | :----------------------------------------: | :----------------------------------------: |
-| ![Activity example](/images/settings1.jpg) | ![Activity example](/images/settings2.jpg) |
+| ![Activity example](/guide-kit/images/settings1.jpg) | ![Activity example](/guide-kit/images/settings2.jpg) |
 
 # Schermata login
 
@@ -55,4 +55,4 @@ fino a che il tuo account non viene approvato.
 
 |                                         |                                         |
 | :-------------------------------------: | :-------------------------------------: |
-| ![Activity example](/images/login1.jpg) | ![Activity example](/images/login2.jpg) |
+| ![Activity example](/guide-kit/images/login1.jpg) | ![Activity example](/guide-kit/images/login2.jpg) |
