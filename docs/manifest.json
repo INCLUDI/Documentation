@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "guide-kit/gettingstarted.html",
-          "hash": "0L/jdOPsw/owcDMGyTL9SjbPXTZnYJUrt+yA6U7ImGM="
+          "hash": "ZxdsoCfddx4aMobsY564wIC5q7aMKHFmubLBpio4h7Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -190,10 +190,10 @@
       "output": {
         ".html": {
           "relative_path": "guide-kit/mobile.html",
-          "hash": "peWOWllkQQHKIl1vAPEJxkrTIScgM/j02vJirIY8yA0="
+          "hash": "GoMPpzctVFoxzE9USDNc4kSvxeNiDSljb/oUtEJplWI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -424,10 +424,10 @@
       "output": {
         ".html": {
           "relative_path": "guide-webapp/signup-students.html",
-          "hash": "EsCrVPRy1v6xEfwdaeWQ739mBMr7XAxeY9aoSmqfBy8="
+          "hash": "cD0pbR7nfOCWre7/jiC9FMNqooOn8X+AE5JSG+vZkRI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -436,10 +436,10 @@
       "output": {
         ".html": {
           "relative_path": "guide-webapp/signup-teachers.html",
-          "hash": "3uM3UDI3IMergh/fHUlWq6LX79fzGEd0Mlrb78o1JoQ="
+          "hash": "2a/nf13FbmLW/9OCdyKxm7meBv55zyEsP3R1agxzHc0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -448,10 +448,10 @@
       "output": {
         ".html": {
           "relative_path": "guide-webapp/teachers-platform.html",
-          "hash": "fYmrj0TWmCLV2Qz+6xSbk1U3G93k7TymtMgeXs1lS2c="
+          "hash": "49HL5Svi+bgzHyxPuT3mYoPITmpw0MuZLVDvLMDyHfs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -475,7 +475,7 @@
           "hash": "VtlE6Omt0RTErTbHI5VLvaOWrPLVtWVdmTiihtyhh9Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -484,10 +484,10 @@
       "output": {
         ".html": {
           "relative_path": "tech-docs/architecture.html",
-          "hash": "pXW/TnldvzGJOlnC14KtncclNA9oqHQjgjw+0VnusQw="
+          "hash": "mZL6d0ioFyXJ+gtRCOFV7+cThgtTW7jHqwVsdhksncA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -496,10 +496,10 @@
       "output": {
         ".html": {
           "relative_path": "tech-docs/data-model.html",
-          "hash": "MaElzSsnh/Onc6tPQcHveHhzdAVzQml9JI4245mOVlI="
+          "hash": "q/XHqT0sTItL3QZWIayRVePwotVKyVO+7rAoyLjS71w="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -597,7 +597,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 14,
-          "skipped_file_count": 14
+          "skipped_file_count": 7
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
