@@ -1,15 +1,12 @@
-- name: Guida per il kit
+- name: Guida del kit
   href: guide-kit/
   homepage: guide-kit/gettingstarted.md
-- name: Guida per la web app
+- name: Guida della web app
   href: guide-webapp/
   homepage: guide-webapp/signup-teachers.md
-- name: Attività
+- name: Elenco di attività
   href: activities/
   homepage: activities/activities-mobile.md
-- name: Guida per lo sviluppatore
+- name: Documentazione tecnica
   href: tech-docs/
   homepage: tech-docs/gettingstarted-kit.md
-- name: Documentazione VR
-  href: api/
-  homepage: api/index.md

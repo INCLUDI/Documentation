@@ -1,26 +1,6 @@
 {
-  "metadata": [
-    {
-      "src": [
-        {
-          "src": "../",
-          "files": [
-            "Includi-Environment3D/Submodules/Kit-Shared/Assembly-CSharp.csproj"
-          ],
-          "exclude": ["**/bin/**", "**/obj/**", "docs/**"]
-        }
-      ],
-      "dest": "api",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false,
-      "filter": "filterConfig.yml"
-    }
-  ],
   "build": {
     "content": [
-      {
-        "files": ["api/**.yml", "api/index.md"]
-      },
       {
         "files": [
           "guide-kit/**.md",
@@ -42,7 +22,8 @@
           "guide-kit/images/**",
           "guide-webapp/images/**",
           "activities/images/**",
-          "tech-docs/images/**"
+          "tech-docs/images/**",
+          "favicon.ico"
         ]
       }
     ],
@@ -51,7 +32,6 @@
     },
     "overwrite": [
       {
-        "files": ["apidoc/**.md"],
         "exclude": ["obj/**", "docs/**"]
       }
     ],

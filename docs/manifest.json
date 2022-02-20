@@ -12,7 +12,7 @@
           "hash": "7XQ/oOWp5+ZNG3RCSzQDz9oCf1ArzytSXG17rX8YRZM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "MwKVWnNWRwQKvJJX/ftXO41ZjBcWp5iOzEL3vUgx+iw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,22 +33,21 @@
       "output": {
         ".html": {
           "relative_path": "activities/toc.html",
-          "hash": "oRuEFb0effsRIcfg0lkhhYv82rXEeA8K8x8ggnTS03k="
+          "hash": "qg3mPbLtZ/vnP/o0OgEcvBSTWY233hQlS5xOce0OuIQ="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
       "output": {
-        ".html": {
-          "relative_path": "api/index.html",
-          "hash": "paxQTggUBNiH7a45ZxwtYEdzQ8XjbF5xHE5gaXWWmrU="
+        "resource": {
+          "relative_path": "favicon.ico"
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,7 +56,7 @@
       "output": {
         ".html": {
           "relative_path": "guide-kit/gettingstarted.html",
-          "hash": "ZxdsoCfddx4aMobsY564wIC5q7aMKHFmubLBpio4h7Y="
+          "hash": "8xnylOrR75Wlr9rt7NnPK+rOTEXP1/SXI/F426d0W2s="
         }
       },
       "is_incremental": false,
@@ -193,7 +192,7 @@
           "hash": "GoMPpzctVFoxzE9USDNc4kSvxeNiDSljb/oUtEJplWI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -427,7 +426,7 @@
           "hash": "cD0pbR7nfOCWre7/jiC9FMNqooOn8X+AE5JSG+vZkRI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -439,7 +438,7 @@
           "hash": "2a/nf13FbmLW/9OCdyKxm7meBv55zyEsP3R1agxzHc0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -451,7 +450,7 @@
           "hash": "49HL5Svi+bgzHyxPuT3mYoPITmpw0MuZLVDvLMDyHfs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -472,7 +471,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "VtlE6Omt0RTErTbHI5VLvaOWrPLVtWVdmTiihtyhh9Y="
+          "hash": "cKNIT4wLrDEBHaZ9CMOQl6omCPOZkFHlIisR7TBN7pk="
         }
       },
       "is_incremental": false,
@@ -487,7 +486,7 @@
           "hash": "mZL6d0ioFyXJ+gtRCOFV7+cThgtTW7jHqwVsdhksncA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -499,7 +498,7 @@
           "hash": "q/XHqT0sTItL3QZWIayRVePwotVKyVO+7rAoyLjS71w="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -520,7 +519,7 @@
       "output": {
         ".html": {
           "relative_path": "tech-docs/gettingstarted-kit.html",
-          "hash": "ribHS71ZoDRDbkhxu/SGrWgrauynYuMZh0sO4SPxSnA="
+          "hash": "lgkgEap5DpGAP7kKlHCiSGo2JZdnWQ5xz3znGg/LOyw="
         }
       },
       "is_incremental": true,
@@ -577,7 +576,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "e0WSh6f0JZy2mxMabhTD9fCIVYtFKDgiqukLqWuEwfk="
+          "hash": "5jBzFkH8DSRuxEPh1gLNssW+zOiHDfDkj4mKSrvo6dc="
         }
       },
       "is_incremental": false,
@@ -596,8 +595,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 14,
-          "skipped_file_count": 7
+          "total_file_count": 13,
+          "skipped_file_count": 11
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -1,4 +1,6 @@
-- name: Attività mobile
-  href: activities-mobile.md
-- name: Attività Oculus
-  href: activities-oculus.md
+- name: Lista di attività
+  items:
+    - name: Attività mobile
+      href: activities-mobile.md
+    - name: Attività Oculus
+      href: activities-oculus.md

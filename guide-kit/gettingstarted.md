@@ -43,10 +43,12 @@ Nella schermata impostazioni puoi configurare l'esperienza delle attività di IN
 
 # Schermata login
 
-Nella schermata login puoi effettuare l'accesso con la tua mail INCLUDI,
-a patto che ti sia prima registrato su [app.includi.eu](https://app.includi.eu).
-Una volta che hai effettuato il login verranno raccolti i tuoi dati sull'utilizzo delle attività
-(come le risposte giuste e gli errori), e queste saranno visibili dal tuo insegnante di inglese
+Per utilizzare il kit devi esserti registrato su [app.includi.eu](https://app.includi.eu).
+Una volta effettuata la registrazione, devi accedere tramite la schermata di login con la mail che hai utilizzato.
+Attenzione: non è possibile usufruire delle attività del kit se prima non si ha effettuato il login.
+Una volta che hai effettuato il login, puoi accedere alle attività
+e durante il loro svolgimento verranno raccolti i tuoi dati sul loro utilizzo
+(come le risposte giuste e gli errori), i quali saranno visibili saranno visibili dal tuo insegnante di inglese
 su [app.includi.eu](https://app.includi.eu).
 Se ti sei registrato su [app.includi.eu](https://app.includi.eu)
 ma il tuo account non è stato ancora confermato da un insegnante,
